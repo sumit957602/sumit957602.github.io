@@ -37,8 +37,9 @@ body {
     justify-content: center;
     position: relative;
     width: 100%;
-    background: rgba(255, 255, 255, 0.5) !important;
-    height: 5rem; 
+    background: rgba(255, 255, 255, 0.734) !important;
+    height: 2rem; 
+    padding-top: .5rem;
 }
 
 .prenavimg {
@@ -71,9 +72,8 @@ body {
 .header {
     border: 0.4rem solid pink;
     position: relative;
-    top: 1rem;
-    width: 95.5%;
-    padding: 1%;
+    top: .8rem;
+    width: 100%;
     background: linear-gradient(360deg, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%) !important;
     z-index: 100;
 }
@@ -85,6 +85,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.left-nav {
+    padding-left: 4%;
+}
+
+.left-nav img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.left-nav a{
+    font-size: 1.2rem;
 }
 
 .logo {
@@ -109,6 +122,7 @@ body {
     color: rgba(62, 131, 235, 1);
     font-weight: 500;
     transition: 0.3s;
+    padding-right: 1rem;
 }
 
 .navbar2 a:hover,
