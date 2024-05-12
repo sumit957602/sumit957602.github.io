@@ -33,9 +33,9 @@
         border-radius: 3rem;
     }
 
-    .home-flex {
-        display: flex;
-        flex-direction: row;
+    .box11-flex {
+        flex-direction: column-reverse;
+        justify-content: center;
         align-items: start;
     }
 }

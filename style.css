@@ -148,7 +148,7 @@ body {
 .pages {
     border: 0.4rem solid purple;
     width: 100%;
-    height: 100%;
+    height: 300rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
