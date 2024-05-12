@@ -103,15 +103,34 @@
     .page-2 .images-container-flex {
         flex-direction: column;
         flex-wrap: nowrap;
-        gap: 1%;
         justify-content: left;
         align-items: left;
     }
     
     .images-container-image {
         border: 0.4rem solid #111010;
-        padding: 1%;
         width: 80%;
-        height: 20%;
+        height: 25%;
+    }
+
+    .page2-header {
+        padding: 1%;
+        width: 90%;
+        height: 10%;
+        border: 0.4rem solid orange;
+        background: #fafafa;
+    }
+
+    .content1 h2 {
+        font-size: .7rem; 
+        font-weight: 600;
+        color: black;
+        padding-top: 1rem;
+    }
+
+    .content1 p {
+        color: rgb(83, 82, 82);
+        font-size: .4rem; 
+        padding-top: -1rem;
     }
 }
