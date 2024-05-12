@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins',sans-serif;
+}
+
+:root{
+    --bg-color: #eceff0;
+    --second--bg-color: #dde6ec;
+    --text-color: #111010;
+    --main-color: #111212;
+}
+
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    overflow: overlay;
+    background: rgba(221, 228, 232, 0);
+    background: linear-gradient(360deg, #E6ECEF 36.44%, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+}
+
+.prenav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 5px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5) !important;
+    height: 50px;
+}
+
+.prenavimg{
+    border-radius: 2px;
+    width: 14px;
+    height: 14px;
+}
+
+.prenav1{
+    position: relative;
+    left: 5px;
+    color: rgba(62, 131, 235, 1);
+    font-size: 11px;
+}
+
+.prenav2{
+    position: relative;
+    left: 15px;
+    font-size: 12px;
+    color: black !important;
+}
+
+.prenav2 span{
+    font-weight: 600;
+}
+
+.header{
+    position: relative;
+    top: 12px;
+    left: 0;
+    width: 100%;
+    padding: 2rem 100px;
+    background: linear-gradient(360deg, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.img2{
+    position: absolute;
+    height: 30px;
+    top: 12px;
+    left: 64px;
+}
+
+.logo{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 550;
+}
+
+.navbar1 a{
+    position: relative;
+    font-size: 15px;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 1.5rem;
+    left: 60px;
+    transition: .3s;
+}
+
+.navbar1 a:hover,
+.navbar1 a.active{
+    color: var(--main-color);
+}
+
+.navbar2 a{
+    position: relative;
+    font-size: 15px;
+    right: -55px;
+    color: rgba(62, 131, 235, 1);
+    font-weight: 500;
+    margin-left: 2rem;
+    transition: .3s;
+}
+
+.navbar2 a:hover,
+.navbar2 a.active{
+    color: var(--main-color);
+}
+
+#menu-icon {
+    font-size: 3.6rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}
+
+.home1{
+    width: Hug (97px)px;
+height: 32px;
+padding: 12px 20px 12px 16px;
+border-radius: 16px 16px 16px 16px;
+opacity: 0px;
+background: rgba(255, 255, 255, 0.5);
+}
+
+.home1 img{
+    position: relative;
+    top: -2px;
+    margin-right: 3px;
+    width: 6px;
+height: 6px;
+gap: 0px;
+}
+
+.getstart{
+    height: 42px;
+    color: rgba(62, 131, 235, 1) !important;
+padding: 8px 12px 8px 12px;
+border-radius: 10px 10px 10px 10px;
+border: 10px 10px 10px 10px;
+opacity: 0px;
+background: rgba(62, 131, 235, 0.1);
+border: 1px solid rgba(62, 131, 235, 0.15)
+}
+
+.getstart img{
+    position: relative;
+    top: -2px;
+    margin-right: 3px;
+    width: 6px;
+height: 6px;
+gap: 0px;
+opacity: 0px;
+    color: rgb(49, 125, 239) !important;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 10%; 
+    background: var(--second--bg-color);
+}
+
+.footer p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
