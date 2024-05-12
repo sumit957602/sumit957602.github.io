@@ -4,8 +4,8 @@
 
     .prenav {
         width: 100%;
-        height: .5%; 
-        padding-top: .5%;
+        height: 2rem; 
+        padding-top: .5rem;
     }
 
     .prenavimg {
@@ -17,8 +17,8 @@
     }
     
     .header {
-        top: .3%;
-        height: .5%;
+        top: .3rem;
+        height: 2rem;
     }
 
     .menu-icon {
