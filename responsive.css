@@ -19,4 +19,9 @@
         display: none;
         align-items: right;
     }
+
+    .box11-content {
+        border: 0.4rem solid green;
+        width: 30rem;
+    }
 }
