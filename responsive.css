@@ -36,7 +36,7 @@
     .pages {
         border: 0.4rem solid purple;
         width: 100%;
-        height: 400rem;
+        height: 500rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -48,11 +48,14 @@
     }
 
     .layout1 {
-        margin-top: 5rem;
+        display: none;
+    }
+
+    .layout2{
+        display: block;
         width: 100%;
-        height: 50rem; 
-        background: url("img/F8766.jpg") no-repeat center center/cover;
-        border-radius: 3rem;
+        height: 30%; 
+        border-radius: 1rem;
     }
 
     .box11-flex {
