@@ -7,6 +7,14 @@
         height: .5%; 
         padding-top: .5%;
     }
+
+    .prenavimg {
+        display: none;
+    }
+    
+    .prenav1 {
+        display: none;
+    }
     
     .header {
         top: .3%;
