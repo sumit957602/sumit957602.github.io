@@ -17,7 +17,6 @@
     .mid-nav,
     .right-nav {
         display: none;
-        align-items: right;
     }
 
     .box11-content {
@@ -37,5 +36,32 @@
         flex-direction: column-reverse;
         justify-content: left;
         align-items: start;
+    }
+
+    .box11-content h1 {
+        margin-left: 1rem;
+    }
+    
+    .box11-input-club {
+        margin-left: 1rem;
+    }
+    
+    .inputBox {
+        width: 100%;
+        height: 3rem; 
+        padding: .6rem;
+        font-size: 1rem; 
+        border: 0.1rem solid #ccc;
+        border-radius: 0.4rem;
+        outline: none;
+        border-radius: 1rem;
+    }
+    
+    .box11-content p {
+        text-align: start;
+        margin-left: 1rem;
+        margin-top: .1rem;
+        font-weight: 300;
+        opacity: 0.8;
     }
 }
