@@ -17,6 +17,7 @@
     }
     
     .header {
+        margin-top: .5rem;
         top: .3rem;
         height: 2rem;
     }
@@ -31,6 +32,15 @@
     }
 
     /* page 1 css responsive */
+
+    .pages {
+        border: 0.4rem solid purple;
+        width: 100%;
+        height: 400rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
     .box11-content {
         border: 0.4rem solid green;
@@ -52,7 +62,13 @@
     }
 
     .box11-content h1 {
-        margin-left: 1rem;
+        width: 20rem; 
+        margin-left: .5rem;
+        margin-top: 1rem;
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+        border: 0.4rem solid orange;
     }
     
     .box11-input-club {
@@ -70,6 +86,13 @@
     .box11-content p {
         margin-left: 1rem;
         margin-top: .1rem;
+    }
+
+    .img1 {
+        margin-top: 2rem;
+        height: 22rem;
+        width: 22rem;
+        border: 0.4rem solid blue;
     }
 
     /* page 2 css responsive */
