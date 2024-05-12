@@ -1,4 +1,7 @@
 @media (max-width: 767px) {
+
+    /* navbar responsive css */
+
     .prenav {
         width: 100%;
         height: .5%; 
@@ -18,6 +21,8 @@
     .right-nav {
         display: none;
     }
+
+    /* page 1 css responsive */
 
     .box11-content {
         border: 0.4rem solid green;
@@ -57,5 +62,22 @@
     .box11-content p {
         margin-left: 1rem;
         margin-top: .1rem;
+    }
+
+    /* page 2 css responsive */
+
+    .page-2 .images-container-flex {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 1%;
+        justify-content: left;
+        align-items: left;
+    }
+    
+    .images-container-image {
+        border: 0.4rem solid #111010;
+        padding: 1%;
+        width: 80%;
+        height: 20%;
     }
 }
