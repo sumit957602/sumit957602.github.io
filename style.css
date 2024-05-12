@@ -38,7 +38,7 @@ body {
     position: relative;
     width: 100%;
     background: rgba(255, 255, 255, 0.734) !important;
-    height: .6%; 
+    height: 2rem; 
     padding-top: 1%;
 }
 
@@ -72,9 +72,9 @@ body {
 .header {
     border: 0.4rem solid pink;
     position: relative;
-    top: .3%;
+    top: .5rem;
     width: 100%;
-    height: 1%;
+    height: 3rem;
     background: linear-gradient(360deg, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%) !important;
     z-index: 100;
 }

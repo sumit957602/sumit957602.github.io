@@ -32,4 +32,10 @@
         background: url("img/F8766.jpg") no-repeat center center/cover;
         border-radius: 3rem;
     }
+
+    .home-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
 }
