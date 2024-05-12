@@ -1,18 +1,13 @@
-@media (max-width: 800px) {
+@media (max-width: 767px) {
     .prenav {
         width: 100%;
-        height: .1%; 
+        height: .5%; 
         padding-top: .5%;
     }
-
+    
     .header {
-        border: 0.4rem solid pink;
-        position: relative;
         top: .3%;
-        width: 100%;
-        height: 1%;
-        background: linear-gradient(360deg, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%) !important;
-        z-index: 100;
+        height: .5%;
     }
 
     .menu-icon {
