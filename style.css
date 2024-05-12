@@ -38,8 +38,8 @@ body {
     position: relative;
     width: 100%;
     background: rgba(255, 255, 255, 0.734) !important;
-    height: 2rem; 
-    padding-top: .5rem;
+    height: .6%; 
+    padding-top: 1%;
 }
 
 .prenavimg {
@@ -55,10 +55,10 @@ body {
     font-size: 1.1rem; 
 }
 
-.prenav2 {
+.prenav2 a {
     position: relative;
     left: 1.5rem; 
-    font-size: 1.2rem; 
+    font-size: 1rem; 
     color: black !important;
 }
 
@@ -72,7 +72,7 @@ body {
 .header {
     border: 0.4rem solid pink;
     position: relative;
-    top: .8rem;
+    top: .3%;
     width: 100%;
     background: linear-gradient(360deg, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%) !important;
     z-index: 100;
