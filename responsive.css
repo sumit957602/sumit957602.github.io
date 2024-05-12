@@ -4,4 +4,14 @@
         height: .2%; 
         padding-top: .5%;
     }
+    .menu-icon {
+        display: block;
+    }
+    
+    .header-flex,
+    .left-nav,
+    .mid-nav,
+    .right-nav {
+        display: none;
+    }
 }

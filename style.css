@@ -79,6 +79,10 @@ body {
     z-index: 100;
 }
 
+.menu-icon {
+    display: none;
+}
+
 .header-flex,
 .left-nav,
 .mid-nav,
