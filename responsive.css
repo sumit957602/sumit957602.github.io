@@ -8,10 +8,9 @@
         display: block;
     }
     
-    .header-flex,
-    .left-nav,
     .mid-nav,
     .right-nav {
         display: none;
+        align-items: right;
     }
 }
