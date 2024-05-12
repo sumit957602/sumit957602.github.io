@@ -1,7 +1,7 @@
 .black-box { 
     position: relative;
     top: -1700px;
-    background: url("glow.png") no-repeat center center/cover;
+    background: url("img/glow.png") no-repeat center center/cover;
     color: white;
     width: 1450px;
     height: 700px;
