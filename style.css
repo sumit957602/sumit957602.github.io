@@ -371,3 +371,117 @@ body {
 }
 
 /* /page-3 */
+
+
+/* page-4 */
+
+
+.page-4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #EFF2F4, #EFF2F4);
+
+}
+
+.p4up{
+    width: 100%;
+    height: 25%;
+    border: 4px solid yellow;
+}
+.p4up-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+.p4up-left{
+    width: 30%;
+    height: 100%;
+    border: 4px solid yellow;
+    padding: 1%;
+    font-weight: 600;
+    font-family: TWK Lausanne;
+    font-size: 3rem;
+    letter-spacing: -0.04em;
+    text-align: left;
+
+}
+.p4up-right{
+    width: 50%;
+    height: 100%;
+    border: 4px solid yellow;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10%;
+    padding: 1%;
+}
+.p4up-right .p{
+    opacity: 0.7;
+    font-weight: 300;
+}
+.getstart-container{
+    width: 50%;
+    background: #3E83EB1A;
+    border: 1px solid #3E83EB26;
+    color: #3E83EB26;
+    padding: 3%;
+    border-radius: 1rem;
+    
+}
+.p4down{
+    width: 100%;
+    height: 35%;
+    border: 4px solid yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1%;
+    
+}
+.quotes{
+    padding: 2%;
+    border-radius: 2%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 1%;
+    background: #3E83EB1A;    
+}
+.quotes p{
+    border: 4px solid green;
+    width: 85%;
+    height: 50%;
+}
+.quotes .discord{
+    border: 4px solid green;
+    width: 25%;
+    font-size: xx-small;
+}
+.quotes .Mchein{
+    margin-top: 15%;
+    border: 4px solid green;
+    width: 50%;
+    font-size: xx-small;
+}
+.quote-left{
+    position: relative;
+    left: -5rem;
+}
+.quote-right{
+    position: relative;
+    right: -5rem;
+}
+.quote-mid{
+    width: 150%;
+}
+
+
+
+/* /page-4 */
