@@ -445,6 +445,7 @@ body {
     height: 45%;
     border: 4px solid yellow;
 }
+
 .p4up-flex{
     display: flex;
     flex-direction: row;
@@ -452,6 +453,7 @@ body {
     justify-content: space-between;
     padding-right: 5%;
 }
+
 .p4up-left{
     width: 30%;
     height: 100%;
@@ -464,6 +466,7 @@ body {
     text-align: left;
 
 }
+
 .p4up-right{
     width: 50%;
     height: 100%;
@@ -543,7 +546,5 @@ body {
 .quote-mid{
     width: 150%;
 }
-
-
 
 /* /page-4 */
