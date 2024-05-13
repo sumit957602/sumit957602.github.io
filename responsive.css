@@ -134,4 +134,60 @@
         color: rgb(83, 82, 82);
         font-size: .2rem;
     }
+
+    /* page 3 css responsive */
+
+    .blackbox {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .background-image {
+        height: 20rem;
+        width: 20rem;
+        border-radius: 1rem; 
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+    
+    .container3{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 31rem;
+        margin-top: 1.3rem;
+    }
+
+    .container3 h1 {
+        width: 20rem;
+        font-size: 1.6rem;
+        margin-bottom: .5rem;
+        margin-left: 3.3rem;
+    }
+    
+    .container3 p {
+        margin-bottom: .5rem;
+        font-size: .7rem;
+        width: 24rem;
+        margin-left: 3.3rem;
+    }
+    
+    .button33{
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: .5rem;
+        margin-left: 3.4rem;
+    }
+    
+    .button33 p{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: -7rem;
+        color: blue;
+    }
+    
+    .button33span{
+        font-size: 2rem;
+        margin-right: .5rem;
+    }
 }
