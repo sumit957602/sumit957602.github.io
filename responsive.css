@@ -4,8 +4,9 @@
 
     .prenav {
         width: 100%;
-        height: 2rem; 
+        height: 1.5rem; 
         padding-top: .5rem;
+        margin-bottom: 0;
     }
 
     .prenavimg {
@@ -15,15 +16,30 @@
     .prenav1 {
         display: none;
     }
+
+    .prenav2 a {
+        position: relative;
+        top: 1rem;
+        left: -.4rem;
+        font-size: .9rem; 
+        color: black !important;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    
+    .prenav2 span {
+        font-weight: 600;
+        margin-left: .4rem;
+    }
     
     .header {
-        margin-top: .5rem;
         top: .3rem;
         height: 2rem;
     }
 
     .menu-icon {
         display: block;
+        margin-right: 1rem;
     }
     
     .mid-nav,
@@ -31,10 +47,17 @@
         display: none;
     }
 
+    .logo {
+        font-size: 1.6rem; 
+        color: var(--text-color);
+        font-weight: 540;
+        padding-left: .2rem;
+    }
+
     /* page 1 css responsive */
 
     .pages {
-        border: 0.4rem solid purple;
+        /* border: 0.4rem solid purple; */
         width: 100%;
         height: 500rem;
         display: flex;
@@ -43,7 +66,7 @@
     }
 
     .box11-content {
-        border: 0.4rem solid green;
+        /* border: 0.4rem solid green; */
         width: 30rem;
     }
 
@@ -66,12 +89,12 @@
 
     .box11-content h1 {
         width: 20rem; 
-        margin-left: .5rem;
+        margin-left: 1.5rem;
         margin-top: 1rem;
         font-size: 2.4rem;
         font-weight: 700;
-        line-height: 3.5rem;
-        border: 0.4rem solid orange;
+        line-height: 2.9rem;
+        /* border: 0.4rem solid orange; */
     }
     
     .box11-input-club {
@@ -93,9 +116,53 @@
 
     .img1 {
         margin-top: 2rem;
-        height: 22rem;
-        width: 22rem;
-        border: 0.4rem solid blue;
+        height: 25rem;
+        width: 25rem;
+        margin-left: 1rem;
+        /* border: 0.4rem solid blue; */
+    }
+
+    
+.input-club-flex {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+    .box11-btn {
+        position: relative;
+        align-self: center;
+        width: 12rem;
+        height: 2.8rem;
+        margin-top: .5rem; 
+        left: -4.69rem;
+        background: rgb(74, 133, 209);
+        border: 0.2rem solid rgb(74, 133, 209);
+        border-radius: 0.5rem;
+        font-size: .9rem; 
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+        overflow: hidden;
+        transition: 0.5s;
+        margin-bottom: .7rem;
+    }
+    
+    .inputBox {
+        width: 23rem;
+        height: 3rem; 
+        padding: .6rem;
+        font-size: 1rem; 
+        border: 0.1rem solid #ccc;
+        border-radius: 0.6rem;
+        outline: none;
+    }
+    
+    .box11-content p {
+        text-align: start;
+        margin-left: 1.1rem;
+        font-weight: 300;
+        opacity: 0.8;
     }
 
     /* page 2 css responsive */
@@ -108,7 +175,7 @@
     }
     
     .images-container-image {
-        border: 0.4rem solid #111010;
+        /* border: 0.4rem solid #111010; */
         width: 80%;
         height: 25%;
     }
