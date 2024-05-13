@@ -535,12 +535,10 @@ body {
 
 .quote-left{
     position: relative;
-    left: -5rem;
 }
 
 .quote-right{
     position: relative;
-    right: -5rem;
 }
 
 .quote-mid{
