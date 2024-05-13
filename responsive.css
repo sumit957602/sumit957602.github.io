@@ -117,9 +117,11 @@
         padding: 1%;
         width: 90%;
         height: 10%;
-        border: 0.4rem solid orange;
-        background: #fafafa;
+        margin-top: 3rem;
+        margin-left: 0rem;
+        font-size: 1rem;
     }
+    
 
     .content1 h2 {
         font-size: .7rem; 
@@ -130,7 +132,6 @@
 
     .content1 p {
         color: rgb(83, 82, 82);
-        font-size: .4rem; 
-        padding-top: -1rem;
+        font-size: .2rem;
     }
 }
