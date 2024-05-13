@@ -161,6 +161,22 @@ body {
     width: .6rem;
 }
 
+.home1{
+    background: rgba(255, 255, 255, 0.5);
+    width: 5.2rem;
+    height: 2.2rem;
+    border-radius: .6rem;
+    padding-left: .8rem;
+    padding-top: .5rem;
+    font-size: .95rem;
+}
+
+.home1 img{
+    margin-right: .28rem;
+    border-radius: 95%;
+    margin-bottom: .1rem;
+}
+
 /* /header */
 
 /* pageDefault */
@@ -328,7 +344,8 @@ body {
     margin-left: 5rem;
     width: 100%;
     height: 15%;
-    border: 0.4rem solid orange;
+    font-size: 1.5rem;
+    /* border: 0.4rem solid orange; */
     background: #fafafa;
 }
 
@@ -351,7 +368,7 @@ body {
     padding: 1%;
     width: 100%;
     height: 85%;
-    border: 0.4rem solid orange;
+    /* border: 0.4rem solid orange; */
 }
 
 .page-2 .images-container-flex {
@@ -364,19 +381,33 @@ body {
 }
 
 .images-container-image {
-    border: 0.4rem solid #111010;
+    /* border: 0.4rem solid #111010; */
     padding: 1%;
     width: 30%;
     height: 80%;
 }
 
 .imgg {
-    height: 65%;
+    height: 68%;
     width: 100%;
     background-size: cover;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    border-radius: .5rem;
+    margin-bottom: .7rem;
+}
+
+.imgg1 {
+    margin-left: 3rem;
+}
+
+.imgg2 {
+    margin-left: -1.2rem;
+}
+
+.imgg3 {
+    margin-left: -5.5rem;
 }
 
 .image2 {
@@ -389,11 +420,12 @@ body {
 
 .content1 {
     text-align: left;
+    margin-left: 2.85rem;
 }
 
-.content1 p {
+.content1p11 {
     color: rgb(83, 82, 82);
-    font-size: 1.3rem; 
+    font-size: 1.1rem; 
 }
 
 .content1h3{
@@ -402,6 +434,27 @@ body {
     color: black;
     margin-top: 3rem;
 }
+
+.content2 {
+    text-align: left;
+    margin-left: -1.1rem;
+}
+
+.content1p12 {
+    color: rgb(83, 82, 82);
+    font-size: 1.1rem; 
+}
+
+.content3 {
+    text-align: left;
+    margin-left: -5.4rem;
+}
+
+.content1p13 {
+    color: rgb(83, 82, 82);
+    font-size: 1.1rem; 
+}
+
 /* /page-2 */
 
 /* page-3 */
@@ -409,28 +462,32 @@ body {
     display: flex;
     flex-direction: row;
     background: url(img/glow.png) no-repeat center center/cover;
-    color: white;
+    width: 97%;
+    height: 50rem;
+    margin-left: 1rem;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 1rem;
 }
 
 .background-image {
     height: 50rem;
     width: 50rem;
     border-radius: 1rem; 
-    padding-left: 2rem;
-    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-top: 4rem;
 }
 
 .container3{
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 31rem;
+    width: 35rem;
     margin-top: 15.3rem;
     margin-left: -3rem;
 }
 
 .container3 h1 {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     margin-bottom: .5rem;
 }
 
@@ -448,11 +505,16 @@ body {
     font-size: 1rem;
     font-weight: 500;
     color: blue;
+    margin-bottom: 1rem;
 }
 
 .button33span{
-    font-size: 2rem;
+    position: relative;
+    top: -.2rem;
+    font-size: 1.5rem;
     margin-right: .5rem;
+    border-radius: 5%;
+    font-weight: 900;
 }
 
 /* /page-3 */
@@ -472,7 +534,7 @@ body {
 .p4up{
     width: 100%;
     height: 45%;
-    border: 4px solid yellow;
+    /* border: 4px solid yellow; */
 }
 
 .p4up-flex{
@@ -484,22 +546,31 @@ body {
 }
 
 .p4up-left{
-    width: 30%;
+    width: 31%;
     height: 100%;
-    border: 4px solid yellow;
+    margin-left: 5.5rem;
+    /* border: 4px solid yellow; */
     padding: 1%;
     font-weight: 600;
     font-family: TWK Lausanne;
     font-size: 3rem;
-    letter-spacing: -0.04em;
+    letter-spacing: 0;
     text-align: left;
 
 }
 
+.p4up-left img{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: .2rem;
+    margin-left: -.3rem;
+}
+
 .p4up-right{
-    width: 50%;
+    width: 38%;
     height: 100%;
-    border: 4px solid yellow;
+    margin-right: 24rem;
+    /* border: 4px solid yellow; */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -508,17 +579,23 @@ body {
     padding: 1%;
 }
 
-.p4up-right .p{
+.p4up-right p{
     font-weight: 300;
+    width: 25rem;
+    margin-top: .3rem;
+    font-size: .78rem;
 }
 
 .getstart-container{
-    width: 50%;
-    background: #3E83EB1A;
-    border: 1px solid #3E83EB26;
-    color: #3E83EB26;
-    padding: 3%;
+    width: 10.6rem;
+    height: 2.5rem;
+    background: rgba(62, 131, 235, 0.1);
+    border: .1rem solid rgba(62, 131, 235, 1);
+    color: rgba(62, 131, 235, 1);
     border-radius: 1rem;
+    padding-left: 2rem;
+    padding-top: .7rem;
+    font-size: .8em;
 }
 
 .p4down{
