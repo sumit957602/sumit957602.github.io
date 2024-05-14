@@ -117,13 +117,14 @@
     .box11-content p {
         margin-left: 1rem;
         margin-top: .1rem;
+        width: 23.8rem;
     }
 
     .img1 {
         margin-top: 2rem;
         height: 25rem;
         width: 25rem;
-        margin-left: 1rem;
+        margin-left: .65rem;
         /* border: 0.4rem solid blue; */
     }
 
@@ -170,6 +171,12 @@
         opacity: 0.8;
     }
 
+    .box11-content {
+        text-align: left;
+        /* border: 0.4rem solid green; */
+        width: 25rem;
+    }
+
     /* page 2 css responsive */
 
     .page-2 .images-container-flex {
@@ -192,6 +199,15 @@
         margin-top: 3rem;
         margin-left: 0rem;
         font-size: 1rem;
+    }
+
+    .headerP2 {
+        font-weight: 700;
+        width: 25rem !important;
+        margin: 0;
+        width: 65rem; 
+        letter-spacing: 0px !important;
+        gap: 0px;
     }
     
 
