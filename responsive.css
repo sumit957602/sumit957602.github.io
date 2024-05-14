@@ -348,6 +348,16 @@
 
     /* page 4 css responsive */
 
+    .page-4{
+        height: 45rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #EFF2F4, #EFF2F4);
+    }
+
     .p4up-flex{
         display: flex;
         flex-direction: column;
@@ -391,7 +401,7 @@
         flex-direction: column;
         flex-wrap: nowrap;
         gap: 1%;  
-        margin-top: -3.5rem;
+        margin-top: .5rem;
     }
 
     .quotes{
@@ -407,35 +417,59 @@
     }
     
     .quotes p{
-        border: 4px solid green;
-        width: 85%;
-        height: 50%;
+        /* border: 4px solid green; */
+        width: 86%;
+        height: 90%;
+        margin-bottom: .3rem;
     }
     
     .quotes .discord{
-        border: 4px solid green;
+        /* border: 4px solid green; */
         width: 25%;
         font-size: xx-small;
+        margin-bottom: .5rem;
     }
     
     .quotes .Mchein{
-        margin-top: 15%;
-        border: 4px solid green;
+        /* border: 4px solid green; */
         width: 50%;
         font-size: xx-small;
     }
     
     .quote-left{
-        position: relative;
-        height: 8rem !important;
-        margin-bottom: 2rem;
+        height: 8rem;
+        width: 85rem;
+        margin-top: .3rem;
     }
     
     .quote-right{
-        position: relative;
+        height: 8rem;
+        width: 85rem;
+        margin-top: 1.3rem;
     }
     
     .quote-mid{
-        width: 150%;
+        height: 8rem;
+        width: 85rem;
+        margin-top: 1.5rem;
     }
+    
+    .quote1{
+        margin-top: -1.4rem;
+        margin-bottom: .5rem;
+        font-size: 1.8rem;
+    }
+    
+    #quote2{
+        margin-top: -1.4rem;
+        margin-bottom: .5rem;
+        font-size: 1.8rem;
+    }
+    
+    #quote3{
+        margin-top: -1.4rem;
+        margin-bottom: .5rem;
+        font-size: 1.8rem;
+    }
+    
 }
