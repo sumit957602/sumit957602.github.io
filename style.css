@@ -183,7 +183,7 @@ body {
 .pages {
     /* border: 0.4rem solid purple; */
     width: 100%;
-    height: 300rem;
+    height: 340rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -633,7 +633,6 @@ body {
 }
 
 .quotes .Mchein{
-    margin-top: 15%;
     border: 4px solid green;
     width: 50%;
     font-size: xx-small;
@@ -641,6 +640,9 @@ body {
 
 .quote-left{
     position: relative;
+    height: 8rem;
+    width: 82rem;
+    margin-top: 1.3rem;
 }
 
 .quote-right{
@@ -648,12 +650,23 @@ body {
 }
 
 .quote-mid{
-    width: 150%;
+    position: relative;
+    height: 8rem;
+    width: 82rem;
+    margin-top: 1.5rem;
 }
 
 /* /page-4 */
 
 /* page 7 css start */
+
+.page-7{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #EFF2F4, #EFF2F4);
+}
 
 .page7-img1{
     height: 10rem;
