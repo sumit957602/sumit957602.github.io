@@ -123,7 +123,7 @@
     .img1 {
         margin-top: 2rem;
         height: 25rem;
-        width: 25rem;
+        width: 24.5rem;
         margin-left: .65rem;
         /* border: 0.4rem solid blue; */
     }
@@ -179,6 +179,18 @@
 
     /* page 2 css responsive */
 
+    .page-2{
+        height: 80rem;
+    }
+
+    .page2-header {
+        margin-top: 3rem;
+        padding-left: 6rem;
+        width: 100%;
+        margin-bottom: 0rem;
+        height: 7rem !important;
+    }
+
     .page-2 .images-container-flex {
         flex-direction: column;
         flex-wrap: nowrap;
@@ -189,7 +201,7 @@
     .images-container-image {
         /* border: 0.4rem solid #111010; */
         width: 80%;
-        height: 25%;
+        height: 26%;
     }
 
     .page2-header {
@@ -201,40 +213,92 @@
         font-size: 1rem;
     }
 
-    .headerP2 {
-        font-weight: 700;
-        width: 25rem !important;
-        margin: 0;
-        width: 65rem; 
-        letter-spacing: 0px !important;
-        gap: 0px;
-    }
-    
-
-    .content1 h2 {
-        font-size: .7rem; 
-        font-weight: 600;
-        color: black;
-        padding-top: 1rem;
-    }
-
     .content1 p {
         color: rgb(83, 82, 82);
-        font-size: .2rem;
+        font-size: 1rem;
     }
+
+    .images-container-image {
+        /* border: 0.4rem solid #111010; */
+        padding: 1%;
+        width: 20rem;
+        height: 80%;
+    }
+
+    .image1{
+        margin-left: -4rem;
+    }
+
+    .imgg1 {
+        margin-left: .2rem;
+    }
+    
+    .imgg2 {
+        margin-left: .2rem;
+    }
+    
+    .imgg3 {
+        margin-left: .5rem;
+    }
+    
+    .image2 {
+        align-self: flex-start;
+    }
+    
+    .image3 {
+        align-self: flex-start;
+    }
+
+    .content1 {
+        text-align: left;
+        margin-left: .3rem;
+    }
+    
+    .content1h3{
+        font-size: 1rem;
+        font-weight: 600;
+        color: black;
+        margin-top: 3rem;
+    }
+    
+    .content2 {
+        text-align: left;
+        margin-left: .3rem;
+    }
+    
+    .content1p12 {
+        color: rgb(83, 82, 82);
+        font-size: 1rem; 
+        width: 20rem;
+    }
+    
+    .content3 {
+        text-align: left;
+        margin-left: .3rem;
+    }
+    
+    .content1p13 {
+        color: rgb(83, 82, 82);
+        font-size: 1rem; 
+    }
+    
 
     /* page 3 css responsive */
 
     .blackbox {
         display: flex;
         flex-direction: column-reverse;
+        width: 95%;
+        height: 35rem;
+        padding-left: 1rem;
+        margin-left: .7rem;
     }
     
     .background-image {
-        height: 20rem;
-        width: 20rem;
+        height: 23rem;
+        width: 22rem;
         border-radius: 1rem; 
-        padding-left: 2rem;
+        padding-left: 1rem;
         padding-top: 2rem;
     }
     
@@ -243,14 +307,15 @@
         flex-direction: column;
         align-items: start;
         width: 31rem;
-        margin-top: 1.3rem;
+        margin-top: .3rem;
     }
 
     .container3 h1 {
         width: 20rem;
         font-size: 1.6rem;
-        margin-bottom: .5rem;
+        margin-bottom: 0rem;
         margin-left: 3.3rem;
+        margin-top: -6rem !important;
     }
     
     .container3 p {
@@ -271,6 +336,7 @@
         font-size: 1rem;
         font-weight: 500;
         margin-left: -7rem;
+        margin-top: -.6rem;
         color: blue;
     }
     
@@ -286,41 +352,45 @@
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
-        padding-right: 5%;
+        padding-right: 0;
     }
 
     .p4up-left{
-        width: 100%;
-        height: 100%;
-        border: 4px solid yellow;
-        padding: 1%;
+        width: 90%;
+        height: 60%;
+        /* border: 4px solid yellow; */
+        padding: 0;
         font-weight: 600;
         font-family: TWK Lausanne;
         font-size: 3rem;
         letter-spacing: -0.04em;
         text-align: left;
+        margin-left: 1rem;
+        margin-top: 1rem;
     }
 
     .p4up-right{
-        width: 100%;
+        width: 95%;
         height: 100%;
-        border: 4px solid yellow;
+        /* border: 4px solid yellow; */
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: flex-start;
         gap: 10%;
         padding: 1%;
+        margin-left: .8rem;
     }
 
     .p4down{
         width: 100%;
         height: 55%;
-        border: 4px solid yellow;
+        /* border: 4px solid yellow; */
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         gap: 1%;  
+        margin-top: -3.5rem;
     }
 
     .quotes{
@@ -356,6 +426,8 @@
     
     .quote-left{
         position: relative;
+        height: 8rem !important;
+        margin-bottom: 2rem;
     }
     
     .quote-right{
