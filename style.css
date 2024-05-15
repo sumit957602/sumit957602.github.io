@@ -1071,6 +1071,25 @@ linear-gradient(0deg, #171E24, #171E24);
 /* page 11 css end */
 
 /* page 12 css start */
+.page121{
+    display: flex;
+    flex-direction: row;
+}
 
+.page12-right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+}
+
+.page12-right1{
+    display: flex;
+    flex-direction: column;
+}
+
+.page12-right2{
+    display: flex;
+    flex-direction: column;
+}
 
 /* page 12 css end */
