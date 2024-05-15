@@ -896,7 +896,7 @@ body {
 .page-8{
     margin-top: 2rem;
     width: 99%;
-    height: 80rem;
+    height: 50rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -951,4 +951,87 @@ body {
 
 #button81 p{
     margin-left: -8rem;
+}
+
+/* page 8 css end */
+
+/* page 9 css start */
+
+.page-9{
+    height: 70rem;
+    width: 99%;
+}
+
+.page9-img{
+    width: 98%;
+    height: 60rem;
+    margin-left: 1rem;
+    background: url(img/F415.jpg) no-repeat center center/cover;
+}
+
+/* page 9 css end */
+
+/* page 10 css start */
+
+.page-10{
+    width: 100%;
+    height: 100vh;
+    /* border: .4rem solid #111010; */
+}
+
+.page10-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.page10-text p{
+    margin-right: 1rem;
+}
+
+.page10-mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.page10-con1{
+    width: 20rem;
+    height: 30rem;
+    background: rgba(239, 242, 244, 1);
+    margin-right: 2rem;
+}
+
+.page10-con2{
+    width: 20rem;
+    height: 30rem;
+    background: rgba(239, 242, 244, 1);
+    margin-right: 2rem;
+}
+
+.page10-con3{
+    width: 20rem;
+    height: 30rem;
+    background: rgba(239, 242, 244, 1);
+}
+
+.page10-con4{
+    display: flex;
+    width: 40rem;
+    height: 10rem;
+    background: linear-gradient(117.56deg, rgba(120, 30, 231, 0.4) 5.81%, rgba(63, 41, 231, 0.4) 49.34%),
+linear-gradient(0deg, #171E24, #171E24);
+    margin-left: 40rem;
+}
+
+.page-11{
+    width: 100%;
+    height: 100vh;
+    /* border: .4rem solid #111010; */
+}
+
+.page11-start{
+    
 }
