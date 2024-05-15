@@ -235,8 +235,8 @@ body {
 }
 
 .layout1 {
-    width: 93rem;
-    margin-left: 1rem;
+    width: 92.3rem;
+    margin-left: 1.1rem;
     height: 19rem; 
     border-radius: 1rem;
     background: url(img/f1.jpg) no-repeat center center/cover;
@@ -383,7 +383,7 @@ body {
 .images-container-image {
     /* border: 0.4rem solid #111010; */
     padding: 1%;
-    width: 30%;
+    width: 29%;
     height: 80%;
 }
 
