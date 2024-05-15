@@ -201,7 +201,7 @@ body {
 
 /* page-1 */
 .page-1 {
-    height: 100vh;
+    height: 105vh;
     box-sizing: border-box;
     place-items: center;
     width: 100%;
@@ -783,11 +783,12 @@ body {
 
 .page-7{
     width: 99%;
-    height: 125rem;
+    height: 135rem;
     background: rgba(255, 255, 255, 1);
 }
 
 .page7-start{
+    margin-top: 2rem;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -871,8 +872,83 @@ body {
     margin-top: 1rem;
 }
 
-.page7-boximg{
-    height: 10rem;
-    width: 10rem;
+.page7-container {
+    display: flex;
+    height: 15rem;
+    width: 98%;
+    background: rgba(228, 238, 250, 1);
+    margin-left: .7rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
 }
 
+.page7-boximg{
+    display: flex;
+    margin-left: 8rem;
+    height: 17rem;
+    width: 19rem;
+    margin-top: -4rem;
+}
+
+/* page 7 css end */
+
+/* page 8 css start */
+.page-8{
+    margin-top: 2rem;
+    width: 99%;
+    height: 80rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.page81{
+    margin-top: 5rem;
+}
+
+.page8-textup {
+    display: flex;
+    flex-direction: row;
+}
+
+.page8-textup1{
+    width: 30rem;
+    margin-left: 10rem;
+}
+
+.page8-textup2{
+    width: 15rem;
+    margin-left: 10rem;
+}
+
+.page8-middle{
+    display: flex;
+    flex-direction: row;
+}
+
+.page8-middleimg img{
+    height: 20rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.page8-middletext h1{
+    font-size: 2rem;
+    margin-top: 8rem;
+    margin-left: 3rem;
+    width: 17rem;
+    margin-bottom: .5rem;
+}
+
+.page8-middletext p{
+    width: 25rem;
+    font-size: .9rem;
+    margin-left: 3rem;
+}
+
+#button81{
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+#button81 p{
+    margin-left: -8rem;
+}
