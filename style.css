@@ -26,7 +26,7 @@ html {
 body {
     /* border: 0.4rem solid pink; */
     width: 100vw;
-    height:  800vh;
+    height:  1000vh;
     background: rgba(221, 228, 232, 0);
     background: linear-gradient(360deg, #E6ECEF 36.44%, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
@@ -183,7 +183,7 @@ body {
 .pages {
     /* border: 0.4rem solid purple; */
     width: 100%;
-    height: 345rem;
+    height: 600rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -192,6 +192,7 @@ body {
 .page {
     /* border: 0.4rem solid red; */
     width: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -463,7 +464,7 @@ body {
     flex-direction: row;
     background: url(img/glow.png) no-repeat center center/cover;
     width: 97%;
-    height: 52.8rem;
+    height: 50.1rem;
     margin-left: 1rem;
     color: rgba(255, 255, 255, 1);
     border-radius: 1rem;
@@ -679,6 +680,26 @@ body {
 }
 
 /* /page-4 */
+
+/* page 5 css start */
+
+.page-55 {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    margin-left: 1rem;
+    height: 60rem;
+    background-color: rgba(255, 255, 255, 1);
+    background: url(img/Fr542.png) no-repeat center center/cover;
+    border-radius: 1rem;
+}
+
+
+/* page 5 css end */
+
+/* page 6 css start */
+
+/* page 6 css end */
 
 /* page 7 css start */
 
