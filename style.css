@@ -484,7 +484,7 @@ body {
     align-items: start;
     width: 35rem;
     margin-top: 15.3rem;
-    margin-left: -3rem;
+    margin-left: -2rem;
 }
 
 .container3 h1 {
@@ -698,40 +698,181 @@ body {
 /* page 5 css end */
 
 /* page 6 css start */
+.page-6{
+    width: 99%;
+    height: 77rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.page6{
+    margin-top: 3rem;
+}
+
+.page6-text1{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page6-text h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111010;
+}
+
+.page6-span1{
+    color: rgb(14, 174, 14);
+}
+
+.page6-span2{
+    color: rgb(228, 65, 65);
+}
+
+.page6-img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+
+.page6-img1 img{
+    width: 35rem;
+    height: 30rem;
+    margin-right: 3rem;
+    border-radius: .5rem;
+}
+
+.page6-img2 img{
+    width: 35rem;
+    height: 30rem;
+    border-radius: .5rem;
+}
+
+.page6-text2{
+    margin-top: 1rem;
+    width: 30rem;
+}
+
+.page6-button{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 12rem;
+    border-radius: .5rem;
+}
+
+.page6-button p{
+    font-size: .9rem;
+}
+
+.page6-end{
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    height: 21rem;
+    background: url(img/Fr403.png) no-repeat center center/cover;
+    border-radius: 1rem;
+}
 
 /* page 6 css end */
 
 /* page 7 css start */
 
 .page-7{
+    width: 99%;
+    height: 125rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.page7-start{
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #EFF2F4, #EFF2F4);
+    flex-direction: row-reverse;
 }
 
-.page7-img1{
-    height: 10rem;
-    width: 10rem;
+.page7-img1 img{
+    height: 25rem;
+    width: 28rem;
+    margin-right: 10rem;
 }
 
-.page7-img2{
-    height: 10rem;
-    width: 10rem;
+.page7-text1{
+    width: 30rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
 }
 
-.page7-img3{
-    height: 10rem;
-    width: 10rem;
+#button71{
+    margin-top: 1rem;
 }
 
-.page7-img4{
-    height: 10rem;
-    width: 10rem;
+.page7-middle1{
+    display: flex;
+    flex-direction: row;
+}
+
+.page7-img2 img{
+    height: 25rem;
+    width: 28rem;
+    margin-left: 10rem;
+}
+
+.page7-text2{
+    width: 30rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+#button72{
+    margin-top: 1rem;
+}
+
+.page7-middle2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.page7-img3 img{
+    height: 25rem;
+    width: 28rem;
+    margin-right: 10rem;
+}
+
+.page7-text3{
+    width: 30rem;
+    margin-right: 10rem;
+    margin-top: 2rem;
+}
+
+#button73{
+    margin-top: 1rem;
+}
+
+.page7-end{
+    display: flex;
+    flex-direction: row;
+}
+
+.page7-img4 img{
+    height: 25rem;
+    width: 28rem;
+    margin-left: 10rem;
+}
+
+.page7-text4{
+    width: 30rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+#button74{
+    margin-top: 1rem;
 }
 
 .page7-boximg{
     height: 10rem;
     width: 10rem;
 }
+
