@@ -26,7 +26,7 @@ html {
 body {
     /* border: 0.4rem solid pink; */
     width: 100vw;
-    height:  1000vh;
+    height:  1100vh;
     background: rgba(221, 228, 232, 0);
     background: linear-gradient(360deg, #E6ECEF 36.44%, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
@@ -183,7 +183,7 @@ body {
 .pages {
     /* border: 0.4rem solid purple; */
     width: 100%;
-    height: 640rem;
+    height: 659rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -976,7 +976,7 @@ body {
 
 .page-10{
     width: 100%;
-    height: 100vh;
+    height: 60rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -1015,22 +1015,25 @@ body {
 
 .page10-con1{
     width: 20rem;
-    height: 30rem;
+    height: 32rem;
     background: rgba(239, 242, 244, 1);
     margin-right: 2rem;
+    border-radius: 1rem;
 }
 
 .page10-con2{
     width: 20rem;
-    height: 30rem;
+    height: 32rem;
     background: rgba(239, 242, 244, 1);
     margin-right: 2rem;
+    border-radius: 1rem;
 }
 
 .page10-con3{
     width: 20rem;
-    height: 30rem;
+    height: 32rem;
     background: rgba(239, 242, 244, 1);
+    border-radius: 1rem;
 }
 
 .page10-con1up{
@@ -1105,13 +1108,110 @@ body {
     padding-left: 1.2rem;
 }
 
+.page10-con1mid2 h1{
+    width: 16rem;
+    font-size: 1.9rem;
+    margin-top: .8rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page10-con2mid2 h1{
+    width: 16rem;
+    font-size: 1.9rem;
+    margin-top: .8rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page10-con3mid2 h1{
+    width: 16rem;
+    font-size: 1.9rem;
+    margin-top: .8rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.page10-con1mid2 p{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.page10-con2mid2 p{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.page10-con3mid2 p{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.page10-con1mid2 button{
+    height: 2.5rem;
+    width: 12rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(41, 126, 223);
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+}
+
+.page10-con2mid2 button{
+    height: 2.5rem;
+    width: 12rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(41, 126, 223);
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+}
+
+.page10-con3mid2 button{
+    height: 2.5rem;
+    width: 12rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(41, 126, 223);
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+}
+
+.page10-con1mid2 img{
+    height: 9rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.page10-con2mid2 img{
+    height: 9rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.page10-con3mid2 img{
+    height: 9rem;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
 .page10-con4{
     display: flex;
     width: 40rem;
     height: 10rem;
-    background: linear-gradient(117.56deg, rgba(120, 30, 231, 0.4) 5.81%, rgba(63, 41, 231, 0.4) 49.34%),
+    background: linear-gradient(117.56deg, rgba(74, 30, 231, 0.4) 5.81%, rgba(63, 41, 231, 0.4) 49.34%),
 linear-gradient(0deg, #171E24, #171E24);
     margin-left: 40rem;
+    border-radius: 1rem;
 }
 
 /* page 10 css end */
