@@ -48,6 +48,7 @@ body {
     border-radius: 0.2rem;
     width: 1.4rem; 
     height: 1.4rem; 
+    mix-blend-mode: multiply;
 }
 
 .prenav1 {
@@ -175,6 +176,7 @@ body {
     margin-right: .28rem;
     border-radius: 95%;
     margin-bottom: .1rem;
+    mix-blend-mode: multiply;
 }
 
 /* /header */
@@ -477,6 +479,7 @@ body {
     border-radius: 1rem; 
     padding-left: 3rem;
     padding-top: 4rem;
+    mix-blend-mode: lighten;
 }
 
 .container3{
