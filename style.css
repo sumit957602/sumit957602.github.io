@@ -304,6 +304,7 @@ body {
     color: rgb(255, 255, 255);
     overflow: hidden;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .box11-btn span{
@@ -511,6 +512,7 @@ body {
     font-weight: 500;
     color: blue;
     margin-bottom: 1rem;
+    cursor: pointer;
 }
 
 .button33span{
@@ -603,6 +605,7 @@ body {
     padding-left: 2rem;
     padding-top: .7rem;
     font-size: .8em;
+    cursor: pointer;
 }
 
 .p4down{
@@ -765,10 +768,12 @@ body {
     height: 3rem;
     width: 12rem;
     border-radius: .5rem;
+    cursor: pointer;
 }
 
 .page6-button p{
     font-size: .9rem;
+    cursor: pointer;
 }
 
 .page6-end{
@@ -799,7 +804,7 @@ body {
 }
 
 .page7-img1 img{
-    height: 25rem;
+    height: 21rem;
     width: 28rem;
     margin-right: 10rem;
 }
@@ -820,7 +825,7 @@ body {
 }
 
 .page7-img2 img{
-    height: 25rem;
+    height: 22rem;
     width: 28rem;
     margin-left: 10rem;
 }
@@ -841,7 +846,7 @@ body {
 }
 
 .page7-img3 img{
-    height: 25rem;
+    height: 22rem;
     width: 28rem;
     margin-right: 10rem;
 }
@@ -862,7 +867,7 @@ body {
 }
 
 .page7-img4 img{
-    height: 25rem;
+    height: 22rem;
     width: 28rem;
     margin-left: 10rem;
 }
