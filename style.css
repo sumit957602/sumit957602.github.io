@@ -26,7 +26,6 @@ html {
 body {
     /* border: 0.4rem solid pink; */
     width: 100%;
-    height:  100%;
 }
 
 .page1-background{
@@ -43,7 +42,7 @@ body {
     width: 100%;
     background: rgba(255, 255, 255, 0.4);    
     border-bottom: 0.1rem solid white;
-    height: 2rem; 
+    height: 1.8rem; 
     padding-top: 1.7rem;
     padding-bottom: 1.8rem;
 }
@@ -78,6 +77,7 @@ body {
 /* header */
 .header {
     /* border: 0.4rem solid pink; */
+    padding-top: 1.3rem;
     display: flex;
     width: 100%;
     height: 3rem;
@@ -706,7 +706,7 @@ body {
 /* page 6 css start */
 .page-6{
     width: 99%;
-    height: 77rem;
+    height: 80rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -744,15 +744,15 @@ body {
 }
 
 .page6-img1 img{
-    width: 32rem;
-    height: 26rem;
+    width: 38rem;
+    height: 30rem;
     margin-right: 3rem;
     border-radius: .5rem;
 }
 
 .page6-img2 img{
-    width: 32rem;
-    height: 26rem;
+    width: 38rem;
+    height: 30rem;
     border-radius: .5rem;
 }
 
@@ -764,25 +764,31 @@ body {
 .page6-button{
     margin-top: 1rem;
     height: 3rem;
-    width: 12rem;
+    width: 13.5rem;
     border-radius: .5rem;
     cursor: pointer;
+}
+
+.page6-elipse{
+    height: .5rem !important;
+    width: .5rem !important;
+    margin-right: .5rem;
 }
 
 .page6-button p{
     font-size: .9rem;
     cursor: pointer;
+    color: rgba(62, 131, 235, 1);
+    font-weight: 600;
 }
 
-.page6-end{
+.page6-end img{
     display: flex;
     flex-direction: row;
-    width: 97%;
+    width: 98%;
     margin-left: 1.5rem;
     margin-top: 2rem;
-    height: 21rem;
-    background: url(img/Fr403.png) no-repeat center center/cover;
-    border-radius: 1rem;
+    height: 23rem;
 }
 
 /* page 6 css end */
@@ -791,7 +797,7 @@ body {
 
 .page-7{
     width: 99%;
-    height: 135rem;
+    height: 115rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -903,7 +909,7 @@ body {
 /* page 8 css start */
 .page-8{
     width: 99%;
-    height: 50rem;
+    height: 40rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -973,7 +979,13 @@ body {
     width: 98%;
     height: 60rem;
     margin-left: 1rem;
-    background: url(img/F415.jpg) no-repeat center center/cover;
+    background: url(img/Fra811415.png) no-repeat center center/cover;
+    border-radius: 1rem;
+}
+
+.page9-img img{
+    height: 40rem;
+    width: 90rem;
 }
 
 /* page 9 css end */
@@ -1214,8 +1226,7 @@ body {
     display: flex;
     width: 40rem;
     height: 10rem;
-    background: linear-gradient(117.56deg, rgba(74, 30, 231, 0.4) 5.81%, rgba(63, 41, 231, 0.4) 49.34%),
-linear-gradient(0deg, #171E24, #171E24);
+    background: url(img/Fra811424.png) no-repeat center center/cover;
     margin-left: 40rem;
     border-radius: 1rem;
 }
@@ -1276,7 +1287,7 @@ linear-gradient(0deg, #171E24, #171E24);
 .page11-con1{
     width: 23rem;
     height: 8rem;
-    background: rgb(52, 52, 233);
+    background: url(img/F13213.png) no-repeat center center/cover;
     margin-top: 10rem;
     margin-left: 10rem;
     border-radius: 1rem;
