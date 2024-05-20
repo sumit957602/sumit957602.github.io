@@ -58,7 +58,6 @@
     .pages {
         /* border: 0.4rem solid purple; */
         width: 100%;
-        height: 800rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -121,11 +120,15 @@
     }
 
     .img1 {
+        display: none;
+    }
+    
+    .img12{
+        display: block;
         margin-top: 2rem;
         height: 25rem;
         width: 24.5rem;
         margin-left: .65rem;
-        /* border: 0.4rem solid blue; */
     }
 
     

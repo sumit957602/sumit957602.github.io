@@ -249,6 +249,10 @@ body {
     /* border: 0.4rem solid blue; */
 }
 
+.img12{
+    display: none;
+}
+
 .layout1 {
     width: 97.8%;
     margin-left: 1.1rem;
