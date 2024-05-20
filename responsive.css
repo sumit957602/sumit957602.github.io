@@ -33,7 +33,7 @@
     
     .header {
         top: .3rem;
-        height: 2rem;
+        height: 2.5rem;
     }
 
     .menu-icon {
@@ -58,16 +58,17 @@
     .pages {
         /* border: 0.4rem solid purple; */
         width: 100%;
+        height: 82.2rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
 
     .page-1 {
-        height: 79.1rem;
         box-sizing: border-box;
         place-items: center;
         width: 100%;
+        height: 82.2rem;
         background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
     }
 
@@ -77,10 +78,10 @@
     }
 
     .layout1 {
-        width: 24.5rem;
+        width: 98%;
         margin-left: 0;
         margin-top: 1rem;
-        height: 34rem; 
+        height: 33.9rem; 
         border-radius: .5rem;
         background: url(img/Frame54.png) no-repeat center center/cover;
     }
@@ -125,10 +126,9 @@
     
     .img121{
         display: block;
-        margin-top: 2rem;
-        height: 25rem;
+        height: 24rem;
         width: 24.5rem;
-        margin-left: .65rem;
+        margin-left: 1.6rem;
     }
 
     
@@ -224,13 +224,13 @@
 
     .images-container-image {
         /* border: 0.4rem solid #111010; */
-        padding: 1%;
+        margin-left: 1.5rem;
         width: 20rem;
         height: 80%;
     }
 
     .image1{
-        margin-left: -4rem;
+        margin-left: -5.5rem;
     }
 
     .imgg1 {
@@ -299,11 +299,20 @@
     }
     
     .background-image {
-        height: 23rem;
-        width: 22rem;
+ 
+    }
+
+    .background-image {
+        display: none; 
+    }
+    
+    .background-image1{
+        display: block;
+        height: 24rem;
+        width: 25rem;
         border-radius: 1rem; 
-        padding-left: 1rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
+        margin-left: -1rem;
     }
     
     .container3{
@@ -352,7 +361,7 @@
     /* page 4 css responsive */
 
     .page-4{
-        height: 50rem;
+        height: 45rem;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -401,7 +410,7 @@
         height: 55%;
         /* border: 4px solid yellow; */
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: nowrap;
         gap: 1%;  
         margin-top: .5rem;
@@ -424,39 +433,39 @@
         width: 23.5rem;
         height: 90%;
         margin-bottom: .3rem;
-        font-size: .9rem;
+        font-size: 1.6rem;
     }
     
     .quotes .discord{
         /* border: 4px solid green; */
-        width: 25%;
-        font-size: xx-small;
+        width: 30%;
+        font-size: .8rem;
         margin-bottom: .5rem;
+        margin-top: -5rem;
     }
     
     .quotes .Mchein{
         /* border: 4px solid green; */
-        width: 50%;
-        font-size: xx-small;
+        width: 90%;
+        font-size: .8rem;
     }
     
     .quote-left{
-        height: 8rem;
+        height: 20rem;
         width: 24.5rem;
-        margin-top: -2rem;
-        margin-left: .7rem;
+        margin-left: -23.8rem;
         /* border: 4px solid green; */
     }
     
     .quote-right{
-        height: 8rem;
+        height: 20rem;
         width: 24.5rem;
         margin-top: .8rem;
         margin-left: .7rem;
     }
     
     .quote-mid{
-        height: 8rem;
+        height: 20rem;
         width: 24.5rem;
         margin-top: .8rem;
         margin-left: .7rem;
@@ -479,5 +488,131 @@
         margin-bottom: .5rem;
         font-size: 1.8rem;
     }
+
+    /* page 5 css start*/
+
+    .page-55 {
+        display: flex;
+        flex-direction: row;
+        width: 97%;
+        margin-left: 1rem;
+        height: 68rem;
+        background-color: rgba(255, 255, 255, 1);
+        background: url(img/Fra542.png) no-repeat center center/cover;
+        border-radius: 1rem;
+    }
+    
+    .page5-h1{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        color: rgba(255, 255, 255, 1);
+        width: 28rem;
+        font-size: 2.8rem;
+    }
+    
+    .page55-imgg{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .page5-img{
+        height: 35rem;
+        width: 30rem;
+        border-radius: .5rem;
+    }
+
+    /* page 5 css end */
+
+    /* page 6 css start */
+.page-6{
+    width: 99%;
+    height: 80rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.page6{
+    margin-top: 3rem;
+}
+
+.page6-text1{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.page6-text h1{
+    font-weight: 700;
+    color: #111010;
+    opacity: .8;
+}
+
+.page6-span1{
+    color: rgb(14, 174, 14);
+}
+
+.page6-span2{
+    color: rgb(228, 65, 65);
+}
+
+.page6-img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-left: 12rem;
+}
+
+.page6-img1 img{
+    width: 38rem;
+    height: 30rem;
+    margin-right: 3rem;
+    border-radius: .5rem;
+}
+
+.page6-img2 img{
+    width: 38rem;
+    height: 30rem;
+    border-radius: .5rem;
+}
+
+.page6-text2{
+    margin-top: 1rem;
+    width: 30rem;
+}
+
+.page6-button{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 13.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.page6-elipse{
+    height: .5rem !important;
+    width: .5rem !important;
+    margin-right: .5rem;
+}
+
+.page6-button p{
+    font-size: .9rem;
+    cursor: pointer;
+    color: rgba(62, 131, 235, 1);
+    font-weight: 600;
+}
+
+.page6-end img{
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    height: 23rem;
+}
+
+/* page 6 css end */
     
 }

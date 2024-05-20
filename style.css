@@ -496,6 +496,10 @@ body {
     border-radius: 1rem; 
 }
 
+.background-image1{
+    display: none;
+}
+
 .container3{
     display: flex;
     flex-direction: column;
