@@ -257,9 +257,27 @@ body {
     width: 97.8%;
     margin-left: 1.1rem;
     margin-top: 2rem;
+    color: white;
     height: 19rem; 
     border-radius: 1rem;
     background: url(img/Fr5411.png) no-repeat center center/cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 16px;
+}
+
+.text-block {
+    margin: 0 10px;
+}
+.text-block h1 {
+    font-weight: bold;
+    font-size: 33px;
+}
+.text-block h4 {
+    font-weight: 300;
+    margin-top: 7px;
 }
 
 .layout2{
@@ -512,6 +530,7 @@ body {
 .container3 h1 {
     font-size: 2.8rem;
     margin-bottom: .5rem;
+    padding-left: 0%;
 }
 
 .container3 p {
@@ -668,20 +687,20 @@ body {
 }
 
 .quote-left{
-    height: 9rem;
+    height: 10rem;
     width: 87rem;
     margin-top: 1.3rem;
     margin-left: -4rem;
 }
 
 .quote-right{
-    height: 9rem;
+    height: 10rem;
     width: 87rem;
     margin-top: 1.3rem;
 }
 
 .quote-mid{
-    height: 9rem;
+    height: 10rem;
     width: 87rem;
     margin-top: 1.5rem;
 }
@@ -737,6 +756,28 @@ body {
     width: 35rem;
 }
 
+.bigbox{
+    background-color: rgb(26 44 64);
+    height: 10vh;
+    width: 24vw;
+    position: absolute;
+   border-radius: 16px;
+   left: 757px;
+   margin-top: 92px;
+   color: white;
+   text-align:right;
+}
+.bigbox1{
+    background-color: rgb(255, 255, 255);
+    height: 9vh;
+    width: 13vw;
+    position: absolute;
+   border-radius: 15px;
+   left: 764px;
+   margin-top: 92px;
+   color: rgb(0, 0, 0);
+   text-align:right;
+}
 
 /* page 5 css end */
 
