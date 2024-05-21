@@ -297,10 +297,6 @@
         padding-left: 1rem;
         margin-left: .7rem;
     }
-    
-    .background-image {
- 
-    }
 
     .background-image {
         display: none; 
@@ -573,8 +569,8 @@
 
 .page6-img22{
     display: block;
-    width: 20rem;
-    height: 20rem;
+    width: 22rem;
+    height: 24rem;
 }
 
 .page6-text2{
@@ -604,15 +600,135 @@
     font-weight: 600;
 }
 
-.page6-end img{
+.page6-endimg1{
+    display: none;
+}
+
+.page6-endimg2{
+    display: none;
     display: flex;
     flex-direction: row;
-    width: 98%;
-    margin-left: 1.5rem;
+    width: 96%;
+    margin-left: .5rem;
     margin-top: 2rem;
     height: 23rem;
 }
 
 /* page 6 css end */
+
+/* page 7 css start */
+
+.page-7{
+    width: 99%;
+    height: 175rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.page7-start{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.page7-img1 img{
+    height: 21rem;
+    width: 23rem;
+    margin-left: 1rem;
+}
+
+.page7-text1{
+    width: 23rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+#button71{
+    margin-top: 1rem;
+}
+
+.page7-middle1{
+    display: flex;
+    flex-direction: column;
+}
+
+.page7-img2 img{
+    height: 22rem;
+    width: 23rem;
+    margin-left: 1rem;
+}
+
+.page7-text2{
+    width: 23rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+#button72{
+    margin-top: 1rem;
+}
+
+.page7-middle2{
+    display: flex;
+    flex-direction: column;
+}
+
+.page7-img3 img{
+    height: 22rem;
+    width: 23rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.page7-text3{
+    width: 23rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+#button73{
+    margin-top: 1rem;
+}
+
+.page7-end{
+    display: flex;
+    flex-direction: column;
+}
+
+.page7-img4 img{
+    height: 22rem;
+    width: 23rem;
+    margin-left: 1rem;
+}
+
+.page7-text4{
+    width: 23rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+#button74{
+    margin-top: 1rem;
+}
+
+.page7-container {
+    display: flex;
+    height: 15rem;
+    width: 98%;
+    background: rgba(228, 238, 250, 1);
+    margin-left: .7rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.page7-boximg{
+    display: flex;
+    margin-left: 1rem;
+    height: 17rem;
+    width: 19rem;
+    margin-top: -4rem;
+}
+
+/* page 7 css end */
+
     
 }
