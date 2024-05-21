@@ -759,21 +759,22 @@ body {
 .bigbox{
     background-color: rgb(26 44 64);
     height: 10vh;
-    width: 24vw;
+    width: 25vw;
     position: absolute;
    border-radius: 16px;
-   left: 757px;
+   left: 730px;
    margin-top: 92px;
    color: white;
    text-align:right;
+   text-indent: 50%;
 }
 .bigbox1{
     background-color: rgb(255, 255, 255);
-    height: 9vh;
+    height: 7vh;
     width: 13vw;
     position: absolute;
-   border-radius: 15px;
-   left: 764px;
+   border-radius: 12px;
+   left: 730px;
    margin-top: 92px;
    color: rgb(0, 0, 0);
    text-align:right;
@@ -808,10 +809,16 @@ body {
 
 .page6-span1{
     color: rgb(14, 174, 14);
+    background-color: rgb(242, 240, 240);
+    padding: 2px 5px;
+    border-radius: 8px;
 }
 
 .page6-span2{
     color: rgb(228, 65, 65);
+    background-color: rgb(242, 240, 240);
+    padding: 2px 5px;
+    border-radius: 8px;
 }
 
 .page6-img{
@@ -875,6 +882,34 @@ body {
 
 .page6-endimg2{
     display: none;
+}
+
+.plaintext{
+    position: relative;
+    top: -225px;
+    left: 95px;
+    color: white;
+    font-size: 37px;
+}
+
+.subtext{
+    position: relative;
+    top: -306px;
+    left: 669px;
+    color: white;
+    font-weight: 24;
+}
+.butt{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    top: -280px;
+    left: 672px;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 /* page 6 css end */
