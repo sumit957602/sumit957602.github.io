@@ -787,10 +787,14 @@ body {
     border-radius: .5rem;
 }
 
-.page6-img2 img{
+.page6-img21{
     width: 38rem;
     height: 30rem;
     border-radius: .5rem;
+}
+
+.page6-img22{
+    display: none;
 }
 
 .page6-text2{
@@ -1021,8 +1025,10 @@ body {
 }
 
 .page9-img img{
-    height: 40rem;
-    width: 90rem;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    height: 50rem;
+    width: 95rem;
 }
 
 /* page 9 css end */
@@ -1373,6 +1379,15 @@ body {
     flex-direction: row;
 }
 
+.page11-right{
+    display: flex;
+    flex-direction: row;
+}
+
+.page11-right img{
+    height: 28rem;
+}
+
 .page11-textbox1{
     margin-left: 9.8rem;
     margin-top: 3rem;
@@ -1392,7 +1407,8 @@ body {
 }
 
 .page11-textbox2{
-    margin-top: 3rem;
+    margin-top: 1rem;
+    margin-left: -42rem;
 }
 
 .page11-textbox2 p{

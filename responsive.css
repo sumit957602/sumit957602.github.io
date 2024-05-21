@@ -523,7 +523,7 @@
 
     /* page 5 css end */
 
-    /* page 6 css start */
+/* page 6 css start */
 .page-6{
     width: 99%;
     height: 80rem;
@@ -535,19 +535,17 @@
 }
 
 .page6-text1{
-    margin-left: 1rem;
+    margin-left: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
-    width: 100%;
 }
 
 .page6-text h1{
+    font-size: 2rem;
     font-weight: 700;
     color: #111010;
-    opacity: .8;
 }
 
 .page6-span1{
@@ -562,25 +560,27 @@
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
-    margin-left: 12rem;
+    margin-left: 2rem;
 }
 
 .page6-img1 img{
-    width: 38rem;
-    height: 30rem;
-    margin-right: 3rem;
-    border-radius: .5rem;
+    display: none;
 }
 
-.page6-img2 img{
-    width: 38rem;
-    height: 30rem;
-    border-radius: .5rem;
+.page6-img21{
+    display: none;
+}
+
+.page6-img22{
+    display: block;
+    width: 20rem;
+    height: 20rem;
 }
 
 .page6-text2{
     margin-top: 1rem;
-    width: 30rem;
+    width: 20rem;
+    font-size: .9rem;
 }
 
 .page6-button{
