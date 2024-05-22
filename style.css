@@ -758,26 +758,29 @@ body {
 
 .bigbox{
     background-color: rgb(26 44 64);
-    height: 5vh;
-    width: 25vw;
+    height: 9vh;
+    width: 27vw;
     position: absolute;
-   border-radius: 9px;
-   left: 911px;
+   border-radius: 10px;
+   left: 803px;
    margin-top: 92px;
    color: white;
    text-align:center;
    text-indent: 50%;
+   text-orientation: sideways;
+   font-size: 15px;
 }
 .bigbox1{
     background-color: rgb(255, 255, 255);
-    height: 4vh;
-    width: 13vw;
+    height: 8vh;
+    width: 14vw;
     position: absolute;
    border-radius: 12px;
-   left: 922px;
-   margin-top: 92px;
-   color: rgb(0, 0, 0);
+   left: 808px;
+   margin-top: 96px;
+   color: rgb(37, 23, 58);
    text-align:center;
+   font-size: 15px;
 }
 
 /* page 5 css end */
