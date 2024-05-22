@@ -15,6 +15,9 @@
     .prenav1 {
         display: none;
     }
+    .hide-on-mobile{
+        display: none;
+    }
 
     .prenav2 a {
         position: relative;
@@ -234,15 +237,15 @@
     }
 
     .imgg1 {
-        margin-left: .2rem;
+        margin-left: 1.2rem;
     }
     
     .imgg2 {
-        margin-left: .2rem;
+        margin-left: -1.8rem;
     }
     
     .imgg3 {
-        margin-left: .5rem;
+        margin-left: -2.5re;
     }
     
     .image2 {
