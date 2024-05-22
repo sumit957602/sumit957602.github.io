@@ -523,10 +523,8 @@
         background-color: rgb(26 44 64);
         height: 5vh;
         width: 58vw;
-        position: absolute;
-       border-radius: 9px;
-       left: 88px;
-       margin-top: 145px;
+       border-radius: .5rem;
+       margin-top: 9.3rem;
        color: white;
        text-align:center;
        text-indent: 50%;
@@ -535,12 +533,10 @@
         background-color: rgb(255, 255, 255);
         height: 4vh;
         width: 28vw;
-        position: absolute;
-       border-radius: 12px;
-       left: 88px;
-       margin-top: 149px;
+       border-radius: .75rem;
+       margin-top: 9.4rem;
        color: rgb(0, 0, 0);
-       text-align:center;
+       text-align: center;
     }
 
 
@@ -641,19 +637,13 @@
     height: 23rem;
 }
 .plaintext{
-    position: relative;
-    top: -225px;
-    left: 95px;
     color: white;
-    font-size: 37px;
+    font-size: 2rem;
 }
 
 .subtext{
-    position: relative;
-    top: -306px;
-    left: 669px;
     color: white;
-    font-weight: 24;
+    font-weight: 600;
 }
 .butt{
     font-size: 1rem;
@@ -661,11 +651,8 @@
     color: rgb(0, 0, 0);
     margin-bottom: 1rem;
     cursor: pointer;
-    top: -280px;
-    left: 672px;
-    position: relative;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: .8rem 1.3rem;
+    border-radius: .4rem;
 }
 
 

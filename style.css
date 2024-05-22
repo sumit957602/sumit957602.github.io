@@ -265,19 +265,19 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 16px;
+    margin: 1rem;
 }
 
 .text-block {
-    margin: 0 10px;
+    margin: 0 .8rem;
 }
 .text-block h1 {
     font-weight: bold;
-    font-size: 33px;
+    font-size: 2rem;
 }
 .text-block h4 {
     font-weight: 300;
-    margin-top: 7px;
+    margin-top: .5rem;
 }
 
 .layout2{
@@ -760,27 +760,23 @@ body {
     background-color: rgb(26 44 64);
     height: 9vh;
     width: 27vw;
-    position: absolute;
-   border-radius: 10px;
-   left: 803px;
-   margin-top: 92px;
+   border-radius: .8rem;
+   margin-top: 6rem;
    color: white;
    text-align:center;
    text-indent: 50%;
    text-orientation: sideways;
-   font-size: 15px;
+   font-size: 1rem;
 }
 .bigbox1{
     background-color: rgb(255, 255, 255);
     height: 8vh;
     width: 14vw;
-    position: absolute;
-   border-radius: 12px;
-   left: 808px;
-   margin-top: 96px;
+   border-radius: .8rem;
+   margin-top: 6rem;
    color: rgb(37, 23, 58);
    text-align:center;
-   font-size: 15px;
+   font-size: 1rem;
 }
 
 /* page 5 css end */
@@ -888,19 +884,13 @@ body {
 }
 
 .plaintext{
-    position: relative;
-    top: -260px;
-    left: 95px;
     color: white;
-    font-size: 37px;
+    font-size: 2rem;
 }
 
 .subtext{
-    position: relative;
-    top: -340px;
-    left: 669px;
     color: white;
-    font-weight: 24;
+    font-weight: 600;
 }
 .butt{
     font-size: 1rem;
@@ -908,24 +898,17 @@ body {
     color: rgb(0, 0, 0);
     margin-bottom: 1rem;
     cursor: pointer;
-    width: 130px;
-    height: 40px;
-    top: -320px;
-    left: 672px;
-    position: relative;
-    padding: 10px 20px;
-    border-radius: 10px;
+    width: 8.2rem;
+    height: 2.5rem;
+    padding: .9rem 1.5rem;
+    border-radius: .8rem;
     outline: none;
     transition: background-color 0.3s, transform 0.1s;
 }
 
 .butt .dot {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    height: 5px;
-    width: 5px;
+    height: .4rem;
+    width: .4rem;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
 }
@@ -1053,33 +1036,24 @@ body {
 }
 
 .plaintext1{
-    position: relative;
-    top: 100px;
-    left: 95px;
     color: rgb(10, 7, 7);
-    font-size: 37px;
+    font-size: 2rem;
     white-space: nowrap;
 }
 
 .subsstext{
     white-space: nowrap;
-    position: relative;
-    top: 190px;
-    left: -255px;
-    font-size: 11px;
+    font-size: .8rem;
     color: grey;
     
 }
 
 .page7-button{
-    top:225px;
-    left: -563px;
-  background-color: rgb(217, 217, 250);
-    position: relative;
-    height: 40px;
-    width: 100px;
+    background-color: rgb(217, 217, 250);
+    height: 2.5rem;
+    width: 6.3rem;
     color: rgb(101, 101, 245);
-    border-radius: 10px;
+    border-radius: .8rem;
 }
 /* page 7 css end */
 
@@ -1118,7 +1092,7 @@ body {
     height: 20rem;
     margin-left: 10rem;
     margin-top: 5rem;
-    border-radius: 8px;
+    border-radius: .5rem;
 }
 
 .page8-middletext h1{
@@ -1165,19 +1139,14 @@ body {
 .page9-img img{
     margin-top: 8rem;
     margin-left: -2rem;
-    padding-right: 5px;
-    position: relative;
-    left: 53px;
+    padding-right: .4rem;
     height: 50rem;
     width: 90rem;
 }
 
 .page9-text{
-    position: relative;
-    left: 480px;
-    top: 130px;
     color: white;
-    font-size: 37px;
+    font-size: 2rem;
 }
 
 /* page 9 css end */
@@ -1227,7 +1196,6 @@ body {
     width: 20rem;
     height: 36rem;
     background: rgba(239, 242, 244, 1);
-    position: relative;
     margin-right: 2rem;
     border-radius: 2rem;
     z-index: 1;
@@ -1237,7 +1205,6 @@ body {
     width: 20rem;
     height: 36rem;
     background: rgba(239, 242, 244, 1);
-    position: relative;
     margin-right: 2rem;
     border-radius: 2rem;
     z-index: 1;
@@ -1247,7 +1214,6 @@ body {
     width: 20rem;
     height: 36rem;
     background: rgba(239, 242, 244, 1);
-    position: relative;
     border-radius: 2rem;
     z-index: 1;
 }
@@ -1423,7 +1389,7 @@ body {
 .page10-con4{
     display: flex;
     width: 39rem;
-    margin-top: 15px;
+    margin-top: 1rem;
     height: 8rem;
     background: url(img/Fra811424.png) no-repeat center center/cover;
     margin-left: 40rem;
@@ -1597,53 +1563,41 @@ body {
 }
 
 .page11-text{
-    font-weight: bold;
-    font-size: large;
-    margin-left: 12px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: .9rem;
 }
 
 .page11-butt{
     color: rgb(115, 115, 203);
     background-color: rgb(229, 229, 251);
-    position: relative;
-    left: 10px;
-    top: 10px;
-    padding: 10px 6px;
-    border-radius: 2px;
+    padding: .8rem .4rem;
+    border-radius: .3rem;
     cursor: pointer;
 }
 
 .page11-ending{
-    position: relative;
-    top: 50px;
-    left: 60px;
-    font-size: 40px;
+    padding-top: 3.2rem;
+    padding-left: 3.8rem;
+    font-size: 2.5rem;
     color:white ;
 }
 
 .subtext-page11{
-    position: relative;
     color: white;
-    top: -30px;
-    left: 653px;
-    font-weight: 20;
+    margin-top: -5rem;
+    padding-left: 41rem;
+    font-weight: 500;
 }
 
 .button-page11{
-    position: relative;
-    top: -15px;
-    left: 654px;  
-    padding: 10px 23px;
-    border-radius: 11px;
+    padding: .7rem 1.5rem;
+    border-radius: .9rem;
 }
 
 .button-page11 .dot {
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    height: 5px;
-    width: 5px;
+    height: .4rem;
+    width: .4rem;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
 }
@@ -1688,8 +1642,8 @@ body {
     margin-left: 42%;
 }
 .img2{
-    height:20px;
-    width: 20px;
+    height:1.3rem;
+    width: 1.3rem;
 }
 
 .end{
