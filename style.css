@@ -812,14 +812,14 @@ body {
 
 .page6-span1{
     color: rgb(14, 174, 14);
-    background-color: rgb(242, 240, 240);
+    background-color: rgb(243, 246, 243);
     padding: 2px 5px;
     border-radius: 8px;
 }
 
 .page6-span2{
     color: rgb(228, 65, 65);
-    background-color: rgb(242, 240, 240);
+    background-color: rgb(246, 237, 237);
     padding: 2px 5px;
     border-radius: 8px;
 }
@@ -889,7 +889,7 @@ body {
 
 .plaintext{
     position: relative;
-    top: -225px;
+    top: -260px;
     left: 95px;
     color: white;
     font-size: 37px;
@@ -897,7 +897,7 @@ body {
 
 .subtext{
     position: relative;
-    top: -306px;
+    top: -340px;
     left: 669px;
     color: white;
     font-weight: 24;
@@ -908,13 +908,37 @@ body {
     color: rgb(0, 0, 0);
     margin-bottom: 1rem;
     cursor: pointer;
-    top: -280px;
+    width: 130px;
+    height: 40px;
+    top: -320px;
     left: 672px;
     position: relative;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
+    outline: none;
+    transition: background-color 0.3s, transform 0.1s;
 }
 
+.butt .dot {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    height: 5px;
+    width: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+
+.butt:hover {
+    background-color: #ccd4cd;
+}
+
+.butt:active {
+    transform: scale(0.95);
+    background-color: #ced2ce;
+}
 /* page 6 css end */
 
 /* page 7 css start */
@@ -1012,7 +1036,7 @@ body {
 
 .page7-container {
     display: flex;
-    height: 15rem;
+    height: 20rem;
     width: 98%;
     background: rgba(228, 238, 250, 1);
     margin-left: .7rem;
@@ -1023,17 +1047,39 @@ body {
 .page7-boximg{
     display: flex;
     margin-left: 8rem;
-    height: 17rem;
-    width: 19rem;
+    height: 20rem;
+    width: 25rem;
     margin-top: -4rem;
 }
 
 .plaintext1{
     position: relative;
-    top: 56px;
+    top: 100px;
     left: 95px;
     color: rgb(10, 7, 7);
     font-size: 37px;
+    white-space: nowrap;
+}
+
+.subsstext{
+    white-space: nowrap;
+    position: relative;
+    top: 190px;
+    left: -255px;
+    font-size: 11px;
+    color: grey;
+    
+}
+
+.page7-button{
+    top:225px;
+    left: -563px;
+  background-color: rgb(217, 217, 250);
+    position: relative;
+    height: 40px;
+    width: 100px;
+    color: rgb(101, 101, 245);
+    border-radius: 10px;
 }
 /* page 7 css end */
 
@@ -1072,11 +1118,12 @@ body {
     height: 20rem;
     margin-left: 10rem;
     margin-top: 5rem;
+    border-radius: 8px;
 }
 
 .page8-middletext h1{
     font-size: 2rem;
-    margin-top: 8rem;
+    margin-top: 7rem;
     margin-left: 3rem;
     width: 17rem;
     margin-bottom: .5rem;
@@ -1095,6 +1142,7 @@ body {
 
 #button81 p{
     margin-left: -8rem;
+    margin-top: 0rem;
 }
 
 /* page 8 css end */
@@ -1115,10 +1163,21 @@ body {
 }
 
 .page9-img img{
-    margin-top: 10rem;
-    margin-left: 5rem;
+    margin-top: 8rem;
+    margin-left: -2rem;
+    padding-right: 5px;
+    position: relative;
+    left: 53px;
     height: 50rem;
-    width: 95rem;
+    width: 90rem;
+}
+
+.page9-text{
+    position: relative;
+    left: 480px;
+    top: 130px;
+    color: white;
+    font-size: 37px;
 }
 
 /* page 9 css end */
@@ -1166,25 +1225,31 @@ body {
 
 .page10-con1{
     width: 20rem;
-    height: 32rem;
+    height: 36rem;
     background: rgba(239, 242, 244, 1);
+    position: relative;
     margin-right: 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    z-index: 1;
 }
 
 .page10-con2{
     width: 20rem;
-    height: 32rem;
+    height: 36rem;
     background: rgba(239, 242, 244, 1);
+    position: relative;
     margin-right: 2rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    z-index: 1;
 }
 
 .page10-con3{
     width: 20rem;
-    height: 32rem;
+    height: 36rem;
     background: rgba(239, 242, 244, 1);
-    border-radius: 1rem;
+    position: relative;
+    border-radius: 2rem;
+    z-index: 1;
 }
 
 .page10-con1up{
@@ -1357,11 +1422,13 @@ body {
 
 .page10-con4{
     display: flex;
-    width: 40rem;
-    height: 10rem;
+    width: 39rem;
+    margin-top: 15px;
+    height: 8rem;
     background: url(img/Fra811424.png) no-repeat center center/cover;
     margin-left: 40rem;
     border-radius: 1rem;
+    z-index: 2;
 }
 
 .page10-con4text{
@@ -1455,7 +1522,7 @@ body {
 .page11-con2{
     display: flex;
     height: 13rem;
-    width: 40rem;
+    width: 44rem;
     background: rgb(242, 242, 242);
     margin-left: -4.6rem;
     border-radius: 1rem;
@@ -1529,6 +1596,57 @@ body {
     border-radius: 1rem;
 }
 
+.page11-text{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 12px;
+}
+
+.page11-butt{
+    color: rgb(115, 115, 203);
+    background-color: rgb(229, 229, 251);
+    position: relative;
+    left: 10px;
+    top: 10px;
+    padding: 10px 6px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.page11-ending{
+    position: relative;
+    top: 50px;
+    left: 60px;
+    font-size: 40px;
+    color:white ;
+}
+
+.subtext-page11{
+    position: relative;
+    color: white;
+    top: -30px;
+    left: 653px;
+    font-weight: 20;
+}
+
+.button-page11{
+    position: relative;
+    top: -15px;
+    left: 654px;  
+    padding: 10px 23px;
+    border-radius: 11px;
+}
+
+.button-page11 .dot {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    height: 5px;
+    width: 5px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
 /* page 11 css end */
 
 /* page 12 css start */
@@ -1569,5 +1687,12 @@ body {
     margin-top: 8.7rem;
     margin-left: 42%;
 }
+.img2{
+    height:20px;
+    width: 20px;
+}
 
+.end{
+    color: rgb(164, 161, 161);
+}
 /* page 12 css end */
