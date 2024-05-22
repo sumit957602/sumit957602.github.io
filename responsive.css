@@ -519,6 +519,30 @@
         width: 30rem;
         border-radius: .5rem;
     }
+    .bigbox{
+        background-color: rgb(26 44 64);
+        height: 5vh;
+        width: 58vw;
+        position: absolute;
+       border-radius: 9px;
+       left: 88px;
+       margin-top: 145px;
+       color: white;
+       text-align:center;
+       text-indent: 50%;
+    }
+    .bigbox1{
+        background-color: rgb(255, 255, 255);
+        height: 4vh;
+        width: 28vw;
+        position: absolute;
+       border-radius: 12px;
+       left: 88px;
+       margin-top: 149px;
+       color: rgb(0, 0, 0);
+       text-align:center;
+    }
+
 
     /* page 5 css end */
 
@@ -616,6 +640,34 @@
     margin-top: 2rem;
     height: 23rem;
 }
+.plaintext{
+    position: relative;
+    top: -225px;
+    left: 95px;
+    color: white;
+    font-size: 37px;
+}
+
+.subtext{
+    position: relative;
+    top: -306px;
+    left: 669px;
+    color: white;
+    font-weight: 24;
+}
+.butt{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    cursor: pointer;
+    top: -280px;
+    left: 672px;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
 
 /* page 6 css end */
 
