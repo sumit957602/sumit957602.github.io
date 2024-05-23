@@ -326,18 +326,24 @@
         color: rgb(83, 82, 82);
         font-size: 1rem; 
         width: 20rem;
+        margin-left: -1rem;
     }
     
     .content3 {
         text-align: left;
         margin-left: .3rem;
     }
-    
+    .content1h13{
+        margin-left: -1rem;
+    }
     .content1p13 {
         color: rgb(83, 82, 82);
         font-size: 1rem; 
+        margin-left: -1rem;
     }
-    
+    .content1h12{
+        margin-left: -1rem;
+    }
 
     /* page 3 css responsive */
 
@@ -405,6 +411,7 @@
     .button33span{
         font-size: 2rem;
         margin-right: .5rem;
+        margin-top: 2rem;
     }
 
     /* page 4 css responsive */
@@ -716,10 +723,10 @@
 
 .page6-text1 {
     display: flex;
-    color: rgb(204, 190, 190);
-    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    font-size: 2.3rem;
     margin-top: -8rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
 .page6-text2 {
@@ -1449,16 +1456,16 @@
 }
 
 .page11-ending{
-    padding-top: 3.2rem;
-    padding-left: 3.8rem;
-    font-size: 1rem;
+    padding-top: 3.5rem;
+    padding-left: 1.8rem;
+    font-size: 2rem;
     color:white ;
 }
 
 .subtext-page11{
     color: white;
-    margin-top: 4rem;
-    margin-left: 20rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
     font-weight: 300;
     font-size: small;
 }
@@ -1468,9 +1475,9 @@
     margin-right: 0.4rem;
 }
 
-button-page11{
-    margin-top: 1.5rem;
-    margin-left: 20rem;
+.button-page11{
+    margin-top: 0.5rem;
+    margin-left: 3rem;
     border-radius: .9rem;
     height: 3rem;
     width: 13rem;

@@ -950,9 +950,9 @@ body {
 .page6-text2 {
     display: flex;
     flex-direction: column;
-    margin-left: 15rem;
+    margin-left: 0rem;
     width: 36rem;
-    color: lightgray;
+    color: rgb(130, 128, 128);
     font-weight: 100;
     font-size: 0.8rem;
 }
@@ -1753,22 +1753,6 @@ body {
 .page12-buttons {
     display: flex;
     flex-direction: row;
-
-    position: absolute;
-    align-self: center;
-    right: 1%;
-    width: 11rem;
-    height: 2.5rem;
-    top: .25rem;
-    background: rgb(74, 133, 209);
-    border: 0.2rem solid rgb(74, 133, 209);
-    border-radius: 0.6rem;
-    font-size: .9rem;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    overflow: hidden;
-    transition: 0.5s;
-    cursor: pointer;
 }
 
 .page12-right{
