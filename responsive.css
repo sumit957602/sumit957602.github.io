@@ -519,26 +519,6 @@
         width: 30rem;
         border-radius: .5rem;
     }
-    .bigbox{
-        background-color: rgb(26 44 64);
-        height: 5vh;
-        width: 58vw;
-       border-radius: .5rem;
-       margin-top: 9.3rem;
-       color: white;
-       text-align:center;
-       text-indent: 50%;
-    }
-    .bigbox1{
-        background-color: rgb(255, 255, 255);
-        height: 4vh;
-        width: 28vw;
-       border-radius: .75rem;
-       margin-top: 9.4rem;
-       color: rgb(0, 0, 0);
-       text-align: center;
-    }
-
 
     /* page 5 css end */
 
@@ -635,24 +615,6 @@
     margin-left: .5rem;
     margin-top: 2rem;
     height: 23rem;
-}
-.plaintext{
-    color: white;
-    font-size: 2rem;
-}
-
-.subtext{
-    color: white;
-    font-weight: 600;
-}
-.butt{
-    font-size: 1rem;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-    margin-bottom: 1rem;
-    cursor: pointer;
-    padding: .8rem 1.3rem;
-    border-radius: .4rem;
 }
 
 

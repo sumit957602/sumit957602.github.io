@@ -268,6 +268,12 @@ body {
     margin: 1rem;
 }
 
+.page1-end-text{
+    display: flex;
+    flex-direction: row;
+    width: 97.8%;
+}
+
 .text-block {
     margin: 0 .8rem;
 }
@@ -728,14 +734,22 @@ body {
 /* page 5 css start */
 
 .page-55 {
-    display: flex;
-    flex-direction: row;
     width: 97%;
     margin-left: 1rem;
     height: 68rem;
     background-color: rgba(255, 255, 255, 1);
     background: url(img/Fra542.png) no-repeat center center/cover;
     border-radius: 1rem;
+}
+
+.page55 {
+    display: flex;
+    flex-direction: row;
+}
+
+.page5-start{
+    display: flex;
+    flex-direction: column;
 }
 
 .page5-h1{
@@ -756,22 +770,25 @@ body {
     width: 35rem;
 }
 
-.bigbox{
+.page5-button{
+    display: flex;
+    flex-direction: row;
+}
+
+.page5-box1{
     background-color: rgb(26 44 64);
-    height: 9vh;
-    width: 27vw;
+    height: 4rem;
+    width: 15rem;
    border-radius: .8rem;
    margin-top: 6rem;
    color: white;
-   text-align:center;
-   text-indent: 50%;
-   text-orientation: sideways;
    font-size: 1rem;
 }
-.bigbox1{
+
+.page5-box2{
     background-color: rgb(255, 255, 255);
-    height: 8vh;
-    width: 14vw;
+    height: 4rem;
+    width: 15rem;
    border-radius: .8rem;
    margin-top: 6rem;
    color: rgb(37, 23, 58);
@@ -870,29 +887,47 @@ body {
     font-weight: 600;
 }
 
-.page6-endimg1{
+.page6-end{
     display: flex;
-    flex-direction: row;
-    width: 98%;
+    flex-direction: column;
+    width: 110rem;
+}
+
+.page6-endimg1{
+    width: 105rem;
     margin-left: 1.5rem;
     margin-top: 2rem;
     height: 23rem;
 }
 
-.page6-endimg2{
+.page6-end-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-top: -18rem;
+}
+
+.page6-endimg2 {
     display: none;
 }
 
-.plaintext{
-    color: white;
+.page6-text1 {
+    display: flex;
+    color: rgb(255, 255, 255);
     font-size: 2rem;
 }
 
-.subtext{
-    color: white;
+.page6-text2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtext {
+    color: rgb(255, 255, 255);
     font-weight: 600;
 }
-.butt{
+
+.butt {
     font-size: 1rem;
     font-weight: 500;
     color: rgb(0, 0, 0);
@@ -1019,12 +1054,13 @@ body {
 
 .page7-container {
     display: flex;
-    height: 20rem;
-    width: 98%;
+    height: 18rem;
+    width: 98.5%;
     background: rgba(228, 238, 250, 1);
-    margin-left: .7rem;
+    margin-left: 1rem;
     margin-top: 6rem;
     margin-bottom: 3rem;
+    border-radius: 1rem;
 }
 
 .page7-boximg{
@@ -1035,7 +1071,13 @@ body {
     margin-top: -4rem;
 }
 
+.page7-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .plaintext1{
+    margin-top: 7rem;
     color: rgb(10, 7, 7);
     font-size: 2rem;
     white-space: nowrap;
@@ -1136,17 +1178,23 @@ body {
     border-radius: 1rem;
 }
 
+.page9-text{
+    display: flex; 
+}
+
+.page9-h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 40rem;
+}
+
 .page9-img img{
-    margin-top: 8rem;
-    margin-left: -2rem;
+    margin-top: .5rem;
+    margin-left: 8rem;
     padding-right: .4rem;
     height: 50rem;
     width: 90rem;
-}
-
-.page9-text{
-    color: white;
-    font-size: 2rem;
 }
 
 /* page 9 css end */
@@ -1562,6 +1610,16 @@ body {
     border-radius: 1rem;
 }
 
+.page11-end-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.page11-text-end {
+    display: flex;
+    flex-direction: column;
+}
+
 .page11-text{
     font-weight: 700;
     font-size: 1.5rem;
@@ -1585,14 +1643,18 @@ body {
 
 .subtext-page11{
     color: white;
-    margin-top: -5rem;
-    padding-left: 41rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
     font-weight: 500;
 }
 
 .button-page11{
-    padding: .7rem 1.5rem;
+    margin-top: .5rem;
+    margin-left: 4rem;
     border-radius: .9rem;
+    height: 3rem;
+    width: 13rem;
+    
 }
 
 .button-page11 .dot {
