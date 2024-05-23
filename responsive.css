@@ -397,7 +397,8 @@
         font-size: 1rem;
         font-weight: 500;
         margin-left: -7rem;
-        margin-top: -.6rem;
+        margin-top: -.4rem;
+        padding-top: 4rem;
         color: blue;
     }
     
@@ -792,9 +793,13 @@
 }
 
 #button71{
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
-
+.page7-elipse{
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.4rem;
+}
 .page7-middle1{
     display: flex;
     flex-direction: column;
@@ -990,10 +995,11 @@
 }
 
 .page9-img img{
-    margin-top: 2rem;
-    margin-left: -1rem;
+    margin-top: .5rem;
+    margin-left: 3rem;
+    padding-right: .4rem;
     height: 50rem;
-    width: 95rem;
+    width: 90rem;
 }
 
 .page9-text{
@@ -1452,17 +1458,23 @@
 .subtext-page11{
     color: white;
     margin-top: 4rem;
-    margin-left: 4rem;
-    font-weight: 500;
+    margin-left: 20rem;
+    font-weight: 300;
+    font-size: small;
+}
+.page11-elipse{
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.4rem;
 }
 
-.button-page11{
-    margin-top: .5rem;
-    margin-left: 4rem;
+button-page11{
+    margin-top: 1.5rem;
+    margin-left: 20rem;
     border-radius: .9rem;
     height: 3rem;
     width: 13rem;
-    
+    font-weight: bold;
 }
 
 .button-page11 .dot {

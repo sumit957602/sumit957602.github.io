@@ -271,20 +271,44 @@ body {
 .page1-end-text{
     display: flex;
     flex-direction: row;
-    width: 97.8%;
+    width: 75.8%;
 }
 
 .text-block {
     margin: 0 .8rem;
 }
 .page1-end-h11 {
-    font-weight: 600;
-    font-size: 2.5rem;
+    font-weight: 650;
+    font-size: 3rem;
+    margin-left: 5rem;
 }
 .page1-end-h41 {
     font-weight: 300;
-    font-size: 1.3rem;
-    margin-top: .5rem;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    margin-left: 3rem;
+}
+.page1-end-h12 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-left: 12rem;
+}
+.page1-end-h42 {
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    margin-left: 10rem;
+}
+.page1-end-h13 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-left: 12rem;
+}
+.page1-end-h43 {
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    margin-left: 10rem;
 }
 
 .box11-content {
@@ -496,8 +520,11 @@ body {
 .content1p13 {
     color: rgb(83, 82, 82);
     font-size: 1.1rem; 
+    margin-left: 3rem;
 }
-
+.content1h13{
+    margin-left: 3rem;
+}
 /* /page-2 */
 
 /* page-3 */
@@ -550,7 +577,7 @@ body {
     font-size: 1rem;
     font-weight: 500;
     color: blue;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     cursor: pointer;
 }
 
@@ -915,18 +942,24 @@ body {
 
 .page6-text1 {
     display: flex;
-    color: rgb(204, 190, 190);
-    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    font-size: 3.3rem;
+    margin-left: 7rem;
 }
 
 .page6-text2 {
     display: flex;
     flex-direction: column;
+    margin-left: 15rem;
+    width: 36rem;
+    color: lightgray;
+    font-weight: 100;
+    font-size: 0.8rem;
 }
 
 .subtext {
     color: rgb(255, 255, 255);
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .butt {
@@ -937,6 +970,7 @@ body {
     cursor: pointer;
     width: 8.2rem;
     height: 2.5rem;
+    margin-top: 2rem;
     padding: .9rem 1.5rem;
     border-radius: .8rem;
     outline: none;
@@ -944,8 +978,12 @@ body {
 }
 
 .butt .dot {
-    height: .4rem;
-    width: .4rem;
+    position: relative;
+    top: -0.2rem;
+    margin-right: 0.5rem;
+    height: 0.4rem;
+    width: 0.4rem;
+    color: black;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
 }
@@ -989,6 +1027,8 @@ body {
 
 #button71{
     margin-top: 1rem;
+    padding-top: 0rem;
+    color: rgb(118, 118, 255);
 }
 
 .page7-middle1{
@@ -1032,12 +1072,21 @@ body {
 #button73{
     margin-top: 1rem;
 }
+.button33 p{
+  color: #3e83eb;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
 
 .page7-end{
     display: flex;
     flex-direction: row;
 }
-
+.page7-elipse{
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.4rem;
+}
 .page7-img4 img{
     height: 22rem;
     width: 28rem;
@@ -1197,7 +1246,7 @@ body {
 
 .page9-img img{
     margin-top: .5rem;
-    margin-left: 8rem;
+    margin-left: 3rem;
     padding-right: .4rem;
     height: 50rem;
     width: 90rem;
@@ -1528,7 +1577,11 @@ body {
     font-size: .9rem;
     color: rgba(255, 255, 255, 0.916);
 }
-
+.page11-elipse{
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.4rem;
+}
 .page11-con1 h1{
     margin-left: 1.3rem;
     margin-top: 1rem;
@@ -1660,17 +1713,18 @@ body {
 .subtext-page11{
     color: white;
     margin-top: 4rem;
-    margin-left: 4rem;
-    font-weight: 500;
+    margin-left: 20rem;
+    font-weight: 300;
+    font-size: small;
 }
 
 .button-page11{
-    margin-top: .5rem;
-    margin-left: 4rem;
+    margin-top: 1.5rem;
+    margin-left: 20rem;
     border-radius: .9rem;
     height: 3rem;
     width: 13rem;
-    
+    font-weight: bold;
 }
 
 .button-page11 .dot {
@@ -1699,6 +1753,22 @@ body {
 .page12-buttons {
     display: flex;
     flex-direction: row;
+
+    position: absolute;
+    align-self: center;
+    right: 1%;
+    width: 11rem;
+    height: 2.5rem;
+    top: .25rem;
+    background: rgb(74, 133, 209);
+    border: 0.2rem solid rgb(74, 133, 209);
+    border-radius: 0.6rem;
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .page12-right{
