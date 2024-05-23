@@ -1496,6 +1496,7 @@
 /* page 12 css start */
 .page-12{
     height: 43.5rem;
+    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
 
 .page121{

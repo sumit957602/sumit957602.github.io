@@ -1628,7 +1628,7 @@ body {
 
 .page-11{
     width: 100%;
-    height: 80rem;
+    height: 65rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -1819,6 +1819,8 @@ body {
 /* page 12 css start */
 .page-12{
     height: 23.5rem;
+    width: 100.8vw;
+    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
 
 .page121{
@@ -1827,8 +1829,8 @@ body {
 }
 
 .page12-left{
-    margin-left: 4rem;
-    margin-top: 3rem;
+    margin-left: 10rem;
+    margin-top: 4rem;
 }
 
 .page12-button0 {
@@ -1851,6 +1853,54 @@ body {
 .page12-buttons {
     display: flex;
     flex-direction: row;
+    margin-top: 1rem;
+}
+
+.page12-button1 img{
+    height: 2rem;
+    width: 4rem;
+    opacity: .5;
+    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+}
+
+.page12-button2 img{
+    height: 2rem;
+    width: 4rem;
+    margin-left: -1rem;
+    opacity: .5;
+    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+}
+
+.page12-button3 img{
+    height: 2rem;
+    width: 4rem;
+    margin-left: -1rem;
+    opacity: .5;
+    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+}
+
+.page12-button4 img{
+    height: 2rem;
+    width: 4rem;
+    margin-left: -1rem;
+    opacity: .5;
+    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+}
+
+.page12-button5 img{
+    height: 2rem;
+    width: 4rem;
+    margin-left: -1rem;
+    opacity: .5;
+    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+}
+
+.page12-button6 img{
+    height: 2rem;
+    width: 4rem;
+    margin-left: -1rem;
+    opacity: .5;
+    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
 
 .page12-right{
@@ -1860,16 +1910,24 @@ body {
     margin-top: 3rem;
 }
 
-.page12-right1{
+.page12-right1 {
     display: flex;
     flex-direction: column;
     margin-right: 4rem;
     margin-left: 8rem;
 }
 
+.page12-right1 p{
+    opacity: .5;
+}
+
 .page12-right2{
     display: flex;
     flex-direction: column;
+}
+
+.page12-right2 p{
+    opacity: .5;
 }
 
 .page-12end{
