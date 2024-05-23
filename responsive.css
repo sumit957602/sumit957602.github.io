@@ -98,6 +98,7 @@
 
     .page1-end-h11 {
         margin-top: 1.5rem;
+        margin-left: -3.2rem;
         font-weight: 600;
         font-size: 2.5rem;
     }
@@ -111,7 +112,7 @@
     }
 
     .page1-end-h12 {
-        margin-top: 6rem;
+        margin-left: -3.2rem;
         margin-top: 3.5rem;
         font-weight: 600;
         font-size: 2.8rem;
@@ -127,6 +128,7 @@
 
     .page1-end-h13 {
         margin-top: 4rem;
+        margin-left: -3.2rem;
         font-weight: 600;
         font-size: 2.5rem;
     }
@@ -376,6 +378,7 @@
         align-items: start;
         width: 31rem;
         margin-top: .3rem;
+        margin-left: -1.5rem;
     }
 
     .container3 h1 {
@@ -392,29 +395,30 @@
         width: 24rem;
         margin-left: 3.3rem;
     }
-    
-    .button33{
+
+    .page3-button {
         width: 10rem;
         height: 2.5rem;
         border-radius: .5rem;
-        margin-left: 3.4rem;
     }
     
-    .button33 p{
+    .page3-button p{
         font-size: 1rem;
         font-weight: 500;
-        margin-left: -7rem;
-        margin-top: -.4rem;
-        padding-top: 4rem;
         color: blue;
+        margin-top: -.3rem;
+        cursor: pointer;
     }
     
-    .button33span{
-        font-size: 2rem;
+    .page3-buttonspan {
+        top: -.2rem;
+        font-size: 1.5rem;
         margin-right: .5rem;
-        margin-top: 2rem;
+        border-radius: 5%;
+        font-weight: 900;
     }
-
+    
+    
     /* page 4 css responsive */
 
     .page-4{
@@ -1321,7 +1325,7 @@
 
 .page-11{
     width: 100%;
-    height: 95rem;
+    height: 102rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -1495,7 +1499,7 @@
 
 /* page 12 css start */
 .page-12{
-    height: 43.5rem;
+    height: 70.5rem;
     background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
 
@@ -1505,8 +1509,32 @@
 }
 
 .page12-left{
-    margin-left: 1rem;
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+}
+
+.page12-inputbox {
+    width: 22rem;
+    margin-top: .9rem;
+    height: 3rem;
+    border-radius: .6rem;
+}
+
+.page12-button0 {
+    display: flex;
+    position: relative;
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 2.5rem;
+    width: 12rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-left: .1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    z-index: 10;
 }
 
 .page12-right{
