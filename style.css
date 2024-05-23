@@ -277,17 +277,14 @@ body {
 .text-block {
     margin: 0 .8rem;
 }
-.text-block h1 {
-    font-weight: bold;
-    font-size: 2rem;
+.page1-end-h11 {
+    font-weight: 600;
+    font-size: 2.5rem;
 }
-.text-block h4 {
+.page1-end-h41 {
     font-weight: 300;
+    font-size: 1.3rem;
     margin-top: .5rem;
-}
-
-.layout2{
-    display: none;
 }
 
 .box11-content {
@@ -761,8 +758,8 @@ body {
 }
 
 .page55-imgg{
-    margin-top: 4rem;
-    margin-left: 13rem;
+    margin-top: 16rem;
+    margin-left: -70rem;
 }
 
 .page5-img{
@@ -772,7 +769,7 @@ body {
 
 .page5-button{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 
 .page5-box1{
@@ -1076,26 +1073,29 @@ body {
     flex-direction: column;
 }
 
-.plaintext1{
+.page7-text-h1{
     margin-top: 7rem;
     color: rgb(10, 7, 7);
-    font-size: 2rem;
-    white-space: nowrap;
+    font-size: 3rem;
+    width: 29rem;
+    margin-left: 2rem;
 }
 
 .subsstext{
-    white-space: nowrap;
     font-size: .8rem;
     color: grey;
-    
+    margin-left: 2rem;
+    margin-top: .5rem;
 }
 
 .page7-button{
     background-color: rgb(217, 217, 250);
     height: 2.5rem;
-    width: 6.3rem;
+    width: 12rem;
     color: rgb(101, 101, 245);
-    border-radius: .8rem;
+    border-radius: .7rem;
+    margin-left: 2rem;
+    margin-top: .5rem;
 }
 /* page 7 css end */
 
@@ -1187,6 +1187,7 @@ body {
     font-size: 3rem;
     margin-top: 2rem;
     margin-left: 40rem;
+    width: 22rem;
 }
 
 .page9-img img{
