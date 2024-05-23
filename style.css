@@ -1945,6 +1945,11 @@ body {
     opacity: .5;
 }
 
+.page12-right1,
+.page12-right2{
+    gap: 1.5rem;
+}
+
 .page-12end{
     margin-top: 8.7rem;
     margin-left: 42%;
