@@ -806,7 +806,7 @@ body {
     margin-top: 3rem;
 }
 
-.page6-text1{
+.page6-text11 {
     margin-left: 5rem;
     display: flex;
     flex-direction: column;
@@ -814,10 +814,11 @@ body {
     align-items: center;
 }
 
-.page6-text h1{
-    font-size: 2rem;
+.page6-text11 h1{
+    font-size: 2.2rem;
     font-weight: 700;
     color: #111010;
+    width: 40rem;
 }
 
 .page6-span1{
@@ -832,6 +833,10 @@ body {
     background-color: rgb(246, 237, 237);
     padding: 2px 5px;
     border-radius: 8px;
+}
+
+.page6-span3 {
+    margin-left: 2.5rem;
 }
 
 .page6-img{
@@ -1242,32 +1247,35 @@ body {
 }
 
 .page10-con1{
-    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
     height: 36rem;
     background: rgba(239, 242, 244, 1);
     margin-right: 2rem;
-    border-radius: 2rem;
-    z-index: 1;
+    border-radius: 1rem;
 }
 
 .page10-con2{
-    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
     height: 36rem;
     background: rgba(239, 242, 244, 1);
     margin-right: 2rem;
-    border-radius: 2rem;
-    z-index: 1;
+    border-radius: 1rem;
 }
 
 .page10-con3{
-    width: 20rem;
+    width: 25rem;
     height: 36rem;
     background: rgba(239, 242, 244, 1);
-    border-radius: 2rem;
-    z-index: 1;
+    border-radius: 1rem;
 }
 
 .page10-con1up{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 3rem;
     background: rgb(245, 246, 247, .9);
@@ -1278,26 +1286,32 @@ body {
 }
 
 .page10-con2up{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 3rem;
     background: rgb(245, 246, 247, .9);
-    padding-left: 7rem;
+    padding-left: 9rem;
     padding-top: 1rem;
     font-size: .8rem;
     font-weight: 500;
 }
 
 .page10-con3up{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 3rem;
     background: rgb(245, 246, 247, .9);
-    padding-left: 7rem;
+    padding-left: 9rem;
     padding-top: 1rem;
     font-size: .8rem;
     font-weight: 500;
 }
 
 .page10-con1mid1{
+    display: flex;
+    flex-direction: column;
     height: 2.5rem;
     width: 7rem;
     background: rgb(248, 248, 248, 1);
@@ -1436,14 +1450,15 @@ body {
 }
 
 .page10-con4{
+    position: relative;
     display: flex;
-    width: 39rem;
-    margin-top: 1rem;
+    width: 49rem;
+    margin-top: -5rem;
     height: 8rem;
     background: url(img/Fra811424.png) no-repeat center center/cover;
-    margin-left: 40rem;
+    margin-left: 43rem;
     border-radius: 1rem;
-    z-index: 2;
+    z-index: 10;
 }
 
 .page10-con4text{
@@ -1679,6 +1694,11 @@ body {
 .page12-left{
     margin-left: 4rem;
     margin-top: 3rem;
+}
+
+.page12-buttons {
+    display: flex;
+    flex-direction: row;
 }
 
 .page12-right{
