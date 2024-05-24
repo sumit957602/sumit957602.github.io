@@ -889,12 +889,6 @@
     margin-bottom: 1rem;
 }
 
-.page7-text2p1 {
-}
-
-.page7-text3p1 {
-}
-
 .page7-button1 {
     border: .1rem solid rgba(62, 131, 235, 0.15);
     height: 2.5rem;
@@ -1117,7 +1111,7 @@
 
 .page9-img img{
     margin-top: .5rem;
-    margin-left: 3rem;
+    margin-left: .4rem;
     padding-right: .4rem;
     height: 50rem;
     width: 90rem;
@@ -1131,7 +1125,11 @@
     color: rgb(255, 255, 255);
     font-size: 2.2rem;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
+}
+
+.page9-h1 span{
+    margin-left: 6rem;
 }
 
 /* page 9 css end */
@@ -1387,8 +1385,14 @@
     margin-left: 1rem;
 }
 
+#page10-con4text2{
+    margin-top: 4rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+}
+
 .page10-con4text h1{
-    margin-top: 1rem;
+    margin-top: 0rem;
     margin-left: 1rem;
     color: rgba(255, 255, 255, 1);
 }
@@ -1402,7 +1406,7 @@
 }
 
 .page10-con4button1{
-    height: 2.5rem;
+    height: 3rem;
     width: 8rem;
     font-size: 1rem;
     font-weight: 500;
@@ -1421,6 +1425,8 @@
 }
 
 #page10-end1{
+    display: flex;
+    flex-direction: column;
     margin-left: 1rem;
     margin-top: -43rem;
 }
@@ -1431,11 +1437,17 @@
     margin-left: 1rem;
 }
 
+.page10-con4button1 {
+    margin-left: 2rem;
+    margin-top: .9rem;
+    height: 2.5rem;
+}
+
 /* page 10 css end */
 
 .page-11{
     width: 100%;
-    height: 102rem;
+    height: 105rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -1451,7 +1463,7 @@
 .page11-con2{
     display: flex;
     flex-direction: column;
-    height: 25rem;
+    height: 28rem;
     width: 23rem;
     background: rgb(242, 242, 242);
     margin-left: 1rem;
@@ -1459,11 +1471,24 @@
     margin-top: 2rem;
 }
 
+.page11con2-text1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem;
+}
+
+.page11con2-text1 p {
+    opacity: .7;
+    margin-right: .5rem;
+}
+
 .page11con2-img img{
     height: 12.5rem;
     width: 14rem;
-    margin-left: .5rem;
-    margin-top: .2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 .page11-mid{
@@ -1525,7 +1550,7 @@
     margin-top: 2rem;
     width: 97%;
     height: 25rem;
-    margin-left: 1rem;
+    margin-left: .5rem;
     background: url(img/Fr1416.png) no-repeat center center/cover;
     border-radius: 1rem;
 }
@@ -1540,7 +1565,7 @@
 .page11con2-text2{
     width: 20rem;
     margin-top: .5rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -1564,7 +1589,7 @@
 .page11-butt{
     color: rgb(115, 115, 203);
     background-color: rgb(229, 229, 251);
-    padding: .8rem .4rem;
+    padding: .4rem .4rem;
     border-radius: .3rem;
     cursor: pointer;
 }
@@ -1574,6 +1599,7 @@
     padding-left: 1.8rem;
     font-size: 2rem;
     color:white ;
+    width: 20rem;
 }
 
 .subtext-page11{
@@ -1591,7 +1617,7 @@
 
 .button-page11{
     margin-top: 0.5rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     border-radius: .9rem;
     height: 3rem;
     width: 13rem;
@@ -1603,6 +1629,25 @@
     width: .4rem;
     background-color: rgb(0, 0, 0);
     border-radius: 50%;
+}
+
+.page11-textbox1 p {
+    width: 22rem;
+    font-size: .9rem;
+    opacity: .7;
+}
+
+.page11-textboxp4 {
+    width: 18rem;
+    font-size: .9rem;
+    opacity: .7;
+    margin-top: -1.8rem !important;
+}
+
+.subtext-page11 {
+    width: 19rem;
+    margin-left: 2rem;
+    margin-bottom: .8rem;
 }
 
 /* page 11 css end */
@@ -1667,8 +1712,8 @@
 }
 
 .page-12end{
-    margin-top: 8.7rem;
-    margin-left: 1rem;
+    margin-top: 2.7rem;
+    margin-left: 8rem;
 }
 
 /* page 12 css end */
