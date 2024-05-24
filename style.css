@@ -846,14 +846,14 @@ body {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: 11rem;
 }
 
 .page5-box1{
     background-color: rgb(26 44 64);
-    height: 4rem;
-    width: 15rem;
-   border-radius: .8rem;
+    height: 3rem;
+    width: 13rem;
+   border-radius: .4rem;
    margin-top: 6rem;
    color: white;
    font-size: 1rem;
@@ -861,9 +861,9 @@ body {
 
 .page5-box2{
     background-color: rgb(255, 255, 255);
-    height: 4rem;
-    width: 15rem;
-   border-radius: .8rem;
+    height: 3rem;
+    width: 13rem;
+   border-radius: .4rem;
    margin-top: 6rem;
    color: rgb(37, 23, 58);
    text-align:center;
@@ -875,12 +875,12 @@ body {
 /* page 6 css start */
 .page-6{
     width: 99%;
-    height: 80rem;
+    height: 85rem;
     background: rgba(255, 255, 255, 1);
 }
 
 .page6{
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 
 .page6-text11 {
@@ -900,15 +900,18 @@ body {
 
 .page6-span1{
     color: rgb(14, 174, 14);
-    background-color: rgb(243, 246, 243);
+    background-color: rgba(80, 164, 51, 0.1);
     padding: 2px 5px;
-    border-radius: 8px;
+    border-radius: .4rem;
+    width: 8rem;
+    height: 3rem;
 }
 
 .page6-span2{
     color: rgb(228, 65, 65);
-    background-color: rgb(246, 237, 237);
+    background-color: rgba(237, 73, 73, 0.1);
     padding: 2px 5px;
+    border-radius: .4rem;
     border-radius: 8px;
 }
 
@@ -921,17 +924,18 @@ body {
     flex-direction: row;
     margin-top: 2rem;
     margin-left: 12rem;
+    margin-bottom: 3rem;
 }
 
 .page6-img1 img{
-    width: 38rem;
+    width: 41rem;
     height: 30rem;
     margin-right: 3rem;
     border-radius: .5rem;
 }
 
 .page6-img21{
-    width: 38rem;
+    width: 41rem;
     height: 30rem;
     border-radius: .5rem;
 }
@@ -940,9 +944,13 @@ body {
     display: none;
 }
 
-.page6-text2{
+.page6-text2 {
     margin-top: 1rem;
     width: 30rem;
+}
+
+.page6-text2 p{
+    width: 27rem;
 }
 
 .page6-button{
@@ -963,7 +971,8 @@ body {
     font-size: .9rem;
     cursor: pointer;
     color: rgba(62, 131, 235, 1);
-    font-weight: 600;
+    font-weight: 500;
+    margin-left: -6.8rem;
 }
 
 .page6-end{
@@ -976,7 +985,7 @@ body {
     width: 105rem;
     margin-left: 1.5rem;
     margin-top: 2rem;
-    height: 23rem;
+    height: 22rem;
 }
 
 .page6-end-text {
@@ -997,6 +1006,16 @@ body {
     margin-left: 7rem;
 }
 
+.page6-endtext1 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    margin-left: 6rem;
+    margin-top: -.5rem;
+    letter-spacing: 0rem;
+    opacity: .95;
+}
+
 .page6-text2 {
     display: flex;
     flex-direction: column;
@@ -1007,6 +1026,17 @@ body {
     font-size: 0.8rem;
 }
 
+.page6-endtext2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    width: 36rem;
+    color:  rgba(23, 30, 36, 1);
+    font-weight: 100;
+    font-size: 0.8rem;
+    opacity: .8;
+}
+
 .page6-subtext {
     color: rgba(255, 255, 255, 1);
     font-size: .8rem;
@@ -1015,9 +1045,10 @@ body {
     /* font-weight: 600; */
 }
 
-.butt {
+.page6-endbutton {
     font-size: 1rem;
     font-weight: 500;
+    background: rgba(255, 255, 255, 1);
     color: rgb(0, 0, 0);
     cursor: pointer;
     width: 8.2rem;
@@ -1040,7 +1071,7 @@ body {
 }
 
 .butt:hover {
-    background-color: #ccd4cd;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .butt:active {
@@ -1075,6 +1106,12 @@ body {
     margin-top: 2rem;
 }
 
+.page7-text1p1 {
+    margin-top: .5rem;
+    width: 26rem;
+    opacity: .7;
+}
+
 #button71{
     margin-top: 1rem;
     padding-top: 0rem;
@@ -1098,6 +1135,12 @@ body {
     margin-top: 2rem;
 }
 
+.page7-text2p1 {
+    margin-top: .5rem;
+    width: 26rem;
+    opacity: .7;
+}
+
 #button72{
     margin-top: 1rem;
 }
@@ -1119,10 +1162,16 @@ body {
     margin-top: 2rem;
 }
 
+.page7-text3p1 {
+    margin-top: .5rem;
+    width: 26rem;
+    opacity: .7;
+}
+
 .page7-button1 {
     border: .1rem solid rgba(62, 131, 235, 0.15);
     height: 2.5rem;
-    width: 12rem;
+    width: 11rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
@@ -1174,6 +1223,12 @@ body {
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
+}
+
+.page7-text4p1 {
+    margin-top: .5rem;
+    width: 26rem;
+    opacity: .7;
 }
 
 .page7-elipse4 {
