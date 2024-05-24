@@ -83,7 +83,7 @@
 
     .layout1 {
         width: 98%;
-        margin-left: 0;
+        margin-left: 1rem;
         margin-top: 1rem;
         height: 33.9rem; 
         border-radius: .5rem;
@@ -98,7 +98,7 @@
 
     .page1-end-h11 {
         margin-top: 1.5rem;
-        margin-left: -3.2rem;
+        margin-left: .5rem;
         font-weight: 600;
         font-size: 2.5rem;
     }
@@ -112,8 +112,8 @@
     }
 
     .page1-end-h12 {
-        margin-left: -3.2rem;
-        margin-top: 3.5rem;
+        margin-left: .6rem;
+        margin-top: 3rem;
         font-weight: 600;
         font-size: 2.8rem;
     }
@@ -127,8 +127,8 @@
     }
 
     .page1-end-h13 {
-        margin-top: 4rem;
-        margin-left: -3.2rem;
+        margin-top: 3rem;
+        margin-left: .6rem;
         font-weight: 600;
         font-size: 2.5rem;
     }
@@ -238,7 +238,7 @@
     /* page 2 css responsive */
 
     .page-2{
-        height: 80rem;
+        height: 82rem;
     }
 
     .page2-header {
@@ -280,12 +280,12 @@
     .images-container-image {
         /* border: 0.4rem solid #111010; */
         margin-left: 1.5rem;
-        width: 20rem;
+        width: 22rem;
         height: 80%;
     }
 
     .image1{
-        margin-left: -5.5rem;
+        margin-left: -6.5rem;
     }
 
     .imgg1 {
@@ -293,11 +293,11 @@
     }
     
     .imgg2 {
-        margin-left: -1.8rem;
+        margin-left: -2.1rem;
     }
     
     .imgg3 {
-        margin-left: -2.5re;
+        margin-left: -2.2rem;
     }
     
     .image2 {
@@ -310,7 +310,7 @@
 
     .content1 {
         text-align: left;
-        margin-left: .3rem;
+        margin-left: 1.2rem;
     }
     
     .content1h3{
@@ -322,7 +322,7 @@
     
     .content2 {
         text-align: left;
-        margin-left: .3rem;
+        margin-left: -1rem;
     }
     
     .content1p12 {
@@ -334,7 +334,7 @@
     
     .content3 {
         text-align: left;
-        margin-left: .3rem;
+        margin-left: -1rem;
     }
     .content1h13{
         margin-left: -1rem;
@@ -354,7 +354,7 @@
         display: flex;
         flex-direction: column-reverse;
         width: 95%;
-        height: 36rem;
+        height: 40rem;
         padding-left: 1rem;
         margin-left: .7rem;
     }
@@ -366,9 +366,8 @@
     .background-image1{
         display: block;
         height: 24rem;
-        width: 25rem;
+        width: 24rem;
         border-radius: 1rem; 
-        padding-top: 1rem;
         margin-left: -1rem;
     }
     
@@ -376,7 +375,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
-        width: 31rem;
+        width: 24rem;
         margin-top: .3rem;
         margin-left: -1.5rem;
     }
@@ -388,25 +387,35 @@
         margin-left: 3.3rem;
         margin-top: -6rem !important;
     }
+
+    .container3p31 {
+        display: none;
+    }
     
-    .container3 p {
-        margin-bottom: .5rem;
+    
+    .container3p32 {
+        display: block;
+        margin-top: .7rem;
+        margin-bottom: 1rem;
         font-size: .7rem;
-        width: 24rem;
+        width: 17rem;
         margin-left: 3.3rem;
+        opacity: .7;
+        color: rgba(255, 255, 255, 1);
     }
 
     .page3-button {
         width: 10rem;
-        height: 2.5rem;
+        height: 2.3rem;
+        margin-left: 3rem;
         border-radius: .5rem;
     }
     
     .page3-button p{
         font-size: 1rem;
         font-weight: 500;
-        color: blue;
-        margin-top: -.3rem;
+        color: rgb(0, 0, 0);
+        margin-top: -.4rem;
         cursor: pointer;
     }
     
@@ -556,8 +565,8 @@
         display: flex;
         flex-direction: row;
         width: 97%;
-        margin-left: 1rem;
-        height: 50rem;
+        margin-left: .6rem;
+        height: 48rem;
         background-color: rgba(255, 255, 255, 1);
         background: url(img/Fra542.png) no-repeat center center/cover;
         border-radius: 1rem;
@@ -570,7 +579,7 @@
 
     .page5-h1{
         margin-top: 2rem;
-        margin-left: 4rem;
+        margin-left: 3rem;
         color: rgba(255, 255, 255, 1);
         width: 19rem;
         font-size: 2rem;
@@ -580,6 +589,8 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: start;
+        margin-left: 1.2rem;
+        margin-top: -.4rem;
     }
     
     .page5-box1{
@@ -606,7 +617,7 @@
     
     .page55-imgg{
         margin-top: 1rem;
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
     
     .page5-img{
@@ -682,6 +693,11 @@
     font-size: .9rem;
 }
 
+.page6-text2 p {
+    width: 22rem;
+    opacity: .7;
+}
+
 .page6-button{
     margin-top: 1rem;
     height: 3rem;
@@ -700,7 +716,9 @@
     font-size: .9rem;
     cursor: pointer;
     color: rgba(62, 131, 235, 1);
-    font-weight: 600;
+    font-weight: 500;
+    margin-left: -4.2rem;
+    opacity: 1;
 }
 
 .page6-end{
@@ -724,14 +742,14 @@
 .page6-end-text{
     display: flex;
     flex-direction: column;
+    margin-top: -28rem;
+    margin-left: -4rem;
 }
 
 .page6-text1 {
     display: flex;
     color: rgb(255, 255, 255);
-    font-size: 2.3rem;
-    margin-top: -8rem;
-    margin-left: 0rem;
+    font-size: 1.8rem;
 }
 
 .page6-text2 {

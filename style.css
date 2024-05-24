@@ -574,11 +574,15 @@ body {
     opacity: .95;
 }
 
-.container3 p {
+.container3p31 {
     margin-bottom: .8rem;
     margin-top: .3rem;
     color: rgba(255, 255, 255, 1);
     opacity: .7;
+}
+
+.container3p32 {
+    display: none;
 }
 
 .page3-button {
@@ -1716,8 +1720,8 @@ body {
 }
 
 .page10-con4text p{
-    margin-top: .3rem;
-    margin-left: 1rem;
+    margin-top: .1rem;
+    margin-left: 1.5rem;
     color: rgba(255, 255, 255, 1);
     font-size: .7rem;
     width: 16rem;
@@ -1734,8 +1738,8 @@ body {
     background: rgba(92, 149, 234, 0.1);
     padding-top: .2rem;
     padding-left: .6rem;
-    margin-left: 12rem;
-    margin-top: 3.5rem;
+    margin-left: 19rem;
+    margin-top: 2.8rem;
 }
 
 .page10-con4button1 p{
@@ -1752,7 +1756,7 @@ body {
 
 .page-11{
     width: 100%;
-    height: 65rem;
+    height: 64.5rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -1945,7 +1949,7 @@ body {
 
 /* page 12 css start */
 .page-12{
-    height: 23.5rem;
+    height: 26.5rem;
     width: 100.8vw;
     background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
