@@ -1985,7 +1985,7 @@ body {
     position: relative;
     border: .1rem solid rgba(62, 131, 235, 0.15);
     height: 2.5rem;
-    width: 12rem;
+    width: 14rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 1);
     color: rgba(255, 255, 255, 1);
@@ -1995,6 +1995,9 @@ body {
     padding-top: .5rem;
     padding-left: .5rem;
     z-index: 10;
+}
+.page12-button0 span {
+    margin-left: 10px; 
 }
 
 .page12-buttons {
