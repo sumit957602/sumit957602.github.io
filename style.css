@@ -1048,14 +1048,18 @@ body {
 .page6-endbutton {
     font-size: 1rem;
     font-weight: 500;
-    background: rgba(255, 255, 255, 1);
-    color: rgb(0, 0, 0);
     cursor: pointer;
     width: 8.2rem;
     height: 2.5rem;
     margin-top: 2rem;
     border-radius: .8rem;
     margin-left: 10rem;
+    opacity: 1;
+    background: rgba(255, 255, 255, 1);
+}
+
+.page6-endbutton p{
+    color: rgba(23, 30, 36, 1);
 }
 
 .page6-buttondot {
@@ -1070,21 +1074,13 @@ body {
     margin-top: -1.3rem;
 }
 
-.butt:hover {
-    background-color: rgba(255, 255, 255, 1);
-}
-
-.butt:active {
-    transform: scale(0.95);
-    background-color: #ced2ce;
-}
 /* page 6 css end */
 
 /* page 7 css start */
 
 .page-7{
     width: 99%;
-    height: 115rem;
+    height: 132rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1095,15 +1091,15 @@ body {
 }
 
 .page7-img1 img{
-    height: 21rem;
-    width: 28rem;
-    margin-right: 10rem;
+    height: 25rem;
+    width: 37rem;
+    margin-right: 12rem;
 }
 
 .page7-text1{
     width: 30rem;
     margin-right: 10rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .page7-text1p1 {
@@ -1124,15 +1120,16 @@ body {
 }
 
 .page7-img2 img{
-    height: 22rem;
-    width: 28rem;
-    margin-left: 10rem;
+    height: 25rem;
+    width: 37rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
 }
 
 .page7-text2{
     width: 30rem;
-    margin-left: 10rem;
-    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-top: 3rem;
 }
 
 .page7-text2p1 {
@@ -1151,15 +1148,16 @@ body {
 }
 
 .page7-img3 img{
-    height: 22rem;
-    width: 28rem;
-    margin-right: 10rem;
+    height: 25rem;
+    width: 37rem;
+    margin-right: 12rem;
+    margin-top: 1rem;
 }
 
 .page7-text3{
     width: 30rem;
     margin-right: 10rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .page7-text3p1 {
@@ -1171,7 +1169,7 @@ body {
 .page7-button1 {
     border: .1rem solid rgba(62, 131, 235, 0.15);
     height: 2.5rem;
-    width: 11rem;
+    width: 10.8rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
@@ -1187,7 +1185,7 @@ body {
 .page7-button2 {
     border: .1rem solid rgba(62, 131, 235, 0.15);
     height: 2.5rem;
-    width: 12rem;
+    width: 10rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
@@ -1203,10 +1201,11 @@ body {
 .page7-button3 {
     border: .1rem solid rgba(62, 131, 235, 0.15);
     height: 2.5rem;
-    width: 12rem;
+    width: 10rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
+    margin-top: 1rem;
 }
 
 .page7-elipse3 {
@@ -1219,7 +1218,7 @@ body {
 .page7-button4 {
     border: .1rem solid rgba(62, 131, 235, 0.15);
     height: 2.5rem;
-    width: 12rem;
+    width: 10rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
@@ -1248,15 +1247,16 @@ body {
     margin-right: 0.4rem;
 }
 .page7-img4 img{
-    height: 22rem;
-    width: 28rem;
-    margin-left: 10rem;
+    height: 25rem;
+    width: 37rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
 }
 
 .page7-text4{
     width: 30rem;
-    margin-left: 10rem;
-    margin-top: 2rem;
+    margin-left: 6rem;
+    margin-top: 3rem;
 }
 
 #button74{
@@ -1265,7 +1265,7 @@ body {
 
 .page7-container {
     display: flex;
-    height: 18rem;
+    height: 20rem;
     width: 98.5%;
     background: rgba(228, 238, 250, 1);
     margin-left: 1rem;
@@ -1276,23 +1276,25 @@ body {
 
 .page7-boximg{
     display: flex;
-    margin-left: 8rem;
+    margin-left: 11rem;
     height: 20rem;
-    width: 25rem;
-    margin-top: -4rem;
+    width: 28rem;
+    margin-top: -4.5rem;
 }
 
 .page7-text {
     display: flex;
     flex-direction: column;
+    margin-left: 4rem;
 }
 
-.page7-text-h1{
+.page7-text-h11 {
     margin-top: 7rem;
     color: rgb(10, 7, 7);
-    font-size: 3rem;
+    font-size: 2.8rem;
     width: 29rem;
     margin-left: 2rem;
+    letter-spacing: 0rem;
 }
 
 .subsstext{
@@ -1310,7 +1312,7 @@ body {
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
     margin-left: 2rem;
-    margin-top: .5rem;
+    margin-top: .8rem;
 }
 
 .page7-elipse5 {
@@ -1324,7 +1326,7 @@ body {
 /* page 8 css start */
 .page-8{
     width: 99%;
-    height: 40rem;
+    height: 45rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1353,7 +1355,7 @@ body {
 }
 
 .page8-middleimg img{
-    height: 20rem;
+    height: 23rem;
     margin-left: 10rem;
     margin-top: 5rem;
     border-radius: .5rem;
@@ -1367,10 +1369,12 @@ body {
     margin-bottom: .5rem;
 }
 
-.page8-middletext p{
+.page8-middletextp1 {
     width: 25rem;
     font-size: .9rem;
     margin-left: 3rem;
+    font-weight: 500;
+    opacity: .7;
 }
 
 .page8-button1 {
@@ -1382,11 +1386,22 @@ body {
     color: rgba(62, 131, 235, 1);
     margin-left: 3rem;
     margin-top: .8rem;
+    opacity: 1;
 }
 
 .page8-button1 p{
-    margin-left: -7rem;
+    margin-left: .1rem;
 }
+
+.page8-button1 img {
+    margin-top: -.2rem;
+}
+
+.page8-elipse {
+    margin-right: .5rem;
+}
+
+
 
 /* page 8 css end */
 
@@ -1419,10 +1434,10 @@ body {
 
 .page9-img img{
     margin-top: .5rem;
-    margin-left: 3rem;
+    margin-left: 3.7rem;
     padding-right: .4rem;
-    height: 50rem;
-    width: 90rem;
+    height: 49rem;
+    width: 98rem;
 }
 
 /* page 9 css end */
@@ -1437,7 +1452,7 @@ body {
 
 .page10-text{
     display: flex;
-    margin-left: 42rem;
+    margin-left: 48rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
