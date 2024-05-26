@@ -78,9 +78,9 @@ body {
     /* border: 0.4rem solid pink; */
     padding-top: 1.3rem;
     display: flex;
-    width: 98%;
+    width: 114.125rem;
     margin: 0 auto;
-    height: 3rem;
+    height: 3.125rem;
 }
 
 .menu-icon {
@@ -116,11 +116,18 @@ body {
     font-weight: 550;
 }
 
+.navbar1 {
+    height: 2.625rem;
+    width: 30.875 rem;
+    gap: 2.5rem;
+    margin-left: 5rem;
+}
+
 .navbar1 a {
     color: var(--text-color);
     font-weight: 500;
-    margin-left: 1.5rem;
     transition: 0.3s;
+    gap: 2.5rem;
 }
 
 .navbar1 a:hover,
@@ -345,10 +352,11 @@ body {
     width: 35.5rem; 
     /* margin-left: 14.5%; */
     /* margin-top: 5rem; */
-    font-size: 4.4rem;
-    font-weight: 700;
+    font-size: 5rem;
+    font-weight: 600;
     line-height: 5.5rem;
     margin-bottom: 1rem;
+    letter-spacing: -.25rem;
     /* border: 0.4rem solid orange; */
 }
 
@@ -442,8 +450,10 @@ body {
         
 }
 
-@media (max-width: 899px) {
-    /*  */
+@media (min-width: 1535px) and (max-width: 1536px) {
+    html {
+        font-size: 79.5%;
+    }
 }
 
 /* /page-1 */
