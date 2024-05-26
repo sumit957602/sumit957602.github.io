@@ -236,12 +236,11 @@ body {
 .box11 {
     width: fit-content;
     height: fit-content;
-    margin-top: 3rem;
+    margin-top: 13rem;
     margin-bottom: 7rem;
     margin-left: 9.76rem;
     width: 35.5rem;
     height: 25.375rem;
-
 }
 
 .box11-flex {
@@ -253,13 +252,11 @@ body {
 }
 
 .box11-content{
-    position: relative;
     align-self:center;
     text-align: left;
     height: 25.4rem;
     width: 35.5rem;
     padding: 0;
-    margin: 0%;
     /* top: 10%; */
     /* margin-right: 7rem; */
     /* border: 0.4rem solid blue; */
@@ -268,6 +265,8 @@ body {
 .page1-img-right {
     height: 40.5625rem;
     width: 57rem;
+    margin-left: 9.5rem;
+    margin-top: -6rem;
 }
 
 .img111 {
@@ -284,22 +283,25 @@ body {
 }
 
 .layout1 {
-    width: 97.5%;
+    width: 117rem;
     color: white;
-    height: 16.84rem; 
-    border-radius: 1rem;
+    height: 16.8125rem; 
+    border-radius: 2rem;
     background: url(img/Fr5411.png) no-repeat center center/cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+    margin-left: 1.5rem;
 }
 
 .page1-end-text{
     display: flex;
     flex-direction: row;
-    width: 90.8%;
+    width: 100rem;
+    height: 6.8125rem;
 }
 
 .text-block {
@@ -425,6 +427,46 @@ body {
     opacity: 0.8;
 }
 
+.page-3 {
+    display: none;
+}
+
+.page-4 {
+    display: none;
+}
+
+.page-5 {
+    display: none;
+}
+
+.page-6 {
+    display: none;
+}   
+
+.page-7 {
+    display: none;
+}   
+
+.page-8 {
+    display: none;
+}   
+
+.page-9 {
+    display: none;
+}   
+
+.page-10 {
+    display: none;
+}   
+
+.page-11 {
+    display: none;
+}   
+
+.page-12 {
+    display: none;
+}
+
 @media (min-width: 900px) and (max-width: 1600px) {
 
     .box11{
@@ -462,3 +504,4 @@ body {
 }
 
 /* /page-1 */
+
