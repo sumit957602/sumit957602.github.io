@@ -18,14 +18,10 @@
     --main-color: #111212;
 }
 
-html {
-    overflow-x: hidden;
-    overflow-y: auto;
-}
-
 body {
     /* border: 0.4rem solid pink; */
-    width: 100%;
+    width: 120rem;
+    height: 94.875rem;
 }
 
 .page1-background{
@@ -39,7 +35,6 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 100%;
     background-color: rgba(255, 255, 255, 0.92);   
     height: 1.7rem; 
     padding-top: 1.7rem;
@@ -79,7 +74,6 @@ body {
     padding-top: 1.3rem;
     display: flex;
     width: 114.125rem;
-    margin: 0 auto;
     height: 3.125rem;
 }
 
@@ -202,8 +196,6 @@ body {
 /* pageDefault */
 .pages {
     /* border: 0.4rem solid purple; */
-    width: 100%;
-    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -211,20 +203,15 @@ body {
 
 .page {
     /* border: 0.4rem solid red; */
-    width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 /* /pageDefault */
 
 /* page-1 */
 .page-1 {
-    height: fit-content;
     box-sizing: border-box;
     place-items: center;
-    width: 100%;
 }
 
 .home-flex {
@@ -234,8 +221,6 @@ body {
 }
 
 .box11 {
-    width: fit-content;
-    height: fit-content;
     margin-top: 13rem;
     margin-bottom: 7rem;
     margin-left: 9.76rem;
