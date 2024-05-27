@@ -257,6 +257,7 @@ body {
     height: 25.4rem;
     width: 35.5rem;
     padding: 0;
+    margin-left: 3rem;
     /* top: 10%; */
     /* margin-right: 7rem; */
     /* border: 0.4rem solid blue; */
@@ -382,6 +383,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 35rem;
+    height: 3.625rem;
 }
 
 .box11-btn {
@@ -407,8 +410,8 @@ body {
 }
 
 .inputBox {
-    width: 100%;
-    height: 3.5rem; 
+    width: 35rem;
+    height: 3.625rem;
     padding: .6rem;
     font-size: 1rem; 
     border: 0.1rem solid #ccc;
