@@ -70,11 +70,11 @@ body {
 
 /* header */
 .header {
-    border: 0.4rem solid pink;
-    margin: 0 auto;
-    /* padding-top: 1.3rem; */
+    /* border: 0.4rem solid pink; */
+    padding-top: 1.5rem;
     display: flex;
     width: 114.125rem;
+    margin-left: 2.875rem;
     /* width: 95%; */
     height: 3.125rem;
 }
@@ -93,17 +93,22 @@ body {
 }
 
 .left-nav {
-    padding-left: 4%;
+    height: 2.5rem;
+    width: 10.1875rem;
+    border-radius: .75rem;
 }
 
 .left-nav img{
-    width: 1.3rem;
-    height: 1.3rem;
-    margin-right: .5rem;
+    width: 1.5rem;
+    height: 1.6875rem;
+    margin-left: .8rem;
+    margin-bottom: .6rem;
 }
 
 .left-nav a{
-    font-size: 1.2rem;
+    width: 7.1875rem;
+    height: 1.375rem;
+    font-size: 1.25rem;
 }
 
 .logo {
@@ -170,27 +175,31 @@ body {
 }
 
 .mid-nav{
-    padding-left: 1.7rem;
+    margin-left: 9rem;
 }
 
-.right-nav{
-    position: relative;
-    right: -2rem;
+.mid-nav a{
+    font-size: 1rem;
+    font-weight: 250;
+    margin-left: -.7rem;
 }
 
 .home1{
+    width: 6.0625rem;
+    height: 2.625rem;
     background: rgba(255, 255, 255, 0.5);
-    width: 5.2rem;
-    height: 2.2rem;
+    font-size: 1rem;
+    font-weight: 250;
     border-radius: .6rem;
-    padding-left: .8rem;
-    padding-top: .5rem;
-    font-size: .95rem;
+    padding: .75rem 1.25rem .75rem 1rem;
 }
 
 .home1 img{
-    height: .5rem;
-    width: .5rem;
+    height: .375rem;
+    width: .375rem;
+    border-radius: .125rem;
+    margin-bottom: .15rem;
+    margin-right: .5rem;
 }
 
 /* /header */
