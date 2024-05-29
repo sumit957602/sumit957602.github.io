@@ -8,6 +8,10 @@
         width: 24.5625rem;
     }
 
+    .mobile-html {
+        display: flex;
+    }
+
     .page1-background{
         background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
         width: 24.5625rem;
@@ -81,12 +85,17 @@
         place-items: center;
         width: 24.5625rem;
         height: 82.2rem;
-        background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+    }
+
+    .box11 {
+        width: 24.5625rem;
     }
 
     .box11-content {
         /* border: 0.4rem solid green; */
-        width: 30rem;
+        width: 21.5625rem;
+        height: 18.625rem;
+        margin: 0rem 0rem 0rem 0rem;
     }
 
     .layout1 {
@@ -166,7 +175,9 @@
     }
     
     .box11-input-club {
-        margin-left: 1rem;
+        width: 21.5625rem;
+        height: 18.625rem;
+        margin: 0rem 0rem 0rem 0rem;
     }
     
     .inputBox {
@@ -183,6 +194,10 @@
         width: 23.8rem;
     }
 
+    .page1-img-right {
+        display: none;
+    }
+
     .img111 {
         display: none;
     }
@@ -191,7 +206,7 @@
         display: block;
         height: 24rem;
         width: 24.5rem;
-        margin-left: 1.6rem;
+        margin: 0rem;
     }
 
     
@@ -246,7 +261,6 @@
 
     .page-2{
         width: 24.5625rem;
-        height: 82rem;
     }
 
     .page2-header {
@@ -266,14 +280,14 @@
     
     .images-container-image {
         /* border: 0.4rem solid #111010; */
-
+        margin: 0rem;
     }
 
     .page2-header h1{
         width: 20.5625rem;
         margin: 0rem;
         padding: 0rem;
-        margin-left: -10rem;
+        margin-left: 0rem;
     }
 
     .content1 p {
@@ -289,7 +303,8 @@
     }
 
     .image1{
-        margin-left: .5rem;
+        margin-left: 0rem;
+        align-items: flex-start;
     }
 
     .imgg1 {
@@ -309,10 +324,15 @@
     
     .image2 {
         align-self: flex-start;
+        margin-left: -10rem;
+        gap: 0rem;
     }
     
     .image3 {
         align-self: flex-start;
+        margin: 0rem;
+        gap: 0rem;
+        margin-left: -10rem;
     }
 
     .content1 {

@@ -30,13 +30,13 @@ body {
     display: none;
 }
 
-.d-page1-background{
+.page1-background{
     background: url(img/Rec9151.png) no-repeat center center/cover;
     width: 120rem;
     height: 94.875rem;
 }
 
-.d-prenav {
+.prenav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,33 +47,33 @@ body {
     width: 120rem;
 }
 
-.d-prenavimg {
+.prenavimg {
     border-radius: 0.2rem;
     width: 1.4rem; 
     height: 1.4rem; 
     margin-top: -.1rem;
 }
 
-.d-prenav1 {
+.prenav1 {
     margin-left: 0.5rem; 
     color: rgba(62, 131, 235, 1);
     font-size: 1.1rem; 
 }
 
-.d-prenav2 a {
+.prenav2 a {
     margin-left: .5rem; 
     font-size: 1rem; 
     color: black !important;
 }
 
-.d-prenav2 span {
+.prenav2 span {
     font-weight: 600;
 }
 
 /* /Default */
 
 /* header */
-.d-header {
+.header {
     /* border: 0.4rem solid pink; */
     padding-top: 1.5rem;
     display: flex;
@@ -83,83 +83,83 @@ body {
     height: 3.125rem;
 }
 
-.d-menu-icon {
+.menu-icon {
     display: none;
 }
 
-.d-header-flex,
-.d-left-nav,
-.d-mid-nav,
-.d-right-nav {
+.header-flex,
+.left-nav,
+.mid-nav,
+.right-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.d-left-nav {
+.left-nav {
     height: 2.5rem;
     width: 10.1875rem;
     border-radius: .75rem;
 }
 
-.d-left-nav img{
+.left-nav img{
     width: 1.5rem;
     height: 1.6875rem;
     margin-left: .8rem;
     margin-bottom: .6rem;
 }
 
-.d-left-nav a{
+.left-nav a{
     width: 7.1875rem;
     height: 1.375rem;
     font-size: 1.25rem;
 }
 
-.d-logo {
+.logo {
     font-size: 1.6rem; 
     color: var(--text-color);
     font-weight: 550;
 }
 
-.d-navbar1 {
+.navbar1 {
     height: 2.625rem;
     width: 30.875 rem;
     gap: 2.5rem;
     margin-left: 5rem;
 }
 
-.d-navbar1 a {
+.navbar1 a {
     color: var(--text-color);
     font-weight: 500;
     transition: 0.3s;
     gap: 2.5rem;
 }
 
-.d-navbar1 a:hover,
-.d-navbar1 a.active {
+.navbar1 a:hover,
+.navbar1 a.active {
     color: var(--main-color);
 }
 
-.d-navbar2 a {
+.navbar2 a {
     color: rgba(62, 131, 235, 1);
     font-weight: 500;
     transition: 0.3s;
     padding-right: 1rem;
 }
 
-.d-navbar2 a:hover,
-.d-navbar2 a.active {
+.navbar2 a:hover,
+.navbar2 a.active {
     color: var(--main-color);
 }
 
-#d-menu-icon {
+#menu-icon {
     font-size: 3.6rem; 
     color: var(--text-color);
     cursor: pointer;
     display: none;
 }
 
-.d-getstart{
+.getstart{
     border: .1rem solid rgba(62, 131, 235, 0.15);
     margin-right: 4rem;
     height: 2.5rem;
@@ -171,24 +171,24 @@ body {
     padding-top: .5rem;
 }
 
-.d-getstartimg{
+.getstartimg{
     position: relative;
     top: -.1rem;
     padding-right: .2rem;
     width: .6rem;
 }
 
-.d-mid-nav{
+.mid-nav{
     margin-left: 9rem;
 }
 
-.d-mid-nav a{
+.mid-nav a{
     font-size: 1rem;
     font-weight: 250;
     margin-left: -.7rem;
 }
 
-.d-home1{
+.home1{
     width: 6.0625rem;
     height: 2.625rem;
     background: rgba(255, 255, 255, 0.5);
@@ -198,7 +198,7 @@ body {
     padding: .75rem 1.25rem .75rem 1rem;
 }
 
-.d-home1 img{
+.home1 img{
     height: .375rem;
     width: .375rem;
     border-radius: .125rem;
@@ -209,13 +209,13 @@ body {
 /* /header */
 
 /* pageDefault */
-.d-pages {
+.pages {
     /* border: 0.4rem solid purple; */
     display: flex;
     flex-direction: column;
 }
 
-.d-page {
+.page {
     /* border: 0.4rem solid red; */
     margin: 0;
     padding: 0;
@@ -224,16 +224,16 @@ body {
 /* /pageDefault */
 
 /* page-1 */
-.d-page-1 {
+.page-1 {
     width: 120rem;
 }
 
-.d-home-flex {
+.home-flex {
     display: flex;
     flex-direction: column;
 }
 
-.d-box11 {
+.box11 {
     margin-top: 13rem;
     margin-bottom: 7rem;
     margin-left: 9.76rem;
@@ -241,13 +241,13 @@ body {
     height: 25.375rem;
 }
 
-.d-box11-flex {
+.box11-flex {
     display: flex;
     flex-direction: row;
     /* border: 0.4rem solid blue; */
 }
 
-.d-box11-content{
+.box11-content{
     height: 25.4rem;
     width: 35.5rem;
     padding: 0;
@@ -257,14 +257,14 @@ body {
     /* border: 0.4rem solid blue; */
 }
 
-.d-page1-img-right {
+.page1-img-right {
     height: 40.5625rem;
     width: 57rem;
     margin-left: 9.5rem;
     margin-top: -6rem;
 }
 
-.d-img111 {
+.img111 {
     /* border: #111010 2px solid; */
     /* margin-top: -1.8rem; */
     /* height: 100%; */
@@ -273,11 +273,11 @@ body {
     /* margin-left: 4.2rem; */
 }
 
-.d-img121{
+.img121{
     display: none;
 }
 
-.d-layout1 {
+.layout1 {
     width: 117rem;
     color: white;
     height: 16.8125rem; 
@@ -292,48 +292,48 @@ body {
     margin-left: 1.5rem;
 }
 
-.d-page1-end-text{
+.page1-end-text{
     display: flex;
     flex-direction: row;
     width: 100rem;
     height: 6.8125rem;
 }
 
-.d-text-block {
+.text-block {
     margin: 1rem;
 }
 
-.d-page1-end-h11 {
+.page1-end-h11 {
     font-weight: 650;
     font-size: 3rem;
     margin-left: 9rem;
 }
 
-.d-page1-end-h41 {
+.page1-end-h41 {
     font-weight: 300;
     font-size: 0.85rem;
     margin-top: 0.4rem;
     margin-left: 9rem;
     opacity: .7;
 }
-.d-page1-end-h12 {
+.page1-end-h12 {
     font-weight: 600;
     font-size: 3rem;
     margin-left: 12rem;
 }
-.d-page1-end-h42 {
+.page1-end-h42 {
     font-weight: 300;
     font-size: 0.85rem;
     margin-top: 0.4rem;
     margin-left: 12rem;
     opacity: .7;
 }
-.d-page1-end-h13 {
+.page1-end-h13 {
     font-weight: 600;
     font-size: 3rem;
     margin-left: 15rem;
 }
-.d-page1-end-h43 {
+.page1-end-h43 {
     font-weight: 300;
     font-size: 0.85rem;
     margin-top: 0.4rem;
@@ -341,12 +341,12 @@ body {
     opacity: .7;
 }
 
-.d-box11-content-flex {
+.box11-content-flex {
     display: flex;
     flex-direction: column;
 }
 
-.d-box11-content h1 {
+.box11-content h1 {
     width: 35.5rem; 
     /* margin-left: 14.5%; */
     /* margin-top: 5rem; */
@@ -358,24 +358,24 @@ body {
     /* border: 0.4rem solid orange; */
 }
 
-.d-box11-content h1 {
+.box11-content h1 {
     color: var(--main-color);
 }
 
-.d-box11-input-club {
+.box11-input-club {
     width: 100%;
     /* margin-left: 6rem; */
     /* border: 0.4rem solid black; */
 }
 
-.d-input-club-flex {
+.input-club-flex {
     display: flex;
     flex-direction: row;
     width: 35rem;
     height: 3.625rem;
 }
 
-.d-box11-btn {
+.box11-btn {
     margin-left: -11.4rem;
     margin-top: .39rem;
     width: 11rem;
@@ -389,11 +389,11 @@ body {
     cursor: pointer;
 }
 
-.d-box11-btn span{
+.box11-btn span{
     margin-left: .4rem;
 }
 
-.d-inputBox {
+.inputBox {
     width: 35rem;
     height: 3.625rem;
     padding: .6rem;
@@ -405,7 +405,7 @@ body {
     margin-bottom: .6rem;
 }
 
-.d-box11-content p {
+.box11-content p {
     text-align: start;
     /* margin-left: 6.2rem; */
     margin-top: .1rem;
@@ -416,7 +416,7 @@ body {
 /* page 1 css end */
 
 /* page-2 */
-.d-page-2 {
+.page-2 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -425,11 +425,11 @@ body {
     padding: 0 10rem;
 }
 
-.d-page2-header{
+.page2-header{
     background: #fafafa;
 }
 
-.d-page2-header h1{
+.page2-header h1{
     width: 45rem;
     height: 8.75rem;
     font-weight: 600;
@@ -437,12 +437,12 @@ body {
     font-size: 4rem; 
 }
 
-.d-page-2 .d-images-container {
+.page-2 .images-container {
     width: 100%;
     height: 85%;
 }
 
-.d-page-2 .d-images-container-flex {
+.page-2 .images-container-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -450,12 +450,12 @@ body {
     align-items: center;
 }
 
-.d-images-container-image {
+.images-container-image {
     width: 32.5rem;
     height: 70%;
 }
 
-.d-imgg {
+.imgg {
     height: 25.5625rem;
     width: 32.5rem;
     display: flex;
@@ -463,14 +463,14 @@ body {
     border-radius: 2rem;
 }
 
-.d-image2 {
+.image2 {
     align-self: flex-end;
 }
-.d-image3 {
+.image3 {
     align-self: flex-start;
 }
 
-.d-images-container-image .d-content{
+.images-container-image .content{
     height: 33%;
     width: 67%;
     font-family: TWK Lausanne;
@@ -479,20 +479,20 @@ body {
     flex-direction: column;
     }
 
-.d-images-container-image .d-content .d-contenth{
+.images-container-image .content .contenth{
     font-size: 250%;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: -0.04em;
 
 }
-.d-images-container-image .d-content .d-contentp{
+.images-container-image .content .contentp{
     font-size: 16px;
     font-weight: 300;
     line-height: 21.6px;
 }
 
-.d-content {
+.content {
     padding: 1.5625rem 1rem 1.5625rem 1rem;
 }
 
