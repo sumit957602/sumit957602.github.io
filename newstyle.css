@@ -408,7 +408,7 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     background: #fafafa;
-    height: 60rem;
+    height: 65rem;
     padding: 0 10rem;
 }
 
@@ -479,6 +479,12 @@ body {
     line-height: 21.6px;
 }
 
+.content {
+    padding: 1.5625rem 1rem 1.5625rem 1rem;
+}
+
+
+
 /* @media (min-width: 900px) and (max-width: 1600px) {
     .page-2{
         padding: 0 3.35%;
@@ -544,39 +550,9 @@ body {
     display: none;
 }
 
-@media (min-width: 900px) and (max-width: 1600px) {
-
-    .box11{
-        width: 100%;
-        margin-left: 3.78rem;
-        justify-content: flex-start;
-        gap: 3rem;
-    }
-    .box11-content{
-        text-align: start;
-        margin-right: 0rem;
-    }    
-    .img111 {
-        height: 32.57rem;
-        width: 45.7rem;
-    }
-    .box11-content h1 {
-        width: 80%;
-        line-height: 4.5rem;
-        font-size: 3rem;
-    }
-    .layout1 {
-        height: 16.3rem;
-    }
-    /* .box11-input-club {
-        width: 40%;
-    } */    
-}
-
 @media (min-width: 1535px) and (max-width: 1536px) {
     html {
-        font-size: 79.5%;
-        overflow-x: hidden;
+        font-size: 79.1%;
     }
 }
 
