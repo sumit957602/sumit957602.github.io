@@ -130,6 +130,7 @@
         height: 33.9rem; 
         border-radius: .5rem;
         background: url(img/Fr5411.png) no-repeat center center/cover;
+        color: #ffffff;
     }
 
     .page1-end-text{
@@ -292,7 +293,6 @@
         width: 20.5625rem;
         margin: 0rem;
         padding: 0rem;
-        margin-left: -6rem;
     }
 
     .page-2 .images-container-flex {
@@ -312,7 +312,6 @@
         width: 20.5625rem;
         margin: 0rem;
         padding: 0rem;
-        margin-left: 0rem;
     }
 
     .content1 p {
