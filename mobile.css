@@ -14,58 +14,71 @@
 
     .mobile-html {
         display: flex;
+        flex-direction: column;
     }
 
-    .page1-background{
-        background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
-        width: 24.5625rem;
-        height: 94.875rem;
-    }
-
-    .prenav {
+    .m-prenav1 {
         width: 24.5625rem;
         height: 3.5rem; 
         padding-top: .5rem;
         margin-bottom: 0;
+        display: flex;
+        background: rgba(255, 255, 255, 0.4);    
+        border-bottom: 0.1rem solid white;
     }
 
-    .prenavimg {
-        display: none;
-    }
-    
-    .prenav1 {
-        display: none;
-    }
-    .hide-on-mobile{
-        display: none;
+    .m-prenav1 a {
+        width: 24.5625rem;
+        height: 3.5rem; 
     }
 
-    .prenav2 a {
-        font-size: .9rem; 
-        color: black !important;
-        padding-left: 0;
-        margin-left: 0;
-    }
-    
-    .prenav2 span {
-        font-weight: 600;
-        margin-left: .4rem;
+    .m-page1-background{
+        background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+        width: 25.5rem;
+        height: 94.875rem;
     }
     
     .header {
+        display: flex;
+        flex-direction: row;
         width: 21.8125rem;
         height: 1.875rem;
+        margin-left: 1.25rem;
+        margin-top: 1.25rem;
     }
 
     .menu-icon {
         display: block;
-        margin-right: 1rem;
+        margin-left: 12.5rem;
     }
     
     .mid-nav,
     .right-nav {
         display: none;
 
+    }
+
+    .left-nav {
+        display: flex;
+        flex-direction: row;
+        height: 1.875rem;
+        width: 8.125rem;
+        border-radius: .75rem;
+        font-size: 1rem;
+    }
+    
+    .left-nav img{
+        width: 1.125rem;
+        height: 1.406rem;
+        margin-left: .8rem;
+        margin-bottom: .6rem;
+    }
+
+    .left-nav a {
+        margin-top: .5rem;
+        font-size: .9rem;
+        width: 5.75rem;
+        height: 1.125rem;
     }
 
     .logo {
@@ -328,7 +341,7 @@
     
     .image2 {
         align-self: flex-start;
-        margin-left: -10rem;
+        margin-left: .1rem;
         gap: 0rem;
     }
     
@@ -336,7 +349,7 @@
         align-self: flex-start;
         margin: 0rem;
         gap: 0rem;
-        margin-left: -10rem;
+        margin-left: .1rem;
     }
 
     .content1 {
@@ -378,4 +391,49 @@
     .content1h12{
         margin-left: .1rem;
     }
+
+    .page-3 {
+        display: none;
+    }
+
+    .page-4 {
+        display: none;
+    }
+    
+    .page-5 {
+        display: none;
+    }
+    
+    .page-55 {
+        display: none;
+    }
+    
+    .page-6 {
+        display: none;
+    }   
+    
+    .page-7 {
+        display: none;
+    }   
+    
+    .page-8 {
+        display: none;
+    }   
+    
+    .page-9 {
+        display: none;
+    }   
+    
+    .page-10 {
+        display: none;
+    }   
+    
+    .page-11 {
+        display: none;
+    }   
+    
+    .page-12 {
+        display: none;
+    }
+    
 }
