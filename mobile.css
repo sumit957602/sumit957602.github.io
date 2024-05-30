@@ -8,6 +8,10 @@
         width: 24.5625rem;
     }
 
+    .desktop-html {
+        display: none;
+    }
+
     .mobile-html {
         display: flex;
     }
