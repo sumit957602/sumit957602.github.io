@@ -1,0 +1,527 @@
+@media (max-width: 1440px) {
+
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'TWK Lausanne';
+}
+
+:root {
+    --bg-color: #eceff0;
+    --second--bg-color: #dde6ec;
+    --text-color: #111010;
+    --main-color: #111212;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    width: 90rem;
+}
+
+.mobile-html {
+    display: none;
+}
+
+.d-prenav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.92);   
+    height: 3.25rem; 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 90rem;
+}
+
+.d-prenavimg {
+    border-radius: 0.2rem;
+    width: 1.2rem; 
+    height: 1.2rem; 
+    margin-top: -.3rem;
+}
+
+.d-prenav1 {
+    margin-left: 0.5rem; 
+    color: rgba(62, 131, 235, 1);
+    font-size: 1rem; 
+}
+
+.d-prenav2 a {
+    margin-left: .5rem; 
+    font-size: 1rem; 
+    color: black !important;
+}
+
+.d-prenav2-img1 {
+    width: .75rem;
+    height: .75rem;
+    margin-top: .1rem;
+}
+
+.d-prenav2 span {
+    font-weight: 600;
+}
+
+/* /Default */
+
+.d-page1-background{
+    background: url(img/Rec9151.png) no-repeat center center/cover;
+    width: 90rem;
+    height: 73.5rem;
+}
+
+.d-header {
+    /* border: 0.4rem solid pink; */
+    padding-top: 1.25rem;
+    display: flex;
+    width: 86rem;
+    margin-left: 2rem;
+    height: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-left-nav,
+.d-mid-nav,
+.d-right-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-left-nav {
+    height: 2.5rem;
+    width: 10.1875rem;
+    border-radius: .75rem;
+}
+
+.d-left-nav img{
+    width: 1.5rem;
+    height: 1.6875rem;
+    margin-left: .8rem;
+    margin-bottom: .6rem;
+}
+
+.d-left-nav a{
+    width: 7.1875rem;
+    height: 1.375rem;
+    font-size: 1.25rem;
+}
+
+.d-mid-nav {
+    height: 2.625rem;
+    width: 30.875 rem;
+    gap: 2.5rem;
+    margin-left: 9rem;
+}
+
+.d-mid-nav a {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 250;
+    margin-left: -.7rem;
+    gap: 2.5rem;
+}
+
+.d-mid-nav a:hover,
+.d-mid-nav a.active {
+    color: var(--main-color);
+}
+
+.d-home1{
+    width: 6.0625rem;
+    height: 2.625rem;
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 250;
+    border-radius: .6rem;
+    padding: .75rem 1.25rem .75rem 1rem;
+}
+
+.d-home1 img{
+    height: .375rem;
+    width: .375rem;
+    border-radius: .125rem;
+    margin-bottom: .15rem;
+    margin-right: .5rem;
+}
+
+.d-right-nav a {
+    color: rgba(62, 131, 235, 1);
+    font-weight: 500;
+    transition: 0.3s;
+    padding-right: 1rem;
+}
+
+.d-right-nav a:hover,
+.d-right-nav a.active {
+    color: var(--main-color);
+}
+
+.d-getstart{
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 3.125rem;
+    width: 13.5rem;
+    border-radius: .5rem;
+    margin-left: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.d-getstartimg{
+    width: .6rem;
+    margin-right: 1rem;
+}
+
+.d-menu-icon {
+    display: none;
+}
+
+/* /header */
+
+.d-pages {
+    /* border: 0.4rem solid purple; */
+    display: flex;
+    flex-direction: column;
+}
+
+.d-page {
+    /* border: 0.4rem solid red; */
+    margin: 0;
+    padding: 0;
+}
+/* /pageDefault */
+
+/* page-1 CSS start*/
+
+.d-page-1 {
+    width: 90rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-box11 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    /* border: 0.4rem solid blue; */
+    margin-top: 6.875rem;
+    margin-bottom: 7rem;
+    margin-left: 4rem;
+    width: 40rem;
+    height: 22rem;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.d-box11-content{
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    width: 28.375rem;
+    padding: 0rem 0rem 0rem 0rem;
+    margin-left: 0rem;
+    /* margin-right: 7rem; */
+    /* border: 0.4rem solid blue; */
+}
+
+.d-box11-content h1 {
+    width: 28.375rem;
+    height: 13.125rem; 
+    /* margin-left: 14.5%; */
+    /* margin-top: 5rem; */
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.6rem;
+    margin-bottom: 1rem;
+    letter-spacing: -.02rem;
+    /* border: 0.4rem solid orange; */
+}
+
+.d-box11-content h1 {
+    color: var(--main-color);
+}
+
+.d-box11-input-club {
+    display: flex;
+    flex-direction: row;
+    width: 35rem;
+    height: 3.625rem;
+    /* margin-left: 6rem; */
+    /* border: 0.4rem solid black; */
+}
+
+.d-inputBox {
+    width: 35rem;
+    height: 3.625rem;
+    padding: .6rem;
+    font-size: 1rem; 
+    border: 0.1rem solid #ccc;
+    border-radius: 0.4rem;
+    border-radius: .9rem;
+    padding-left: 1.2rem;
+    margin-bottom: .6rem;
+}
+
+.d-box11-btn {
+    margin-left: -11.4rem;
+    margin-top: .39rem;
+    width: 11rem;
+    height: 2.8rem; 
+    background: rgb(74, 133, 209);
+    border: 0.2rem solid rgb(74, 133, 209);
+    border-radius: 0.6rem;
+    font-size: .9rem; 
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.d-box11-btn span{
+    margin-left: .4rem;
+}
+
+.d-box-11-content {
+    margin-top: .7rem;
+    margin-left: .1rem;
+}
+
+.d-box-11-content p{
+    text-align: start;
+    /* margin-left: 6.2rem; */
+    margin-top: .1rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.d-page1-img-right {
+    height: 32.4375rem;
+    width: 45.6rem;
+    margin-left: 12rem;
+    margin-top: -4rem;
+}
+
+.d-img111 {
+    /* border: #111010 2px solid; */
+    /* margin-top: -1.8rem; */
+    /* height: 100%; */
+    height: 32.4375rem;
+    width: 45.6rem;
+    /* margin-left: 4.2rem; */
+}
+
+.d-img121{
+    display: none;
+}
+
+.d-layout1 {
+    width: 87rem;
+    color: white;
+    height: 16.3125rem; 
+    border-radius: 2rem;
+    background: url(img/Fr5411.png) no-repeat center center/cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+}
+
+.d-page1-end-text{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 79rem;
+    height: 7.4375rem;
+    margin-left: 4rem;
+}
+
+.d-text-block {
+    margin: 1rem;
+}
+
+.d-page1-end-h11 {
+    font-weight: 650;
+    font-size: 3rem;
+    margin-left: 0rem;
+}
+
+.d-page1-end-h41 {
+    font-weight: 300;
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    margin-left: 0rem;
+    opacity: .7;
+}
+.d-page1-end-h12 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-left: 12rem;
+}
+.d-page1-end-h42 {
+    font-weight: 300;
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    margin-left: 12rem;
+    opacity: .7;
+}
+.d-page1-end-h13 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-left: 15rem;
+}
+.d-page1-end-h43 {
+    font-weight: 300;
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    margin-left: 15rem;
+    opacity: .7;
+}
+
+/* page 1 css end */
+
+/* page-2 CSS start*/
+.d-page-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: #ffffff;
+    height: 65rem;
+    padding: 0 4rem;
+}
+
+.d-page2-header{
+    background: #ffffff;
+}
+
+.d-page2-header h1{
+    width: 34.5rem;
+    height: 8.75rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 3rem; 
+}
+
+.d-images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+}
+
+.d-images-container-image {
+    width: 26.5rem;
+    height: 70%;
+}
+
+.d-image1 {
+
+}
+
+.d-imgg {
+    height: 20.8431rem;
+    width: 26.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: .9rem;
+}
+
+.d-image2 {
+    align-self: flex-end;
+}
+
+.d-image3 {
+    align-self: flex-start;
+}
+
+.d-images-container-image .d-content{
+    height: 33%;
+    width: 67%;
+    font-family: TWK Lausanne;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    }
+
+.d-images-container-image .d-content .d-contenth{
+    font-size: 250%;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+
+}
+.d-images-container-image .d-content .d-contentp{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21.6px;
+}
+
+.d-content {
+    padding: 1.5625rem 1rem 1.5625rem 1rem;
+}
+
+/* /page-2  CSS end*/
+
+.d-page-3 {
+    display: none;
+}
+
+.page-4 {
+    display: none;
+}
+
+.page-5 {
+    display: none;
+}
+
+.page-55 {
+    display: none;
+}
+
+.page-6 {
+    display: none;
+}   
+
+.page-7 {
+    display: none;
+}   
+
+.page-8 {
+    display: none;
+}   
+
+.page-9 {
+    display: none;
+}   
+
+.page-10 {
+    display: none;
+}   
+
+.page-11 {
+    display: none;
+}   
+
+.page-12 {
+    display: none;
+}
+
+
+
+}
