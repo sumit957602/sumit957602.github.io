@@ -138,6 +138,13 @@
         color: #ffffff;
     }
 
+    .m-text-block {
+        display: flex;
+        align-items: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .page1-end-text{
         display: flex;
         flex-direction: column;
@@ -145,47 +152,65 @@
 
     .page1-end-h11 {
         margin-top: 4rem;
-        margin-left: 4rem;
+        margin-left: 1rem;
         font-weight: 600;
         font-size: 2.5rem;
     }
 
     .page1-end-h41 {
+        display: flex;
+        flex-direction: column;
         font-weight: 300;
         font-size: 1.15rem;
         margin-top: 1rem;
         width: 17rem;
-        margin-left: 2.9rem;
+        margin-left: 1rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .page1-end-h12 {
-        margin-left: .6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
         margin-top: 3rem;
         font-weight: 600;
         font-size: 2.8rem;
     }
     
     .page1-end-h42 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         font-weight: 300;
         font-size: 1.17rem;
         margin-top: 1rem;
         width: 17rem;
-        margin-left: 2.9rem;
+        margin-left: 1rem;
     }
 
     .page1-end-h13 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin-top: 3rem;
-        margin-left: .6rem;
+        margin-left: 1rem;
         font-weight: 600;
         font-size: 2.5rem;
     }
     
     .page1-end-h43 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         font-weight: 300;
         font-size: 1.17rem;
         margin-top: 1rem;
         width: 17rem;
-        margin-left: 2.9rem;
+        margin-left: 1rem;
     }
     
     .box11-flex {
