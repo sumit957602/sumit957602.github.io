@@ -430,6 +430,7 @@
 
 body {
     width: 90rem;
+    overflow-x: hidden;
 }
 
 .mobile-html {

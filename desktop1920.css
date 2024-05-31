@@ -307,6 +307,7 @@ html {
 
 body {
     width: 120rem;
+    overflow-x: hidden;
 }
 
 .mobile-html {
