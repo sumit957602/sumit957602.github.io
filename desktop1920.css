@@ -674,13 +674,13 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background: #fafafa;
+    background: #ffffff;
     height: 65rem;
     padding: 0 10rem;
 }
 
 .d-page2-header{
-    background: #fafafa;
+    background: #ffffff;
 }
 
 .d-page2-header h1{
@@ -768,7 +768,7 @@ body {
     padding-top: 1.3rem;
 }
 
-.background-image {
+.d-background-image {
     border-radius: .2rem; 
     height: 55.8rem;
     width: 68.6875rem;
@@ -776,11 +776,11 @@ body {
     margin-left: 3rem;
 }
 
-.background-image1{
+.d-background-image1{
     display: none;
 }
 
-.container3{
+.d-container3{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -789,7 +789,7 @@ body {
     margin-left: -9rem;
 }
 
-.container3 h1 {
+.d-container3 h1 {
     width: 45rem;
     height: 13.125rem;
     font-size: 4rem;
@@ -798,7 +798,7 @@ body {
     opacity: .95;
 }
 
-.container3p31 {
+.d-container3p31 {
     width: 32.5rem;
     height: 2.75rem;
     margin-bottom: .8rem;
@@ -808,11 +808,11 @@ body {
     font-size: 1rem;
 }
 
-.container3p32 {
+.d-container3p32 {
     display: none;
 }
 
-.page3-button {
+.d-page3-button {
     width: 10.9375rem;
     height: 3.125rem;
     border-radius: .75rem;
@@ -820,7 +820,7 @@ body {
     background: rgba(255, 255, 255, 1);
 }
 
-.page3-button p{
+.d-page3-button p{
     font-size: 1rem;
     font-weight: 500;
     color: rgba(23, 30, 36, 1);
@@ -828,12 +828,12 @@ body {
     cursor: pointer;
 }
 
-.page3-buttonspan {
+.d-page3-buttonspan {
     position: relative;
     top: -.1rem;
 }
 
-.page3-buttonspan img{
+.d-page3-buttonspan img{
     height: .4rem;
     width: .4rem;
     border-radius: 50%;
@@ -845,7 +845,7 @@ body {
 /* page-4 CSS start*/
 
 
-.page-4{
+.d-page-4{
     height: 45rem;
     width: 100%;
     display: flex;
@@ -854,20 +854,20 @@ body {
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #EFF2F4, #EFF2F4);
 }
 
-.p4up{
+.d-p4up{
     width: 80.5%;
     height: 45%;
     margin-top: 12.5rem;
     /* border: 4px solid yellow; */
 }
 
-.p4up-flex{
+.d-p4up-flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.p4up-left{
+.d-p4up-left{
     font-family:  TWK Lausanne;
     width: 31.9375rem;
     height: 8.75rem;
@@ -881,7 +881,7 @@ body {
 
 }
 
-.p4up-left-star {
+.d-p4up-left-star {
     position: relative;
     top: .5rem;
     margin-left: -.4rem;
@@ -889,7 +889,7 @@ body {
     height: 3.875rem;
 }
 
-.p4up-right{
+.d-p4up-right{
     width: 38%;
     height: 100%;
     margin-left: 18rem;
@@ -902,14 +902,14 @@ body {
     padding: 1%;
 }
 
-.p4up-right p{
+.d-p4up-right p{
     font-weight: 300;
     width: 25rem;
     margin-top: .3rem;
     font-size: .78rem;
 }
 
-.page4-button {
+.d-page4-button {
     display: flex;
     flex-direction: row;
     border: .1rem solid rgba(62, 131, 235, 0.15);
@@ -920,21 +920,21 @@ body {
     padding-top: .5rem;
 }
 
-.page4-buttonimg {
+.d-page4-buttonimg {
     margin-left: 1.4rem;
     height: .4rem;
     width: .6rem;
     margin-top: .5rem;
 }
 
-.page4-button p{
+.d-page4-button p{
     color: rgba(62, 131, 235, 1);
     font-size: .8rem;
     font-weight: 500;
     cursor: pointer;
 }
 
-.p4down{
+.d-p4down{
     width: 100%;
     height: 48%;
     /* border: 4px solid yellow; */
@@ -945,7 +945,7 @@ body {
     margin-top: -3rem;
 }
 
-.quotes{
+.d-quotes{
     padding: 2%;
     border-radius: 2%;
     height: 100%;
@@ -957,25 +957,25 @@ body {
     background: #3E83EB1A;    
 }
 
-.page4-reviewp1 {
+.d-page4-reviewp1 {
     font-size: 1.2rem;
 }
 
-.page4-reviewp2 {
+.d-page4-reviewp2 {
     font-size: 1.2rem;
 }
 
-.page4-reviewp3 {
+.d-page4-reviewp3 {
     font-size: 1.2rem;
 }
 
-.quotes p{
+.d-quotes p{
     /* border: 4px solid green; */
     width: 86%;
     height: 6rem
 }
 
-.quotes .discord{
+.d-quotes .d-discord{
     /* border: 4px solid green; */
     width: 25%;
     font-size: .6rem;
@@ -983,47 +983,47 @@ body {
     color: rgba(62, 131, 235, 1);
 }
 
-.quotes .Mchein{
+.d-quotes .d-Mchein{
     /* border: 4px solid green; */
     width: 50%;
     font-size: .6rem;
 }
 
-.Mchein span {
+.d-Mchein span {
     opacity: .5;
 }
 
-.quote-left{
+.d-quote-left{
     height: 14rem;
     width: 87rem;
     margin-left: -4rem;
 }
 
-.quote-right{
+.d-quote-right{
     height: 14rem;
     width: 87rem;
     margin-top: .1rem;
 }
 
-.quote-mid{
+.d-quote-mid{
     height: 14rem;
     width: 87rem;
     margin-top: .5rem;
 }
 
-.quote1{
+.d-quote1{
     margin-top: -2.95rem;
     margin-bottom: .5rem;
     font-size: 1.8rem;
 }
 
-#quote2{
+#d-quote2{
     margin-top: -2.95rem;
     margin-bottom: .5rem;
     font-size: 1.8rem;
 }
 
-#quote3{
+#d-quote3{
     margin-top: -2.95rem;
     margin-bottom: .5rem;
     font-size: 1.8rem;
@@ -1031,42 +1031,35 @@ body {
 
 /* /page-4 CSS end */
 
-.page-4 {
+
+.d-page-55 {
     display: none;
 }
 
-.page-5 {
-    display: none;
-}
-
-.page-55 {
-    display: none;
-}
-
-.page-6 {
+.d-page-6 {
     display: none;
 }   
 
-.page-7 {
+.d-page-7 {
     display: none;
 }   
 
-.page-8 {
+.d-page-8 {
     display: none;
 }   
 
-.page-9 {
+.d-page-9 {
     display: none;
 }   
 
-.page-10 {
+.d-page-10 {
     display: none;
 }   
 
-.page-11 {
+.d-page-11 {
     display: none;
 }   
 
-.page-12 {
+.d-page-12 {
     display: none;
 }
