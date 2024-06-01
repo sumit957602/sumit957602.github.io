@@ -1031,10 +1031,80 @@ body {
 
 /* /page-4 CSS end */
 
+/* page 5 css start */
 
 .d-page-55 {
-    display: none;
+    width: 117rem;
+    margin-left: 1.5rem;
+    height: 80.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    background: url(img/Fra542.png) no-repeat center center/cover;
+    border-radius: 2rem;
 }
+
+.d-page55 {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-page5-start{
+    display: flex;
+    flex-direction: column;
+}
+
+.d-page5-h1{
+    width: 32.5rem;
+    height: 8.75rem;
+    margin-top: 7.5rem;
+    margin-left: 16.9375rem;
+    color: rgba(255, 255, 255, 1);
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: -.02rem;
+}
+
+.d-page55-imgg{
+    margin-top: 2.8125rem;
+    margin-left: 16.9375rem;
+}
+
+.d-page5-img{
+    height: 53.9375;
+    width: 40.9375rem;
+}
+
+.d-page5-button{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2rem;
+    margin-left: 23.57rem;
+}
+
+.d-page5-box1{
+    background-color: rgb(26 44 64);
+    height: 3rem;
+    width: 13rem;
+   border-radius: .4rem;
+   margin-top: 6rem;
+   color: white;
+   font-size: 1rem;
+}
+
+.d-page5-box2{
+    background-color: rgb(255, 255, 255);
+    height: 3.125rem;
+    width: 14rem;
+   border-radius: .75rem;
+   padding: .875rem, 1rem, .875rem, 1rem;
+   margin-top: 9.8125rem;
+   color: rgb(37, 23, 58);
+   text-align:center;
+   font-size: 1rem;
+}
+
+/* page 5 css end */
+
 
 .d-page-6 {
     display: none;
