@@ -882,13 +882,283 @@ body {
 
 /* /page-2  CSS end*/
 
+/* page-3 CSS start*/
+
 .d-page-3 {
+    display: flex;
+    flex-direction: row;
+    background: url(img/Fra5413.png) no-repeat center center/cover;
+    width: 117rem;
+    height: 60rem;
+    margin-left: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 2rem;
+    padding-top: 1.3rem;
+}
+
+.d-background-image {
+    border-radius: .2rem; 
+    height: 55.8rem;
+    width: 68.6875rem;
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+
+.d-background-image1{
     display: none;
 }
 
-.d-page-4 {
+.d-container3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 35rem;
+    margin-top: 16.7rem;
+    margin-left: -9rem;
+}
+
+.d-container3 h1 {
+    width: 45rem;
+    height: 13.125rem;
+    font-size: 4rem;
+    margin-bottom: .5rem;
+    color: rgba(255, 255, 255, 1);
+    opacity: .95;
+}
+
+.d-container3p31 {
+    width: 32.5rem;
+    height: 2.75rem;
+    margin-bottom: .8rem;
+    margin-top: .3rem;
+    color: rgba(255, 255, 255, 1);
+    opacity: .7;
+    font-size: 1rem;
+}
+
+.d-container3p32 {
     display: none;
 }
+
+.d-page3-button {
+    width: 10.9375rem;
+    height: 3.125rem;
+    border-radius: .75rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.d-page3-button p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(23, 30, 36, 1);
+    opacity: 1;
+    cursor: pointer;
+}
+
+.d-page3-buttonspan {
+    position: relative;
+    top: -.1rem;
+}
+
+.d-page3-buttonspan img{
+    height: .4rem;
+    width: .4rem;
+    border-radius: 50%;
+    margin-right: .7rem;
+}
+
+/* /page-3 CSS end*/
+
+/* page-4 CSS start*/
+
+
+.d-page-4{
+    height: 45rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #EFF2F4, #EFF2F4);
+}
+
+.d-p4up{
+    width: 80.5%;
+    height: 45%;
+    margin-top: 12.5rem;
+    /* border: 4px solid yellow; */
+}
+
+.d-p4up-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.d-p4up-left{
+    font-family:  TWK Lausanne;
+    width: 31.9375rem;
+    height: 8.75rem;
+    margin-left: 10rem;
+    /* border: 4px solid yellow; */
+    font-weight: 600;
+    font-family: TWK Lausanne;
+    font-size: 4rem;
+    letter-spacing: 0;
+    text-align: left;
+
+}
+
+.d-p4up-left-star {
+    position: relative;
+    top: .5rem;
+    margin-left: -.4rem;
+    width: 3.3125rem;
+    height: 3.875rem;
+}
+
+.d-p4up-right{
+    width: 38%;
+    height: 100%;
+    margin-left: 18rem;
+    /* border: 4px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 10%;
+    padding: 1%;
+}
+
+.d-p4up-right p{
+    font-weight: 300;
+    width: 25rem;
+    margin-top: .3rem;
+    font-size: .78rem;
+}
+
+.d-page4-button {
+    display: flex;
+    flex-direction: row;
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    padding-top: .5rem;
+}
+
+.d-page4-buttonimg {
+    margin-left: 1.4rem;
+    height: .4rem;
+    width: .6rem;
+    margin-top: .5rem;
+}
+
+.d-page4-button p{
+    color: rgba(62, 131, 235, 1);
+    font-size: .8rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.d-p4down{
+    width: 100%;
+    height: 48%;
+    /* border: 4px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1%;  
+    margin-top: -3rem;
+}
+
+.d-quotes{
+    padding: 2%;
+    border-radius: 2%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 1%;
+    background: #3E83EB1A;    
+}
+
+.d-page4-reviewp1 {
+    font-size: 1.2rem;
+}
+
+.d-page4-reviewp2 {
+    font-size: 1.2rem;
+}
+
+.d-page4-reviewp3 {
+    font-size: 1.2rem;
+}
+
+.d-quotes p{
+    /* border: 4px solid green; */
+    width: 86%;
+    height: 6rem
+}
+
+.d-quotes .d-discord{
+    /* border: 4px solid green; */
+    width: 25%;
+    font-size: .6rem;
+    margin-bottom: 2rem;
+    color: rgba(62, 131, 235, 1);
+}
+
+.d-quotes .d-Mchein{
+    /* border: 4px solid green; */
+    width: 50%;
+    font-size: .6rem;
+}
+
+.d-Mchein span {
+    opacity: .5;
+}
+
+.d-quote-left{
+    height: 14rem;
+    width: 87rem;
+    margin-left: -4rem;
+}
+
+.d-quote-right{
+    height: 14rem;
+    width: 87rem;
+    margin-top: .1rem;
+}
+
+.d-quote-mid{
+    height: 14rem;
+    width: 87rem;
+    margin-top: .5rem;
+}
+
+.d-quote1{
+    margin-top: -2.95rem;
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+}
+
+#d-quote2{
+    margin-top: -2.95rem;
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+}
+
+#d-quote3{
+    margin-top: -2.95rem;
+    margin-bottom: .5rem;
+    font-size: 1.8rem;
+}
+
+/* /page-4 CSS end */
+
 
 .d-page-5 {
     display: none;
