@@ -888,8 +888,8 @@ body {
     display: flex;
     flex-direction: row;
     background: url(img/Fra5413.png) no-repeat center center/cover;
-    width: 117rem;
-    height: 60rem;
+    width: 87rem;
+    height: 47.5rem;
     margin-left: 1.5rem;
     color: rgba(255, 255, 255, 1);
     border-radius: 2rem;
@@ -898,10 +898,10 @@ body {
 
 .d-background-image {
     border-radius: .2rem; 
-    height: 55.8rem;
-    width: 68.6875rem;
+    width: 54.95rem;
+    height: 43rem;
     margin-top: 2.5rem;
-    margin-left: 3rem;
+    margin-left: 2.5rem;
 }
 
 .d-background-image1{
@@ -912,15 +912,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 35rem;
-    margin-top: 16.7rem;
-    margin-left: -9rem;
+    width: 32.5rem;
+    margin-top: 13rem;
+    margin-left: -10rem;
 }
 
 .d-container3 h1 {
-    width: 45rem;
-    height: 13.125rem;
-    font-size: 4rem;
+    width: 32.5rem;
+    height: 9.9375rem;
+    font-size: 3rem;
     margin-bottom: .5rem;
     color: rgba(255, 255, 255, 1);
     opacity: .95;
@@ -974,7 +974,7 @@ body {
 
 
 .d-page-4{
-    height: 45rem;
+    height: 42rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -997,13 +997,13 @@ body {
 
 .d-p4up-left{
     font-family:  TWK Lausanne;
-    width: 31.9375rem;
+    width: 25.5rem;
     height: 8.75rem;
-    margin-left: 10rem;
+    margin-left: 4rem;
     /* border: 4px solid yellow; */
     font-weight: 600;
     font-family: TWK Lausanne;
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: 0;
     text-align: left;
 
@@ -1013,8 +1013,8 @@ body {
     position: relative;
     top: .5rem;
     margin-left: -.4rem;
-    width: 3.3125rem;
-    height: 3.875rem;
+    width: 2.6875rem;
+    height: 3.125rem;
 }
 
 .d-p4up-right{
