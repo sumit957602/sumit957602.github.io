@@ -1179,7 +1179,7 @@ body {
     width: 32.5rem;
 }
 
-.d-page6-text2 p{
+.d-page6-text2-p{
     width: 32.5rem;
     height: 4.125rem;
     opacity: .7;
@@ -1213,13 +1213,13 @@ body {
 .d-page6-end{
     display: flex;
     flex-direction: column;
+    margin-top: 12.5rem;
     width: 110rem;
 }
 
 .d-page6-endimg1{
     width: 105rem;
     margin-left: 1.5rem;
-    margin-top: 2rem;
     height: 22rem;
 }
 
