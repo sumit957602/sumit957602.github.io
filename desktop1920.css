@@ -1105,10 +1105,212 @@ body {
 
 /* page 5 css end */
 
+/* page 6 css start */
+.d-page-6{
+    width: 100%;
+    height: 85rem;
+    background: rgba(255, 255, 255, 1);
+}
 
-.d-page-6 {
+.d-page6{
+    margin-top: 12.5rem;
+}
+
+.d-page6-text11 h1{
+    width: 66.9375rem;
+    height: 8.75rem;
+    margin-left: 26.5625rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #111010;
+    align-items: center;
+}
+
+.d-page6-span1{
+    width: 12rem;
+    height: 4.875rem;
+    font-size: 4rem;
+    color: rgb(14, 174, 14);
+    background-color: rgba(80, 164, 51, 0.1);
+    padding: .5rem .75rem .5rem .75rem;
+    border-radius: 1.5rem;
+}
+
+.d-page6-span2{
+    width: 8.4375rem;
+    height: 4.875rem;
+    color: rgb(228, 65, 65);
+    background-color: rgba(237, 73, 73, 0.1);
+    padding: .5rem .75rem .5rem .75rem;
+    border-radius: .4rem;
+    border-radius: 8px;
+}
+
+.d-page6-span3 {
+    margin-left: 4rem;
+}
+
+.d-page6-img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.d-page6-img1 img{
+    width: 49.375rem;
+    height: 35rem;
+    margin-right: 1.25rem;
+    border-radius: 1rem;
+}
+
+.d-page6-img21{
+    width: 49.375rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+
+.d-page6-img22{
     display: none;
-}   
+}
+
+.d-page6-text2 {
+    margin-top: 2rem;
+    width: 32.5rem;
+}
+
+.d-page6-text2 p{
+    width: 32.5rem;
+    height: 4.125rem;
+    opacity: .7;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.35rem;
+}
+
+.d-page6-button{
+    margin-top: 1.5rem;
+    height: 3.125rem;
+    width: 15.1875rem;
+    border-radius: .75rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.d-page6-elipse{
+    height: .5rem;
+    width: .5rem;
+    margin-right: .5rem;
+}
+
+.d-page6-button p{
+    font-size: .9rem;
+    cursor: pointer;
+    color: rgba(62, 131, 235, 1);
+    font-weight: 500;
+}
+
+.d-page6-end{
+    display: flex;
+    flex-direction: column;
+    width: 110rem;
+}
+
+.d-page6-endimg1{
+    width: 105rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    height: 22rem;
+}
+
+.d-page6-end-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-top: -18rem;
+}
+
+.d-page6-endimg2 {
+    display: none;
+}
+
+.d-page6-text1 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 3.3rem;
+    margin-left: 7rem;
+}
+
+.d-page6-endtext1 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+    margin-left: 6rem;
+    margin-top: -.5rem;
+    letter-spacing: 0rem;
+    opacity: .95;
+    width: 35rem;
+}
+
+.d-page6-text2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    width: 36rem;
+    color:  rgba(23, 30, 36, 1);
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.d-page6-endtext2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0rem;
+    width: 36rem;
+    color:  rgba(23, 30, 36, 1);
+    font-weight: 100;
+    font-size: 0.8rem;
+    opacity: .8;
+}
+
+.d-page6-subtext {
+    color: rgba(255, 255, 255, 1);
+    font-size: .8rem;
+    margin-left: 10rem;
+    font-weight: 200;
+    /* font-weight: 600; */
+}
+
+.d-page6-endbutton {
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    width: 8.2rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    border-radius: .8rem;
+    margin-left: 10rem;
+    opacity: 1;
+    background: rgba(255, 255, 255, 1);
+}
+
+.d-page6-endbutton p{
+    color: rgba(23, 30, 36, 1);
+}
+
+.d-page6-buttondot {
+    margin-right: 0.8rem;
+    border-radius: 50%;
+}
+
+.d-page6-buttondot img{
+    height: .4rem;
+    width: .4rem;
+    margin-left: -.2rem;
+    margin-top: -1.3rem;
+}
+
+/* page 6 css end */  
 
 .d-page-7 {
     display: none;
