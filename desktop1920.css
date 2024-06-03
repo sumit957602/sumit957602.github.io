@@ -1215,19 +1215,15 @@ body {
     flex-direction: column;
     margin-top: 12.5rem;
     width: 110rem;
-}
-
-.d-page6-endimg1{
-    width: 105rem;
-    margin-left: 1.5rem;
     height: 22rem;
+    margin-left: 1.5rem;
+    background-color: #514697;
 }
 
 .d-page6-end-text {
     display: flex;
     flex-direction: row;
     margin-left: 2rem;
-    margin-top: -18rem;
 }
 
 .d-page6-endimg2 {
@@ -1246,7 +1242,6 @@ body {
     color: rgb(255, 255, 255);
     font-size: 2.7rem;
     margin-left: 6rem;
-    margin-top: -.5rem;
     letter-spacing: 0rem;
     opacity: .95;
     width: 35rem;
@@ -1306,19 +1301,344 @@ body {
 .d-page6-buttondot img{
     height: .4rem;
     width: .4rem;
-    margin-left: -.2rem;
-    margin-top: -1.3rem;
 }
 
 /* page 6 css end */  
 
-.d-page-7 {
-    display: none;
-}   
+/* page 7 css start */
 
-.d-page-8 {
-    display: none;
-}   
+.d-page-7{
+    width: 99%;
+    height: 188rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.d-page7-start{
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.d-page7-img1 img{
+    height: 37.5rem;
+    width: 49.375rem;
+    margin-right: 12rem;
+}
+
+.d-page7-text1{
+    width: 30rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.d-page7-text1p1 {
+    margin-top: .5rem;
+    width: 26rem;
+    opacity: .7;
+}
+
+#d-button71{
+    margin-top: 1rem;
+    padding-top: 0rem;
+    color: rgb(118, 118, 255);
+}
+
+.d-page7-middle1{
+    display: flex;
+    flex-direction: row;
+}
+
+.d-page7-img2 img{
+    height: 37.5rem;
+    width: 49.375rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
+
+.d-page7-text2{
+    width: 30rem;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.d-page7-text2p1 {
+    margin-top: .5rem;
+    width: 26rem;
+    opacity: .7;
+}
+
+#d-button72{
+    margin-top: 1rem;
+}
+
+.d-page7-middle2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.d-page7-img3 img{
+    height: 37.5rem;
+    width: 49.375rem;
+    margin-right: 12rem;
+    margin-top: 1rem;
+}
+
+.d-page7-text3{
+    width: 30rem;
+    margin-right: 10rem;
+    margin-top: 3rem;
+}
+
+.d-page7-text3p1 {
+    margin-top: .5rem;
+    width: 26rem;
+    opacity: .7;
+}
+
+.d-page7-button1 {
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 2.5rem;
+    width: 10.8rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    font-size: 1rem;
+}
+
+.d-page7-elipse1 {
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.8rem;
+    margin-top: -1rem;
+}
+
+.d-page7-button2 {
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    font-size: 1rem;
+}
+
+.d-page7-elipse2 {
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.8rem;
+    margin-top: -1rem;
+}
+
+.d-page7-button3 {
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.d-page7-elipse3 {
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.8rem;
+    margin-top: -1rem;
+}
+
+.d-page7-button4 {
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    font-size: 1rem;
+}
+
+.d-page7-text4p1 {
+    margin-top: .5rem;
+    width: 26rem;
+    opacity: .7;
+}
+
+.d-page7-elipse4 {
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.8rem;
+    margin-top: -1rem;
+}
+
+.d-page7-end{
+    display: flex;
+    flex-direction: row;
+}
+.d-page7-elipse{
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.4rem;
+}
+.d-page7-img4 img{
+    height: 37.5rem;
+    width: 49.375rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
+
+.d-page7-text4{
+    width: 30rem;
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+#d-button74{
+    margin-top: 1rem;
+}
+
+.d-page7-container {
+    display: flex;
+    height: 30rem;
+    width: 117rem;
+    background: rgba(228, 238, 250, 1);
+    margin-left: 1.5rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+}
+
+.d-page7-boximg{
+    display: flex;
+    margin-left: 11rem;
+    height: 33.8125rem;
+    width: 35.875rem;
+    margin-top: -4.5rem;
+}
+
+.d-page7-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.d-page7-text-h11 {
+    margin-top: 7rem;
+    color: rgb(10, 7, 7);
+    font-size: 2.8rem;
+    width: 29rem;
+    margin-left: 2rem;
+    letter-spacing: 0rem;
+}
+
+.d-subsstext{
+    font-size: .8rem;
+    color: grey;
+    margin-left: 2rem;
+    margin-top: .5rem;
+}
+
+.d-page7-button5 {
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 2.5rem;
+    width: 12rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    margin-left: 2rem;
+    margin-top: .8rem;
+    font-size: 1rem;
+}
+
+.d-page7-elipse5 {
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.8rem;
+    margin-top: -1rem;
+}
+/* page 7 css end */  
+
+/* page 8 css start */
+.d-page-8{
+    width: 99%;
+    height: 70rem;
+    background: rgba(255, 255, 255, 1);
+}
+
+.d-page81{
+    margin-top: 5rem;
+}
+
+.d-page8-textup {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-page8-textup1{
+    width: 30rem;
+    margin-left: 10rem;
+}
+
+.d-page8-textup2{
+    width: 15rem;
+    margin-left: 10rem;
+}
+
+.d-page8-middle{
+    display: flex;
+    flex-direction: row;
+}
+
+.d-page8-middleimg img{
+    height: 23rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    border-radius: .5rem;
+}
+
+.d-page8-middletext h1{
+    font-size: 2rem;
+    margin-top: 7rem;
+    margin-left: 3rem;
+    width: 17rem;
+    margin-bottom: .5rem;
+}
+
+.d-page8-middletextp1 {
+    width: 25rem;
+    font-size: .9rem;
+    margin-left: 3rem;
+    font-weight: 500;
+    opacity: .7;
+}
+
+.d-page8-button1 {
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    height: 2.5rem;
+    width: 12rem;
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    margin-left: 3rem;
+    margin-top: .8rem;
+    font-size: 1rem;
+    opacity: 1;
+}
+
+.d-page8-button1 p{
+    margin-left: .1rem;
+}
+
+.d-page8-button1 img {
+    margin-top: -.2rem;
+}
+
+.d-page8-elipse {
+    margin-right: .5rem;
+}
+
+
+
+/* page 8 css end */  
 
 .d-page-9 {
     display: none;
