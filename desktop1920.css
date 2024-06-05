@@ -1318,7 +1318,7 @@ body {
 
 .d-page-7{
     width: 99%;
-    height: 205rem;
+    height: 208rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1568,6 +1568,11 @@ body {
     border-radius: 2rem;
 }
 
+.d-page7-box{
+    display: flex;
+    flex-direction: row;
+}
+
 .d-page7-boximg{
     display: flex;
     margin-left: 8.4375rem;
@@ -1591,11 +1596,15 @@ body {
     letter-spacing: 0rem;
 }
 
-.d-subsstext{
-    font-size: .8rem;
+.d-subsstext-end1 {
+    width: 26.25rem;
+    height: 2.75rem;
+    font-size: 1rem;
+    font-weight: 300;
     color: grey;
     margin-left: 2rem;
     margin-top: .5rem;
+    padding-right: 1.5rem;
 }
 
 .d-page7-button5 {
@@ -1623,10 +1632,11 @@ body {
     width: 99%;
     height: 70rem;
     background: rgba(255, 255, 255, 1);
+    padding-left: 10rem;
 }
 
 .d-page81{
-    margin-top: 5rem;
+    margin-top: 12.5rem;
 }
 
 .d-page8-textup {
@@ -1635,69 +1645,73 @@ body {
 }
 
 .d-page8-textup1{
-    width: 30rem;
-    margin-left: 10rem;
+    width: 49.375rem;
+    height: 13.125rem;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    letter-spacing: -.01rem;
 }
 
 .d-page8-textup2{
-    width: 15rem;
-    margin-left: 10rem;
+    width: 40.9375rem;
+    height: 8.75rem;
+    margin-left: 9.6875rem;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.4rem;
+    padding-right: 14rem;
 }
 
 .d-page8-middle{
     display: flex;
     flex-direction: row;
+    margin-top: 3rem;
 }
 
 .d-page8-middleimg img{
-    height: 23rem;
-    margin-left: 10rem;
-    margin-top: 5rem;
-    border-radius: .5rem;
+    width: 56.5625rem;
+    height: 37.5rem;
+    border-radius: 1rem;
 }
 
 .d-page8-middletext h1{
-    font-size: 2rem;
-    margin-top: 7rem;
-    margin-left: 3rem;
-    width: 17rem;
+    width: 18rem;
+    height: 5.5rem;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
     margin-bottom: .5rem;
 }
 
 .d-page8-middletextp1 {
     width: 25rem;
-    font-size: .9rem;
-    margin-left: 3rem;
-    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    font-weight: 300;
     opacity: .7;
 }
 
 .d-page8-button1 {
     border: .1rem solid rgba(62, 131, 235, 0.15);
-    height: 2.5rem;
-    width: 12rem;
+    height: 3.125rem;
+    width: 13.375rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: .8rem;
     font-size: 1rem;
-    opacity: 1;
-}
-
-.d-page8-button1 p{
-    margin-left: .1rem;
-}
-
-.d-page8-button1 img {
-    margin-top: -.2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .d-page8-elipse {
-    margin-right: .5rem;
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-right: 0.8rem;
+    margin-top: -1rem;
 }
-
-
 
 /* page 8 css end */  
 
