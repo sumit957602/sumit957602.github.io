@@ -2046,22 +2046,26 @@ body {
 }
 
 .d-page10-con4text{
-    margin-top: 1rem;
-    margin-left: 1rem;
+    margin-top: 2.125rem;
+    margin-left: 2rem;
 }
 
 .d-page10-con4text h1{
-    margin-top: 1rem;
-    margin-left: 1rem;
+    width: 8.125rem;
+    height: 2.1875rem;
+    font-size: 2rem;
+    font-weight: 600;
     color: rgba(255, 255, 255, 1);
+    letter-spacing: -.037rem;
 }
 
 .d-page10-con4text p{
-    margin-top: .1rem;
-    margin-left: 1.5rem;
     color: rgba(255, 255, 255, 1);
-    font-size: .7rem;
-    width: 16rem;
+    font-size: 1rem;
+    width: 21.4375rem;
+    height: 2.75rem;
+    margin-top: .5rem;
+    opacity: .7;
 }
 
 .d-page10-con4button1{
@@ -2075,7 +2079,7 @@ body {
     background: rgba(92, 149, 234, 0.1);
     padding-top: .2rem;
     padding-left: .6rem;
-    margin-left: 19rem;
+    margin-left: 26rem;
     margin-top: 2.8rem;
 }
 
