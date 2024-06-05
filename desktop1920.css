@@ -1318,7 +1318,7 @@ body {
 
 .d-page-7{
     width: 99%;
-    height: 188rem;
+    height: 205rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1374,58 +1374,6 @@ body {
     font-weight: 450;
 }
 
-.d-page7-middle1{
-    display: flex;
-    flex-direction: row;
-}
-
-.d-page7-img2 img{
-    height: 37.5rem;
-    width: 49.375rem;
-    margin-left: 15rem;
-    margin-top: 1rem;
-}
-
-.d-page7-text2{
-    width: 30rem;
-    margin-left: 6rem;
-    margin-top: 3rem;
-}
-
-.d-page7-text2p1 {
-    margin-top: .5rem;
-    width: 26rem;
-    opacity: .7;
-}
-
-#d-button72{
-    margin-top: 1rem;
-}
-
-.d-page7-middle2{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.d-page7-img3 img{
-    height: 37.5rem;
-    width: 49.375rem;
-    margin-right: 12rem;
-    margin-top: 1rem;
-}
-
-.d-page7-text3{
-    width: 30rem;
-    margin-right: 10rem;
-    margin-top: 3rem;
-}
-
-.d-page7-text3p1 {
-    margin-top: .5rem;
-    width: 26rem;
-    opacity: .7;
-}
-
 .d-page7-elipse1 {
     height: 0.4rem;
     width: 0.4rem;
@@ -1433,14 +1381,56 @@ body {
     margin-top: -1rem;
 }
 
+.d-page7-middle1{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+.d-page7-img2 img{
+    height: 37.5rem;
+    width: 49.375rem;
+}
+
+.d-page7-text2{
+    width: 40.9375rem;
+    height: 19.875rem;
+    margin-left: 1rem;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.d-page7-text2h1 {
+    width: 36.9375rem;
+    height: 5.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    margin-bottom: .5rem;
+}
+
+.d-page7-text2p1 {
+    width: 26.25rem;
+    height: 2.75rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.35rem;
+    padding-right: 1.5rem;
+    opacity: .7;
+}
+
 .d-page7-button2 {
+    width: 11.5625rem;
+    height: 3.125rem;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     border: .1rem solid rgba(62, 131, 235, 0.15);
-    height: 2.5rem;
-    width: 10rem;
-    border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
     font-size: 1rem;
+    font-weight: 450;
 }
 
 .d-page7-elipse2 {
@@ -1450,15 +1440,56 @@ body {
     margin-top: -1rem;
 }
 
+.d-page7-middle2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+.d-page7-img3 img{
+    height: 37.5rem;
+    width: 49.375rem;
+    margin-left: 9.6875rem;
+}
+
+.d-page7-text3{
+    width: 40.9375rem;
+    height: 19.875rem;
+    margin-left: 0rem;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.d-page7-text3h1 {
+    width: 36.9375rem;
+    height: 5.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    margin-bottom: .5rem;
+}
+
+.d-page7-text3p1 {
+    width: 26.25rem;
+    height: 4.125rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.35rem;
+    opacity: .7;
+}
+
 .d-page7-button3 {
+    width: 11.5625rem;
+    height: 3.125rem;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     border: .1rem solid rgba(62, 131, 235, 0.15);
-    height: 2.5rem;
-    width: 10rem;
-    border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
-    margin-top: 1rem;
     font-size: 1rem;
+    font-weight: 450;
 }
 
 .d-page7-elipse3 {
@@ -1468,20 +1499,56 @@ body {
     margin-top: -1rem;
 }
 
-.d-page7-button4 {
-    border: .1rem solid rgba(62, 131, 235, 0.15);
-    height: 2.5rem;
-    width: 10rem;
-    border-radius: .5rem;
-    background: rgba(62, 131, 235, 0.1);
-    color: rgba(62, 131, 235, 1);
-    font-size: 1rem;
+.d-page7-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+
+.d-page7-img4 img{
+    height: 37.5rem;
+    width: 49.375rem;
+}
+
+.d-page7-text4 {
+    width: 40.9375rem;
+    height: 19.875rem;
+    margin-left: 1rem;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.d-page7-text4h1 {
+    width: 36.9375rem;
+    height: 5.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    margin-bottom: .5rem;
 }
 
 .d-page7-text4p1 {
-    margin-top: .5rem;
-    width: 26rem;
+    width: 26.25rem;
+    height: 4.125rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.35rem;
+    padding-right: 1.5rem;
     opacity: .7;
+}
+
+.d-page7-button4 {
+    width: 11.5625rem;
+    height: 3.125rem;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    font-size: 1rem;
+    font-weight: 450;
 }
 
 .d-page7-elipse4 {
@@ -1491,49 +1558,22 @@ body {
     margin-top: -1rem;
 }
 
-.d-page7-end{
-    display: flex;
-    flex-direction: row;
-}
-.d-page7-elipse{
-    height: 0.4rem;
-    width: 0.4rem;
-    margin-right: 0.4rem;
-}
-.d-page7-img4 img{
-    height: 37.5rem;
-    width: 49.375rem;
-    margin-left: 15rem;
-    margin-top: 1rem;
-}
-
-.d-page7-text4{
-    width: 30rem;
-    margin-left: 6rem;
-    margin-top: 3rem;
-}
-
-#d-button74{
-    margin-top: 1rem;
-}
-
 .d-page7-container {
     display: flex;
     height: 30rem;
     width: 117rem;
     background: rgba(228, 238, 250, 1);
     margin-left: 1.5rem;
-    margin-top: 6rem;
-    margin-bottom: 3rem;
-    border-radius: 1rem;
+    margin-top: 17.5rem;
+    border-radius: 2rem;
 }
 
 .d-page7-boximg{
     display: flex;
-    margin-left: 11rem;
+    margin-left: 8.4375rem;
     height: 33.8125rem;
     width: 35.875rem;
-    margin-top: -4.5rem;
+    margin-top: -7.5rem;
 }
 
 .d-page7-text {
