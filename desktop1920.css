@@ -2121,8 +2121,9 @@ body {
     width: 0.4rem;
     margin-right: 0.4rem;
 }
+
 .d-page11-con1 h1{
-    margin-left: 1.3rem;
+    margin-left: 2rem;
     margin-top: 1rem;
 }
 
@@ -2131,13 +2132,13 @@ body {
     width: 12rem;
     font-size: 1rem;
     font-weight: 500;
-    color: rgb(248, 248, 248);
+    color: black;
     margin-bottom: 1rem;
     border-radius: .5rem;
-    background: rgba(92, 149, 234, 0.3);
+    background: white;
     padding-top: .1rem;
     padding-left: .2rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-top: 1rem;
 }
 
@@ -2159,15 +2160,17 @@ body {
 }
 
 .d-page11con2-img img{
-    height: 12.5rem;
-    width: 14rem;
+    height: 16.5rem;
+    width: 16.5rem;
     margin-left: .5rem;
-    margin-top: .2rem;
+    margin-top: .5rem;
+    border-radius: 1rem;
 }
 
 .d-page11-mid{
     display: flex;
     flex-direction: row;
+    margin-left: 10rem;
 }
 
 .d-page11-right{
@@ -2180,7 +2183,6 @@ body {
 }
 
 .d-page11-textbox1{
-    margin-left: 9.8rem;
     margin-top: 3rem;
     width: 60rem;
     height: 10rem;
@@ -2199,7 +2201,6 @@ body {
 
 .d-page11-textbox2{
     margin-top: 1rem;
-    margin-left: -42rem;
 }
 
 .d-page11-textbox2 p{
