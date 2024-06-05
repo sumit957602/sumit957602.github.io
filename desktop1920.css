@@ -1874,151 +1874,173 @@ body {
 .d-page10-con1mid1{
     display: flex;
     flex-direction: column;
-    height: 2.5rem;
-    width: 7rem;
+    height: 4.125rem;
+    width: 9.3125rem;
     background: rgb(248, 248, 248, 1);
-    border-radius: .5rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
-.d-page10-con1mid1 p{
-    padding-top: .7rem;
-    padding-left: 1.2rem;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+    border-radius: .75rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .d-page10-con2mid1{
-    height: 2.5rem;
-    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    height: 4.125rem;
+    width: 9.3125rem;
     background: rgb(248, 248, 248, 1);
-    border-radius: .5rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
-.d-page10-con2mid1 p{
-    padding-top: .7rem;
-    padding-left: 1.2rem;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+    border-radius: .75rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .d-page10-con3mid1{
-    height: 2.5rem;
-    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    height: 4.125rem;
+    width: 9.3125rem;
     background: rgb(248, 248, 248, 1);
-    border-radius: .5rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
-.d-page10-con3mid1 p{
-    padding-top: .7rem;
-    padding-left: 1.2rem;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+    border-radius: .75rem;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 .d-page10-con1mid2 h1{
-    width: 16rem;
-    font-size: 1.9rem;
-    margin-top: .8rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    width: 24.75rem;
+    height: 6.625rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
 }
 
 .d-page10-con2mid2 h1{
-    width: 16rem;
-    font-size: 1.9rem;
-    margin-top: .8rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    width: 24.75rem;
+    height: 6.625rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
 }
 
 .d-page10-con3mid2 h1{
-    width: 16rem;
-    font-size: 1.9rem;
-    margin-top: .8rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    width: 24.75rem;
+    height: 6.625rem;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
 }
 
 .d-page10-con1mid2 p{
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    width: 26.25rem;
+    height: 2.75rem;
+    margin-left: 2.5rem;
     font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    opacity: .7;
 }
 
 .d-page10-con2mid2 p{
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    width: 26.25rem;
+    height: 2.75rem;
+    margin-left: 2.5rem;
     font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    opacity: .7;
 }
 
 .d-page10-con3mid2 p{
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+    width: 26.25rem;
+    height: 2.75rem;
+    margin-left: 2.5rem;
     font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    opacity: .7;
 }
 
 .d-page10-con1mid2 button{
-    height: 2.5rem;
-    width: 12rem;
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 3.125rem;
+    width: 13.5rem;
+    margin-left: 2.5rem;
     font-size: 1rem;
     font-weight: 500;
     color: rgb(41, 126, 223);
-    margin-bottom: 1rem;
-    border-radius: .5rem;
+    border-radius: .75rem;
     background: rgba(62, 131, 235, 0.1);
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .d-page10-con2mid2 button{
-    height: 2.5rem;
-    width: 12rem;
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 3.125rem;
+    width: 13.5rem;
+    margin-left: 2.5rem;
     font-size: 1rem;
     font-weight: 500;
     color: rgb(41, 126, 223);
-    margin-bottom: 1rem;
-    border-radius: .5rem;
+    border-radius: .75rem;
     background: rgba(62, 131, 235, 0.1);
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .d-page10-con3mid2 button{
-    height: 2.5rem;
-    width: 12rem;
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 3.125rem;
+    width: 13.5rem;
+    margin-left: 2.5rem;
     font-size: 1rem;
     font-weight: 500;
     color: rgb(41, 126, 223);
-    margin-bottom: 1rem;
-    border-radius: .5rem;
+    border-radius: .75rem;
     background: rgba(62, 131, 235, 0.1);
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .d-page10-con1mid2 img{
-    height: 9rem;
-    margin-left: 1rem;
-    margin-top: .5rem;
+    width: 20.0625rem;
+    height: 11.4375rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 .d-page10-con2mid2 img{
-    height: 9rem;
-    margin-left: 1rem;
-    margin-top: .5rem;
+    width: 18.125rem;
+    height: 11.4375rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 .d-page10-con3mid2 img{
-    height: 9rem;
-    margin-left: 1rem;
-    margin-top: .5rem;
+    width: 18.125rem;
+    height: 11.4375rem;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 .d-page10-con4{
     position: relative;
     display: flex;
-    width: 49rem;
+    width: 62.25rem;
     margin-top: -5rem;
-    height: 8rem;
+    height: 9.75rem;
     background: url(img/Fra811424.png) no-repeat center center/cover;
-    margin-left: 43rem;
+    margin-left: 35.75rem;
     border-radius: 1rem;
     z-index: 10;
 }
