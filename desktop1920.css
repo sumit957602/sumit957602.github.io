@@ -1630,7 +1630,7 @@ body {
 /* page 8 css start */
 .d-page-8{
     width: 99%;
-    height: 70rem;
+    height: 60rem;
     background: rgba(255, 255, 255, 1);
     padding-left: 10rem;
 }
@@ -1718,16 +1718,17 @@ body {
 /* page 9 css start */
 
 .d-page-9{
-    height: 70rem;
+    height: 90rem;
+    padding-top: 10rem;
     width: 99%;
 }
 
 .d-page9-img{
-    width: 98%;
-    height: 60rem;
-    margin-left: 1rem;
+    width: 117rem;
+    height: 75.5rem;
+    margin-left: 1.5rem;
     background: url(img/Fra811415.png) no-repeat center center/cover;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .d-page9-text{
@@ -1736,18 +1737,18 @@ body {
 
 .d-page9-h1 {
     color: rgb(255, 255, 255);
-    font-size: 3rem;
-    margin-top: 2rem;
-    margin-left: 40rem;
-    width: 22rem;
+    font-size: 4rem;
+    margin-top: 6rem;
+    margin-left: 42.1875rem;
+    width: 23.9375rem;
+    height: 8.75rem;
 }
 
 .d-page9-img img{
-    margin-top: .5rem;
-    margin-left: 3.7rem;
-    padding-right: .4rem;
-    height: 49rem;
-    width: 98rem;
+    margin-top: 2rem;
+    margin-left: 8.5rem;
+    height: 51rem;
+    width: 100rem;
 }
 
 /* page 9 css end */
@@ -2401,20 +2402,3 @@ body {
     color: rgb(164, 161, 161);
 }
 /* page 12 css end */
-
-
-.d-page-9 {
-    display: none;
-}   
-
-.d-page-10 {
-    display: none;
-}   
-
-.d-page-11 {
-    display: none;
-}   
-
-.d-page-12 {
-    display: none;
-}
