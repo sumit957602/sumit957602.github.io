@@ -1108,7 +1108,7 @@ body {
 /* page 6 css start */
 .d-page-6{
     width: 100%;
-    height: 85rem;
+    height: 99.5rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1214,16 +1214,18 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 12.5rem;
-    width: 110rem;
-    height: 22rem;
+    width: 117rem;
+    height: 30rem;
+    border-radius: 2rem;
     margin-left: 1.5rem;
-    background-color: #514697;
+    background: url(img/Fr811403.png) no-repeat center center/cover;
 }
 
 .d-page6-end-text {
     display: flex;
     flex-direction: row;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
+    margin-top: 5rem;
 }
 
 .d-page6-endimg2 {
@@ -1233,24 +1235,27 @@ body {
 .d-page6-text1 {
     display: flex;
     color: rgb(255, 255, 255);
-    font-size: 3.3rem;
+    width: 44.5rem;
+    font-size: 4rem;
     margin-left: 7rem;
 }
 
 .d-page6-endtext1 {
     display: flex;
     color: rgb(255, 255, 255);
-    font-size: 2.7rem;
     margin-left: 6rem;
-    letter-spacing: 0rem;
+    line-height: 4.4rem;
     opacity: .95;
-    width: 35rem;
+    width: 44.5rem;
+    height: 8.75rem;
+    font-size: 4rem;
 }
 
 .d-page6-text2 {
     display: flex;
     flex-direction: column;
-    margin-left: 0rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
     width: 36rem;
     color:  rgba(23, 30, 36, 1);
     font-weight: 100;
@@ -1260,37 +1265,41 @@ body {
 .d-page6-endtext2 {
     display: flex;
     flex-direction: column;
-    margin-left: 0rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
     width: 36rem;
     color:  rgba(23, 30, 36, 1);
     font-weight: 100;
     font-size: 0.8rem;
-    opacity: .8;
 }
 
 .d-page6-subtext {
     color: rgba(255, 255, 255, 1);
-    font-size: .8rem;
-    margin-left: 10rem;
-    font-weight: 200;
-    /* font-weight: 600; */
+    width: 32.5rem;
+    height: 2.75rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.35rem;
+    opacity: .7;
 }
 
 .d-page6-endbutton {
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
-    width: 8.2rem;
-    height: 2.5rem;
-    margin-top: 2rem;
-    border-radius: .8rem;
-    margin-left: 10rem;
+    width: 9.25rem;
+    height: 3.125rem;
+    margin-top: 1.25rem;
+    border-radius: .75rem;
     opacity: 1;
     background: rgba(255, 255, 255, 1);
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .d-page6-endbutton p{
     color: rgba(23, 30, 36, 1);
+    font-size: 1rem;
+    font-weight: 450;
 }
 
 .d-page6-buttondot {
@@ -1315,32 +1324,54 @@ body {
 
 .d-page7-start{
     margin-top: 15rem;
+    margin-left: 10rem;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: start;
 }
 
 .d-page7-img1 img{
     height: 37.5rem;
     width: 49.375rem;
-    margin-right: 12rem;
+    margin-left: 9.6875rem;
 }
 
 .d-page7-text1{
-    width: 30rem;
-    margin-right: 10rem;
-    margin-top: 3rem;
+    width: 40.9375rem;
+    height: 19.875rem;
+    margin-left: 0rem;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.d-page7-text1h1 {
+    width: 36.9375rem;
+    height: 5.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 2.75rem;
+    margin-bottom: .5rem;
 }
 
 .d-page7-text1p1 {
-    margin-top: .5rem;
-    width: 26rem;
+    width: 26.25rem;
+    height: 2.75rem;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.35rem;
     opacity: .7;
 }
 
 #d-button71{
-    margin-top: 1rem;
-    padding-top: 0rem;
-    color: rgb(118, 118, 255);
+    width: 11.5625rem;
+    height: 3.125rem;
+    border-radius: .75rem;
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    font-size: 1rem;
+    font-weight: 450;
 }
 
 .d-page7-middle1{
@@ -1393,16 +1424,6 @@ body {
     margin-top: .5rem;
     width: 26rem;
     opacity: .7;
-}
-
-.d-page7-button1 {
-    border: .1rem solid rgba(62, 131, 235, 0.15);
-    height: 2.5rem;
-    width: 10.8rem;
-    border-radius: .5rem;
-    background: rgba(62, 131, 235, 0.1);
-    color: rgba(62, 131, 235, 1);
-    font-size: 1rem;
 }
 
 .d-page7-elipse1 {
