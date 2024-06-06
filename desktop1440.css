@@ -1428,7 +1428,7 @@ body {
 
 .d-page-7{
     width: 99%;
-    height: 208rem;
+    height: 159rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1670,11 +1670,11 @@ body {
 
 .d-page7-container {
     display: flex;
-    height: 30rem;
-    width: 117rem;
+    height: 22.25rem;
+    width: 87rem;
     background: rgba(228, 238, 250, 1);
     margin-left: 1.5rem;
-    margin-top: 17.5rem;
+    margin-top: 9.25rem;
     border-radius: 2rem;
 }
 
@@ -1685,16 +1685,18 @@ body {
 
 .d-page7-boximg{
     display: flex;
-    margin-left: 8.4375rem;
-    height: 33.8125rem;
-    width: 35.875rem;
-    margin-top: -7.5rem;
+    margin-left: 4.5rem;
+    height: 25.3125rem;
+    width: 29.0625rem;
+    margin-top: -5.5rem;
 }
 
 .d-page7-text {
     display: flex;
     flex-direction: column;
     margin-left: 4rem;
+    margin-top: 3rem;
+    height: 14rem;
 }
 
 .d-page7-text-h11 {
@@ -1702,7 +1704,8 @@ body {
     color: rgb(10, 7, 7);
     font-size: 2.8rem;
     width: 29rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
     letter-spacing: 0rem;
 }
 
@@ -1712,7 +1715,7 @@ body {
     font-size: 1rem;
     font-weight: 300;
     color: grey;
-    margin-left: 2rem;
+    margin-left: 0rem;
     margin-top: .5rem;
     padding-right: 1.5rem;
 }
@@ -1724,7 +1727,7 @@ body {
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
-    margin-left: 2rem;
+    margin-left: 0rem;
     margin-top: .8rem;
     font-size: 1rem;
 }
@@ -1741,13 +1744,13 @@ body {
 /* page 8 css start */
 .d-page-8{
     width: 99%;
-    height: 60rem;
+    height: 40rem;
     background: rgba(255, 255, 255, 1);
-    padding-left: 10rem;
+    padding-left: 4rem;
 }
 
 .d-page81{
-    margin-top: 12.5rem;
+    margin-top: 5rem;
 }
 
 .d-page8-textup {
@@ -1756,22 +1759,23 @@ body {
 }
 
 .d-page8-textup1{
-    width: 49.375rem;
-    height: 13.125rem;
-    font-size: 4rem;
+    width: 47.3125rem;
+    height: 6.625rem;
+    font-size: 2.8rem;
     font-weight: 600;
-    line-height: 4.4rem;
-    letter-spacing: -.01rem;
+    line-height: 3.3rem;
+    letter-spacing: 0rem;
 }
 
 .d-page8-textup2{
-    width: 40.9375rem;
-    height: 8.75rem;
-    margin-left: 9.6875rem;
-    font-size: 4rem;
+    width: 33.25rem;
+    height: 6.625rem;
+    margin-left: 2rem;
+    font-size: 2.8rem;
     font-weight: 600;
-    line-height: 4.4rem;
-    padding-right: 14rem;
+    line-height: 3.3rem;
+    padding-right: 1rem;
+    letter-spacing: 0rem;
 }
 
 .d-page8-middle{
@@ -1781,8 +1785,8 @@ body {
 }
 
 .d-page8-middleimg img{
-    width: 56.5625rem;
-    height: 37.5rem;
+    width: 47.3125rem;
+    height: 31.375rem;
     border-radius: 1rem;
 }
 
@@ -1829,14 +1833,14 @@ body {
 /* page 9 css start */
 
 .d-page-9{
-    height: 90rem;
+    height: 65.5rem;
     padding-top: 10rem;
     width: 99%;
 }
 
 .d-page9-img{
-    width: 117rem;
-    height: 75.5rem;
+    width: 87rem;
+    height: 55.4375rem;
     margin-left: 1.5rem;
     background: url(img/Fra811415.png) no-repeat center center/cover;
     border-radius: 2rem;
@@ -1848,18 +1852,18 @@ body {
 
 .d-page9-h1 {
     color: rgb(255, 255, 255);
-    font-size: 4rem;
-    margin-top: 6rem;
-    margin-left: 42.1875rem;
-    width: 23.9375rem;
-    height: 8.75rem;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-left: 29.625rem;
+    width: 18rem;
+    height: 6.625rem;
 }
 
 .d-page9-img img{
-    margin-top: 2rem;
-    margin-left: 8.5rem;
-    height: 51rem;
-    width: 100rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    height: 43.35rem;
+    width: 85rem;
 }
 
 /* page 9 css end */
@@ -1869,14 +1873,14 @@ body {
 .d-page-10{
     width: 100%;
     height: 75rem;
-    padding-top: 5.5rem;
-    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-left: 4rem;
     /* border: .4rem solid #111010; */
 }
 
 .d-page10-text{
     display: flex;
-    margin-left: 42.875rem;
+    margin-left: 37.8125rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
