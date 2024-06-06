@@ -1874,7 +1874,7 @@
 
 .page-11{
     width: 100%;
-    height: 114rem;
+    height: 107.7rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -2087,8 +2087,9 @@
 
 /* page 12 css start */
 .page-12{
-    height: 38.5rem;
-    background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
+    width: 24.5625rem;
+    height: 45.25rem;
+    background: linear-gradient(180deg, #E6ECEF 36.44%, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
 
 .page121{
@@ -2097,7 +2098,7 @@
 }
 
 .page12-left{
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
     margin-top: 3rem;
 }
 
