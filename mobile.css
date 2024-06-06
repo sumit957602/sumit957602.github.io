@@ -1572,7 +1572,7 @@
 
 .page-10{
     width: 100%;
-    height: 128rem;
+    height: 142rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -1631,7 +1631,7 @@
     height: 34.5rem;
     background: rgba(239, 242, 244, 1);
     border-radius: 1rem;
-    margin-top: 12rem;
+    margin-top: 1rem;
 }
 
 .page10-con1up{
@@ -1804,22 +1804,15 @@
 
 .page10-con4{
     display: flex;
-    width: 23rem;
-    height: 10rem;
     background: url(img/Fra811424.png) no-repeat center center/cover;
-    margin-left: 1rem;
     border-radius: 1rem;
 }
 
 .page10-con4text{
-    margin-top: 1rem;
-    margin-left: 1rem;
+
 }
 
 #page10-con4text2{
-    margin-top: 4rem;
-    padding-top: 1rem;
-    margin-left: 1rem;
 }
 
 .page10-con4text h1{
@@ -1829,8 +1822,6 @@
 }
 
 .page10-con4text p{
-    margin-top: .3rem;
-    margin-left: 1rem;
     color: rgba(255, 255, 255, 1);
     font-size: .7rem;
     width: 16rem;
@@ -1858,14 +1849,19 @@
 #page10-end1{
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
-    margin-top: -43rem;
+    margin-top: -3rem;
+    margin-left: 1.5rem;
+    width: 20.5625rem;
+    height: 7.5rem;
 }
 
 #page10-end2{
-    display: block;
-    margin-top: 34rem;
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: -3rem;
+    margin-left: 1.5rem;
+    width: 20.5625rem;
+    height: 7.5rem;
 }
 
 .page10-con4button1 {
