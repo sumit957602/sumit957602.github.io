@@ -1246,7 +1246,7 @@
 
 .page-7{
     width: 100%;
-    height: 198rem;
+    height: 187rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1467,8 +1467,8 @@
 
 /* page 8 css start */
 .page-8{
-    width: 99%;
-    height: 50rem;
+    width: 100%;
+    height: 55rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1483,13 +1483,13 @@
 
 .page8-textup1{
     width: 23rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 
 .page8-textup2{
     width: 15rem;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .page8-middle{
@@ -1500,14 +1500,14 @@
 .page8-middleimg img{
     height: 19rem;
     width: 23rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     margin-top: 0rem;
 }
 
 .page8-middletext h1{
     font-size: 2rem;
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     width: 17rem;
     margin-bottom: .5rem;
 }
@@ -1515,11 +1515,11 @@
 .page8-middletext p{
     width: 23rem;
     font-size: .9rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 
 .page8-button1 {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 
 .page8-button1 p{
