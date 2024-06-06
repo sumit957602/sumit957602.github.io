@@ -866,21 +866,9 @@
     /* page 4 css responsive */
 
     .page-4{
-        height: 45rem;
+        height: 50rem;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
         background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #EFF2F4, #EFF2F4);
-    }
-
-    .p4up-flex{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        padding-right: 0;
     }
 
     .p4up-left{
@@ -908,10 +896,6 @@
         width: 20.5rem;
         height: 9.6875rem;
         /* border: 4px solid yellow; */
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
         margin-left: 1.5rem;
     }
 
@@ -925,94 +909,100 @@
     }
 
     .page4-button {
+        display: flex;
+        flex-direction: row;
         margin-top: 1rem;
         width: 11.25rem;
         height: 2.75rem;
         border-radius: .5rem;
         padding: .875rem 1.25rem .875rem 1.25rem;
+        font-size: .875rem;
+    }
+
+    .page4-buttonimg {
+        width: .375rem;
+        height: .375rem;
+        margin-top: .3rem;
+        margin-right: .5rem;
+        margin-left: .5rem;
     }
 
     .p4down {
-        width: 100%;
-        height: 55%;
-        /* border: 4px solid yellow; */
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 1%;  
         margin-top: .5rem;
+        width: 21.5625rem;
+        height: 25rem;
+        padding-left: 1.25rem;
+        border-radius: 1rem;
     }
 
     .quotes{
-        padding: 2%;
-        border-radius: 2%;
-        height: 100%;
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        gap: 1%;
-        background: #3E83EB1A;    
+        background: #3E83EB1A;   
+    }
+
+    .quote1  {
+        width: 1.75rem;
+        height: 1.5rem;
     }
     
-    .quotes p{
+    .page4-reviewp{
         /* border: 4px solid green; */
-        width: 23.5rem;
-        height: 90%;
+        width: 19.0625rem;
+        height: 9.375rem;
         margin-bottom: .3rem;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        padding-right: 1rem;
     }
     
     .quotes .discord{
         /* border: 4px solid green; */
-        width: 30%;
         font-size: .8rem;
         margin-bottom: .5rem;
-        margin-top: -5rem;
+        color: rgba(62, 131, 235, 1);
     }
     
     .quotes .Mchein{
         /* border: 4px solid green; */
-        width: 90%;
         font-size: .8rem;
     }
     
     .quote-left{
-        height: 20rem;
-        width: 24.5rem;
-        margin-left: -23.8rem;
-        /* border: 4px solid green; */
+        margin-left: -21rem;
+        margin-right: .5rem;
+        width: 21.5625rem;
+        height: 25rem;
+        padding-left: 1.25rem;
+        border-radius: 1rem;
     }
     
     .quote-right{
-        height: 20rem;
-        width: 24.5rem;
-        margin-top: .8rem;
-        margin-left: .7rem;
+        width: 21.5625rem;
+        height: 25rem;
+        padding-left: 1.25rem;
+        border-radius: 1rem;
     }
     
     .quote-mid{
-        height: 20rem;
-        width: 24.5rem;
-        margin-top: .8rem;
-        margin-left: .7rem;
+        width: 21.5625rem;
+        height: 25rem;
+        padding-left: 1.25rem;
+        border-radius: 1rem;
+        margin-right: .5rem;
     }
     
     .quote1{
-        margin-top: -1.4rem;
-        margin-bottom: .5rem;
         font-size: 1.8rem;
     }
     
     #quote2{
-        margin-top: -1.4rem;
-        margin-bottom: .5rem;
         font-size: 1.8rem;
     }
     
     #quote3{
-        margin-top: -1.4rem;
-        margin-bottom: .5rem;
         font-size: 1.8rem;
     }
 
@@ -1020,13 +1010,10 @@
 
     .page-55 {
         display: flex;
-        flex-direction: row;
-        width: 97%;
-        margin-left: .6rem;
-        height: 48rem;
+        width: 24.5625rem;
+        height: 56.5625rem;
         background-color: rgba(255, 255, 255, 1);
-        background: url(img/Fra542.png) no-repeat center center/cover;
-        border-radius: 1rem;
+        background: url(img/m-Fr293.png) no-repeat center center/cover;
     }
     
     .page55 {
@@ -1035,52 +1022,58 @@
     }
 
     .page5-h1{
-        margin-top: 2rem;
-        margin-left: 3rem;
+        margin-top: 4rem;
+        margin-left: 1.5rem;
         color: rgba(255, 255, 255, 1);
-        width: 19rem;
-        font-size: 2rem;
+        width: 20.0625rem;
+        height: 5.5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 2.75rem;
+        letter-spacing: -.03rem;
     }
 
     .page5-button{
         display: flex;
         flex-direction: row-reverse;
         justify-content: start;
-        margin-left: 1.2rem;
-        margin-top: -.4rem;
+        margin-left: 1.5rem;
+        margin-top: 1.25rem;
+        width: 19.5625rem;
+        height: 2.9375rem;
     }
     
     .page5-box1{
         background-color: rgb(26 44 64);
-        height: 2.3rem;
-        width: 7rem;
-       border-radius: .4rem;
-       margin-top: 2rem;
+        height: 2.4375rem;
+        width: 8.5625rem;
+       border-radius: .5rem;
        color: white;
-       font-size: .8rem;
+       font-size: .875rem;
+       font-weight: 350;
+       padding: .75rem;
     }
     
     .page5-box2{
         background-color: rgb(255, 255, 255);
-        height: 2.3rem;
-        width: 10rem;
-       border-radius: .4rem;
-       margin-top: 2rem;
+        height: 2.4375rem;
+        width: 10.25rem;
+       border-radius: .5rem;
        color: rgb(37, 23, 58);
-       font-size: .8rem;
-       margin-left: 2rem;
+       font-size: .875rem;
+       font-weight: 350;
+       padding: .75rem;
     }
     
     
     .page55-imgg{
-        margin-top: 1rem;
-        margin-left: 2rem;
+        margin-top: 1.25rem;
+        margin-left: 1rem;
     }
     
     .page5-img{
-        height: 35rem;
-        width: 30rem;
-        border-radius: .5rem;
+        height: 37.625rem;
+        width: 22.5625rem;
     }
 
     /* page 5 css end */
