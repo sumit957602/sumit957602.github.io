@@ -1498,10 +1498,11 @@
 }
 
 .page8-middleimg img{
-    height: 19rem;
-    width: 23rem;
-    margin-left: 1.5rem;
-    margin-top: 0rem;
+    height: 20rem;
+    width: 23.0625rem;
+    border-radius: 1rem;
+    margin-left: .875rem;
+    margin-top: 2rem;
 }
 
 .page8-middletext h1{
@@ -1512,18 +1513,23 @@
     margin-bottom: .5rem;
 }
 
-.page8-middletext p{
+.page8-middletextp1 {
     width: 23rem;
     font-size: .9rem;
     margin-left: 1.5rem;
 }
 
 .page8-button1 {
+    width: 11.125rem;
+    height: 2.75rem;
+    background: rgba(62, 110, 235, 0.1);
     margin-left: 1.5rem;
+    border: 1px solid rgba(62, 69, 235, 0.15);
+    border-radius: .5rem;
+    padding: .875rem 1.25rem .875rem 1.25rem;
 }
 
 .page8-button1 p{
-    margin-left: -5.8rem;
 }
 
 /* page 8 css end */
