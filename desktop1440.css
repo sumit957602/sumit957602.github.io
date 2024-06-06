@@ -1236,7 +1236,7 @@ body {
 /* page 6 css start */
 .d-page-6{
     width: 100%;
-    height: 85rem;
+    height: 75rem;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -1304,6 +1304,7 @@ body {
 
 .d-page6-text2 {
     margin-top: 2rem;
+    margin-left: 0rem;
     width: 32.5rem;
 }
 
@@ -1341,9 +1342,9 @@ body {
 .d-page6-end{
     display: flex;
     flex-direction: column;
-    margin-top: 12.5rem;
-    width: 117rem;
-    height: 30rem;
+    margin-top: 5rem;
+    width: 87rem;
+    height: 20.375rem;
     border-radius: 2rem;
     margin-left: 1.5rem;
     background: url(img/Fr811403.png) no-repeat center center/cover;
@@ -1352,48 +1353,29 @@ body {
 .d-page6-end-text {
     display: flex;
     flex-direction: row;
-    margin-left: 2.5rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 .d-page6-endimg2 {
     display: none;
 }
 
-.d-page6-text1 {
-    display: flex;
-    color: rgb(255, 255, 255);
-    width: 44.5rem;
-    font-size: 4rem;
-    margin-left: 7rem;
-}
-
 .d-page6-endtext1 {
     display: flex;
     color: rgb(255, 255, 255);
-    margin-left: 6rem;
-    line-height: 4.4rem;
+    margin-left: 4rem;
+    line-height: 3.3rem;
     opacity: .95;
-    width: 44.5rem;
-    height: 8.75rem;
-    font-size: 4rem;
-}
-
-.d-page6-text2 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5rem;
-    margin-top: 1rem;
-    width: 36rem;
-    color:  rgba(23, 30, 36, 1);
-    font-weight: 100;
-    font-size: 0.8rem;
+    width: 34.8125rem;
+    height: 6.625rem;
+    font-size: 3rem;
+    letter-spacing: -.04rem;
 }
 
 .d-page6-endtext2 {
     display: flex;
     flex-direction: column;
-    margin-left: 15rem;
+    margin-left: 5.5rem;
     margin-top: 1rem;
     width: 36rem;
     color:  rgba(23, 30, 36, 1);
@@ -1451,22 +1433,22 @@ body {
 }
 
 .d-page7-start{
-    margin-top: 15rem;
-    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
 }
 
 .d-page7-img1 img{
-    height: 37.5rem;
-    width: 49.375rem;
-    margin-left: 9.6875rem;
+    height: 30rem;
+    width: 39.5rem;
+    margin-left: 1.5rem;
 }
 
 .d-page7-text1{
     width: 40.9375rem;
-    height: 19.875rem;
+    height: 17.875rem;
     margin-left: 0rem;
     padding: 3rem 2rem 3rem 2rem;
 }
@@ -1493,7 +1475,7 @@ body {
     width: 11.5625rem;
     height: 3.125rem;
     border-radius: .75rem;
-    margin-top: 1.5rem;
+    margin-top: .5rem;
     padding: 1rem 1.5rem 1rem 1.5rem;
     border: .1rem solid rgba(62, 131, 235, 0.15);
     background: rgba(62, 131, 235, 0.1);
@@ -1513,13 +1495,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    margin-left: 10rem;
-    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
 }
 
 .d-page7-img2 img{
-    height: 37.5rem;
-    width: 49.375rem;
+    height: 30rem;
+    width: 39.5rem;
 }
 
 .d-page7-text2{
@@ -1572,14 +1554,14 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
-    margin-left: 10rem;
-    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
 }
 
 .d-page7-img3 img{
-    height: 37.5rem;
-    width: 49.375rem;
-    margin-left: 9.6875rem;
+    height: 30rem;
+    width: 39.5rem;
+    margin-left: 1.5rem;
 }
 
 .d-page7-text3{
@@ -1631,13 +1613,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    margin-left: 10rem;
-    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
 }
 
 .d-page7-img4 img{
-    height: 37.5rem;
-    width: 49.375rem;
+    height: 30rem;
+    width: 39.5rem;
 }
 
 .d-page7-text4 {
