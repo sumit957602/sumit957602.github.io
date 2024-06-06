@@ -1772,13 +1772,14 @@
 
 .page10-con3mid2 p{
     width: 20.0625rem;
-    height: 2.375rem;
+    height: 3.5625rem;
     margin-left: 1.5rem;
     margin-bottom: 1rem;
     font-size: .875rem;
     font-weight: 300;
     line-height: 1.18125rem;
     opacity: .7;
+    padding-right: 2rem;
 }
 
 .page10-con1mid2 button{
@@ -1818,20 +1819,23 @@
 }
 
 .page10-con1mid2 img{
-    height: 9rem;
-    margin-left: 1rem;
+    width: 17.5;
+    height: 10.875rem;
+    margin-left: 1.5rem;
     margin-top: .5rem;
 }
 
 .page10-con2mid2 img{
-    height: 9rem;
-    margin-left: 1rem;
+    width: 17.5;
+    height: 10.875rem;
+    margin-left: 1.5rem;
     margin-top: .5rem;
 }
 
 .page10-con3mid2 img{
-    height: 9rem;
-    margin-left: 1rem;
+    width: 17.5;
+    height: 10.875rem;
+    margin-left: 1.5rem;
     margin-top: .5rem;
 }
 
