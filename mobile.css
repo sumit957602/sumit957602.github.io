@@ -1014,6 +1014,7 @@
         height: 56.5625rem;
         background-color: rgba(255, 255, 255, 1);
         background: url(img/m-Fr293.png) no-repeat center center/cover;
+         /* border: 4px solid green; */
     }
     
     .page55 {
@@ -1080,28 +1081,28 @@
 
 /* page 6 css start */
 .page-6{
-    width: 99%;
-    height: 89rem;
+    width: 100%;
+    height: 119rem;
     background: rgba(255, 255, 255, 1);
+     /* border: 4px solid green; */
 }
 
 .page6{
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .page6-text11 {
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    margin-left: 1.5rem;
 }
 
 .page6-text11 h1{
-    width: 21.4rem;
-    font-size: 2.3rem;
-    font-weight: 700;
+    width: 20.5625rem;
+    height: 11rem;
+    font-size: 2.5rem;
+    font-weight: 600;
     color: #111010;
+    line-height: 2.75rem;
+    letter-spacing: -0.05rem;
 }
 
 .page6-span1{
@@ -1120,80 +1121,61 @@
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-    margin-left: 2rem;
-}
-
-.page6-img1 img{
-    display: none;
-}
-
-.page6-img21{
-    display: none;
 }
 
 .page6-img22{
-    display: block;
-    width: 22rem;
-    height: 24rem;
+    width: 23.0625rem;
+    height: 42.375rem;
+    border-radius: 1rem;
+    margin-left: 1.5rem;
 }
 
 .page6-text2{
     margin-top: 1rem;
-    width: 20rem;
-    font-size: .9rem;
+    margin-left: 1.5rem;
 }
 
 .page6-text2 p {
-    width: 22rem;
+    width: 20.5rem;
+    height: 4.75rem;
+    font-size: .875rem;
+    padding-right: 2.5rem;
+    line-height: 1.18125rem;
     opacity: .7;
 }
 
-.page6-button{
+.m-page6-button {
     margin-top: 1rem;
-    height: 3rem;
-    width: 13.5rem;
+    height: 2.75rem;
+    width: 12.75rem;
     border-radius: .5rem;
     cursor: pointer;
+    padding: .875rem 1.25rem .875rem 1.25rem;
 }
 
-.page6-elipse{
-    height: .5rem !important;
-    width: .5rem !important;
+.m-page6-elipse{
+    height: .5rem;
+    width: .5rem;
     margin-right: .5rem;
 }
 
-.page6-button p{
-    font-size: .9rem;
-    cursor: pointer;
-    color: rgba(62, 131, 235, 1);
-    font-weight: 500;
-    margin-left: -4.2rem;
-    opacity: 1;
+.m-page6-button-p {
+    margin-left: -4rem;
+    height: 1rem;
 }
 
 .page6-end{
     display: flex;
     flex-direction: column;
-}
-
-.page6-endimg1{
-    display: none;
-}
-
-.page6-endimg2 {
-    display: block;
-    display: flex;
-    width: 25rem;
-    margin-left: .5rem;
+    background: url(img/F14232.png) no-repeat center center/cover;
+    width: 24.5625rem;
     margin-top: 2rem;
-    height: 34rem;
+    height: 42.1875rem;
 }
 
 .page6-end-text{
     display: flex;
     flex-direction: column;
-    margin-top: -28rem;
-    margin-left: -4rem;
 }
 
 .page6-text1 {
@@ -1201,12 +1183,13 @@
     color: rgb(255, 255, 255);
     font-size: 1.8rem;
 }
+
 .page6-endtext1 {
     display: flex;
     color: rgb(255, 255, 255);
     font-size: 2.2rem;
-    margin-left: 6rem;
-    margin-top: -4rem;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
     letter-spacing: 0rem;
     opacity: .95;
     width: 22rem;
@@ -1217,7 +1200,7 @@
     display: flex;
     flex-direction: column;
     width: 36rem;
-    color:  rgba(23, 30, 36, 1);
+    color:  rgb(255, 255, 255);
     font-weight: 100;
     font-size: 0.8rem;
 }
@@ -1228,8 +1211,12 @@
 }
 
 .page6-subtext {
-    margin-left: 6rem;
+    margin-left: 1.5rem;
     width: 18.5rem;
+    color:  rgb(255, 255, 255);
+    opacity: .7;
+    font-size: .875rem;
+    font-weight: 300;
 }
 
 .page6-endbutton {
@@ -1243,16 +1230,6 @@
     margin-left: 6rem;
     opacity: 1;
     background: rgba(255, 255, 255, 1);
-}
-
-
-.butt:hover {
-    background-color: #ccd4cd;
-}
-
-.butt:active {
-    transform: scale(0.95);
-    background-color: #ced2ce;
 }
 
 
