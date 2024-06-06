@@ -2102,28 +2102,29 @@
     margin-top: 3rem;
 }
 
+.page12-img-logo {
+    width: 1.5rem;
+    height: 1.875rem;
+}
+
 .page12-inputbox {
-    width: 22rem;
+    width: 21.5625rem;
     margin-top: .9rem;
-    height: 3rem;
-    border-radius: .6rem;
+    height: 2.74rem;
+    border-radius: .5rem;
+    padding: .875rem 1rem .875rem 1rem;
 }
 
 .page12-button0 {
     display: flex;
-    position: relative;
     border: .1rem solid rgba(62, 131, 235, 0.15);
-    height: 2.5rem;
-    width: 12rem;
+    height: 2.75rem;
+    width: 11.625rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 1);
     color: rgba(255, 255, 255, 1);
-    margin-left: .1rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-top: .5rem;
-    padding-left: .5rem;
-    z-index: 10;
+    padding: .875rem 1.25rem .875rem 1.25rem;
 }
 
 .page12-right{
