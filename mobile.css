@@ -2,6 +2,7 @@
     /* navbar responsive css */
     html {
         font-size: 100%;
+        overflow-x: hidden;
     }
 
     @media (min-width: 390px) and (max-width: 400px) {
@@ -1546,8 +1547,8 @@
     margin-top: .5rem;
     margin-left: .4rem;
     padding-right: .4rem;
-    height: 50rem;
-    width: 90rem;
+    height: 38.25rem;
+    width: 23.0625rem;
 }
 
 .page9-text{
