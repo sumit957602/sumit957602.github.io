@@ -924,6 +924,11 @@
         border-radius: .5rem;
         padding: .875rem 1.25rem .875rem 1.25rem;
         font-size: .875rem;
+        font-weight: 450;
+        color: rgba(62, 131, 235, 1);
+        border: 1px solid rgba(62, 69, 235, 0.15);
+        background: rgba(62, 110, 235, 0.1);
+        opacity: 1;
     }
 
     .page4-buttonimg {
@@ -937,7 +942,7 @@
     .p4down {
         display: flex;
         flex-direction: row;
-        margin-top: .5rem;
+        margin-top: 2rem;
         width: 21.5625rem;
         height: 25rem;
         padding-left: 1.25rem;
@@ -950,7 +955,9 @@
         background: #3E83EB1A;   
     }
 
-    .quote1  {
+    .m-quote  {
+        position: relative;
+        top: -.75rem;
         width: 1.75rem;
         height: 1.5rem;
     }
@@ -962,6 +969,7 @@
         margin-bottom: .3rem;
         font-size: 1.5rem;
         line-height: 1.875rem;
+        letter-spacing: -.04rem;
     }
     
     .quotes .discord{
