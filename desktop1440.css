@@ -983,8 +983,6 @@ body {
 }
 
 .d-p4up{
-    width: 80.5%;
-    height: 45%;
     margin-top: 12.5rem;
     /* border: 4px solid yellow; */
 }
@@ -1018,16 +1016,12 @@ body {
 }
 
 .d-p4up-right{
-    width: 38%;
-    height: 100%;
     margin-left: 18rem;
     /* border: 4px solid yellow; */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-    gap: 10%;
-    padding: 1%;
 }
 
 .d-p4up-right p{
@@ -1063,26 +1057,23 @@ body {
 }
 
 .d-p4down{
-    width: 100%;
-    height: 48%;
     /* border: 4px solid yellow; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 1%;  
     margin-top: -3rem;
 }
 
-.d-quotes{
-    padding: 2%;
-    border-radius: 2%;
-    height: 100%;
+.d-quote{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: flex-start;
-    gap: 1%;
     background: #3E83EB1A;    
+}
+
+.d-quote img {
+    width: 1.75rem;
+    height: 1.5rem;
 }
 
 .d-page4-reviewp1 {
@@ -1099,13 +1090,11 @@ body {
 
 .d-quotes p{
     /* border: 4px solid green; */
-    width: 86%;
     height: 6rem
 }
 
 .d-quotes .d-discord{
     /* border: 4px solid green; */
-    width: 25%;
     font-size: .6rem;
     margin-bottom: 2rem;
     color: rgba(62, 131, 235, 1);
@@ -1113,7 +1102,6 @@ body {
 
 .d-quotes .d-Mchein{
     /* border: 4px solid green; */
-    width: 50%;
     font-size: .6rem;
 }
 
