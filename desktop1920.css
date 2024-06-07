@@ -2107,7 +2107,7 @@ body {
 
 .d-page-11{
     width: 100%;
-    height: 75.7rem;
+    height: 77rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -2227,22 +2227,30 @@ body {
 }
 
 .d-page11-textbox2{
-    margin-top: 1rem;
+    margin-top: .5rem;
     margin-left: -33.5rem;
+    height: 30.1875rem;
 }
 
 .d-page11-textbox2 p{
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 300;
     margin-top: .5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.8rem;
+}
+
+.page11-textbox2-p img{
+    display: flex;
 }
 
 .d-page11-textboxp4 {
-    margin-top: 0;
-    margin-bottom: 4rem;
-    font-weight: 400 !important;
-    font-size: .9rem;
+    display: flex;
+    top: -2rem;
+    margin-top: -1rem !important;
+    font-size: 1rem !important;
+    font-weight: 300;
     width: 25rem;
+    opacity: .7;
 }
 
 .d-page11-end{
