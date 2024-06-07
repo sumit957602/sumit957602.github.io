@@ -625,45 +625,44 @@ body {
     height: 6.8125rem;
 }
 
-.d-text-block {
-    margin: 1rem;
-}
-
 .d-page1-end-h11 {
-    font-weight: 650;
-    font-size: 3rem;
-    margin-left: 9rem;
+    font-weight: 600;
+    font-size: 4rem;
+    margin-left: 7rem;
 }
 
 .d-page1-end-h41 {
     font-weight: 300;
-    font-size: 0.85rem;
+    font-size: 1.25rem;
     margin-top: 0.4rem;
-    margin-left: 9rem;
+    margin-left: 7rem;
     opacity: .7;
 }
+
 .d-page1-end-h12 {
     font-weight: 600;
-    font-size: 3rem;
-    margin-left: 12rem;
+    font-size: 4rem;
+    margin-left: 10rem;
 }
+
 .d-page1-end-h42 {
     font-weight: 300;
-    font-size: 0.85rem;
+    font-size: 1.25rem;
     margin-top: 0.4rem;
-    margin-left: 12rem;
+    margin-left: 10rem;
     opacity: .7;
 }
+
 .d-page1-end-h13 {
     font-weight: 600;
-    font-size: 3rem;
-    margin-left: 15rem;
+    font-size: 4rem;
+    margin-left: 12rem;
 }
 .d-page1-end-h43 {
     font-weight: 300;
-    font-size: 0.85rem;
+    font-size: 1.25rem;
     margin-top: 0.4rem;
-    margin-left: 15rem;
+    margin-left: 12rem;
     opacity: .7;
 }
 
