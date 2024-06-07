@@ -1192,6 +1192,7 @@ body {
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.35rem;
+    padding-right: 1rem;
 }
 
 .d-page6-button{
@@ -1286,6 +1287,7 @@ body {
     font-weight: 300;
     line-height: 1.35rem;
     opacity: .7;
+    padding-right: 1rem;
 }
 
 .d-page6-endbutton {
@@ -1963,6 +1965,7 @@ body {
     font-weight: 300;
     margin-top: 1rem;
     opacity: .7;
+    padding-right: 1rem;
 }
 
 .d-page10-con3mid2 p{
@@ -1973,6 +1976,7 @@ body {
     font-weight: 300;
     margin-top: 1rem;
     opacity: .7;
+    padding-right: 1rem;
 }
 
 .d-page10-con1mid2 button{
@@ -2071,6 +2075,7 @@ body {
     height: 2.75rem;
     margin-top: .5rem;
     opacity: .7;
+    padding-right: 1rem;
 }
 
 .d-page10-con4button1{
@@ -2167,6 +2172,12 @@ body {
     margin-top: 1rem;
     margin-left: 1rem;
     margin-bottom: .5rem;
+}
+
+.d-page11con2-text1 p {
+    margin-top: .5rem;
+    margin-right: .5rem;
+    opacity: .7;
 }
 
 .d-page11con2-img img{
