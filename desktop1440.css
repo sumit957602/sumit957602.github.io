@@ -759,40 +759,43 @@ body {
 }
 
 .d-page1-end-h11 {
-    font-weight: 650;
-    font-size: 3rem;
+    font-weight: 600;
+    font-size: 4rem;
     margin-left: 0rem;
+    margin-top: -1rem;
 }
 
 .d-page1-end-h41 {
     font-weight: 300;
-    font-size: 0.85rem;
+    font-size: 1.25rem;
     margin-top: 0.4rem;
     margin-left: 0rem;
     opacity: .7;
 }
 .d-page1-end-h12 {
     font-weight: 600;
-    font-size: 3rem;
-    margin-left: 12rem;
+    font-size: 4rem;
+    margin-left: 5rem;
+    margin-top: -1rem;
 }
 .d-page1-end-h42 {
     font-weight: 300;
-    font-size: 0.85rem;
+    font-size: 1.25rem;
     margin-top: 0.4rem;
-    margin-left: 12rem;
+    margin-left: 5rem;
     opacity: .7;
 }
 .d-page1-end-h13 {
     font-weight: 600;
-    font-size: 3rem;
-    margin-left: 15rem;
+    font-size: 4rem;
+    margin-left: 5rem;
+    margin-top: -1rem;
 }
 .d-page1-end-h43 {
     font-weight: 300;
-    font-size: 0.85rem;
+    font-size: 1.25rem;
     margin-top: 0.4rem;
-    margin-left: 15rem;
+    margin-left: 5rem;
     opacity: .7;
 }
 
@@ -1892,7 +1895,7 @@ body {
 
 .d-page10-text{
     display: flex;
-    margin-left: 37.8125rem;
+    margin-left: 33.8125rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -2211,7 +2214,7 @@ body {
 }
 
 .d-page10-con4button1 p{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #d-page10-end2{
@@ -2224,7 +2227,7 @@ body {
 
 .d-page-11{
     width: 100%;
-    height: 76rem;
+    height: 75rem;
     /* border: .4rem solid #111010; */
 }
 
@@ -2255,16 +2258,13 @@ body {
 }
 
 .d-page11-con1button{
-    height: 2.5rem;
-    width: 12rem;
     font-size: 1rem;
     font-weight: 500;
     color: black;
     margin-bottom: 1rem;
     border-radius: .5rem;
     background: white;
-    padding-top: .1rem;
-    padding-left: .2rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
     margin-left: 2rem;
     margin-top: 1rem;
 }
@@ -2332,25 +2332,6 @@ body {
     padding-right: 2.5rem;
 }
 
-.d-page11-textbox2{
-    margin-top: 1rem;
-    margin-left: -33.5rem;
-}
-
-.d-page11-textbox2 p{
-    font-weight: 600;
-    margin-top: .5rem;
-    margin-bottom: 3rem;
-}
-
-.d-page11-textboxp4 {
-    margin-top: 0;
-    margin-bottom: 4rem;
-    font-weight: 400 !important;
-    font-size: .9rem;
-    width: 25rem;
-}
-
 .d-page11-end{
     margin-top: 2rem;
     width: 87rem;
@@ -2378,8 +2359,6 @@ body {
 
 .d-page11-butt{
     border: .1rem solid rgba(62, 131, 235, 0.15);
-    height: 2.5rem;
-    width: 12rem;
     border-radius: .5rem;
     background: rgba(62, 131, 235, 0.1);
     color: rgba(62, 131, 235, 1);
@@ -2441,36 +2420,6 @@ body {
     margin-top: 4rem;
 }
 
-.d-page12-inputbox {
-    width: 30rem;
-    margin-top: .9rem;
-    height: 3rem;
-    border-radius: .6rem;
-    padding-left: 1rem;
-}
-
-.d-page12-inputbox-p {
-    opacity: .7;
-    font-size: .8rem;
-    width: 19rem;
-}
-
-.d-page12-button0 {
-    display: flex;
-    position: relative;
-    border: .1rem solid rgba(62, 131, 235, 0.15);
-    height: 2.5rem;
-    width: 14rem;
-    border-radius: .5rem;
-    background: rgba(62, 131, 235, 1);
-    color: rgba(255, 255, 255, 1);
-    margin-left: 21rem;
-    margin-top: -2.8rem;
-    margin-bottom: 1rem;
-    padding-top: .5rem;
-    padding-left: .5rem;
-    z-index: 10;
-}
 .d-page12-button0 span {
     margin-left: 10px; 
 }
@@ -2528,55 +2477,6 @@ body {
     background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
 
-.d-page12-right{
-    display: flex;
-    flex-direction: row;
-    margin-left: 10rem;
-    margin-top: 3rem;
-}
-
-.d-page12-right1 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 4rem;
-    margin-left: 8rem;
-}
-
-.d-page12-right1 p{
-    opacity: .5;
-}
-
-.d-page12-right2{
-    display: flex;
-    flex-direction: column;
-}
-
-.d-page12-right2 p{
-    opacity: .5;
-}
-
-.d-page12-right1{
-    gap: 1.5rem;
-}
-
-.d-page12-right2{
-    gap: 2rem;
-}
-
-.d-page-12end{
-    margin-top: 8.7rem;
-    margin-left: 42%;
-    opacity: .6;
-}
-
-.d-img2{
-    height:1.3rem;
-    width: 1.3rem;
-}
-
-.d-end{
-    color: rgb(164, 161, 161);
-}
 /* page 12 css end */
 
 
