@@ -2,7 +2,7 @@
     /* navbar responsive css */
     html {
         font-size: 100%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     @media (min-width: 390px) and (max-width: 400px) {
@@ -2051,19 +2051,20 @@
 
 .page11-mid{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .page11-right{
     display: flex;
-    flex-direction: column;
-    margin-left: -20rem;
+    flex-direction: row;
     width: 23rem;
+    height: 32.75rem;
 }
 
 .page11-right img{
     height: 28rem;
-    margin-top: 17rem;
+    width: 25rem;
+    margin-left: .5rem;
 }
 
 .page11-textbox1{
@@ -2084,21 +2085,96 @@
     width: 26rem;
 }
 
-.page11-textbox2{
-    margin-top: -27rem;
-    margin-left: -5rem;
+.m-page11-textbox2  {
+    margin-top: 1.4rem;
+    margin-left: -22rem;
 }
 
-.page11-textbox2 p{
-    font-weight: 600;
-    margin-top: .5rem;
-    margin-bottom: 3rem;
-    margin-left: 8rem;
+.m-page11-textbox221{
+    display: flex;
+    flex-direction: row;
+    width: 22.5625rem;
+    height: 2.75rem;
+    margin-bottom: 1.4rem;
 }
+
+.m-page11-textbox222{
+    display: flex;
+    flex-direction: row;
+    width: 22.5625rem;
+    height: 2.75rem;
+    margin-bottom: 2rem;
+}
+
+.m-page11-textbox223{
+    display: flex;
+    flex-direction: row;
+    width: 22.5625rem;
+    height: 2.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1.45rem;
+}
+
+.m-page11-textbox224{
+    display: flex;
+    flex-direction: row;
+    width: 22.5625rem;
+    height: 2.75rem;
+}
+
+.m-page11-textbox221 img {
+    width: .5rem;
+    height: .8rem;
+    margin-left: 0rem;
+}
+
+.m-page11-textbox222 img {
+    width: .5rem;
+    height: .8rem;
+}
+
+.m-page11-textbox223 img {
+    width: .5rem;
+    height: .8rem;
+}
+
+.m-page11-textbox224 img {
+    width: .5rem;
+    height: .8rem;
+}
+
+.m-page11-textbox2-p1 {
+    width: 17.5rem;
+    height: 1rem;
+}
+
+.m-page11-textbox2-p2 {
+    width: 17.5rem;
+    height: 1rem;
+}
+
+.m-page11-textbox2-p3 {
+    width: 17.5rem;
+    height: 1rem;
+    margin-bottom: 1.9rem;
+}
+
+.m-page11-textboxp4 {
+    margin-bottom: 2.5rem;
+}
+
+.m-page11-textbox2-p4 {
+    width: 17.5rem;
+    height: 1rem;
+}
+
+.m-page11-textbox2-p5 {
+    width: 17.5rem;
+    height: 1rem;
+}
+
 
 .page11-textboxp4 {
-    margin-top: 0;
-    margin-bottom: -1rem;
     font-weight: 400 !important;
     font-size: .9rem;
     width: 25rem;
@@ -2143,11 +2219,15 @@
 }
 
 .page11-butt{
-    color: rgb(115, 115, 203);
-    background-color: rgb(229, 229, 251);
-    padding: .4rem .4rem;
-    border-radius: .3rem;
-    cursor: pointer;
+    border: .1rem solid rgba(62, 131, 235, 0.15);
+    border-radius: .5rem;
+    background: rgba(62, 131, 235, 0.1);
+    color: rgba(62, 131, 235, 1);
+    margin-left: 1rem;
+    margin-top: .6rem;
+    font-size: 1rem;
+    width: 10.8125rem;
+    height: 2.75rem;
 }
 
 .page11-ending{
