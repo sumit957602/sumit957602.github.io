@@ -23,287 +23,288 @@ html {
     font-size: 100%;
 }
 
-@media (min-width: 1450px) and (max-width: 1459px) {
+@media (min-width: 1441px) and (max-width: 1450px) {
     html {
-        font-size: 75.1%;
+        font-size: 75.05%;
+    }
+ }
+
+@media (min-width: 1450px) and (max-width: 1460px) {
+    html {
+        font-size: 75.5%;
     }
  }
  
- @media (min-width: 1460px) and (max-width: 1469px) {
+ @media (min-width: 1460px) and (max-width: 1470px) {
     html {
-        font-size: 75.6%;
+        font-size: 76%;
     }
  }
  
- @media (min-width: 1470px) and (max-width: 1479px) {
+ @media (min-width: 1470px) and (max-width: 1480px) {
     html {
-        font-size: 76.1%;
+        font-size: 76.58%;
     }
  }
  
- @media (min-width: 1480px) and (max-width: 1489px) {
-    html {
-        font-size: 76.6%;
-    }
- }
- 
- @media (min-width: 1490px) and (max-width: 1499px) {
+ @media (min-width: 1480px) and (max-width: 1490px) {
     html {
         font-size: 77.1%;
     }
  }
  
- @media (min-width: 1500px) and (max-width: 1509px) {
+ @media (min-width: 1490px) and (max-width: 1500px) {
     html {
         font-size: 77.6%;
     }
  }
  
- @media (min-width: 1510px) and (max-width: 1519px) {
+ @media (min-width: 1500px) and (max-width: 1510px) {
     html {
         font-size: 78.1%;
     }
  }
- 
- @media (min-width: 1520px) and (max-width: 1529px) {
+
+@media (min-width: 1510px) and (max-width: 1520px) {
     html {
         font-size: 78.6%;
     }
- }
- 
- @media (min-width: 1530px) and (max-width: 1539px) {
+}
+
+@media (min-width: 1520px) and (max-width: 1530px) {
     html {
-        font-size: 79.1%;
+        font-size: 79.5%;
     }
- }
- 
- @media (min-width: 1540px) and (max-width: 1549px) {
+}
+
+@media (min-width: 1530px) and (max-width: 1540px) {
     html {
         font-size: 79.6%;
     }
- }
- 
- @media (min-width: 1550px) and (max-width: 1559px) {
+}
+
+@media (min-width: 1540px) and (max-width: 1550px) {
     html {
         font-size: 80.1%;
     }
- }
- 
- @media (min-width: 1560px) and (max-width: 1569px) {
+}
+
+@media (min-width: 1550px) and (max-width: 1560px) {
     html {
         font-size: 80.6%;
     }
- }
- 
- @media (min-width: 1570px) and (max-width: 1579px) {
+}
+
+@media (min-width: 1560px) and (max-width: 1570px) {
     html {
         font-size: 81.1%;
     }
- }
- 
- @media (min-width: 1580px) and (max-width: 1589px) {
+}
+
+@media (min-width: 1570px) and (max-width: 1580px) {
     html {
         font-size: 81.6%;
     }
- }
- 
- @media (min-width: 1590px) and (max-width: 1599px) {
+}
+
+@media (min-width: 1580px) and (max-width: 1590px) {
     html {
         font-size: 82.1%;
     }
- }
- 
- @media (min-width: 1600px) and (max-width: 1609px) {
+}
+
+@media (min-width: 1590px) and (max-width: 1600px) {
     html {
         font-size: 82.6%;
     }
- }
- 
- @media (min-width: 1610px) and (max-width: 1619px) {
+}
+
+@media (min-width: 1600px) and (max-width: 1610px) {
     html {
         font-size: 83.1%;
     }
- }
- 
- @media (min-width: 1620px) and (max-width: 1629px) {
+}
+
+@media (min-width: 1610px) and (max-width: 1620px) {
     html {
         font-size: 83.65%;
     }
- }
- 
- @media (min-width: 1630px) and (max-width: 1639px) {
+}
+
+@media (min-width: 1620px) and (max-width: 1630px) {
     html {
         font-size: 84.25%;
     }
- }
- 
- @media (min-width: 1640px) and (max-width: 1649px) {
+}
+
+@media (min-width: 1630px) and (max-width: 1640px) {
     html {
         font-size: 84.8%;
     }
- }
- 
- @media (min-width: 1650px) and (max-width: 1659px) {
+}
+
+@media (min-width: 1640px) and (max-width: 1650px) {
     html {
         font-size: 85.4%;
     }
- }
- 
- @media (min-width: 1660px) and (max-width: 1669px) {
+}
+
+@media (min-width: 1650px) and (max-width: 1660px) {
     html {
         font-size: 85.95%;
     }
- }
- 
- @media (min-width: 1670px) and (max-width: 1679px) {
+}
+
+@media (min-width: 1660px) and (max-width: 1670px) {
     html {
         font-size: 86.55%;
     }
- }
- 
- @media (min-width: 1680px) and (max-width: 1689px) {
+}
+
+@media (min-width: 1670px) and (max-width: 1680px) {
     html {
         font-size: 87%;
     }
- }
- 
- @media (min-width: 1690px) and (max-width: 1699px) {
+}
+
+@media (min-width: 1680px) and (max-width: 1690px) {
     html {
         font-size: 87.5%;
     }
- }
- 
- @media (min-width: 1700px) and (max-width: 1709px) {
+}
+
+@media (min-width: 1690px) and (max-width: 1700px) {
     html {
         font-size: 88%;
     }
- }
- 
- @media (min-width: 1710px) and (max-width: 1719px) {
+}
+
+@media (min-width: 1700px) and (max-width: 1710px) {
     html {
         font-size: 88.5%;
     }
- }
- 
- @media (min-width: 1720px) and (max-width: 1729px) {
+}
+
+@media (min-width: 1710px) and (max-width: 1720px) {
     html {
         font-size: 89%;
     }
- }
- 
- @media (min-width: 1730px) and (max-width: 1739px) {
+}
+
+@media (min-width: 1720px) and (max-width: 1730px) {
     html {
         font-size: 89.5%;
     }
- }
- 
- @media (min-width: 1740px) and (max-width: 1749px) {
+}
+
+@media (min-width: 1730px) and (max-width: 1740px) {
     html {
         font-size: 90.1%;
     }
- }
- 
- @media (min-width: 1750px) and (max-width: 1759px) {
+}
+
+@media (min-width: 1740px) and (max-width: 1750px) {
     html {
         font-size: 90.6%;
     }
- }
- 
- @media (min-width: 1760px) and (max-width: 1769px) {
+}
+
+@media (min-width: 1750px) and (max-width: 1760px) {
     html {
         font-size: 91.2%;
     }
- }
- 
- @media (min-width: 1770px) and (max-width: 1779px) {
+}
+
+@media (min-width: 1760px) and (max-width: 1770px) {
     html {
         font-size: 91.7%;
     }
- }
- 
- @media (min-width: 1780px) and (max-width: 1789px) {
+}
+
+@media (min-width: 1770px) and (max-width: 1780px) {
     html {
         font-size: 92.2%;
     }
- }
- 
- @media (min-width: 1790px) and (max-width: 1799px) {
+}
+
+@media (min-width: 1780px) and (max-width: 1790px) {
     html {
         font-size: 92.8%;
     }
- }
- 
- @media (min-width: 1800px) and (max-width: 1809px) {
+}
+
+@media (min-width: 1790px) and (max-width: 1800px) {
     html {
         font-size: 93.5%;
     }
- }
- 
- @media (min-width: 1810px) and (max-width: 1819px) {
+}
+
+@media (min-width: 1800px) and (max-width: 1810px) {
     html {
         font-size: 94%;
     }
- }
- 
- @media (min-width: 1820px) and (max-width: 1829px) {
+}
+
+@media (min-width: 1810px) and (max-width: 1820px) {
     html {
         font-size: 94.5%;
     }
- }
- 
- @media (min-width: 1830px) and (max-width: 1839px) {
+}
+
+@media (min-width: 1820px) and (max-width: 1830px) {
     html {
         font-size: 95%;
     }
- }
- 
- @media (min-width: 1840px) and (max-width: 1849px) {
+}
+
+@media (min-width: 1830px) and (max-width: 1840px) {
     html {
         font-size: 95.5%;
     }
- }
- 
- @media (min-width: 1850px) and (max-width: 1859px) {
+}
+
+@media (min-width: 1840px) and (max-width: 1850px) {
     html {
         font-size: 96%;
     }
- }
- 
- @media (min-width: 1860px) and (max-width: 1869px) {
+}
+
+@media (min-width: 1850px) and (max-width: 1860px) {
     html {
         font-size: 96.65%;
     }
- }
- 
- @media (min-width: 1870px) and (max-width: 1879px) {
+}
+
+@media (min-width: 1860px) and (max-width: 1870px) {
     html {
         font-size: 97.2%;
     }
- }
- 
- @media (min-width: 1880px) and (max-width: 1889px) {
+}
+
+@media (min-width: 1870px) and (max-width: 1880px) {
     html {
         font-size: 97.8%;
     }
- }
- 
- @media (min-width: 1890px) and (max-width: 1899px) {
+}
+
+@media (min-width: 1880px) and (max-width: 1890px) {
     html {
         font-size: 98.3%;
     }
- }
- 
- @media (min-width: 1900px) and (max-width: 1909px) {
+}
+
+@media (min-width: 1890px) and (max-width: 1900px) {
     html {
         font-size: 99%;
     }
- }
- 
- @media (min-width: 1910px) and (max-width: 1918px) {
+}
+
+@media (min-width: 1900px) and (max-width: 1910px) {
     html {
         font-size: 99.5%;
     }
- }
+}
+
 
 body {
     width: 120rem;
@@ -2394,7 +2395,7 @@ body {
 /* page 12 css start */
 .d-page-12{
     height: 26.5rem;
-    width: 100.8vw;
+    width: 120rem;
     background: linear-gradient(180deg, #E6ECEF 100%, rgba(221, 228, 232, 0) 36%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
     background: linear-gradient(180deg, #E6ECEF 36.44%, rgba(221, 228, 232, 0) 100%, rgba(236, 241, 244, 0) 100%, rgba(230, 236, 239, 0) 100%);
 }
