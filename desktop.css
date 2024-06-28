@@ -373,7 +373,7 @@ body {
     font-size: 1.75rem;
     font-weight: 200;
     line-height: 2.1rem;
-    margin-top: 9rem;
+    margin-top: 1rem;
     color: rgba(15, 16, 27, 1);
 }
 
@@ -396,6 +396,7 @@ body {
     font-size: 1.5rem;
     font-weight: 200;
     line-height: 2.1rem;
+    margin-top: 1rem;
     color: rgba(15, 16, 27, 1);    
 }
 
@@ -424,27 +425,29 @@ body {
     font-weight: 200;
     line-height: 33.6px;
     text-align: left;
-    color: rgba(15, 16, 27, 1);
-    margin-top: 1.5rem;
-    margin-left: 14.0625rem;      
+    color: rgba(15, 16, 27, 1);    
 }
 
-.desktop-page1-bottom-rectangle5{
-    width: 392px;
-    height: 404px;
-    border-radius: 1.5rem;   
+.desktop-page1-bottom-rectangle4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem; 
+    margin-left: 2rem;
 }
 
-.desktop-page1-bottom-rectangle5-txt{
+.desktop-page1-bottom-img4{
+    width: 30.9375rem;
+    height: 31.1875rem;
+}
+
+.desktop-page1-bottom-img4-txt{
     width: 372px;
     height: 102px;
     font-family: PP Radio Grotesk;
     font-size: 28px;
     font-weight: 200;
     line-height: 33.6px;
-    text-align: left;
     color: rgba(15, 16, 27, 1);
-    margin-top: 1.5rem;  
 }
 
 /* page 1 CSS end */
@@ -486,7 +489,7 @@ body {
     line-height: 55.2px;
     letter-spacing: -0.01em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);       
+    color: rgba(255, 255, 255, 0.812);       
     margin-top: -9.549375rem;
     margin-left: -15.0625rem;
 }
@@ -507,8 +510,6 @@ body {
     font-weight: 400;
     line-height: 46px;
     letter-spacing: -0.01em;
-    text-align: left;
-    background: rgba(255, 255, 255, 1);
     margin-top: 15.7025rem;
     margin-left: 27.5rem;
 }
@@ -532,7 +533,14 @@ body {
     font-size: 1rem;
 }
 
+.desktop-page2-mid {
+    display: flex;
+    flex-direction: row;
+}
+
 .desktop-page2-top-group6{
+    display: flex;
+    flex-direction: column;
     width: 560px;
     height: 600px;
     border-radius: 24px;
@@ -594,6 +602,16 @@ body {
     line-height: 33.6px;
     text-align: left;
     color: rgba(15, 16, 27, 1);        
+}
+
+.desktop-page2-book {
+    margin-left: -9.5rem;
+    margin-top: 2rem;
+}
+
+.desktop-page2-book img {
+    width: 50rem;
+    height: 53rem;
 }
 
 /* page 2 CSS end */
