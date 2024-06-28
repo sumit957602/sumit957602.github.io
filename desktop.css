@@ -475,7 +475,7 @@ body {
     margin-left: 25.8125rem;     
 }
 
-.desktop-page2-top-frame13{
+.desktop-page2-top-frame1 {
     width: 80rem;
     height: 15rem;
     padding: 10.1875rem 7.9375rem 0rem 4.5625rem;
@@ -501,7 +501,7 @@ body {
     margin-left: -15.0625rem;
 }
 
-.desktop-page2-top-rectangle18{
+.desktop-page2-mid-rectangle1 {
     width: 90rem;
     height: 75rem;
     background: linear-gradient(180deg, #FFFFFF 0%, #EBEDEE 21.17%, #EBEDEE 76.32%, #FFFFFF 100%);
@@ -509,7 +509,7 @@ body {
     margin-left: -1.875rem;
 }
 
-.desktop-page2-top-rectangle18-txt{
+.desktop-page2-mid-rectangle1-txt{
     width: 12.5rem;
     height: 5.75rem;
     font-family: 'PP Radio Grotesk';
@@ -521,7 +521,7 @@ body {
     margin-left: 27.5rem;
 }
 
-.desktop-page2-top-rectangle18-frame26{
+.desktop-page2-mid-rectangle1-frame {
     width: 8.0625rem;
     height: 2.625rem;
     padding: .75rem 1.5rem .75rem 1.5rem;
@@ -534,7 +534,7 @@ body {
     align-items: center;
 }
 
-.desktop-page2-top-rectangle18-frame26 a{
+.desktop-page2-mid-rectangle1-frame a{
     font-family: PP Radio Grotesk;
     color: rgba(255, 255, 255, 1);
     font-size: 1rem;
@@ -545,7 +545,7 @@ body {
     flex-direction: row;
 }
 
-.desktop-page2-mid-box{
+.desktop-page2-mid-box {
     display: flex;
     flex-direction: column;
     width: 35rem;
@@ -559,7 +559,7 @@ body {
     margin-left: 25.625rem;
 }
 
-.desktop-page2-mid-box-txt{
+.desktop-page2-mid-box-txt {
     width: 23.375rem;
     height: 9.25rem;
     font-family: 'PP Radio Grotesk';
@@ -573,7 +573,7 @@ body {
     margin-left: 3rem;
 }
 
-.desktop-page2-top-group6-frame25{
+.desktop-page2-mid-frame25{
     width: 30rem;
     height: 14.5rem;
     gap: 1rem;
@@ -583,7 +583,7 @@ body {
     flex-direction: column;
 }
 
-.desktop-page2-top-group6-frame25-frame21{
+.desktop-page2-mid-frame21{
     width: 17.5rem;
     height: 2.125rem;
     padding: 0px .5rem 0px .5rem;
@@ -592,7 +592,7 @@ body {
     flex-direction: row;    
 }
 
-.desktop-page2-top-group6-frame25-frame21-txt1{
+.desktop-page2-mid-frame21-txt1{
     width: 1.25rem;
     height: 1.1875rem;
     opacity: 0.4;
@@ -603,7 +603,7 @@ body {
     color: rgba(15, 16, 27, 1);        
 }
 
-.desktop-page2-top-group6-frame25-frame21-txt2{
+.desktop-page2-mid-frame21-txt2{
     width: 14.75rem;
     height: 2.125rem;
     font-family: 'PP Radio Grotesk';
@@ -622,5 +622,98 @@ body {
     width: 46rem;
     height: 53rem;
 }
+
+.desktop-page2-bottom  {
+    margin-left: 15.625rem;
+}
+
+.desktop-page2-bottom-h1 {
+    width: 470px;
+    height: 148px;
+}
+
+.desktop-page2-bottom-h1-txt {
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 73.6px;
+    letter-spacing: -0.01rem;
+    text-align: left;
+}
+
+.desktop-page2-bottom-rectangle {
+    width: 880px;
+    height: 485px;
+}
+
+.desktop-page2-bottom-rectangle-txt1 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+}
+
+.desktop-page2-bottom-rectangle-txt2 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+}
+
+.desktop-page2-bottom-rectangle-txt3 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+}
+
+.desktop-page2-bottom-rectangle-txt4up {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+}
+
+.desktop-page2-bottom-rectangle-txt4down {
+    width: 640px;
+    height: 102px;
+    padding: 0px 24px 0px 24px;
+    gap: 10px;
+    font-family: PP Radio Grotesk;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 33.6px;
+    text-align: left;
+}
+
+.desktop-page2-bottom-rectangle-txt5 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+}
+
+.desktop-page2-bottom-rectangle-txt6 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+}
+
+.desktop-page2-bottom-rectangle-txt7 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+}
+
+
 
 /* page 2 CSS end */
