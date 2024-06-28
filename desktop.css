@@ -319,6 +319,12 @@ body {
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
+.desktop-page1-mid-button-rectangle{
+    width: .25rem;
+    height: .25rem;
+    border-radius: .0625rem;
+    background: rgba(217, 217, 217, 1);
+}
 
 .desktop-page1-mid-frame11{
     width: 80rem;
@@ -354,6 +360,145 @@ body {
 .desktop-page1-mid-image{
     width: 290px;
     height: 96px;
+}
+.desktop-page1-mid-group5{
+    width: 491px;
+    height: 499px;
+    top: 2358px;
+    left: 106px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 8.875rem;
+    margin-left: 6.625rem;    
+}
+.desktop-page1-mid-group5-txt{
+    width: 392px;
+    height: 68px;
+    top: 2881px;
+    left: 126px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 33.6px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);
+    margin-top: 1.5rem;
+    margin-left: 7.875rem;
+}
+.desktop-page1-mid-rectangle3{
+    width: 495px;
+    height: 499px;
+    top: 2438px;
+    left: 823px;
+    gap: 0px;
+    border-radius: 24px;
+    opacity: 0px;
+    margin-top: -31.9375rem;
+    margin-left: 51.4375rem;
+}
+.desktop-page1-mid-rectangle3-txt{
+    width: 412px;
+    height: 68px;
+    top: 2961px;
+    left: 843px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 33.6px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);
+    margin-top: 1.5rem;
+    margin-left: 52.6875rem;     
+}
+.desktop-page1-mid-rectangle4{
+    width: 495px;
+    height: 499px;
+    top: 3109px;
+    left: 205px;
+    gap: 0px;
+    border-radius: 24px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 5rem;
+    margin-left: 12.8125rem;
+}
+.desktop-page1-mid-rectangle4-txt{
+    width: 392px;
+    height: 102px;
+    top: 3632px;
+    left: 225px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 33.6px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);
+    margin-top: 1.5rem;
+    margin-left: 14.0625rem;      
+}
+.desktop-page1-mid-rectangle5{
+    width: 392px;
+    height: 404px;
+    top: 3309px;
+    left: 823px;
+    gap: 0px;
+    border-radius: 24px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: -26.5625rem;
+    margin-left: 51.4375rem;    
+}
+.desktop-page1-mid-rectangle5-txt{
+    width: 372px;
+    height: 102px;
+    top: 3737px;
+    left: 843px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 33.6px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);
+    margin-top: 1.5rem;
+    margin-left: 52.6875rem;     
+}
+.desktop-page1-mid-content-txt{
+    width: 594px;
+    height: 148px;
+    top: 3999px;
+    left: 413px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 73.6px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 10rem;
+    margin-left: 25.8125rem;     
+}
+.desktop-page1-mid-frame13{
+    width: 1280px;
+    height: 240px;
+    top: 4219px;
+    left: 70px;
+    padding: 163px 127px 0px 73px;
+    gap: 0px;
+    border-radius: 24px;
+    opacity: 0px;
+    margin-top: 4.5rem;
+    margin-left: 4.375rem;
+    background: linear-gradient(271.32deg, #FC9086 -110.66%, #FFC693 94.9%),
+    linear-gradient(0deg, #000000, #000000);
+    color: rgba(255, 255, 255, 1);
 }
 
 /* page 1 end */
