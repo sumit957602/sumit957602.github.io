@@ -96,7 +96,7 @@ body {
     gap: .625rem;
 }
 
-.desktop-mid-nav-ip p {
+.desktop-mid-nav-ip-p {
     width: 49px;
     height: 18px;
     opacity: 0.7px;
@@ -108,35 +108,35 @@ body {
     color: rgba(15, 16, 27, 1);
 }
 
-.desktop-mid-nav-work {
+.desktop-mid-nav-work-p {
     width: 4.1875rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
 
-.desktop-mid-nav-service {
+.desktop-mid-nav-service-p {
     width: 5.5rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
 
-.desktop-mid-nav-about {
+.desktop-mid-nav-about-p {
     width: 5.9375rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
 
-.desktop-mid-nav-careers {
+.desktop-mid-nav-careers-p {
     width: 5.25rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
 
-.desktop-mid-nav-blog{
+.desktop-mid-nav-blog-p {
     width: 3.875rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
