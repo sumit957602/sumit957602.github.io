@@ -280,6 +280,7 @@ body {
     letter-spacing: -0.01em;
     text-align: left;
     color: rgba(15, 16, 27, 1);
+    margin-top: 7.68px;
  }
  .txt-state{
     width: 436px;
@@ -291,6 +292,7 @@ body {
     line-height: 33.6px;
     text-align: left;
     color: rgba(15, 16, 27, 0.7);
+    margin-top: 24px;
  }
 .destop-rectangle1{
     width: 1280px;
@@ -299,5 +301,41 @@ body {
     left: 80px;
     gap: 0px;
     border-radius: 24px;
-    background-size: contain;
+    margin-top: 64px;
+    margin-left: 80px;
+}
+.showreel{
+    width: 1473px;
+    height: 55px;
+    top: 995.86px;
+    left: -17.37px;
+    gap: 0px;
+    opacity: 0px;
+    transform: rotate(-1deg);
+    font-family: PP Radio Grotesk;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 55.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    /* color: rgba(255, 255, 255, 1); */
+    margin-top: -300px;
+    margin-left: -17.37px;
+}
+.txt-ready{
+    width: 821px;
+    height: 296px;
+    top: 1468px;
+    left: 293px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 73.6px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgba(15, 16, 27, 1);
+    margin-top: 448px;
+    margin-left: 293px;
 }
