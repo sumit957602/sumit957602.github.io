@@ -237,8 +237,6 @@ body {
 .desktop-right-nav a{
     width: 95px;
     height: 18px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 400;
@@ -246,6 +244,7 @@ body {
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
+
 /* .desktop-page1-top-vector1{
     width: 219.98px;
     height: 65.01px;
@@ -270,13 +269,10 @@ body {
     transform: rotate(-12deg);
     background: rgba(241, 241, 241, 1);
 } */
+
  .txt-accelerate{
     width: 719px;
     height: 222px;
-    top: 342px;
-    left: 112px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 64px;
     font-weight: 400;
@@ -288,10 +284,7 @@ body {
  .txt-state{
     width: 436px;
     height: 68px;
-    top: 588px;
-    left: 112px;
     gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 28px;
     font-weight: 200;
@@ -306,6 +299,5 @@ body {
     left: 80px;
     gap: 0px;
     border-radius: 24px;
-    opacity: 0px;
     background-size: contain;
 }
