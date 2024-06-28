@@ -32,7 +32,7 @@ body {
     display: none;
 }
 
-/* Navbar start */
+/* Navbar CSS start */
 .desktop-header {
     display: flex;
     justify-content: space-between;
@@ -228,10 +228,10 @@ body {
     color: rgba(255, 255, 255, 1);
 }
 
-/* Navbar end */
+/* Navbar CSS end */
 
 
-/* page 1 start */
+/* page 1 CSS start */
 
  .desktop-page1-mid-text-accelerate{
     width: 44.9375rem;
@@ -350,7 +350,7 @@ body {
 
 .desktop-page1-mid-frame12{
     width: 113.75rem;
-    height: 96px;
+    height: 6rem;
     gap: 1rem;
     color: rgba(255, 255, 255, 1);
     margin-left: -12rem;
@@ -359,86 +359,62 @@ body {
 }
 
 .desktop-page1-mid-image{
-    width: 290px;
-    height: 96px;
+    width: 18.125rem;
+    height: 6rem;
 }
 
-.desktop-page1-mid-group5{
-    width: 491px;
-    height: 499px;
-    top: 2358px;
-    left: 106px;
-    gap: 0px;
-    opacity: 0px;
+.desktop-page1-bottom-group5{
+    width: 30.6875rem;
+    height: 31.1875rem;
     margin-top: 8.875rem;
     margin-left: 6.625rem;    
 }
 
-.desktop-page1-mid-group5-txt{
-    width: 392px;
-    height: 68px;
-    top: 2881px;
-    left: 126px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: PP Radio Grotesk;
-    font-size: 28px;
+.desktop-page1-bottom-group5-txt{
+    width: 24.5rem;
+    height: 4.25rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
     font-weight: 200;
-    line-height: 33.6px;
+    line-height: 2.1rem;
     text-align: left;
     color: rgba(15, 16, 27, 1);
     margin-top: 1.5rem;
     margin-left: 7.875rem;
 }
 
-.desktop-page1-mid-rectangle3{
-    width: 495px;
-    height: 499px;
-    top: 2438px;
-    left: 823px;
-    gap: 0px;
-    border-radius: 24px;
-    opacity: 0px;
+.desktop-page1-bottom-rectangle3{
+    width: 30.9375rem;
+    height: 31.1875rem;
+    border-radius: 1.5rem;
     margin-top: -31.9375rem;
     margin-left: 51.4375rem;
 }
 
-.desktop-page1-mid-rectangle3-txt{
-    width: 412px;
-    height: 68px;
-    top: 2961px;
-    left: 843px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: PP Radio Grotesk;
-    font-size: 28px;
+.desktop-page1-bottom-rectangle3-txt{
+    width: 25.75rem;
+    height: 4.25rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.5rem;
     font-weight: 200;
-    line-height: 33.6px;
+    line-height: 2.1rem;
     text-align: left;
     color: rgba(15, 16, 27, 1);
     margin-top: 1.5rem;
     margin-left: 52.6875rem;     
 }
 
-.desktop-page1-mid-rectangle4{
-    width: 495px;
-    height: 499px;
-    top: 3109px;
-    left: 205px;
-    gap: 0px;
-    border-radius: 24px 0px 0px 0px;
-    opacity: 0px;
+.desktop-page1-bottom-rectangle4{
+    width: 30.9375rem;
+    height: 31.1875rem;
+    border-radius: 1.5rem;
     margin-top: 5rem;
     margin-left: 12.8125rem;
 }
 
-.desktop-page1-mid-rectangle4-txt{
+.desktop-page1-bottom-rectangle4-txt{
     width: 392px;
     height: 102px;
-    top: 3632px;
-    left: 225px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 28px;
     font-weight: 200;
@@ -449,25 +425,17 @@ body {
     margin-left: 14.0625rem;      
 }
 
-.desktop-page1-mid-rectangle5{
+.desktop-page1-bottom-rectangle5{
     width: 392px;
     height: 404px;
-    top: 3309px;
-    left: 823px;
-    gap: 0px;
-    border-radius: 24px 0px 0px 0px;
-    opacity: 0px;
+    border-radius: 1.5rem;
     margin-top: -26.5625rem;
     margin-left: 51.4375rem;    
 }
 
-.desktop-page1-mid-rectangle5-txt{
+.desktop-page1-bottom-rectangle5-txt{
     width: 372px;
     height: 102px;
-    top: 3737px;
-    left: 843px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 28px;
     font-weight: 200;
@@ -478,13 +446,13 @@ body {
     margin-left: 52.6875rem;     
 }
 
-.desktop-page1-mid-content-txt{
+/* page 1 CSS end */
+
+/* page 2 CSS start */
+
+.desktop-page2-top-txt{
     width: 594px;
     height: 148px;
-    top: 3999px;
-    left: 413px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 64px;
     font-weight: 400;
@@ -496,20 +464,14 @@ body {
     margin-left: 25.8125rem;     
 }
 
-.desktop-page1-mid-frame13{
+.desktop-page2-top-frame13{
     width: 1280px;
     height: 240px;
-    top: 4219px;
-    left: 70px;
     padding: 163px 127px 0px 73px;
-    gap: 0px;
     border-radius: 24px;
-    opacity: 0px;
     margin-top: 4.5rem;
     margin-left: 4.375rem;
     background: linear-gradient(271.32deg, #FC9086 -110.66%, #FFC693 94.9%),
     linear-gradient(0deg, #000000, #000000);
     color: rgba(255, 255, 255, 1);
 }
-
-/* page 1 end */
