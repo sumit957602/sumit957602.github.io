@@ -476,3 +476,146 @@ body {
     linear-gradient(0deg, #000000, #000000);
     color: rgba(255, 255, 255, 1);
 }
+
+.desktop-page2-top-reach{
+    width: 1902px;
+    height: 55px;
+    top: 4333.71px;
+    left: -241px;
+    gap: 0px;
+    opacity: 0px;
+    transform: rotate(-1deg);
+    font-family: PP Radio Grotesk;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 55.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);       
+    margin-top: -9.549375rem;
+    margin-left: -15.0625rem;
+}
+.desktop-page2-top-rectangle18{
+    width: 1440px;
+    height: 1200px;
+    top: 4459px;
+    left: -30px;
+    gap: 0px;
+    opacity: 0px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBEDEE 21.17%, #EBEDEE 76.32%, #FFFFFF 100%);
+    margin-top: 5.7025rem;
+    margin-left: -1.875rem;
+}
+.desktop-page2-top-rectangle18-txt{
+    width: 200px;
+    height: 92px;
+    top: 4619px;
+    left: 410px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 15.7025rem;
+    margin-left: 27.5rem;
+}
+.desktop-page2-top-rectangle18-frame26{
+    width: 129px;
+    height: 42px;
+    top: 4644px;
+    left: 841px;
+    padding: 12px 24px 12px 24px;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 0px;
+    background: rgba(15, 16, 27, 1);
+    margin-top: -4.1875rem;
+    margin-left: 52.5625rem;
+    display: flex;
+    align-items: center;
+}
+.desktop-page2-top-rectangle18-frame26 a{
+    font-family: PP Radio Grotesk;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1rem;
+}
+.desktop-page2-top-group6{
+    width: 560px;
+    height: 600px;
+    top: 4759px;
+    left: 410px;
+    gap: 0px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 24px 96px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 4px 20px 32px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: -1px 3px 8px 0px rgba(0, 0, 0, 0.05);
+    margin-top: 4.2rem;
+    margin-left: 25.625rem;
+}
+.desktop-page2-top-group6-txt{
+    width: 374px;
+    height: 148px;
+    top: 4807px;
+    left: 458px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 73.6px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    background: rgba(255, 255, 255, 1);
+    padding-top: 3rem;
+    margin-left: 3rem;
+}
+.desktop-page2-top-group6-frame25{
+    width: 480px;
+    height: 232px;
+    top: 5087px;
+    left: 450px;
+    gap: 16px;
+    opacity: 0px;
+    margin-top: 11.25rem;
+    margin-left: 2.5rem;
+}
+.desktop-page2-top-group6-frame25-frame21{
+    width: Hug (280px)px;
+    height: Hug (34px)px;
+    padding: 0px 8px 0px 8px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;    
+}
+.desktop-page2-top-group6-frame25-frame21-txt1{
+    width: 20px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0.4;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19.2px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+.desktop-page2-top-group6-frame25-frame21-txt2{
+    width: 236px;
+    height: 34px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 1.75rem;
+    font-weight: 200;
+    line-height: 33.6px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+
+/* page 2 CSS end */
