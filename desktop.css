@@ -78,7 +78,7 @@ body {
     background: rgba(255, 255, 255, 1);
 }
 
-.desktop-mid-nav-home p{
+.desktop-mid-nav-home-p{
     width: 41px;
     height: 18px;
     font-family: PP Radio Grotesk;
@@ -108,37 +108,62 @@ body {
     color: rgba(15, 16, 27, 1);
 }
 
-.desktop-mid-nav-work-p {
+.desktop-mid-nav-work {
     width: 4.1875rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
 
-.desktop-mid-nav-service-p {
+.desktop-mid-nav-work-p {
+
+}
+
+.desktop-mid-nav-service {
     width: 5.5rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
 
-.desktop-mid-nav-about-p {
+.desktop-mid-nav-service-p {
+
+}
+
+.desktop-mid-nav-about {
     width: 5.9375rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
 
-.desktop-mid-nav-careers-p {
+.desktop-mid-nav-about-p {
+
+}
+
+.desktop-mid-nav-careers {
     width: 5.25rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
 
-.desktop-mid-nav-blog-p {
+.desktop-mid-nav-careers-p {
+
+}
+
+.desktop-mid-nav-blog{
     width: 3.875rem;
     height: 2.125rem;
     padding: .5rem 1rem .5rem 1rem;
     gap: .625rem;
 }
+
+.desktop-mid-nav-blog-p {
+
+}   
+
+.desktop-right-nav {
+
+}
+
