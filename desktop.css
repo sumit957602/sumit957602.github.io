@@ -230,6 +230,12 @@ body {
 
 /* page 1 CSS start */
 
+ .desktop-page1-top img{
+    height: 15rem;
+    width: 25rem;
+    margin-left: 3.7rem;
+ }
+
  .desktop-page1-mid-text-accelerate{
     width: 44.9375rem;
     height: 13.875rem;
