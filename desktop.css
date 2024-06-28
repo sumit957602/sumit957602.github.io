@@ -717,3 +717,29 @@ body {
 
 
 /* page 2 CSS end */
+
+/* page 3 CSS start */
+
+.desktop-page3 {
+
+}
+
+.desktop-page3-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop-page3-top-rectangle1 {
+    width: 870px;
+    height: 560px;
+    margin-left: -652px;
+    border-radius: 24px 0px 0px 0px;
+}
+
+.desktop-page3-top-rectangle2 {
+    width: 880px;
+    height: 560px;
+    border-radius: 24px;
+    background: url(svg/page3-rec.png) no-repeat center center/cover;
+}
+
