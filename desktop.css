@@ -234,6 +234,7 @@ body {
     height: 15rem;
     width: 25rem;
     margin-left: 3.7rem;
+    margin-top: 3rem;
  }
 
  .desktop-page1-mid-text-accelerate{
@@ -447,7 +448,7 @@ body {
 }
 
 .desktop-page1-bottom-img4-txt{
-    width: 372px;
+    width: 23.25rem;
     height: 102px;
     font-family: PP Radio Grotesk;
     font-size: 28px;
@@ -461,12 +462,12 @@ body {
 /* page 2 CSS start */
 
 .desktop-page2-top-txt{
-    width: 594px;
-    height: 148px;
-    font-family: PP Radio Grotesk;
-    font-size: 64px;
+    width: 37.125rem;
+    height: 9.25rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
     font-weight: 400;
-    line-height: 73.6px;
+    line-height: 4.6rem;
     letter-spacing: -0.01em;
     text-align: center;
     background-color: rgba(255, 255, 255, 1);
@@ -475,10 +476,10 @@ body {
 }
 
 .desktop-page2-top-frame13{
-    width: 1280px;
-    height: 240px;
-    padding: 163px 127px 0px 73px;
-    border-radius: 24px;
+    width: 80rem;
+    height: 15rem;
+    padding: 10.1875rem 7.9375rem 0rem 4.5625rem;
+    border-radius: 1.5rem;
     margin-top: 4.5rem;
     margin-left: 4.375rem;
     background: url(svg/frame131.png) no-repeat center center/cover;
@@ -486,13 +487,13 @@ body {
 }
 
 .desktop-page2-top-reach{
-    width: 1902px;
-    height: 55px;
+    width: 118.875rem;
+    height: 3.4375rem;
     transform: rotate(-1deg);
-    font-family: PP Radio Grotesk;
-    font-size: 48px;
+    font-family: 'PP Radio Grotesk';
+    font-size: 3rem;
     font-weight: 200;
-    line-height: 55.2px;
+    line-height: 3.45rem;
     letter-spacing: -0.01em;
     text-align: left;
     color: rgba(255, 255, 255, 0.812);       
@@ -501,31 +502,31 @@ body {
 }
 
 .desktop-page2-top-rectangle18{
-    width: 1440px;
-    height: 1200px;
+    width: 90rem;
+    height: 75rem;
     background: linear-gradient(180deg, #FFFFFF 0%, #EBEDEE 21.17%, #EBEDEE 76.32%, #FFFFFF 100%);
     margin-top: 5.7025rem;
     margin-left: -1.875rem;
 }
 
 .desktop-page2-top-rectangle18-txt{
-    width: 200px;
-    height: 92px;
-    font-family: PP Radio Grotesk;
-    font-size: 40px;
+    width: 12.5rem;
+    height: 5.75rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 2.5rem;
     font-weight: 400;
-    line-height: 46px;
+    line-height: 2.875rem;
     letter-spacing: -0.01em;
     margin-top: 15.7025rem;
     margin-left: 27.5rem;
 }
 
 .desktop-page2-top-rectangle18-frame26{
-    width: 129px;
-    height: 42px;
-    padding: 12px 24px 12px 24px;
-    gap: 10px;
-    border-radius: 40px;
+    width: 8.0625rem;
+    height: 2.625rem;
+    padding: .75rem 1.5rem .75rem 1.5rem;
+    gap: .625rem;
+    border-radius: 2.5rem;
     background: rgba(15, 16, 27, 1);
     margin-top: -4.1875rem;
     margin-left: 52.5625rem;
@@ -544,12 +545,12 @@ body {
     flex-direction: row;
 }
 
-.desktop-page2-top-group6{
+.desktop-page2-mid-box{
     display: flex;
     flex-direction: column;
-    width: 560px;
-    height: 600px;
-    border-radius: 24px;
+    width: 35rem;
+    height: 37.5rem;
+    border-radius: 1.5rem;
     background: rgba(255, 255, 255, 1);
     box-shadow: 10px 24px 96px 0px rgba(0, 0, 0, 0.04);
     box-shadow: 4px 20px 32px 0px rgba(0, 0, 0, 0.04);
@@ -558,14 +559,14 @@ body {
     margin-left: 25.625rem;
 }
 
-.desktop-page2-top-group6-txt{
-    width: 374px;
-    height: 148px;
-    font-family: PP Radio Grotesk;
-    font-size: 64px;
+.desktop-page2-mid-box-txt{
+    width: 23.375rem;
+    height: 9.25rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
     font-weight: 400;
     line-height: 73.6px;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.01rem;
     text-align: left;
     background: rgba(255, 255, 255, 1);
     padding-top: 3rem;
@@ -573,40 +574,42 @@ body {
 }
 
 .desktop-page2-top-group6-frame25{
-    width: 480px;
-    height: 232px;
-    gap: 16px;
+    width: 30rem;
+    height: 14.5rem;
+    gap: 1rem;
     margin-top: 11.25rem;
     margin-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .desktop-page2-top-group6-frame25-frame21{
-    width: 280px;
-    height: 34px;
-    padding: 0px 8px 0px 8px;
-    gap: 8px;
-    display: flex;    
+    width: 17.5rem;
+    height: 2.125rem;
+    padding: 0px .5rem 0px .5rem;
+    gap: .5rem;
+    display: flex;
+    flex-direction: row;    
 }
 
 .desktop-page2-top-group6-frame25-frame21-txt1{
-    width: 20px;
-    height: 19px;
+    width: 1.25rem;
+    height: 1.1875rem;
     opacity: 0.4;
     font-family: PP Radio Grotesk;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;
-    line-height: 19.2px;
+    line-height: 1.2rem;
     color: rgba(15, 16, 27, 1);        
 }
 
 .desktop-page2-top-group6-frame25-frame21-txt2{
-    width: 236px;
-    height: 34px;
+    width: 14.75rem;
+    height: 2.125rem;
     font-family: 'PP Radio Grotesk';
     font-size: 1.75rem;
     font-weight: 200;
-    line-height: 33.6px;
-    text-align: left;
+    line-height: 2.1rem;
     color: rgba(15, 16, 27, 1);        
 }
 
