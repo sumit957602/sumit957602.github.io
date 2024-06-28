@@ -425,12 +425,12 @@ body {
 }
 
 .desktop-page1-bottom-img3-txt{
-    width: 392px;
-    height: 102px;
-    font-family: PP Radio Grotesk;
-    font-size: 28px;
+    width: 24.5rem;
+    height: 6.375rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
     font-weight: 200;
-    line-height: 33.6px;
+    line-height: 2.1rem;
     text-align: left;
     color: rgba(15, 16, 27, 1);    
 }
@@ -449,11 +449,11 @@ body {
 
 .desktop-page1-bottom-img4-txt{
     width: 23.25rem;
-    height: 102px;
-    font-family: PP Radio Grotesk;
-    font-size: 28px;
+    height: 6.375rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
     font-weight: 200;
-    line-height: 33.6px;
+    line-height: 2.1rem;
     color: rgba(15, 16, 27, 1);
 }
 
