@@ -511,5 +511,22 @@ body {
     linear-gradient(0deg, #000000, #000000);
     color: rgba(255, 255, 255, 1);
 }
+.desktop-page1-mid-reach{
+    width: 1902px;
+    height: 55px;
+    top: 4333.71px;
+    left: -241px;
+    gap: 0px;
+    opacity: 0px;
+    transform: rotate(-1deg);
+    font-family: PP Radio Grotesk;
+    font-size: 48px;
+    font-weight: 200;
+    line-height: 55.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);       
+    margin-top: -7.5rem; 
+}
 
 /* page 1 end */
