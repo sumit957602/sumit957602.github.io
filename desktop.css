@@ -32,7 +32,7 @@ body {
     display: none;
 }
 
-/* Navbar */
+/* Navbar start */
 .desktop-header {
     display: flex;
     justify-content: space-between;
@@ -117,18 +117,14 @@ body {
 }
 
 .desktop-mid-nav-work-p {
-    width: 35px;
-    height: 18px;
-    gap: 0px;
-    opacity: 0.7px;
+    width: 2.1875rem;
+    height: 1.125rem;
+    opacity: 0.7;
     font-family: PP Radio Grotesk;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;
-    line-height: 18.4px;
-    /* text-align: center; */
+    line-height: 1.15rem;
     color: rgba(15, 16, 27, 1);
-
-
 }
 
 .desktop-mid-nav-service {
@@ -139,15 +135,13 @@ body {
 }
 
 .desktop-mid-nav-service-p {
-    width: 56px;
-    height: 18px;
-    gap: 0px;
-    opacity: 0.7px;
+    width: 3.5rem;
+    height: 1.125rem;
+    opacity: 0.7;
     font-family: PP Radio Grotesk;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;
-    line-height: 18.4px;
-    /* text-align: center; */
+    line-height: 1.15rem;
     color: rgba(15, 16, 27, 1);
 }
 
@@ -159,15 +153,13 @@ body {
 }
 
 .desktop-mid-nav-about-p {
-    width: 63px;
-    height: 18px;
-    gap: 0px;
-    opacity: 0.7px;
+    width: 3.9375rem;
+    height: 1.125rem;
+    opacity: 0.7;
     font-family: PP Radio Grotesk;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;
-    line-height: 18.4px;
-    /* text-align: center; */
+    line-height: 1.15rem;
     color: rgba(15, 16, 27, 1);
 }
 
@@ -179,15 +171,13 @@ body {
 }
 
 .desktop-mid-nav-careers-p {
-    width: 52px;
-    height: 18px;
-    gap: 0px;
-    opacity: 0.7px;
+    width: 3.25rem;
+    height: 1.125rem;
+    opacity: 0.7;
     font-family: PP Radio Grotesk;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;
-    line-height: 18.4px;
-    /* text-align: center; */
+    line-height: 1.15rem;
     color: rgba(15, 16, 27, 1);
 }
 
@@ -199,186 +189,171 @@ body {
 }
 
 .desktop-mid-nav-blog-p {
-    width: 30px;
-    height: 18px;
-    gap: 0px;
-    opacity: 0.7px;
+    width: 1.875rem;
+    height: 1.125rem;
+    opacity: 0.7;
     font-family: PP Radio Grotesk;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 200;
-    line-height: 18.4px;
+    line-height: 1.15rem;
     color: rgba(15, 16, 27, 1);
 }   
 
 .desktop-right-nav {
-    width: 157px;
-    height: 42px;
-    top: 24px;
-    left: 1171px;
-    padding: 12px 24px 12px 24px;
-    gap: 10px;
-    border-radius: 40px;
+    width: 9.8125rem;
+    height: 2.625rem;
+    padding: .75rem 1.5rem .75rem 1.5rem;
+    gap: .625rem;
+    border-radius: 2.5rem;
     background: rgba(15, 16, 27, 1);
     display: flex;
     align-items: center;
 }
 
-.destop-rectangle2{
-    width: 4px;
-    height: 4px;
-    gap: 0px;
-    border-radius: 1px;
+.desktop-right-nav-rectangle{
+    width: .25rem;
+    height: .25rem;
+    border-radius: .0625rem;
     background: rgba(217, 217, 217, 1);
 }
 
 .desktop-right-nav a{
-    width: 95px;
-    height: 18px;
+    width: 5.9375rem;
+    height: 1.125rem;
     font-family: PP Radio Grotesk;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 18.4px;
+    line-height: 1.15rem;
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
 
- .txt-accelerate{
-    width: 719px;
-    height: 222px;
-    margin-left: 112px;
-    font-family: PP Radio Grotesk;
-    font-size: 64px;
+/* Navbar end */
+
+
+/* page 1 start */
+
+ .desktop-page1-mid-text-accelerate{
+    width: 44.9375rem;
+    height: 13.875rem;
+    margin-left: 7rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
     font-weight: 400;
-    line-height: 73.6px;
-    letter-spacing: -0.01em;
+    line-height: 4.6rem;
+    letter-spacing: -0.01rem;
     text-align: left;
     color: rgba(15, 16, 27, 1);
-    margin-top: 7.68px;
+    margin-top: .48rem;
  }
 
- .txt-state{
-    width: 436px;
-    height: 68px;
-    margin-left: 112px;
-    gap: 0px;
-    font-family: PP Radio Grotesk;
-    font-size: 28px;
+ .desktop-page1-mid-text-state{
+    width: 27.25rem;
+    height: 4.25rem;
+    margin-left: 7rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
     font-weight: 200;
-    line-height: 33.6px;
+    line-height: 2.1rem;
     text-align: left;
     color: rgba(15, 16, 27, 0.7);
-    margin-top: 24px;
+    margin-top: 1.5rem;
  }
 
-.destop-rectangle1{
-    width: 1280px;
-    height: 600px;
-    gap: 0px;
-    border-radius: 24px;
-    margin-top: 64px;
-    margin-left: 80px;
+.desktop-page1-mid-img1{
+    width: 80rem;
+    height: 37.5rem;
+    border-radius: 1.5rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
 }
 
-.showreel{
-    width: 1473px;
-    height: 55px;
-    font-family: PP Radio Grotesk;
-    font-size: 48px;
+.desktop-page1-mid-showreel{
+    width: 92.0625rem;
+    height: 3.4375rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 3rem;
     font-weight: 200;
-    line-height: 55.2px;
-    letter-spacing: -0.01em;
+    line-height: 3.45rem;
+    letter-spacing: -0.01rem;
     text-align: left;
-    /* color: rgba(255, 255, 255, 1); */
-    margin-top: -300px;
-    margin-left: -17.37px;
+    color: rgba(255, 255, 255, 0.659);
+    margin-top: -18.75rem;
+    margin-left: 1.085625rem;
 }
 
-.txt-ready{
-    width: 821px;
-    height: 296px;
-    top: 1468px;
-    left: 293px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: PP Radio Grotesk;
-    font-size: 64px;
+.desktop-page1-mid-txt-ready{
+    width: 51.3125rem;
+    height: 18.5rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
     font-weight: 400;
-    line-height: 73.6px;
-    letter-spacing: -0.01em;
+    line-height: 4.6rem;
+    letter-spacing: -0.01rem;
     text-align: center;
     color: rgba(15, 16, 27, 1);
-    margin-top: 448px;
-    margin-left: 293px;
+    margin-top: 28rem;
+    margin-left: 18.3125rem;
 }
 
-.desktop-frame12{
-    width: 157px;
-    height: 42px;
-    padding: 12px 24px 12px 24px;
-    gap: 10px;
-    border-radius: 40px;
-    opacity: 0px;
+.desktop-page1-mid-button {
+    width: 9.8125rem;
+    height: 2.625rem;
+    padding: .75rem 1.5rem .75rem 1.5rem;
+    gap: .625rem;
+    border-radius: 2.5rem;
     background: rgba(15, 16, 27, 1);
     display: flex;
     align-items: center;
-    margin-top: 32px;
-    margin-left: 625px;
+    margin-top: 2rem;
+    margin-left: 39rem;
 }
 
-.desktop-frame12 a{
-    width: 95px;
-    height: 18px;
-    font-family: PP Radio Grotesk;
-    font-size: 16px;
+.desktop-page1-mid-button a{
+    width: 5.9375rem;
+    height: 1.125rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 18.4px;
+    line-height: 1.15rem;
     text-align: center;
     color: rgba(255, 255, 255, 1);
 }
 
-.frame11{
-    width: 1280px;
-    height: 240px;
-    top: 1976px;
-    left: 78px;
-    gap: 0px;
-    border-radius: 24px;
-    opacity: 0px;
+.desktop-page1-mid-frame11{
+    width: 80rem;
+    height: 15rem;
+    border-radius: 1.5rem;
     background: linear-gradient(271.32deg, #FC9086 -110.66%, #FFC693 94.9%);
     color: rgba(255, 255, 255, 1);
-    margin-top: 138px;
-    margin-left: 78px;
+    margin-top: 8.625rem;
+    margin-left: 4.875rem;
     display: flex;
     align-items: center;
 }
 
-.group4{
-    width: 1820px;
-    height: 96px;
-    top: 2048px;
-    left: -192px;
-    gap: 0px;
-    opacity: 0px;
+.desktop-page1-mid-group4{
+    width: 113.75rem;
+    height: 6rem;
     color: rgba(255, 255, 255, 1);
-    /* background-color: #111010; */
-    margin-left: -192px;
+    margin-left: -12rem;
     display: flex;
     align-items: center;
 }
 
-.frame12{
-    width: 1820px;
+.desktop-page1-mid-frame12{
+    width: 113.75rem;
     height: 96px;
-    top: 2048px;
-    left: -192px;
-    gap: 16px;
+    gap: 1rem;
     color: rgba(255, 255, 255, 1);
-    margin-left: -192px;
+    margin-left: -12rem;
     display: flex;
     align-items: center;
 }
 
-.image{
+.desktop-page1-mid-image{
     width: 290px;
     height: 96px;
 }
+
+/* page 1 end */
