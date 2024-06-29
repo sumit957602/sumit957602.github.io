@@ -255,7 +255,7 @@ body {
     font-size: 4rem;
     font-weight: 400;
     line-height: 4.6rem;
-    letter-spacing: -0.01rem;
+    letter-spacing: -0.03rem;
     color: rgba(15, 16, 27, 1);
     margin-top: .48rem;
  }
@@ -860,10 +860,6 @@ body {
 .desktop-page3-top-rectangle2-h1{
     width: 640px;
     height: 110px;
-    top: 6640px;
-    left: 350px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 48px;
     font-weight: 400;
