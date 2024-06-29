@@ -1,0 +1,1077 @@
+@media (min-width: 100px) and (max-width: 768px){
+
+/* Default */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'PP Radio Grotesk';
+}
+
+:root {
+    --bg-color: #eceff0;
+    --second--bg-color: #dde6ec;
+    --text-color: #111010;
+    --main-color: #111212;
+}
+
+/* html {
+    overflow-x: hidden;
+    overflow-y: auto;
+} */
+
+
+.desktop-html {
+    display: none;
+}
+
+.mobile-html {
+    display: block;
+}
+
+/* Navbar CSS start */
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4.125rem;
+    padding-top: 1.5rem;
+}
+
+.mobile-left-nav {
+    margin-left: 7rem;
+    margin-top: .5rem;
+}
+
+.mobile-left-nav-logo-img {
+    height: 1.25rem;
+    width: 3.125rem;
+}
+
+.mobile-left-nav-logo-text {
+    margin-top: .125rem;
+    font-family: PP Radio Grotesk;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4375rem;
+    color: rgba(15, 16, 27, 0.4);
+}
+
+.mobile-mid-nav {
+    display: flex;
+    width: 35.75rem;
+    height: 2.625rem;
+    padding: .25rem;
+    border-radius: 2.5rem;
+    background: rgba(241, 241, 241, 1);
+}
+
+.mobile-mid-nav-home {
+    width: 5.4375rem;
+    height: 2.125rem;
+    padding: .5rem 1rem .5rem 1rem;
+    gap: .625rem;
+    border-radius: 2.5rem;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+}
+
+.mobile-mid-nav-home-p{
+    width: 2.5625rem;
+    height: 1.125rem;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.15rem;
+    color: rgba(15, 16, 27, 1);
+}
+
+.mobile-mid-nav-ip {
+    width: 5.0625rem;
+    height: 2.125rem;
+    padding: .5rem 1rem .5rem 1rem;
+    gap: .625rem;
+}
+
+.mobile-mid-nav-ip-p {
+    width: 3.0625rem;
+    height: 1.125rem;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.15rem;
+    color: rgba(15, 16, 27, 1);
+}
+
+.mobile-mid-nav-work {
+    width: 4.1875rem;
+    height: 2.125rem;
+    padding: .5rem 1rem .5rem 1rem;
+    gap: .625rem;
+}
+
+.mobile-mid-nav-work-p {
+    width: 2.1875rem;
+    height: 1.125rem;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.15rem;
+    color: rgba(15, 16, 27, 1);
+}
+
+.mobile-mid-nav-service {
+    width: 5.5rem;
+    height: 2.125rem;
+    padding: .5rem 1rem .5rem 1rem;
+    gap: .625rem;
+}
+
+.mobile-mid-nav-service-p {
+    width: 3.5rem;
+    height: 1.125rem;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.15rem;
+    color: rgba(15, 16, 27, 1);
+}
+
+.mobile-mid-nav-about {
+    width: 5.9375rem;
+    height: 2.125rem;
+    padding: .5rem 1rem .5rem 1rem;
+    gap: .625rem;
+}
+
+.mobile-mid-nav-about-p {
+    width: 3.9375rem;
+    height: 1.125rem;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.15rem;
+    color: rgba(15, 16, 27, 1);
+}
+
+.mobile-mid-nav-careers {
+    width: 5.25rem;
+    height: 2.125rem;
+    padding: .5rem 1rem .5rem 1rem;
+    gap: .625rem;
+}
+
+.mobile-mid-nav-careers-p {
+    width: 3.25rem;
+    height: 1.125rem;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.15rem;
+    color: rgba(15, 16, 27, 1);
+}
+
+.mobile-mid-nav-blog{
+    width: 3.875rem;
+    height: 2.125rem;
+    padding: .5rem 1rem .5rem 1rem;
+    gap: .625rem;
+}
+
+.mobile-mid-nav-blog-p {
+    width: 1.875rem;
+    height: 1.125rem;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.15rem;
+    color: rgba(15, 16, 27, 1);
+}
+.mobile-rectangle2{
+    width: .25rem;
+    height: .25rem;
+    border-radius: .0625rem;
+    background: rgba(15, 16, 27, 1);
+}
+
+.mobile-right-nav {
+    width: 9.8125rem;
+    height: 2.625rem;
+    padding: .75rem 1.5rem .75rem 1.5rem;
+    gap: .625rem;
+    border-radius: 2.5rem;
+    background: rgba(15, 16, 27, 1);
+    display: flex;
+    align-items: center;
+}
+
+.mobile-right-nav-rectangle{
+    width: .25rem;
+    height: .25rem;
+    border-radius: .0625rem;
+    background: rgba(217, 217, 217, 1);
+}
+
+.mobile-right-nav a{
+    width: 5.9375rem;
+    height: 1.125rem;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.15rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* Navbar CSS end */
+
+
+/* page 1 CSS start */
+
+ .mobile-page1-top img{
+    height: 15rem;
+    width: 25rem;
+    margin-left: 3.7rem;
+    margin-top: 3rem;
+ }
+
+ .mobile-page1-mid-text-accelerate{
+    width: 44.9375rem;
+    height: 13.875rem;
+    margin-left: 7rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.6rem;
+    letter-spacing: -0.01rem;
+    color: rgba(15, 16, 27, 1);
+    margin-top: .48rem;
+ }
+
+ .mobile-page1-mid-text-state{
+    width: 27.25rem;
+    height: 4.25rem;
+    margin-left: 7rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
+    font-weight: 200;
+    line-height: 2.1rem;
+    color: rgba(15, 16, 27, 0.7);
+    margin-top: 1.5rem;
+ }
+
+.mobile-page1-mid-img1{
+    width: 80rem;
+    height: 37.5rem;
+    border-radius: 1.5rem;
+    margin-top: 4rem;
+    margin-left: 5rem;
+}
+
+.mobile-page1-mid-showreel{
+    width: 92.0625rem;
+    height: 3.4375rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 3.45rem;
+    letter-spacing: -0.01rem;
+    color: rgba(255, 255, 255, 0.659);
+    margin-top: -18.75rem;
+    margin-left: 1.085625rem;
+}
+
+.desktop-page1-mid-txt-ready{
+    width: 51.3125rem;
+    height: 18.5rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.6rem;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    color: rgba(15, 16, 27, 1);
+    margin-top: 28rem;
+    margin-left: 18.3125rem;
+}
+
+.desktop-page1-mid-button {
+    width: 9.8125rem;
+    height: 2.625rem;
+    padding: .75rem 1.5rem .75rem 1.5rem;
+    gap: .625rem;
+    border-radius: 2.5rem;
+    background: rgba(15, 16, 27, 1);
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 39rem;
+}
+
+.desktop-page1-mid-button a{
+    width: 5.9375rem;
+    height: 1.125rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.15rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.desktop-page1-mid-button1 {
+    width: .25rem;
+    height: .25rem;
+    border-radius: .0625rem;
+    background: rgba(217, 217, 217, 1);
+}
+
+.desktop-page1-mid-rectangle {
+    width: 80rem;
+    height: 15rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(271.32deg, #FC9086 -110.66%, #FFC693 94.9%);
+    color: rgba(255, 255, 255, 1);
+    margin-top: 8.625rem;
+    margin-left: 4.875rem;
+    display: flex;
+    align-items: center;
+}
+
+.desktop-page1-mid-frame12 {
+    width: 113.75rem;
+    height: 6rem;
+    gap: 1rem;
+    color: rgba(255, 255, 255, 1);
+    margin-left: -22rem;
+    display: flex;
+    align-items: center;
+}
+
+.desktop-page1-mid-image {
+    width: 18.125rem;
+    height: 6rem;
+}
+
+
+
+.desktop-page1-bottom-section1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop-page1-bottom-rectangle1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8.875rem;
+    margin-left: 6.625rem; 
+}
+
+.desktop-page1-bottom-img1 {
+    width: 30.6875rem;
+    height: 31.1875rem;   
+}
+
+.desktop-page1-bottom-img1-txt {
+    width: 24.5rem;
+    height: 4.25rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
+    font-weight: 200;
+    line-height: 2.1rem;
+    margin-top: 1rem;
+    color: rgba(15, 16, 27, 1);
+}
+
+.desktop-page1-bottom-rectangle2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10.875rem;
+    margin-left: 10.625rem; 
+}
+
+.desktop-page1-bottom-img2 {
+    width: 30.9375rem;
+    height: 31.1875rem;
+}
+
+.desktop-page1-bottom-img2-txt {
+    width: 25.75rem;
+    height: 4.25rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2.1rem;
+    margin-top: 1rem;
+    color: rgba(15, 16, 27, 1);    
+}
+
+.desktop-page1-bottom-section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop-page1-bottom-rectangle3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-left: 12.8125rem;
+}
+
+.desktop-page1-bottom-img3 {
+    width: 30.9375rem;
+    height: 31.1875rem;
+}
+
+.desktop-page1-bottom-img3-txt{
+    width: 24.5rem;
+    height: 6.375rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
+    font-weight: 200;
+    line-height: 2.1rem;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);    
+}
+
+.desktop-page1-bottom-rectangle4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem; 
+    margin-left: 2rem;
+}
+
+.desktop-page1-bottom-img4{
+    width: 30.9375rem;
+    height: 31.1875rem;
+}
+
+.desktop-page1-bottom-img4-txt{
+    width: 23.25rem;
+    height: 6.375rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
+    font-weight: 200;
+    line-height: 2.1rem;
+    color: rgba(15, 16, 27, 1);
+}
+
+/* page 1 CSS end */
+
+/* page 2 CSS start */
+
+.desktop-page2-top-txt{
+    width: 37.125rem;
+    height: 9.25rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 4.6rem;
+    letter-spacing: -0.01em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 10rem;
+    margin-left: 25.8125rem;     
+}
+
+.desktop-page2-top-frame1 {
+    width: 80rem;
+    height: 15rem;
+    padding: 10.1875rem 7.9375rem 0rem 4.5625rem;
+    border-radius: 1.5rem;
+    margin-top: 4.5rem;
+    margin-left: 4.375rem;
+    background: url(svg/frame131.png) no-repeat center center/cover;
+    color: rgba(255, 255, 255, 1);
+}
+
+.desktop-page2-top-reach{
+    width: 118.875rem;
+    height: 3.4375rem;
+    transform: rotate(-1deg);
+    font-family: 'PP Radio Grotesk';
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 3.45rem;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.812);       
+    margin-top: -9.549375rem;
+    margin-left: -15.0625rem;
+}
+
+.desktop-page2-mid-rectangle1 {
+    width: 90rem;
+    height: 75rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBEDEE 21.17%, #EBEDEE 76.32%, #FFFFFF 100%);
+    margin-top: 5.7025rem;
+    margin-left: -1.875rem;
+}
+
+.desktop-page2-mid-rectangle1-txt{
+    width: 12.5rem;
+    height: 5.75rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 2.875rem;
+    letter-spacing: -0.01em;
+    margin-top: 15.7025rem;
+    margin-left: 27.5rem;
+}
+
+.desktop-page2-mid-rectangle1-frame {
+    width: 8.0625rem;
+    height: 2.625rem;
+    padding: .75rem 1.5rem .75rem 1.5rem;
+    gap: .625rem;
+    border-radius: 2.5rem;
+    background: rgba(15, 16, 27, 1);
+    margin-top: -4.1875rem;
+    margin-left: 52.5625rem;
+    display: flex;
+    align-items: center;
+}
+
+.desktop-page2-mid-rectangle1-frame a{
+    font-family: PP Radio Grotesk;
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.85rem;
+}
+
+.desktop-page2-mid {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop-page2-mid-box {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 37.5rem;
+    border-radius: 1.5rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 24px 96px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 4px 20px 32px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: -1px 3px 8px 0px rgba(0, 0, 0, 0.05);
+    margin-top: 4.2rem;
+    margin-left: 25.625rem;
+}
+
+.desktop-page2-mid-box-txt {
+    width: 23.375rem;
+    height: 9.25rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 73.6px;
+    letter-spacing: -0.01rem;
+    text-align: left;
+    background: rgba(255, 255, 255, 1);
+    padding-top: 3rem;
+    margin-left: 3rem;
+}
+
+.desktop-page2-mid-frame25{
+    width: 30rem;
+    height: 14.5rem;
+    gap: 1rem;
+    margin-top: 11.25rem;
+    margin-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.desktop-page2-mid-frame21{
+    width: 17.5rem;
+    height: 2.125rem;
+    padding: 0px .5rem 0px .5rem;
+    gap: .5rem;
+    display: flex;
+    flex-direction: row;    
+}
+
+.desktop-page2-mid-frame21-txt1{
+    width: 1.25rem;
+    height: 1.1875rem;
+    opacity: 0.4;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.2rem;
+    color: rgba(15, 16, 27, 1);        
+}
+
+.desktop-page2-mid-frame21-txt2{
+    width: 14.75rem;
+    height: 2.125rem;
+    font-family: 'PP Radio Grotesk';
+    font-size: 1.75rem;
+    font-weight: 200;
+    line-height: 2.1rem;
+    color: rgba(15, 16, 27, 1);        
+}
+
+.desktop-page2-book {
+    margin-left: -8.5rem;
+    margin-top: 2rem;
+}
+
+.desktop-page2-book img {
+    width: 46rem;
+    height: 53rem;
+}
+
+.desktop-page2-bottom  {
+    margin-left: 15.625rem;
+}
+
+.desktop-page2-bottom-h1 {
+    width: 470px;
+    height: 148px;
+}
+
+.desktop-page2-bottom-h1-txt {
+    font-family: 'PP Radio Grotesk';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 73.6px;
+    letter-spacing: -0.01rem;
+    text-align: left;
+}
+
+.desktop-page2-bottom-rectangle {
+    width: 880px;
+    height: 485px;
+}
+.desktop-page2-bottom-rectangle span{
+    width: 20px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(217, 217, 217, 1);    
+}
+.desktop-page2-bottom-rectangle p{
+    width: 583px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);
+    margin-left: -1rem;
+}
+
+.desktop-page2-bottom-rectangle-txt1 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.desktop-page2-bottom-rectangle-txt2 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.desktop-page2-bottom-rectangle-txt3 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+.desktop-page2-bottom-rectangle-txt4{
+    width: 880px;
+    height: 173px;
+    padding: 20px 0px 20px 0px;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)    
+}
+
+.desktop-page2-bottom-rectangle-txt4up {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+}
+
+.desktop-page2-bottom-rectangle-txt4down {
+    width: 640px;
+    height: 102px;
+    padding: 0px 24px 0px 24px;
+    gap: 10px;
+    font-family: PP Radio Grotesk;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 33.6px;
+    text-align: left;
+}
+
+.desktop-page2-bottom-rectangle-txt5 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.desktop-page2-bottom-rectangle-txt6 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.desktop-page2-bottom-rectangle-txt7 {
+    width: 880px;
+    height: 52px;
+    padding: 1rem 0rem 1rem 0rem;
+    gap: 11px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+
+
+/* page 2 CSS end */
+
+/* page 3 CSS start */
+
+.desktop-page3 {
+
+}
+
+.desktop-page3-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop-page3-top-rectangle1 {
+    width: 870px;
+    height: 560px;
+    margin-left: -652px;
+    border-radius: 24px;
+}
+
+.desktop-page3-top-rectangle2 {
+    width: 880px;
+    height: 560px;
+    border-radius: 24px;
+    background: url(svg/page3-rec.png) no-repeat center center/cover;
+    margin-top: 13.1875rem;
+}
+.desktop-page-3-top-rectangle2-frame {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop-page3-top-rectangle2-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.desktop-page3-top-rectangle2-img1 {
+    margin-left: -8rem;
+    margin-top: 10rem;
+}
+
+.desktop-page3-top-rectangle2-img2 {
+    width: 5rem;
+    height: 5rem;
+    margin-left: -10rem;
+}
+
+.desktop-page3-footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.desktop-page3-footer-group10{
+    width: 302px;
+    height: 108px;
+    top: 7278px;
+    left: 63px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 9.5rem;
+    margin-left: 3.9375rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.desktop-page3-footer-group10-img{
+    width: 50px;
+    height: 20px;
+    top: 7278px;
+    left: 63px;
+    gap: 0px;
+    opacity: 0px;    
+}
+.desktop-page3-footer-group10-media{
+    width: 53px;
+    height: 23px;
+    top: 7280px;
+    left: 117px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);
+    margin-left: .25rem;    
+}
+.desktop-page3-footer-group10-txt{
+    width: 302px;
+    height: 76px;
+    top: 7310px;
+    left: 63px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);
+    margin-top: 0.75rem;
+}
+.desktop-page3-footer-frame42{
+    width: 120px;
+    height: 136px;
+    top: 7264px;
+    left: 887px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 9.5rem;
+    margin-left: 32.625rem;
+}
+.desktop-page3-footer-frame42-home{
+    width: 120px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 40px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+}
+.desktop-page3-footer-frame42-home-p{
+    width: 41px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+.desktop-page3-footer-frame42-ip{
+    width: 120px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;  
+}
+.desktop-page3-footer-frame42-ip-p{
+    width: 49px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 18.4px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+.desktop-page3-footer-frame42-work{
+    width: 120px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;  
+}
+.desktop-page3-footer-frame42-work-p{
+    width: 49px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 18.4px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+.desktop-page3-footer-frame42-service{
+    width: 120px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;  
+}
+.desktop-page3-footer-frame42-service-p{
+    width: 49px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 18.4px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+.desktop-page3-footer-frame43{
+    width: 120px;
+    height: 136px;
+    top: 7264px;
+    left: 887px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 9.5rem;
+    margin-left: 5.375rem;
+    background-color: #FC9086;
+}
+.desktop-page3-footer-frame43-aboutus{
+    width: 120px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+}
+.desktop-page3-footer-frame43-aboutus-p{
+    width: 41px;
+    height: 18px;
+    gap: 0px;
+    opacity: .7;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+.desktop-page3-footer-frame43-careers{
+    width: 120px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;  
+}
+.desktop-page3-footer-frame43-careers-p{
+    width: 49px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 18.4px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);
+}
+.desktop-page3-footer-frame43-blog{
+    width: 120px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;  
+}
+.desktop-page3-footer-frame43-blog-p{
+    width: 49px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 18.4px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+.desktop-page3-footer-frame43-contact{
+    width: 120px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;  
+}
+.desktop-page3-footer-frame43-contact-p{
+    width: 49px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0.7;
+    font-family: PP Radio Grotesk;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 18.4px;
+    text-align: left;
+    color: rgba(15, 16, 27, 1);        
+}
+
+
+}
