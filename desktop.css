@@ -622,13 +622,16 @@ body {
     color: rgba(15, 16, 27, 1);        
 }
 
-.desktop-page2-mid-frame21-txt2{
-    width: 14.75rem;
+.desktop-page2-mid-frame21-txt2 p{
+    width: 21.0625rem;
     height: 2.125rem;
     font-family: 'PP Radio Grotesk';
     font-size: 1.75rem;
     font-weight: 200;
     line-height: 2.1rem;
+    margin-top: -.4rem;
+    margin-left: .1rem;
+    letter-spacing: -0.04rem;
     color: rgba(15, 16, 27, 1);        
 }
 
