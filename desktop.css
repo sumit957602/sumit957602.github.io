@@ -18,14 +18,16 @@
     --main-color: #111212;
 }
 
-/* html {
+html {
     overflow-x: hidden;
     overflow-y: auto;
-} */
+}
 
 body {
     /* border: 0.4rem solid pink; */
-    width: 100%;
+    width: 90rem;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .mobile-html {
@@ -37,7 +39,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90rem;
     height: 4.125rem;
     padding-top: 1.5rem;
 }
