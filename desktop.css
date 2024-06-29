@@ -812,7 +812,7 @@ body {
 .desktop-page3-top-rectangle2-img2 {
     width: 5rem;
     height: 5rem;
-    margin-left: -10rem;
+    margin-left: -10rem;
 }
 
 .desktop-page3-footer{
@@ -824,45 +824,31 @@ body {
 .desktop-page3-footer-group10{
     width: 302px;
     height: 108px;
-    top: 7278px;
-    left: 63px;
-    gap: 0px;
-    opacity: 0px;
     margin-top: 9.5rem;
     margin-left: 3.9375rem;
     display: flex;
     flex-wrap: wrap;
 }
+
 .desktop-page3-footer-group10-img{
     width: 50px;
-    height: 20px;
-    top: 7278px;
-    left: 63px;
-    gap: 0px;
-    opacity: 0px;    
+    height: 20px;   
 }
+
 .desktop-page3-footer-group10-media{
     width: 53px;
     height: 23px;
-    top: 7280px;
-    left: 117px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
-    text-align: left;
     color: rgba(15, 16, 27, 1);
     margin-left: .25rem;    
 }
+
 .desktop-page3-footer-group10-txt{
     width: 302px;
     height: 76px;
-    top: 7310px;
-    left: 63px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 200;
@@ -872,32 +858,28 @@ body {
     color: rgba(15, 16, 27, 1);
     margin-top: 0.75rem;
 }
+
 .desktop-page3-footer-frame42{
     width: 120px;
     height: 136px;
-    top: 7264px;
-    left: 887px;
-    gap: 0px;
-    opacity: 0px;
     margin-top: 9.5rem;
     margin-left: 32.625rem;
 }
+
 .desktop-page3-footer-frame42-home{
     width: 120px;
     height: 34px;
     padding: 8px 16px 8px 16px;
     gap: 10px;
     border-radius: 40px;
-    opacity: 0px;
     background: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
 }
+
 .desktop-page3-footer-frame42-home-p{
     width: 41px;
     height: 18px;
-    gap: 0px;
-    opacity: 0px;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 400;
@@ -905,6 +887,7 @@ body {
     text-align: left;
     color: rgba(15, 16, 27, 1);        
 }
+
 .desktop-page3-footer-frame42-ip{
     width: 120px;
     height: 34px;
@@ -915,54 +898,52 @@ body {
     display: flex;
     align-items: center;  
 }
+
 .desktop-page3-footer-frame42-ip-p{
     width: 49px;
     height: 18px;
-    gap: 0px;
     opacity: 0.7;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 200;
     line-height: 18.4px;
-    text-align: left;
     color: rgba(15, 16, 27, 1);        
 }
+
 .desktop-page3-footer-frame42-work{
     width: 120px;
     height: 34px;
     padding: 8px 16px 8px 16px;
     gap: 10px;
-    opacity: 0px;
     background: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;  
 }
+
 .desktop-page3-footer-frame42-work-p{
     width: 49px;
     height: 18px;
-    gap: 0px;
     opacity: 0.7;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 200;
     line-height: 18.4px;
-    text-align: left;
     color: rgba(15, 16, 27, 1);        
 }
+
 .desktop-page3-footer-frame42-service{
     width: 120px;
     height: 34px;
     padding: 8px 16px 8px 16px;
     gap: 10px;
-    opacity: 0px;
     background: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;  
 }
+
 .desktop-page3-footer-frame42-service-p{
     width: 49px;
     height: 18px;
-    gap: 0px;
     opacity: 0.7;
     font-family: PP Radio Grotesk;
     font-size: 16px;
@@ -971,102 +952,95 @@ body {
     text-align: left;
     color: rgba(15, 16, 27, 1);        
 }
+
 .desktop-page3-footer-frame43{
     width: 120px;
     height: 136px;
-    top: 7264px;
-    left: 887px;
-    gap: 0px;
-    opacity: 0px;
     margin-top: 9.5rem;
     margin-left: 5.375rem;
     background-color: #FC9086;
 }
+
 .desktop-page3-footer-frame43-aboutus{
     width: 120px;
     height: 34px;
     padding: 8px 16px 8px 16px;
     gap: 10px;
-    opacity: 0px;
     background: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
 }
+
 .desktop-page3-footer-frame43-aboutus-p{
     width: 41px;
     height: 18px;
-    gap: 0px;
     opacity: .7;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.4px;
-    text-align: left;
     color: rgba(15, 16, 27, 1);        
 }
+
 .desktop-page3-footer-frame43-careers{
     width: 120px;
     height: 34px;
     padding: 8px 16px 8px 16px;
     gap: 10px;
-    opacity: 0px;
     background: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;  
 }
+
 .desktop-page3-footer-frame43-careers-p{
     width: 49px;
     height: 18px;
-    gap: 0px;
     opacity: 0.7;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 200;
     line-height: 18.4px;
-    text-align: left;
     color: rgba(15, 16, 27, 1);
 }
+
 .desktop-page3-footer-frame43-blog{
     width: 120px;
     height: 34px;
     padding: 8px 16px 8px 16px;
     gap: 10px;
-    opacity: 0px;
     background: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;  
 }
+
 .desktop-page3-footer-frame43-blog-p{
     width: 49px;
     height: 18px;
-    gap: 0px;
     opacity: 0.7;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 200;
     line-height: 18.4px;
-    text-align: left;
     color: rgba(15, 16, 27, 1);        
 }
+
 .desktop-page3-footer-frame43-contact{
     width: 120px;
     height: 34px;
     padding: 8px 16px 8px 16px;
     gap: 10px;
-    opacity: 0px;
     background: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;  
 }
+
 .desktop-page3-footer-frame43-contact-p{
     width: 49px;
     height: 18px;
-    gap: 0px;
     opacity: 0.7;
     font-family: PP Radio Grotesk;
     font-size: 16px;
     font-weight: 200;
     line-height: 18.4px;
-    text-align: left;
     color: rgba(15, 16, 27, 1);        
 }
