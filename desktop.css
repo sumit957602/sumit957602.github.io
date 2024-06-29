@@ -726,16 +726,15 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1)    
 }
 
-.desktop-page2-bottom-rectangle-txt4up {
-    width: 55rem;
+.desktop-page2-bottom-rectangle-txt4up p{
+    width: 56rem;
     height: 3.25rem;
     padding: 1rem 0rem 1rem 0rem;
     gap: .6875rem;
     border: 0px 0px 1px 0px;
-    display: flex;
 }
 
-.desktop-page2-bottom-rectangle-txt4down {
+.desktop-page2-bottom-rectangle-txt4down p{
     width: 40rem;
     height: 6.375rem;
     padding: 0px 1.5rem 0px 1.5rem;
