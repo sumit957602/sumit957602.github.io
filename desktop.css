@@ -786,14 +786,23 @@ body {
     background: url(svg/page3-rec.png) no-repeat center center/cover;
     margin-top: 13.1875rem;
 }
+.desktop-page-3-top-rectangle2-frame {
+    display: flex;
+    flex-direction: row;
+}
 
-.desktop-page3-footer-group10{
-    width: 302px;
-    height: 108px;
-    top: 7278px;
-    left: 63px;
-    gap: 0px;
-    opacity: 0px;
-    margin-top: ;
-    margin-left: 3.9375rem;    
+.desktop-page3-top-rectangle2-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.desktop-page3-top-rectangle2-img1 {
+    margin-left: -8rem;
+    margin-top: 10rem;
+}
+
+.desktop-page3-top-rectangle2-img2 {
+    width: 5rem;
+    height: 5rem;
+    margin-left: -10rem;
 }
