@@ -422,11 +422,17 @@
     --main-color: #111212;
 }
 
-/* html {
+html {
     overflow-x: hidden;
     overflow-y: auto;
-} */
+}
 
+body {
+    /* border: 0.4rem solid pink; */
+    width: 24.375rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 .desktop-html {
     display: none;
@@ -653,7 +659,7 @@
     margin-left: 1.25rem; 
 }
 
-.mobile-page1-bottom-img1 {
+.mobile-page1-bottom-img1 img{
     width: 16.1875rem;
     height: 19rem;   
 }
@@ -676,7 +682,7 @@
     margin-left: 6.9375rem; 
 }
 
-.mobile-page1-bottom-img2 {
+.mobile-page1-bottom-img2 img{
     width: 16.1875rem;
     height: 17.5rem;
 }
@@ -701,21 +707,21 @@
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
-    margin-left: 12.8125rem;
+    margin-left: 1.25rem;
 }
 
-.mobile-page1-bottom-img3 {
-    width: 30.9375rem;
-    height: 31.1875rem;
+.mobile-page1-bottom-img3 img{
+    width: 16.1875rem;
+    height: 19rem;
 }
 
 .mobile-page1-bottom-img3-txt{
-    width: 24.5rem;
-    height: 6.375rem;
+    width: 16.1875rem;
+    height: 4.3125rem;
     font-family: 'PP Radio Grotesk';
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 200;
-    line-height: 2.1rem;
+    line-height: 1.4375rem;
     text-align: left;
     color: rgba(15, 16, 27, 1);    
 }
@@ -724,21 +730,21 @@
     display: flex;
     flex-direction: column;
     margin-top: 5rem; 
-    margin-left: 2rem;
+    margin-left: 6.9375rem;
 }
 
-.mobile-page1-bottom-img4{
-    width: 30.9375rem;
-    height: 31.1875rem;
+.mobile-page1-bottom-img4 img{
+    width: 16.1875rem;
+    height: 13.75rem;
 }
 
 .mobile-page1-bottom-img4-txt{
-    width: 23.25rem;
-    height: 6.375rem;
+    width: 16.1875rem;
+    height: 4.3125rem;
     font-family: 'PP Radio Grotesk';
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     font-weight: 200;
-    line-height: 2.1rem;
+    line-height: 1.4375rem;
     color: rgba(15, 16, 27, 1);
 }
 
@@ -747,39 +753,38 @@
 /* page 2 CSS start */
 
 .mobile-page2-top-txt{
-    width: 37.125rem;
-    height: 9.25rem;
+    width: 21.875rem;
+    height: 4.625rem;
     font-family: 'PP Radio Grotesk';
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 4.6rem;
+    line-height: 2.3rem;
     letter-spacing: -0.01em;
     text-align: center;
     background-color: rgba(255, 255, 255, 1);
-    margin-top: 10rem;
-    margin-left: 25.8125rem;     
+    margin-top: 5rem;
+    margin-left: 1.25rem;     
 }
 
 .mobile-page2-top-frame1 {
-    width: 80rem;
-    height: 15rem;
-    padding: 10.1875rem 7.9375rem 0rem 4.5625rem;
-    border-radius: 1.5rem;
-    margin-top: 4.5rem;
-    margin-left: 4.375rem;
+    width: 21.875rem;
+    height: 16rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-left: 1.25rem;
     background: url(svg/frame131.png) no-repeat center center/cover;
     color: rgba(255, 255, 255, 1);
 }
 
 .mobile-page2-top-reach{
     width: 118.875rem;
-    height: 3.4375rem;
+    height: 2.3125rem;
     transform: rotate(-1deg);
     font-family: 'PP Radio Grotesk';
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 200;
-    line-height: 3.45rem;
-    letter-spacing: -0.01em;
+    line-height: 2.3rem;
+    letter-spacing: -0.01rem;
     text-align: left;
     color: rgba(255, 255, 255, 0.812);       
     margin-top: -9.549375rem;
@@ -787,23 +792,22 @@
 }
 
 .mobile-page2-mid-rectangle1 {
-    width: 90rem;
-    height: 75rem;
+    width: 24.375rem;
+    height: 50rem;
     background: linear-gradient(180deg, #FFFFFF 0%, #EBEDEE 21.17%, #EBEDEE 76.32%, #FFFFFF 100%);
-    margin-top: 5.7025rem;
-    margin-left: -1.875rem;
+    margin-top: 2rem;
 }
 
 .mobile-page2-mid-rectangle1-txt{
-    width: 12.5rem;
-    height: 5.75rem;
+    width: 8.125rem;
+    height: 3.5rem;
     font-family: 'PP Radio Grotesk';
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 2.875rem;
     letter-spacing: -0.01em;
-    margin-top: 15.7025rem;
-    margin-left: 27.5rem;
+    margin-top: 5rem;
+    margin-left: 1.25rem;
 }
 
 .mobile-page2-mid-rectangle1-frame {
@@ -813,8 +817,8 @@
     gap: .625rem;
     border-radius: 2.5rem;
     background: rgba(15, 16, 27, 1);
-    margin-top: -4.1875rem;
-    margin-left: 52.5625rem;
+    margin-top: 2.1875rem;
+    margin-left: 1.25rem;
     display: flex;
     align-items: center;
 }
@@ -833,29 +837,29 @@
 .mobile-page2-mid-box {
     display: flex;
     flex-direction: column;
-    width: 35rem;
-    height: 37.5rem;
-    border-radius: 1.5rem;
+    width: 21.875rem;
+    height: 25rem;
+    border-radius: 1rem;
     background: rgba(255, 255, 255, 1);
     box-shadow: 10px 24px 96px 0px rgba(0, 0, 0, 0.04);
     box-shadow: 4px 20px 32px 0px rgba(0, 0, 0, 0.04);
     box-shadow: -1px 3px 8px 0px rgba(0, 0, 0, 0.05);
     margin-top: 4.2rem;
-    margin-left: 25.625rem;
+    margin-left: 1.25rem;
 }
 
 .mobile-page2-mid-box-txt {
     width: 23.375rem;
     height: 9.25rem;
     font-family: 'PP Radio Grotesk';
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 73.6px;
     letter-spacing: -0.01rem;
     text-align: left;
     background: rgba(255, 255, 255, 1);
     padding-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 1.25rem;
 }
 
 .mobile-page2-mid-frame25{
@@ -906,10 +910,11 @@
 .mobile-page2-book img {
     width: 46rem;
     height: 53rem;
+    display: none;
 }
 
 .mobile-page2-bottom  {
-    margin-left: 15.625rem;
+    margin-left: 1.25rem;
 }
 
 .mobile-page2-bottom-h1 {
@@ -919,7 +924,7 @@
 
 .mobile-page2-bottom-h1-txt {
     font-family: 'PP Radio Grotesk';
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 400;
     line-height: 73.6px;
     letter-spacing: -0.01rem;
@@ -1055,16 +1060,16 @@
 }
 
 .mobile-page3-top-rectangle1 {
-    width: 870px;
-    height: 560px;
-    margin-left: -652px;
-    border-radius: 24px;
+    width: 22.875rem;
+    height: 30rem;
+    margin-left: -20rem;
+    border-radius: 1rem;
 }
 
 .mobile-page3-top-rectangle2 {
-    width: 880px;
-    height: 560px;
-    border-radius: 24px;
+    width: 22.875rem;
+    height: 30rem;
+    border-radius: 1rem;
     background: url(svg/page3-rec.png) no-repeat center center/cover;
     margin-top: 13.1875rem;
 }
@@ -1094,6 +1099,7 @@
     display: flex;
     width: 100%;
     height: auto;
+    flex-direction: column;
 }
 
 .mobile-page3-footer-group10{
@@ -1138,7 +1144,7 @@
     width: 120px;
     height: 136px;
     margin-top: 9.5rem;
-    margin-left: 32.625rem;
+    margin-left: 2.625rem;
 }
 
 .mobile-page3-footer-frame42-home{
@@ -1234,7 +1240,7 @@
     top: 7264px;
     left: 887px;
     margin-top: 9.5rem;
-    margin-left: 5.375rem;
+    margin-left: 2.375rem;
     background-color: #FC9086;
 }
 
