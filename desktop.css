@@ -743,3 +743,23 @@ body {
     background: url(svg/page3-rec.png) no-repeat center center/cover;
 }
 
+.desktop-page-3-top-rectangle2-frame {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop-page3-top-rectangle2-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.desktop-page3-top-rectangle2-img1 {
+    margin-left: -8rem;
+    margin-top: 10rem;
+}
+
+.desktop-page3-top-rectangle2-img2 {
+    width: 5rem;
+    height: 5rem;
+    margin-left: -10rem;
+}
