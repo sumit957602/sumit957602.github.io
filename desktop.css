@@ -785,11 +785,55 @@ body {
 }
 
 .desktop-page3-top-rectangle2 {
-    width: 55rem;
+    /* width: 55rem;
     height: 35rem;
-    border-radius: 1.5rem;
+    border-radius: 1.5rem; */
     background: url(svg/page3-rec.png) no-repeat center center/cover;
     margin-top: 13.1875rem;
+    width: 880px;
+    height: 560px;
+    top: 6566px;
+    left: 250px;
+    gap: 0px;
+    border-radius: 1.5rem;
+    opacity: 0px;
+}
+.desktop-page3-top-rectangle2-ellipse2{
+    width: 144px;
+    height: 144px;
+    top: 6623px;
+    left: 178px;
+    gap: 0px;
+    border-width: 0px 0px 2px 2px;
+    opacity: 0px;
+    border-style: solid;
+    border-color: #111010;
+    transform: translate(-50%, -50%);
+    border-radius: 60%;
+    transform: rotate(-20deg);
+    background: transparent;
+    margin-top: 3.5625rem;
+    margin-left: -4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desktop-page3-top-rectangle2-ellipse2-ellipse1{
+    width: 120px;
+    height: 120px;
+    top: 6635px;
+    left: 190px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 10px 24px 96px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 4px 20px 32px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: -1px 3px 8px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    transform: rotate(20deg);
+    background: url("rrr1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .desktop-page-3-top-rectangle2-frame {
     display: flex;
@@ -801,7 +845,7 @@ body {
     flex-direction: column;
 }
 
-.desktop-page3-top-rectangle2-img1 {
+/* .desktop-page3-top-rectangle2-img1 {
     margin-left: -8rem;
     margin-top: 10rem;
 }
@@ -810,7 +854,89 @@ body {
     width: 5rem;
     height: 5rem;
     margin-left: -10rem;
+} */
+.desktop-page3-top-rectangle2-h1{
+    width: 640px;
+    height: 110px;
+    top: 6640px;
+    left: 350px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55.2px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: -7.6346875rem;
+    margin-left: 6.25rem;
 }
+.desktop-page3-top-rectangle2-p{
+    width: 640px;
+    height: 102px;
+    top: 6774px;
+    left: 350px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 33.6px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 1.5rem;
+    margin-left: 6.25rem;
+}
+.desktop-page3-top-rectangle-down{
+    display: flex;
+}
+.desktop-page3-top-rectangle-down-ellipse2{
+    width: 48px;
+    height: 48px;
+    top: 7042px;
+    left: 286px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(236, 237, 239, 1);
+    margin-top: 10.25rem;
+    margin-left: 2.25rem;
+    border-radius: 50%;
+}
+.desktop-page3-top-rectangle-down-txt{
+    margin-top: 10.3125rem;
+    margin-left: 1rem;
+}
+.desktop-page3-top-rectangle-down-txt1{
+    width: 74px;
+    height: 24px;
+    top: 7043px;
+    left: 350px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);        
+}
+.desktop-page3-top-rectangle-down-txt2{
+    width: 271px;
+    height: 19px;
+    top: 7071px;
+    left: 350px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: PP Radio Grotesk;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 19.2px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);        
+}
+
 
 .desktop-page3-footer{
     display: flex;
