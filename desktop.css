@@ -37,8 +37,6 @@ body {
 /* Navbar CSS start */
 .desktop-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 90rem;
     height: 4.125rem;
     padding-top: 1.5rem;
@@ -55,6 +53,8 @@ body {
 }
 
 .desktop-left-nav-logo-text {
+    width: 3.3125rem;
+    height: 1.4375rem;
     margin-top: .125rem;
     font-family: PP Radio Grotesk;
     font-size: 1.25rem;
@@ -65,6 +65,7 @@ body {
 
 .desktop-mid-nav {
     display: flex;
+    margin-left: 13.4375rem;
     width: 35.75rem;
     height: 2.625rem;
     padding: .25rem;
@@ -200,6 +201,7 @@ body {
     line-height: 1.15rem;
     color: rgba(15, 16, 27, 1);
 }
+
 .destop-rectangle2{
     width: .25rem;
     height: .25rem;
@@ -210,6 +212,7 @@ body {
 .desktop-right-nav {
     width: 9.8125rem;
     height: 2.625rem;
+    margin-left: 10.3125rem;
     padding: .75rem 1.5rem .75rem 1.5rem;
     gap: .625rem;
     border-radius: 2.5rem;
@@ -240,9 +243,14 @@ body {
 
 /* page 1 CSS start */
 
+.desktop-page1 {
+    width: 90rem;
+    height: 230rem;
+}
+
  .desktop-page1-top img{
     height: 15rem;
-    width: 25rem;
+    width: 24rem;
     margin-left: 3.7rem;
     margin-top: 3rem;
  }
@@ -255,7 +263,7 @@ body {
     font-size: 4rem;
     font-weight: 400;
     line-height: 4.6rem;
-    letter-spacing: -0.03rem;
+    letter-spacing: -0.04rem;
     color: rgba(15, 16, 27, 1);
     margin-top: .48rem;
  }
@@ -287,10 +295,11 @@ body {
     font-size: 3rem;
     font-weight: 200;
     line-height: 3.45rem;
-    letter-spacing: -0.01rem;
+    transform: rotate(-1deg);
+    letter-spacing: -0.07rem;
     color: rgba(255, 255, 255, 0.659);
     margin-top: -18.75rem;
-    margin-left: 1.085625rem;
+    margin-left: -.5rem;
 }
 
 .desktop-page1-mid-txt-ready{
