@@ -1,404 +1,407 @@
-@media (min-width: 770px) and (max-width: 779px) {
+@media (min-width: 769px) and (max-width: 779px) {
     html {
-        font-size: 59.6%; 
+        font-size: 65.5%; 
     }
 }
 
 @media (min-width: 780px) and (max-width: 789px) {
     html {
-        font-size: 60.15%; 
+        font-size: 66%; 
     }
 }
 
 @media (min-width: 790px) and (max-width: 799px) {
     html {
-        font-size: 60.7%; 
+        font-size: 67%; 
     }
 }
 
 @media (min-width: 800px) and (max-width: 809px) {
     html {
-        font-size: 61.25%; 
+        font-size: 67.5%; 
     }
 }
 
 @media (min-width: 810px) and (max-width: 819px) {
     html {
-        font-size: 61.8%; 
+        font-size: 68%; 
     }
 }
 
 @media (min-width: 820px) and (max-width: 829px) {
     html {
-        font-size: 62.4%; 
+        font-size: 68.5%; 
     }
 }
 
 @media (min-width: 830px) and (max-width: 839px) {
     html {
-        font-size: 62.95%; 
+        font-size: 69%; 
     }
 }
 
 @media (min-width: 840px) and (max-width: 849px) {
     html {
-        font-size: 63.55%; 
+        font-size: 69.5%; 
     }
 }
 
 @media (min-width: 850px) and (max-width: 859px) {
     html {
-        font-size: 64.2%; 
+        font-size: 70%; 
     }
 }
 
 @media (min-width: 860px) and (max-width: 869px) {
     html {
-        font-size: 64.75%; 
+        font-size: 70.5%; 
     }
 }
 
 @media (min-width: 870px) and (max-width: 879px) {
     html {
-        font-size: 65.3%; 
+        font-size: 71%; 
     }
 }
 
 @media (min-width: 880px) and (max-width: 889px) {
     html {
-        font-size: 65.85%; 
+        font-size: 71.5%; 
     }
 }
 
 @media (min-width: 890px) and (max-width: 899px) {
     html {
-        font-size: 66.5%; 
+        font-size: 72%; 
     }
 }
 
 @media (min-width: 900px) and (max-width: 909px) {
     html {
-        font-size: 67.1%; 
+        font-size: 72.5%; 
     }
 }
 
 @media (min-width: 910px) and (max-width: 919px) {
     html {
-        font-size: 67.6%; 
+        font-size: 73%; 
     }
 }
 
 @media (min-width: 920px) and (max-width: 929px) {
     html {
-        font-size: 68.2%; 
+        font-size: 73.5%; 
     }
 }
 
 @media (min-width: 930px) and (max-width: 939px) {
     html {
-        font-size: 68.85%; 
+        font-size: 74%; 
     }
 }
 
 @media (min-width: 940px) and (max-width: 949px) {
     html {
-        font-size: 69.4%; 
+        font-size: 74.5%; 
     }
 }
 
 @media (min-width: 950px) and (max-width: 959px) {
     html {
-        font-size: 70%; 
+        font-size: 75%; 
     }
 }
 
 @media (min-width: 960px) and (max-width: 969px) {
     html {
-        font-size: 70.55%; 
+        font-size: 75.5%; 
     }
 }
 
 @media (min-width: 970px) and (max-width: 979px) {
     html {
-        font-size: 71.15%; 
+        font-size: 76%; 
     }
 }
 
 @media (min-width: 980px) and (max-width: 989px) {
     html {
-        font-size: 71.7%; 
+        font-size: 76.5%; 
     }
 }
 
 @media (min-width: 990px) and (max-width: 999px) {
     html {
-        font-size: 72.25%; 
+        font-size: 77%; 
     }
 }
 
 @media (min-width: 1000px) and (max-width: 1009px) {
     html {
-        font-size: 72.8%; 
+        font-size: 77.5%; 
     }
 }
 
 @media (min-width: 1010px) and (max-width: 1019px) {
     html {
-        font-size: 73.45%;
+        font-size: 78%;
     }
 }
 
 @media (min-width: 1020px) and (max-width: 1029px) {
     html {
-        font-size: 74%; 
+        font-size: 78.5%; 
     }
 }
 
 @media (min-width: 1030px) and (max-width: 1039px) {
     html {
-        font-size: 80%; 
+        font-size: 79%; 
     }
 }
 
 @media (min-width: 1040px) and (max-width: 1049px) {
     html {
-        font-size: 81.6%; 
+        font-size: 79.5%; 
     }
 }
 
 @media (min-width: 1050px) and (max-width: 1059px) {
     html {
-        font-size: 82%; 
+        font-size: 80%; 
     }
 }
 
 @media (min-width: 1060px) and (max-width: 1069px) {
     html {
-        font-size: 82.6%; 
+        font-size: 80.5%; 
     }
 }
 
 @media (min-width: 1070px) and (max-width: 1079px) {
     html {
-        font-size: 83%;
+        font-size: 81%;
     }
 }
 
 @media (min-width: 1080px) and (max-width: 1089px) {
     html {
-        font-size: 84%; 
+        font-size: 81.5%; 
     }
 }
 
 @media (min-width: 1090px) and (max-width: 1099px) {
     html {
-        font-size: 84.6%; 
+        font-size: 82%; 
     }
 }
 
 @media (min-width: 1100px) and (max-width: 1109px) {
     html {
-        font-size: 85%; 
+        font-size: 82.5%; 
     }
 }
 
 @media (min-width: 1110px) and (max-width: 1119px) {
     html {
-        font-size: 85.8%; 
+        font-size: 83%; 
     }
 }
 
 @media (min-width: 1120px) and (max-width: 1129px) {
     html {
-        font-size: 86%; 
+        font-size: 83.5%; 
     }
 }
 
 @media (min-width: 1130px) and (max-width: 1139px) {
     html {
-        font-size: 86.8%; 
+        font-size: 84%; 
     }
 }
 
 @media (min-width: 1140px) and (max-width: 1149px) {
     html {
-        font-size: 87.3%; 
+        font-size: 84.5%; 
     }
 }
 
 @media (min-width: 1150px) and (max-width: 1159px) {
     html {
-        font-size: 87.8%; 
+        font-size: 85%; 
     }
 }
 
 @media (min-width: 1160px) and (max-width: 1169px) {
     html {
-        font-size: 88.3%; 
+        font-size: 85.5%; 
     }
 }
 
 @media (min-width: 1170px) and (max-width: 1179px) {
     html {
-        font-size: 88.8%; 
+        font-size: 86%; 
     }
 }
 
 @media (min-width: 1180px) and (max-width: 1189px) {
     html {
-        font-size: 89.3%; 
+        font-size: 86.5%; 
     }
 }
 
 @media (min-width: 1190px) and (max-width: 1199px) {
     html {
-        font-size: 89.8%; 
+        font-size: 87%; 
     }
 }
 
 @media (min-width: 1200px) and (max-width: 1209px) {
     html {
-        font-size: 90.3%; 
+        font-size: 87.5%; 
     }
 }
 
 @media (min-width: 1210px) and (max-width: 1219px) {
     html {
-        font-size: 90.8%;
+        font-size: 88%;
     }
 }
 
 @media (min-width: 1220px) and (max-width: 1229px) {
     html {
-        font-size: 91.3%; 
+        font-size: 88.5%; 
     }
 }
 
 @media (min-width: 1230px) and (max-width: 1239px) {
     html {
-        font-size: 91.8%; 
+        font-size: 89%; 
     }
 }
 
 @media (min-width: 1240px) and (max-width: 1249px) {
     html {
-        font-size: 92.3%; 
+        font-size: 89.5%; 
     }
 }
 
 @media (min-width: 1250px) and (max-width: 1259px) {
     html {
-        font-size: 92.8%; 
+        font-size: 90%; 
     }
 }
 
 @media (min-width: 1260px) and (max-width: 1269px) {
     html {
-        font-size: 93.3%; 
+        font-size: 90.5%; 
     }
 }
 
 @media (min-width: 1270px) and (max-width: 1279px) {
     html {
-        font-size: 93.8%; 
+        font-size: 91%; 
     }
 }
 
 @media (min-width: 1280px) and (max-width: 1289px) {
     html {
-        font-size: 94.3%; 
+        font-size: 91.5%; 
     }
 }
 
 @media (min-width: 1290px) and (max-width: 1299px) {
     html {
-        font-size: 94.8%; 
+        font-size: 92%; 
     }
 }
 
 @media (min-width: 1300px) and (max-width: 1309px) {
     html {
-        font-size: 95%; 
+        font-size: 93%; 
     }
 }
 
 @media (min-width: 1310px) and (max-width: 1319px) {
     html {
-        font-size: 95.3%; 
+        font-size: 93.5%; 
     }
 }
 
 @media (min-width: 1320px) and (max-width: 1329px) {
     html {
-        font-size: 95.8%; 
+        font-size: 94%; 
     }
 }
 
 @media (min-width: 1330px) and (max-width: 1339px) {
     html {
-        font-size: 96%;
+        font-size: 94.5%;
     }
 }
 
 @media (min-width: 1340px) and (max-width: 1349px) {
     html {
-        font-size: 96.3%; 
+        font-size: 95%; 
     }
 }
 
 @media (min-width: 1350px) and (max-width: 1359px) {
     html {
-        font-size: 96.8%; 
+        font-size: 95.5%; 
     }
 }
 
 @media (min-width: 1360px) and (max-width: 1369px) {
     html {
-        font-size: 97.3%; 
+        font-size: 96%; 
     }
 }
 
 @media (min-width: 1370px) and (max-width: 1379px) {
     html {
-        font-size: 97.7%; 
+        font-size: 96.5%; 
     }
 }
 
 @media (min-width: 1380px) and (max-width: 1389px) {
     html {
-        font-size: 98%; 
+        font-size: 97%; 
     }
 }
 
 @media (min-width: 1390px) and (max-width: 1399px) {
     html {
-        font-size: 98.3%; 
+        font-size: 97.5%; 
     }
 }
 
 @media (min-width: 1400px) and (max-width: 1409px) {
     html {
-        font-size: 98.7%; 
+        font-size: 98%; 
     }
 }
 
 @media (min-width: 1410px) and (max-width: 1419px) {
     html {
-        font-size: 99%; 
+        font-size: 98.5%; 
     }
 }
 
 @media (min-width: 1420px) and (max-width: 1429px) {
     html {
-        font-size: 99.3%; 
+        font-size: 99%; 
     }
 }
 
 @media (min-width: 1430px) and (max-width: 1439px) {
     html {
-        font-size: 99.8%; 
+        font-size: 99.5%; 
     }
 }
+
+
+
 
 
 
@@ -1224,505 +1227,505 @@
  
 @media (min-width: 2800px) and (max-width: 2810px) {
     html {
-        font-size: 144%;
+        font-size: 169%;
     }
 }
 
 @media (min-width: 2810px) and (max-width: 2820px) {
     html {
-        font-size: 144.5%;
+        font-size: 169.5%;
     }
 }
 
 @media (min-width: 2820px) and (max-width: 2830px) {
     html {
-        font-size: 145%;
+        font-size: 170%;
     }
 }
 
 @media (min-width: 2830px) and (max-width: 2840px) {
     html {
-        font-size: 145.5%;
+        font-size: 170.5%;
     }
 }
 
 @media (min-width: 2840px) and (max-width: 2850px) {
     html {
-        font-size: 146%;
+        font-size: 171%;
     }
 }
 
 @media (min-width: 2850px) and (max-width: 2860px) {
     html {
-        font-size: 146.5%;
+        font-size: 171.5%;
     }
 }
 
 @media (min-width: 2860px) and (max-width: 2870px) {
     html {
-        font-size: 147%;
+        font-size: 172%;
     }
 }
 
 @media (min-width: 2870px) and (max-width: 2880px) {
     html {
-        font-size: 147.5%;
+        font-size: 172.5%;
     }
 }
 
 @media (min-width: 2880px) and (max-width: 2890px) {
     html {
-        font-size: 148%;
+        font-size: 173%;
     }
 }
 
 @media (min-width: 2890px) and (max-width: 2900px) {
     html {
-        font-size: 148.5%;
+        font-size: 173.5%;
     }
 }
 
 @media (min-width: 2900px) and (max-width: 2910px) {
     html {
-        font-size: 149%;
+        font-size: 174%;
     }
 }
 
 @media (min-width: 2910px) and (max-width: 2920px) {
     html {
-        font-size: 149.5%;
+        font-size: 174.5%;
     }
 }
 
 @media (min-width: 2920px) and (max-width: 2930px) {
     html {
-        font-size: 150%;
+        font-size: 175%;
     }
 }
 
 @media (min-width: 2930px) and (max-width: 2940px) {
     html {
-        font-size: 150.5%;
+        font-size: 175.5%;
     }
 }
 
 @media (min-width: 2940px) and (max-width: 2950px) {
     html {
-        font-size: 151%;
+        font-size: 176%;
     }
 }
 
 @media (min-width: 2950px) and (max-width: 2960px) {
     html {
-        font-size: 151.5%;
+        font-size: 176.5%;
     }
 }
 
 @media (min-width: 2960px) and (max-width: 2970px) {
     html {
-        font-size: 152%;
+        font-size: 177%;
     }
 }
 
 @media (min-width: 2970px) and (max-width: 2980px) {
     html {
-        font-size: 152.5%;
+        font-size: 177.5%;
     }
 }
 
 @media (min-width: 2980px) and (max-width: 2990px) {
     html {
-        font-size: 153%;
+        font-size: 178%;
     }
 }
 
 @media (min-width: 2990px) and (max-width: 3000px) {
     html {
-        font-size: 153.5%;
+        font-size: 178.5%;
     }
 }
 
 @media (min-width: 3000px) and (max-width: 3010px) {
     html {
-        font-size: 154%;
+        font-size: 179%;
     }
 }
 
 @media (min-width: 3010px) and (max-width: 3020px) {
     html {
-        font-size: 154.5%;
+        font-size: 179.5%;
     }
 }
 
 @media (min-width: 3020px) and (max-width: 3030px) {
     html {
-        font-size: 155%;
+        font-size: 180%;
     }
 }
 
 @media (min-width: 3030px) and (max-width: 3040px) {
     html {
-        font-size: 155.5%;
+        font-size: 180.5%;
     }
 }
 
 @media (min-width: 3040px) and (max-width: 3050px) {
     html {
-        font-size: 156%;
+        font-size: 181%;
     }
 }
 
 @media (min-width: 3050px) and (max-width: 3060px) {
     html {
-        font-size: 156.5%;
+        font-size: 181.5%;
     }
 }
 
 @media (min-width: 3060px) and (max-width: 3070px) {
     html {
-        font-size: 157%;
+        font-size: 182%;
     }
 }
 
 @media (min-width: 3070px) and (max-width: 3080px) {
     html {
-        font-size: 157.5%;
+        font-size: 182.5%;
     }
 }
 
 @media (min-width: 3080px) and (max-width: 3090px) {
     html {
-        font-size: 158%;
+        font-size: 183%;
     }
 }
 
 @media (min-width: 3090px) and (max-width: 3100px) {
     html {
-        font-size: 158.5%;
+        font-size: 183.5%;
     }
 }
 
 @media (min-width: 3100px) and (max-width: 3110px) {
     html {
-        font-size: 159%;
+        font-size: 184%;
     }
 }
 
 @media (min-width: 3110px) and (max-width: 3120px) {
     html {
-        font-size: 159.5%;
+        font-size: 184.5%;
     }
 }
 
 @media (min-width: 3120px) and (max-width: 3130px) {
     html {
-        font-size: 160%;
+        font-size: 185%;
     }
 }
 
 @media (min-width: 3130px) and (max-width: 3140px) {
     html {
-        font-size: 160.5%;
+        font-size: 185.5%;
     }
 }
 
 @media (min-width: 3140px) and (max-width: 3150px) {
     html {
-        font-size: 161%;
+        font-size: 186%;
     }
 }
 
 @media (min-width: 3150px) and (max-width: 3160px) {
     html {
-        font-size: 161.5%;
+        font-size: 186.5%;
     }
 }
 
 @media (min-width: 3160px) and (max-width: 3170px) {
     html {
-        font-size: 162%;
+        font-size: 187%;
     }
 }
 
 @media (min-width: 3170px) and (max-width: 3180px) {
     html {
-        font-size: 162.5%;
+        font-size: 187.5%;
     }
 }
 
 @media (min-width: 3180px) and (max-width: 3190px) {
     html {
-        font-size: 163%;
+        font-size: 188%;
     }
 }
 
 @media (min-width: 3190px) and (max-width: 3200px) {
     html {
-        font-size: 163.5%;
+        font-size: 188.5%;
     }
 }
 
 @media (min-width: 3200px) and (max-width: 3210px) {
     html {
-        font-size: 164%;
+        font-size: 189%;
     }
 }
 
 @media (min-width: 3210px) and (max-width: 3220px) {
     html {
-        font-size: 164.5%;
+        font-size: 189.5%;
     }
 }
 
 @media (min-width: 3220px) and (max-width: 3230px) {
     html {
-        font-size: 165%;
+        font-size: 190%;
     }
 }
 
 @media (min-width: 3230px) and (max-width: 3240px) {
     html {
-        font-size: 165.5%;
+        font-size: 190.5%;
     }
 }
 
 @media (min-width: 3240px) and (max-width: 3250px) {
     html {
-        font-size: 166%;
+        font-size: 191%;
     }
 }
 
 @media (min-width: 3250px) and (max-width: 3260px) {
     html {
-        font-size: 166.5%;
+        font-size: 191.5%;
     }
 }
 
 @media (min-width: 3260px) and (max-width: 3270px) {
     html {
-        font-size: 167%;
+        font-size: 192%;
     }
 }
 
 @media (min-width: 3270px) and (max-width: 3280px) {
     html {
-        font-size: 167.5%;
+        font-size: 192.5%;
     }
 }
 
 @media (min-width: 3280px) and (max-width: 3290px) {
     html {
-        font-size: 168%;
+        font-size: 193%;
     }
 }
 
 @media (min-width: 3290px) and (max-width: 3300px) {
     html {
-        font-size: 168.5%;
+        font-size: 193.5%;
     }
 }
 
 @media (min-width: 3300px) and (max-width: 3310px) {
     html {
-        font-size: 169%;
+        font-size: 194%;
     }
 }
 
 @media (min-width: 3310px) and (max-width: 3320px) {
     html {
-        font-size: 169.5%;
+        font-size: 194.5%;
     }
 }
 
 @media (min-width: 3320px) and (max-width: 3330px) {
     html {
-        font-size: 170%;
+        font-size: 195%;
     }
 }
 
 @media (min-width: 3330px) and (max-width: 3340px) {
     html {
-        font-size: 170.5%;
+        font-size: 195.5%;
     }
 }
 
 @media (min-width: 3340px) and (max-width: 3350px) {
     html {
-        font-size: 171%;
+        font-size: 196%;
     }
 }
 
 @media (min-width: 3350px) and (max-width: 3360px) {
     html {
-        font-size: 171.5%;
+        font-size: 196.5%;
     }
 }
 
 @media (min-width: 3360px) and (max-width: 3370px) {
     html {
-        font-size: 172%;
+        font-size: 197%;
+    }
+}
+
+@media (min-width: 3370px) and (max-width: 3380px) {
+    html {
+        font-size: 197.5%;
+    }
+}
+
+@media (min-width: 3380px) and (max-width: 3390px) {
+    html {
+        font-size: 198%;
+    }
+}
+
+@media (min-width: 3390px) and (max-width: 3400px) {
+    html {
+        font-size: 198.5%;
+    }
+}
+
+@media (min-width: 3400px) and (max-width: 3410px) {
+    html {
+        font-size: 199%;
+    }
+}
+
+@media (min-width: 3410px) and (max-width: 3420px) {
+    html {
+        font-size: 199.5%;
+    }
+}
+
+@media (min-width: 3420px) and (max-width: 3430px) {
+    html {
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 3430px) and (max-width: 3440px) {
+    html {
+        font-size: 200.5%;
+    }
+}
+
+@media (min-width: 3440px) and (max-width: 3450px) {
+    html {
+        font-size: 201%;
+    }
+}
+
+@media (min-width: 3450px) and (max-width: 3460px) {
+    html {
+        font-size: 201.5%;
+    }
+}
+
+@media (min-width: 3460px) and (max-width: 3470px) {
+    html {
+        font-size: 202%;
+    }
+}
+
+@media (min-width: 3470px) and (max-width: 3480px) {
+    html {
+        font-size: 202.5%;
+    }
+}
+
+@media (min-width: 3480px) and (max-width: 3490px) {
+    html {
+        font-size: 203%;
+    }
+}
+
+@media (min-width: 3490px) and (max-width: 3500px) {
+    html {
+        font-size: 203.5%;
     }
 }
  
- @media (min-width: 3370px) and (max-width: 3380px) {
-    html {
-        font-size: 172.5%;
-    }
- }
- 
- @media (min-width: 3380px) and (max-width: 3390px) {
-    html {
-        font-size: 173%;
-    }
- }
- 
- @media (min-width: 3390px) and (max-width: 3400px) {
-    html {
-        font-size: 173.5%;
-    }
- }
- 
- @media (min-width: 3400px) and (max-width: 3410px) {
-    html {
-        font-size: 174%;
-    }
- }
- 
- @media (min-width: 3410px) and (max-width: 3420px) {
-    html {
-        font-size: 174.5%;
-    }
- }
- 
- @media (min-width: 3420px) and (max-width: 3430px) {
-    html {
-        font-size: 175%;
-    }
- }
- 
- @media (min-width: 3430px) and (max-width: 3440px) {
-    html {
-        font-size: 175.5%;
-    }
- }
- 
- @media (min-width: 3440px) and (max-width: 3450px) {
-    html {
-        font-size: 176%;
-    }
- }
- 
- @media (min-width: 3450px) and (max-width: 3460px) {
-    html {
-        font-size: 176.5%;
-    }
- }
- 
- @media (min-width: 3460px) and (max-width: 3470px) {
-    html {
-        font-size: 177%;
-    }
- }
- 
- @media (min-width: 3470px) and (max-width: 3480px) {
-    html {
-        font-size: 177.5%;
-    }
- }
- 
- @media (min-width: 3480px) and (max-width: 3490px) {
-    html {
-        font-size: 178%;
-    }
- }
- 
- @media (min-width: 3490px) and (max-width: 3500px) {
-    html {
-        font-size: 178.5%;
-    }
- }
- 
  @media (min-width: 3500px) {
     html {
-        font-size: 179%;
+        font-size: 204%;
     }
  }
 
  @media (min-width: 3600px) {
     html {
-        font-size: 189%;
+        font-size: 214%;
     }
  }
 
  @media (min-width: 3700px) {
     html {
-        font-size: 199%;
+        font-size: 224%;
     }
  }
 
  @media (min-width: 3800px) {
     html {
-        font-size: 209%;
+        font-size: 234%;
     }
  }
 
  @media (min-width: 3900px) {
     html {
-        font-size: 219%;
+        font-size: 244%;
     }
  }
 
  @media (min-width: 4000px) {
     html {
-        font-size: 229%;
+        font-size: 254%;
     }
  }
 
  @media (min-width: 4100px) {
     html {
-        font-size: 239%;
+        font-size: 264%;
     }
  }
 
  @media (min-width: 4200px) {
     html {
-        font-size: 249%;
+        font-size: 274%;
     }
  }
 
  @media (min-width: 4300px) {
     html {
-        font-size: 259%;
+        font-size: 284%;
     }
  }
 
  @media (min-width: 4400px) {
     html {
-        font-size: 269%;
+        font-size: 294%;
     }
  }
 
  @media (min-width: 4500px) {
     html {
-        font-size: 279%;
+        font-size: 304%;
     }
  }
 
  @media (min-width: 4600px) {
     html {
-        font-size: 289%;
+        font-size: 314%;
     }
  }
 
  @media (min-width: 4700px) {
     html {
-        font-size: 299%;
+        font-size: 324%;
     }
  }
 
  @media (min-width: 4800px) {
     html {
-        font-size: 300%;
+        font-size: 334%;
     }
  }
 
