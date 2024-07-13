@@ -3,456 +3,678 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>media</title>
-    <link rel="icon" type="image/svg" href="svg\logo.svg">
-    <link rel="stylesheet" href="desktop.css">
-    <link rel="stylesheet" href="desktop-media-query.css">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="mobile-media-query.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <title>SuperNest</title>
+    
+    <!-- Bootstrap CSS from prev folder-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="m-styles.css">
+    
 </head>
+
 <body>
-    <div class="desktop-html">
 
-        <!-- desktop header start  -->
-        <div class="desktop-header">
-            <div class="desktop-left-nav">
-                <img src="svg\logo.svg" alt="logo-img" class="desktop-left-nav-logo-img" />
-                <a href class="desktop-left-nav-logo-text">media</a>
+    <!-- desktop html code Start -->
+     <div class="desktop-html">
+    <script>
+        var successMessage = "{{ success|escapejs }}";
+        var errorMessage = "{{ error|escapejs }}";
+    </script>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-logo" href="#">
+                <img src="/images/logo.svg" alt="Supernest.ai Logo" width="32" height="32" class="d-inline-block align-top mr-2">
+                <span class="font-weight-bold">supernest<span class="text-muted">.ai</span></span>
+            </a>
+            <div class="nav-center d-none d-lg-flex mx-auto">
+                <a href="#tenants" class="nav-link mr-3">For Tenants</a>
+                <a href="#propertymanagers" class="nav-link mr-3">For Property Owners</a>
+                <a href="#FAQ" class="nav-link mr-3">FAQ</a>
             </div>
-            <nav class="desktop-mid-nav">
-                <a href="#" class="desktop-mid-nav-home"><div class="destop-rectangle2" style="background-color: rgba(15, 16, 27, 1);"></div><p class="desktop-mid-nav-home-p" >Home</p></a>
-                <a href="#" class="desktop-mid-nav-ip" ><p class="desktop-mid-nav-ip-p" >OurIPs</p></a>
-                <a href="#" class="desktop-mid-nav-work" ><p class="desktop-mid-nav-work-p" >Work</p></a>
-                <a href="#" class="desktop-mid-nav-service" ><p class="desktop-mid-nav-service-p" >Services</p></a>
-                <a href="#" class="desktop-mid-nav-about" ><p class="desktop-mid-nav-about-p" >About Us</p></a>
-                <a href="#" class="desktop-mid-nav-careers" ><p class="desktop-mid-nav-careers-p">Careers</p></a>
-                <a href="#" class="desktop-mid-nav-blog" ><p class="desktop-mid-nav-blog-p">Blog</p></a>
-            </nav>
-            <nav class="desktop-right-nav">
-                <div class="desktop-right-nav-rectangle"></div>
-                <a class="" href="#">Contact Us</a>
-            </nav>
-        </div>
-        <!-- desktop header end -->
-
-        <!-- desktop page1 start -->
-        <div class="desktop-page1">
-            <div class="desktop-page1-top">
-                <img src="svg/page1-top.png" alt="">
-            </div>
-
-            <div class="desktop-page1-mid">
-                <div class="desktop-page1-mid-text-accelerate"><p>Accelerate your brand with Strategic Storytelling and Innovative Campaigns</p></div>
-                <div class="desktop-page1-mid-text-state"><p>State-of-the-art marketing solutions tailored to your brand’s goals.</p></div>
-                <div class="desktop-page1-mid-img1"><img src="svg/illustruction.svg" alt="illustruction.img"></div>
-                <div class="desktop-page1-mid-showreel"><p><span style="color: rgba(0, 0, 0, 0.79);">Play</span> Showreel • Play Showreel • Play Showreel • Play Showreel • Play Sho<span style="color: rgba(0, 0, 0, 0.785);">wreel</span></p></div>
-                <div class="desktop-page1-mid-txt-ready"><p>Ready to transform your brand? Contact us today to discuss your marketing needs and learn how we can help.</p></div>
-                <div class="desktop-page1-mid-button">
-                    <div class="desktop-page1-mid-button1"></div>
-                    <a class="" href="#">Contact Us</a>
-                </div>
-                <div class="desktop-page1-mid-rectangle">
-                        <div class="desktop-page1-mid-frame12">
-                            <div class="desktop-page1-mid-image8 desktop-page1-mid-image"><img src="svg/image 8.svg" alt="rippling.img"></div>
-                            <div class="desktop-page1-mid-image7 desktop-page1-mid-image"><img src="svg/image 7.svg" alt="aws.img"></div>
-                            <div class="desktop-page1-mid-image3 desktop-page1-mid-image"><img src="svg/image 3.svg" alt="teachable.img"></div>
-                            <div class="desktop-page1-mid-image4 desktop-page1-mid-image"><img src="svg/image 4.svg" alt="wonde.img"></div>
-                            <div class="desktop-page1-mid-image5 desktop-page1-mid-image"><img src="svg/image 5.svg" alt="zone.img"></div>
-                            <div class="desktop-page1-mid-image6 desktop-page1-mid-image"><img src="svg/image 6.svg" alt="shipbob.img"></div>
-                        </div>
-                    </div>
-            </div>
-
-            <div class="desktop-page1-bottom">
-                <div class="desktop-page1-bottom-section1">
-                <div class="desktop-page1-bottom-rectangle1">
-                    <div class="desktop-page1-bottom-img1"><img src="svg/1.svg" alt="creatd.img"></div>
-                <div class="desktop-page1-bottom-img1-txt"><p>Improving brand recall in Indian demographics for CREATD</p></div>
-                </div>
-
-                <div class="desktop-page1-bottom-rectangle2">
-                    <div class="desktop-page1-bottom-img2"><img src="svg/3.svg" alt="promoting.img"></div>
-                <div class="desktop-page1-bottom-img2-txt"><p>Promoting the newest Indie Rock Album launched by Prateek Kuhad</p></div>
-                </div>
-                </div>
-
-                <div class="desktop-page1-bottom-section2">
-                <div class="desktop-page1-bottom-rectangle3">
-                    <div class="desktop-page1-bottom-img3"><img src="svg/2.svg" alt="marketing.img"></div>
-                <div class="desktop-page1-bottom-img3-txt"><p>Retargeting the audience of the world’s leading cereal brand using content marketing</p></div>
-                </div>
-
-                <div class="desktop-page1-bottom-rectangle4">
-                    <div class="desktop-page1-bottom-img4"><img src="svg/4.svg" alt="content.img"></div>
-                
-                <div class="desktop-page1-bottom-img4-txt"><p>Two-fold increase in content engagement via organic optimization</p></div>
-                </div>
-            </div>
+            
+            <div class="ea-button">
+                <a href="#" class="btn btn-custom">Request Early Access</a>
             </div>
         </div>
-        <!-- desktop page1 end -->
+    </nav>
 
-        <!-- desktop page2 start -->
-         <div class="desktop-page2">
-
-        <div class="desktop-page2-top">
-            <div class="desktop-page2-top-txt"><p>Your brand’s growth trajectory starts here</p></div>
-
-            <div class="desktop-page2-top-frame1"></div>
-            <div class="desktop-page2-top-reach"><p><span style="color: black !important;">Rea</span>ch Out • Reach Out • Reach Out • Reach Out • Reach Out • Reach Out • Reach O<span style="color: black !important;">ut • </span></p></div>
-        </div>
-
-            <div class="desktop-page2-mid-rectangle1">
-                <div class="desktop-page2-mid-rectangle1-txt"><p>Offering Services in</p></div>
-                <div class="desktop-page2-mid-rectangle1-frame">
-                    <div class="desktop-page1-mid-button1"></div>
-                    <a class="" href="#">VIEW ALL</a>
-                </div>
-
-            <div class="desktop-page2-mid">
-                <div class="desktop-page2-mid-box">
-                    <div class="desktop-page2-mid-box-txt"><p>Influencer & Social Media</p></div>
-                    <div class="desktop-page2-mid-frame25">
-                        <div class="desktop-page2-mid-frame21">
-                            <div class="desktop-page2-mid-frame21-txt1"><p>01</p></div>
-                            <div class="desktop-page2-mid-frame21-txt2"><p>Influencer Marketing</p></div>
-                        </div>
-
-                        <div class="desktop-page2-mid-frame21">
-                            <div class="desktop-page2-mid-frame21-txt1"><p>02</p></div>
-                            <div class="desktop-page2-mid-frame21-txt2"><p>Campaign Management</p></div>
-                        </div>
-
-                        <div class="desktop-page2-mid-frame21">
-                            <div class="desktop-page2-mid-frame21-txt1"><p>03</p></div>
-                            <div class="desktop-page2-mid-frame21-txt2"><p>Social Media Strategy</p></div>
-                        </div>
-
-                        <div class="desktop-page2-mid-frame21">
-                            <div class="desktop-page2-mid-frame21-txt1"><p>04</p></div>
-                            <div class="desktop-page2-mid-frame21-txt2"><p>Community Management</p></div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="desktop-page2-book">
-                        <img src="svg/rectangle-book.png" alt="">
-                    </div>
-                </div>
+    <!-- section 1 -->
+    <div class="section-1" id="SectionOne" style="background-image: url(images/ama.svg);"> 
+        <div class="top-image">
+            <img src="images/bg.png">
+       </div>
+        <div class="carousel-content">
+            <img src="/images/logo.svg" alt="Supernest.ai Logo" class="logo">
+            <div class="main-title">
+                <div class="title-gradient">Find your nest with</div>
+                <div>SuperMatch</div>
             </div>
-            <div class="desktop-page2-bottom">
-                <div class="desktop-page2-bottom-h1">
-                    <h1 class="desktop-page2-bottom-h1-txt">Frequently Asked Questions</h1>
+            <!-- Phone Number Input Form from old folder -->
+            <form id="form1" method="post">
+                <div class="phone-input-box">
+                    <i class="fa fa-mobile-phone smartphone-icon"></i>
+                    <input class="m-desc" type="tel" id="phone" name="phone" placeholder="Enter Phone Number...">
+                    <div class="request-access">
+                        <button class="btn-custom-main" type="submit">Request Early Access</button>
+                    </div>
+                </div>
+            </form>        
+        </div>
+        <div class="locations">
+            Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.
+        </div>
+        
+        <!-- City Labels -->
+        <div class="city-labels">
+            <div class="city-label active" data-city="Amaravathi" >Amaravathi
+                <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
                 </div>
                 
-                <div class="desktop-page2-bottom-rectangle">
-                    <div class="desktop-page2-bottom-rectangle-txt1">
-                        <span>+</span><p> How can I get started with Dot Media?</p>
-                    </div>
-                    <div class="desktop-page2-bottom-rectangle-txt2">
-                        <span>+</span><p> What industries do you specialize in?</p>
-                    </div>
-                    <div class="desktop-page2-bottom-rectangle-txt3">
-                        <span>+</span><p> What types of content do you create?</p>
-                    </div>
-                    <div class="desktop-page2-bottom-rectangle-txt4">
-                        <div class="desktop-page2-bottom-rectangle-txt4-up"> <span>+</span><p>How much does dot media charge?</div>
-                        <div class="desktop-page2-bottom-rectangle-txt4-down">
-                            <p class="">Charges are completely dependent on the scope 
-                            and nature of the project but our clients usually pay
-                             us $10,000-$30,000 per campaign.</p>
-                            </div>
-                    </div>
-                    <div class="desktop-page2-bottom-rectangle-txt5">
-                        <span>+</span><p> What is included in your social media management services?</p>
-                    </div>
-                    <div class="desktop-page2-bottom-rectangle-txt6">
-                        <span>+</span><p> How do you measure the success of digital advertising campaigns?</p>
-                    </div>
-                    <div class="desktop-page2-bottom-rectangle-txt7">
-                        <span>+</span><p> What does your music marketing service include?</p>
-                    </div>
             </div>
-         </div>
+            <div class="city-label" data-city="Hyderabad">Hyderabad
+                <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+            <div class="city-label" data-city="Mumbai">Mumbai
+                <div class="progress-bar-container">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+            <div class="city-label" data-city="More">+24 cities
+            </div>
+        </div>
+        <div class="scrolling-shapes" style="background-image: url('images/shapes.png');"></div>
     </div>
-    <!-- desktop page2 end -->
 
-    <!-- page 3 start -->
-     <div class="desktop-page3">
-        <div class="desktop-page3-top">
-            <div class="desktop-page3-top-rectangle1">
-                <div class="desktop-page3-top-rectangle1-h1">“Working with Dot Media was a game-changer for our startup.”</div>
-                <div class="desktop-page3-top-rectangle1-p">Dot Media’s expertise in influencer marketing and social media management helped us reach our target audience effectively.</div>
+    <div class="container">
+        <div class="stats-section">
+            <div class="stat-item">
+                <div class="stat-number" id="propertiesCount">0</div>
+                <div class="stat-label">Properties</div>
             </div>
-            <div class="desktop-page3-top-rectangle2">
-                <div class="desktop-page3-top-rectangle2-ellipse2">
-                    <div class="desktop-page3-top-rectangle2-ellipse2-ellipse1"></div>
-                </div>
-                <div class="desktop-page-3-top-rectangle2-frame">
-                    <div class="desktop-page3-top-rectangle2-img">
-                        <!-- <img src="svg/page3-component.png" alt="" class="desktop-page3-top-rectangle2-img1"> -->
-                        <!-- <img src="svg/page3-arrow.png" alt="" class="desktop-page3-top-rectangle2-img2"> -->
-                    </div>
-                <div class="desktop-page3-top-rectangle2-txt">
-                <div class="desktop-page3-top-rectangle2-h1">“Working with Dot Media was a game-changer for our startup.”</div>
-                <div class="desktop-page3-top-rectangle2-p">Dot Media’s expertise in influencer marketing and social media management helped us reach our target audience effectively.</div>
+            <div class="stat-item">
+                <div class="stat-number" id="transactionsCount">0</div>
+                <div class="stat-label">Processed Transactions</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="citiesCount">0</div>
+                <div class="stat-label">Cities</div>
             </div>
         </div>
-                <div class="desktop-page3-top-rectangle-down">
-                    <div class="desktop-page3-top-rectangle-down-ellipse2"></div>
-                    <div class="desktop-page3-top-rectangle-down-txt">
-                        <p class="desktop-page3-top-rectangle-down-txt1">Alina Rai</p>
-                        <p class="desktop-page3-top-rectangle-down-txt2">VP New Media Solutions, Thesaurus Ltd.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="desktop-page3-top-rectangle3">
-                
-            </div>
-        </div>
-
-        <div class="desktop-page3-footer">
-            <div class="desktop-page3-footer-group10">
-                <div class="desktop-page3-footer-group10-img">
-                    <img src="svg/logo.svg" alt="logo.img">
-                </div>
-                <div class="desktop-page3-footer-group10-media"><p>media</p></div>
-                <div class="desktop-page3-footer-group10-txt"><p>As a strategy-led marketing agency, DOT media specializes in content marketing, influencer partnerships, social media and PR services, and music marketing.</p></div>
-            </div>
-            <div class="desktop-page3-footer-frame42">
-                <a href="#" class="desktop-page3-footer-frame42-home"><div class="destop-rectangle2" style="background-color: rgba(15, 16, 27, 1);"></div><p class="desktop-page3-footer-frame42-home-p" >Home</p></a>
-                <a href="#" class="desktop-page3-footer-frame42-ip" ><p class="desktop-page3-footer-frame42-ip-p" >Our IPs</p></a>
-                <a href="#" class="desktop-page3-footer-frame42-work" ><p class="desktop-page3-footer-frame42-work-p" >Work</p></a>
-                <a href="#" class="desktop-page3-footer-frame42-service" ><p class="desktop-page3-footer-frame42-service-p" >Services</p></a>
-            </div>
-            <div class="desktop-page3-footer-frame43">
-                <a href="#" class="desktop-page3-footer-frame43-aboutus"><p class="desktop-page3-footer-frame43-aboutus-p" >About Us</p></a>
-                <a href="#" class="desktop-page3-footer-frame43-careers" ><p class="desktop-page3-footer-frame42-carrers-p" >Careers</p></a>
-                <a href="#" class="desktop-page3-footer-frame43-blog" ><p class="desktop-page3-footer-frame42-blog-p" >Blog</p></a>
-                <a href="#" class="desktop-page3-footer-frame43-contact" ><p class="desktop-page3-footer-frame42-contact-p" >Contact</p></a>
-            </div>
-        </div>
-            <!-- page 3 end -->
-
-     </div>
     </div>
-    
 
-
-<div class="mobile-html">
-
-            <!-- mobile header start  -->
-            <div class="mobile-header">
-                <div class="mobile-left-nav">
-                    <img src="svg\logo.svg" alt="logo-img" class="mobile-left-nav-logo-img" />
-                    <a href class="mobile-left-nav-logo-text">media</a>
-                </div>
-                <nav class="mobile-right-nav">
-                    <div class="mobile-right-nav-rectangle"></div>
-                    <a class="" href="#">Contact Us</a>
-                </nav>
-                <nav class="mobile-mid-nav">
-                    <img src="" alt="">
-                </nav>
+    <!--Tenants -->
+    <div class="tenants" id="tenants">
+        <div class="content">
+            <div class="labels">
+                <a href="#" class="tenantOptionLink active" data-index="0">SuperSearch</a>
+                <a href="#" class="tenantOptionLink" data-index="1">SuperMatch</a>
+                <a href="#" class="tenantOptionLink" data-index="2">SuperPortal</a>
+                <a href="#" class="tenantOptionLink" data-index="3">SuperChat</a>
             </div>
-            <!-- desktop header end -->
-    
-            <!-- desktop page1 start -->
-            <div class="mobile-page1">
-                <div class="mobile-page1-top">
-                    <img src="svg/page1-top.png" alt="">
-                </div>
-    
-                <div class="mobile-page1-mid">
-                    <div class="mobile-page1-mid-text-accelerate"><p>Accelerate your brand with Strategic Storytelling and Innovative Campaigns</p></div>
-                    <div class="mobile-page1-mid-text-state"><p>State-of-the-art marketing solutions tailored to your brand’s goals.</p></div>
-                    <div class="mobile-page1-mid-img1"><img src="svg/illustruction.svg" alt="illustruction.img"></div>
-                    <div class="mobile-page1-mid-showreel"><p>Play Showreel • Play Showreel • Play Showreel • Play Showreel • Play Showreel</p></div>
-                    <div class="mobile-page1-mid-txt-ready"><p>Ready to transform your brand? Contact us today to discuss your marketing needs and learn how we can help.</p></div>
-                    <div class="mobile-page1-mid-button">
-                        <div class="mobile-page1-mid-button1"></div>
-                        <a class="" href="#">Contact Us</a>
-                    </div>
-                    <div class="mobile-page1-mid-rectangle">
-                            <div class="mobile-page1-mid-frame12">
-                                <div class="mobile-page1-mid-image8 mobile-page1-mid-image"><img src="svg/image 8.svg" alt="rippling.img"></div>
-                                <div class="mobile-page1-mid-image7 mobile-page1-mid-image"><img src="svg/image 7.svg" alt="aws.img"></div>
-                                <div class="mobile-page1-mid-image3 mobile-page1-mid-image"><img src="svg/image 3.svg" alt="teachable.img"></div>
-                                <div class="mobile-page1-mid-image4 mobile-page1-mid-image"><img src="svg/image 4.svg" alt="wonde.img"></div>
-                                <div class="mobile-page1-mid-image5 mobile-page1-mid-image"><img src="svg/image 5.svg" alt="zone.img"></div>
-                                <div class="mobile-page1-mid-image6 mobile-page1-mid-image"><img src="svg/image 6.svg" alt="shipbob.img"></div>
-                            </div>
-                        </div>
-                </div>
-    
-                <div class="mobile-page1-bottom">
-                    <div class="mobile-page1-bottom-section1">
-                    <div class="mobile-page1-bottom-rectangle1">
-                        <div class="mobile-page1-bottom-img1"><img src="svg/1.svg" alt="creatd.img"></div>
-                    <div class="mobile-page1-bottom-img1-txt"><p>Improving brand recall in Indian demographics for CREATD</p></div>
-                    </div>
-    
-                    <div class="mobile-page1-bottom-rectangle2">
-                        <div class="mobile-page1-bottom-img2"><img src="svg/3.svg" alt="promoting.img"></div>
-                    <div class="mobile-page1-bottom-img2-txt"><p>Promoting the newest Indie Rock Album launched by Prateek Kuhad</p></div>
-                    </div>
-                    </div>
-    
-                    <div class="mobile-page1-bottom-section2">
-                    <div class="mobile-page1-bottom-rectangle3">
-                        <div class="mobile-page1-bottom-img3"><img src="svg/2.svg" alt="marketing.img"></div>
-                    <div class="mobile-page1-bottom-img3-txt"><p>Retargeting the audience of the world’s leading cereal brand using content marketing</p></div>
-                    </div>
-    
-                    <div class="mobile-page1-bottom-rectangle4">
-                        <div class="mobile-page1-bottom-img4"><img src="svg/4.svg" alt="content.img"></div>
-                    
-                    <div class="mobile-page1-bottom-img4-txt"><p>Two-fold increase in content engagement via organic optimization</p></div>
-                    </div>
-                </div>
-                </div>
+            <div class="tenantSection" id="superSearch">
+                <h6 class="head">FOR TENANTS</h6>
+                <h1 class="font">Filter properties based on commute duration</h1>
+                <p class="small">Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.</p>
             </div>
-            <!-- desktop page1 end -->
-    
-            <!-- desktop page2 start -->
-             <div class="mobile-page2">
-    
-            <div class="mobile-page2-top">
-                <div class="mobile-page2-top-txt"><p>Your brand’s growth trajectory starts here</p></div>
-    
-                <div class="mobile-page2-top-frame1"></div>
-                <div class="mobile-page2-top-reach"><p>Reach Out • Reach Out • Reach Out • Reach Out • Reach Out • Reach Out • Reach Out • Reach Out • </p></div>
+            <div class="tenantSection hidden" id="superMatch">
+                <h6 class="head">FOR TENANTS</h6>
+                <h1 class="font">Match properties with your preferences</h1>
+                <p class="small">Get personalized recommendations based on your unique criteria. Discover the best matches for your new home.</p>
             </div>
-    
-                <div class="mobile-page2-mid-rectangle1">
-                    <div class="mobile-page2-mid-rectangle1-txt"><p>Offering Services in</p></div>
-                    <div class="mobile-page2-mid-rectangle1-frame">
-                        <div class="mobile-page1-mid-button1"></div>
-                        <a class="" href="#">VIEW ALL</a>
-                    </div>
-    
-                <div class="mobile-page2-mid">
-                    <div class="mobile-page2-mid-box">
-                        <div class="mobile-page2-mid-box-txt"><p>Influencer & Social Media</p></div>
-                        <div class="mobile-page2-mid-frame25">
-                            <div class="mobile-page2-mid-frame21">
-                                <div class="mobile-page2-mid-frame21-txt1"><p>01</p></div>
-                                <div class="mobile-page2-mid-frame21-txt2"><p>Influencer Marketing</p></div>
-                            </div>
-    
-                            <div class="mobile-page2-mid-frame21">
-                                <div class="mobile-page2-mid-frame21-txt1"><p>02</p></div>
-                                <div class="mobile-page2-mid-frame21-txt2"><p>Influencer Marketing</p></div>
-                            </div>
-    
-                            <div class="mobile-page2-mid-frame21">
-                                <div class="mobile-page2-mid-frame21-txt1"><p>03</p></div>
-                                <div class="mobile-page2-mid-frame21-txt2"><p>Influencer Marketing</p></div>
-                            </div>
-    
-                            <div class="mobile-page2-mid-frame21">
-                                <div class="mobile-page2-mid-frame21-txt1"><p>04</p></div>
-                                <div class="mobile-page2-mid-frame21-txt2"><p>Influencer Marketing</p></div>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="mobile-page2-book">
-                            <img src="svg/rectangle-book.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="mobile-page2-bottom">
-                    <div class="mobile-page2-bottom-h1">
-                        <h1 class="mobile-page2-bottom-h1-txt">Frequently Asked Questions</h1>
-                    </div>
-                    
-                    <div class="mobile-page2-bottom-rectangle">
-                        <div class="mobile-page2-bottom-rectangle-txt1">
-                            <span>+</span><p> How can I get started with Dot Media?</p>
-                        </div>
-                        <div class="mobile-page2-bottom-rectangle-txt2">
-                            <span>+</span><p> What industries do you specialize in?</p>
-                        </div>
-                        <div class="mobile-page2-bottom-rectangle-txt3">
-                            <span>+</span><p> What types of content do you create?</p>
-                        </div>
-                        <div class="mobile-page2-bottom-rectangle-txt4">
-                            <div class="mobile-page2-bottom-rectangle-txt4-up"><span>+</span><p>How much does dot media charge?</div>
-                            <p class="mobile-page2-bottom-rectangle-txt4-down">Charges are completely dependent on the scope 
-                                and nature of the project but our clients usually pay
-                                 us $10,000-$30,000 per campaign.</p>
-                        </div>
-                        <div class="mobile-page2-bottom-rectangle-txt5">
-                            <span>+</span><p> What is included in your social media management services?</p>
-                        </div>
-                        <div class="mobile-page2-bottom-rectangle-txt6">
-                            <span>+</span><p> How do you measure the success of digital advertising campaigns?</p>
-                        </div>
-                        <div class="mobile-page2-bottom-rectangle-txt7">
-                            <span>+</span><p> What does your music marketing service include?</p>
-                        </div>
-                </div>
-             </div>
+            <div class="tenantSection hidden" id="superPortal">
+                <h6 class="head">FOR TENANTS</h1>
+                <h1 class="font">Explore our property portal</h1>
+                <p class="small">Dive into our comprehensive property listings and detailed descriptions to find your ideal living space.</p>
+            </div>
+            <div class="tenantSection hidden" id="superChat">
+                <h6 class="head">FOR TENANTS</h6>
+                <h1 class="font">Chat with our property experts</h1>
+                <p class="small">Get instant advice and support from our knowledgeable team. Find answers to all your property-related queries.</p>
+            </div>
+            <div class="request-access">
+                <button class="btn-custom-tenant" type="submit">Request Early Access</button>
+            </div>
         </div>
-        <!-- desktop page2 end -->
-    
-        <!-- page 3 start -->
-         <div class="mobile-page3">
-            <div class="mobile-page3-top">
-                <div class="mobile-page3-top-rectangle1">
-                    <div class="mobile-page3-top-rectangle1-h1">“Working with Dot Media was a game-changer for our startup.”</div>
-                    <div class="mobile-page3-top-rectangle1-p">Dot Media’s expertise in influencer marketing and social media management helped us reach our target audience effectively.</div>
-                </div>
-                <div class="mobile-page3-top-rectangle2">
-                    <div class="mobile-page-3-top-rectangle2-frame">
-                        <div class="mobile-page3-top-rectangle2-img">
-                            <img src="svg/page3-component.png" alt="" class="mobile-page3-top-rectangle2-img1">
-                            <img src="svg/page3-arrow.png" alt="" class="mobile-page3-top-rectangle2-img2">
-                        </div>
-                    <div class="mobile-page3-top-rectangle2-txt">
-                    <div class="mobile-page3-top-rectangle2-h1">“Working with Dot Media was a game-changer for our startup.”</div>
-                    <div class="mobile-page3-top-rectangle2-p">Dot Media’s expertise in influencer marketing and social media management helped us reach our target audience effectively.</div>
+        <div class="image-container">
+            <img src="" alt="image" id="featureImageRight">
+        </div>
+        
+    </div>
+
+    <!--Property Managers -->
+    <div class="propertymanagers" id="propertymanagers">
+        <div class="image-container">
+            <img src="" alt="image" id="featureImageLeft">
+        </div>
+        <div class="content">
+            <div class="labels">
+                <a href="#" class="managerOptionLink active" data-index="0">SuperTrack</a>
+                <a href="#" class="managerOptionLink" data-index="1">SuperInvoice</a>
+                <a href="#" class="managerOptionLink" data-index="2">SuperResearch</a>
+                <a href="#" class="managerOptionLink" data-index="3">SuperManage</a>
+            </div>
+            <div class="propertySection" id="superTrack">
+                <h6 class="head">FOR PROPERTY MANAGERS</h6>
+                <h1 class="font">Filter properties based on commute duration</h1>
+                <p class="small">Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.</p>
+            </div>
+            <div class="propertySection hidden" id="superInvoice">
+                <h6 class="head">FOR PROPERTY MANAGERS</h6>
+                <h1 class="font">Match properties with your preferences</h1>
+                <p class="small">Get personalized recommendations based on your unique criteria. Discover the best matches for your new home.</p>
+            </div>
+            <div class="propertySection hidden" id="superResearch">
+                <h6 class="head">FOR PROPERTY MANAGERS</h6>
+                <h1 class="font">Explore our property portal</h1>
+                <p class="small">Dive into our comprehensive property listings and detailed descriptions to find your ideal living space.</p>
+            </div>
+            <div class="propertySection hidden" id="superManage">
+                <h6 class="head">FOR PROPERTY MANAGERS</h6>
+                <h1 class="font">Chat with our property experts</h1>
+                <p class="small">Get instant advice and support from our knowledgeable team. Find answers to all your property-related queries.</p>
+            </div>
+            <div class="request-access">
+                <button class="btn-custom-prop" type="submit">Request Early Access</button>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- Last section -->
+    <div class="section-other" id="sectionOther">
+        <div class="top-image">
+            <img src="images/bg.png">
+       </div>
+        <div class="city-labels-new">
+            <div class="city-label-new active" data-index="0">Real Estate
+                <div class="progress-bar-container-new">
+                    <div class="progress-bar-new"></div>
                 </div>
             </div>
-                    <div class="mobile-page3-top-rectangle-down">
-                        <img src="" alt="">
-                        <p>Alina Rai</p>
-                        <p>VP New Media Solutions, Thesaurus Ltd.</p>
+            <div class="city-label-new" data-index="1">Vastu Compatibility
+                <div class="progress-bar-container-new">
+                    <div class="progress-bar-new"></div>
+                </div>
+            </div>
+            <div class="city-label-new" data-index="2">AI Shortlisting
+                <div class="progress-bar-container-new">
+                    <div class="progress-bar-new"></div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-content-new">
+            <div class="title-new">
+                <div class="title-gradient-new">Purchase properties up to 10x</div>
+                <div class="title-gradient-new">faster with <span>SuperNest</span></div>
+            </div>
+        </div>
+        <div class="locations-new">
+            Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.
+        </div>
+        <div class="scrolling-shapes-new" style="background-image: url('images/shapes.png');"></div>
+    </div>
+
+<div class="containertl">
+    <div class="tl-container">
+        <div class="step">
+            <div class="step-number1">01</div>
+            <h3 class="mid1">Join the waitlist for early access</h3>
+            <p class="down1">Verify your phone number and request early access</p>
+        </div>
+        <div class="step">
+            <div class="step-number2">02</div>
+            <h3 class="mid2">Help our team build SuperNest</h3>
+            <p class="down2">Participate in our research and testing of segment-first features</p>
+        </div>
+        <div class="step">
+            <div class="step-number3">03</div>
+            <h3 class="mid3">Earn a free lifetime subscription</h3>
+            <p class="down3">Receive premium benefits on your account forever</p>
+        </div>
+        <div class="scrolling-shapes-steps" style="background-image: url('images/shapes.png');"></div>
+    </div>
+</div>
+
+    <!--FAQ-->
+    <div class="accordion-container" id="FAQ">
+        <div class="left-column">
+            <h1>Looking for<br>something?</h1>
+        </div>
+        <div class="accordion right-column">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span class="accordion-text">How can I increase my chances of getting early access?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        To increase your chances of getting early access, make sure to register your interest early, provide detailed information about your property requirements, and engage with our platform regularly.
                     </div>
                 </div>
-                <div class="mobile-page3-top-rectangle3">
-                    
-                </div>
             </div>
-    
-            <div class="mobile-page3-footer">
-                <div class="mobile-page3-footer-group10">
-                    <div class="mobile-page3-footer-group10-img">
-                        <img src="svg/logo.svg" alt="logo.img">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span class="accordion-text">What types of properties are available?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        We offer a wide range of properties including apartments, houses, townhouses, and luxury villas. Our listings cater to various preferences and budgets.
                     </div>
-                    <div class="mobile-page3-footer-group10-media"><p>media</p></div>
-                    <div class="mobile-page3-footer-group10-txt"><p>As a strategy-led marketing agency, DOT media specializes in content marketing, influencer partnerships, social media and PR services, and music marketing.</p></div>
-                </div>
-                <div class="mobile-page3-footer-frame42">
-                    <a href="#" class="mobile-page3-footer-frame42-home"><div class="mobile-rectangle2" style="background-color: rgba(15, 16, 27, 1);"></div><p class="desktop-page3-footer-frame42-home-p" >Home</p></a>
-                    <a href="#" class="mobile-page3-footer-frame42-ip" ><p class="mobile-page3-footer-frame42-ip-p" >Our IPs</p></a>
-                    <a href="#" class="mobile-page3-footer-frame42-work" ><p class="mobile-page3-footer-frame42-work-p" >Work</p></a>
-                    <a href="#" class="mobile-page3-footer-frame42-service" ><p class="mobile-page3-footer-frame42-service-p" >Services</p></a>
-                </div>
-                <div class="mobile-page3-footer-frame43">
-                    <a href="#" class="mobile-page3-footer-frame43-aboutus"><p class="mobile-page3-footer-frame43-aboutus-p" >About Us</p></a>
-                    <a href="#" class="mobile-page3-footer-frame43-careers" ><p class="mobile-page3-footer-frame42-carrers-p" >Careers</p></a>
-                    <a href="#" class="mobile-page3-footer-frame43-blog" ><p class="mobile-page3-footer-frame42-blog-p" >Blog</p></a>
-                    <a href="#" class="mobile-page3-footer-frame43-contact" ><p class="mobile-page3-footer-frame42-contact-p" >Contact</p></a>
                 </div>
             </div>
-                <!-- page 3 end -->
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <span class="accordion-text">How does the early access program work?</span>
+                    <span class="toggle-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                    <div class="accordion-content-inner">
+                        The early access program allows you to view and purchase properties before they are publicly listed. This gives you a competitive advantage in the real estate market.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footerbg-light">
+        <div class="container-footer">
+            <div class="logoandtitle">
+                <img src="/images/logo.svg" class="logofooter" alt="Logo">
+                    <h1 class="topf"><b>supernest</b><span style="color: grey;">.ai</span></h1>
+            </div>
+                
+                <p class="midf" style="opacity: 0.7;">Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.</p>
+               <div class="symbols">
+                <svg xmlns="http://www.w3.org/2000/svg" class="insta-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <g opacity="0.4">
+                      <path d="M6.66667 2.5C4.36583 2.5 2.5 4.36583 2.5 6.66667V13.3333C2.5 15.6342 4.36583 17.5 6.66667 17.5H13.3333C15.6342 17.5 17.5 15.6342 17.5 13.3333V6.66667C17.5 4.36583 15.6342 2.5 13.3333 2.5H6.66667ZM15 4.16667C15.46 4.16667 15.8333 4.54 15.8333 5C15.8333 5.46 15.46 5.83333 15 5.83333C14.54 5.83333 14.1667 5.46 14.1667 5C14.1667 4.54 14.54 4.16667 15 4.16667ZM10 5.83333C12.3008 5.83333 14.1667 7.69917 14.1667 10C14.1667 12.3008 12.3008 14.1667 10 14.1667C7.69917 14.1667 5.83333 12.3008 5.83333 10C5.83333 7.69917 7.69917 5.83333 10 5.83333ZM10 7.5C9.33696 7.5 8.70107 7.76339 8.23223 8.23223C7.76339 8.70107 7.5 9.33696 7.5 10C7.5 10.663 7.76339 11.2989 8.23223 11.7678C8.70107 12.2366 9.33696 12.5 10 12.5C10.663 12.5 11.2989 12.2366 11.7678 11.7678C12.2366 11.2989 12.5 10.663 12.5 10C12.5 9.33696 12.2366 8.70107 11.7678 8.23223C11.2989 7.76339 10.663 7.5 10 7.5Z" fill="#1C1B1F"/>
+                    </g>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="whatsapp-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <g opacity="0.4">
+                      <path d="M15.8975 4.10663C14.3258 2.53413 12.2358 1.66746 10.0092 1.66663C5.42084 1.66663 1.68667 5.39912 1.68501 9.98746C1.68417 11.4541 2.06751 12.8858 2.79584 14.1475L1.66667 18.3333L6.0275 17.3025C7.24334 17.9658 8.61167 18.315 10.005 18.3158H10.0083C14.5958 18.3158 18.33 14.5825 18.3325 9.99496C18.3342 7.77079 17.4692 5.67996 15.8975 4.10663ZM14.0817 12.9616C13.9083 13.4475 13.0592 13.9158 12.6775 13.95C12.2958 13.985 11.9383 14.1225 10.1817 13.43C8.06751 12.5966 6.7325 10.4291 6.62917 10.2908C6.525 10.1516 5.78 9.16329 5.78 8.13996C5.78 7.11662 6.3175 6.61329 6.50834 6.40579C6.69917 6.19746 6.92417 6.14579 7.06334 6.14579C7.20167 6.14579 7.34084 6.14579 7.46167 6.15079C7.61001 6.15662 7.77417 6.16412 7.93 6.50996C8.115 6.92162 8.51917 7.94996 8.57084 8.05412C8.6225 8.15829 8.6575 8.27996 8.58834 8.41829C8.51917 8.55662 8.48417 8.64329 8.38084 8.76496C8.27667 8.88662 8.1625 9.03579 8.06917 9.12912C7.965 9.23246 7.85667 9.34579 7.9775 9.55329C8.09917 9.76162 8.51584 10.4425 9.13417 10.9933C9.92917 11.7016 10.5983 11.9208 10.8067 12.0258C11.015 12.13 11.1358 12.1125 11.2575 11.9733C11.3792 11.835 11.7775 11.3666 11.9158 11.1583C12.0542 10.95 12.1933 10.985 12.3842 11.0541C12.575 11.1233 13.5975 11.6266 13.805 11.7308C14.0133 11.835 14.1517 11.8866 14.2033 11.9733C14.255 12.0591 14.255 12.4758 14.0817 12.9616Z" fill="#1C1B1F"/>
+                    </g>
+                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mail-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <g opacity="0.4" clip-path="url(#clip0_0_140)">
+    <mask id="mask0_0_140" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <rect width="24" height="24" fill="#D9D9D9"/>
+    </mask>
+    <g mask="url(#mask0_0_140)">
+      <path d="M3.33334 16.6667C2.875 16.6667 2.48264 16.5035 2.15626 16.1771C1.82987 15.8507 1.66667 15.4584 1.66667 15V5.00004C1.66667 4.54171 1.82987 4.14935 2.15626 3.82296C2.48264 3.49657 2.875 3.33337 3.33334 3.33337H16.6667C17.125 3.33337 17.5174 3.49657 17.8438 3.82296C18.1701 4.14935 18.3333 4.54171 18.3333 5.00004V15C18.3333 15.4584 18.1701 15.8507 17.8438 16.1771C17.5174 16.5035 17.125 16.6667 16.6667 16.6667H3.33334ZM10 10.8334L16.6667 6.66671V5.00004L10 9.16671L3.33334 5.00004V6.66671L10 10.8334Z" fill="#1C1B1F"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="clip0_0_140">
+      <rect width="20" height="20" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
+               </div>
+               <div class="form-container">
+                <div class="phone-input-box1">
+                    <i class="fa fa-mobile-phone smartphone-icon"></i>
+                    <input class="m-desc11" type="tel" id="phone" name="phone" placeholder="Enter Phone Number...">
+                </div>
+                <div class="request-access1">
+                    <btn class="btn-custom-footer" type="submit"><b>Request Early Access</b></btn>
+                </div>
+            </div>
+            <div class="scrolling-shapes" style="background-image: url('/images/shapes.png');"></div>
+        </div>
+        
+    </footer>
+<p class="copyright">2024 &copy; Alra AI LLP </p>
 
 </div>
-    
+
+ <!-- desktop html code end -->
+
+ <!-- mobile html code start -->
+
+    <div class="mobile-html">
+     <script>
+        var successMessage = "{{ success|escapejs }}";
+        var errorMessage = "{{ error|escapejs }}";
+    </script>
+
+    <!-- nav bar -->
+    <nav class="m-navbar m-navbar-expand-lg m-navbar-custom m-fixed-top">
+            <a class="m-navbar-logo" href="#">
+                <img src="/images/logo.svg" alt="Supernest.ai Logo" width="32" height="32" class="m-d-inline-block m-align-top m-mr-2">
+                <span class="font-weight-bold supernest-text">supernest<span class="text-muted ai-text">.ai</span></span>
+            </a>
+            
+            <div class="m-ea-button">
+                <a href="#" class="m-btn-custom">Request Early Access</a>
+            </div>
+    </nav>
+
+    <!-- section 1 -->
+    <div class="m-section-1" id="m-SectionOne" style="background-image: url(images/ama.svg);"> 
+
+            <!-- City Labels -->
+        <div class="m-city-labels">
+
+        <div class="m-city-labels-top">
+            <div class="m-city-label m-active" data-city="Amaravathi" >Amaravathi
+                <div class="m-progress-bar-container">
+                    <div class="m-progress-bar"></div>
+                </div>
+                
+            </div>
+
+            <div class="m-city-label" data-city="Hyderabad">Hyderabad
+                <div class="m-progress-bar-container">
+                    <div class="m-progress-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="m-city-labels-bottom">
+
+            <div class="m-city-label" data-city="Mumbai">Mumbai
+                <div class="m-progress-bar-container">
+                    <div class="m-progress-bar"></div>
+                </div>
+            </div>
+
+            <div class="m-city-label" data-city="More">+24 cities
+            </div>
+        </div>
+
+        </div>
+
+
+        <div class="m-carousel-content">
+            <img src="/images/logo.svg" alt="Supernest.ai Logo" class="m-logo">
+            <div class="m-main-title">
+                <div class="m-title-gradient">Find your nest</div>
+                <div class="m-title-gradient1">with <span>SuperMatch</span></div>
+            </div>
+            <!-- Phone Number Input Form from old folder -->
+            <form id="m-form1" method="post">
+                <div class="m-phone-input-box">
+                    <i class="fa fa-mobile-phone m-smartphone-icon"></i>
+                    <input class="m-desc" type="tel" id="m-phone" name="phone" placeholder="Enter Phone Number...">
+                </div>
+                <div class="m-request-access">
+                    <button class="m-btn-custom-main" type="submit">Request Early Access</button>
+                </div>
+            </form>        
+        </div>
+        <div class="m-locations">
+            Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.
+        </div>
+        
+
+
+        <div class="m-scrolling-shapes" style="background-image: url('images/shapes.png');"></div>
+    </div>
+
+    <div class="m-container">
+        <div class="m-stats-section">
+            <div class="m-stat-item">
+                <div class="m-stat-number" id="m-propertiesCount">0</div>
+                <div class="m-stat-label">Properties</div>
+            </div>
+            <div class="m-stat-item">
+                <div class="m-stat-number" id="m-transactionsCount">0</div>
+                <div class="m-stat-label">Processed Transactions</div>
+            </div>
+            <div class="m-stat-item">
+                <div class="m-stat-number" id="m-citiesCount">0</div>
+                <div class="m-stat-label">Cities</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Tenants -->
+    <div class="m-tenants" id="m-tenants">
+        <div class="m-content">
+            <div class="m-labels">
+                <div class="m-labels-top">
+                <a href="#" class="m-tenantOptionLink m-active" data-index="0">SuperSearch</a>
+                <a href="#" class="m-tenantOptionLink" data-index="1">SuperMatch</a>
+            </div>
+            <div class="m-labels-bottom">
+                <a href="#" class="m-tenantOptionLink" data-index="2">SuperPortal</a>
+                <a href="#" class="m-tenantOptionLink" data-index="3">SuperChat</a>
+            </div>
+            </div>
+
+            <div class="m-image-container">
+                <img src="" alt="image" id="m-featureImageRight">
+            </div>    
+            
+            <div class="m-tenantSection" id="m-superSearch">
+                <h6 class="m-head">FOR TENANTS</h6>
+                <h1 class="m-font">Filter properties based on commute duration</h1>
+                <p class="m-small">Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.</p>
+            </div>
+
+            <div class="m-tenantSection m-hidden" id="m-superMatch">
+            </div>
+            <div class="m-tenantSection m-hidden" id="m-superPortal">
+            </div>
+            <div class="m-tenantSection m-hidden" id="m-superChat">
+            </div>
+
+            <div class="m-request-access">
+                <button class="m-btn-custom-tenant" type="submit">Request Early Access</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Property Managers -->
+    <div class="m-propertymanagers" id="m-propertymanagers">
+
+        <div class="m-content">
+            <div class="m-labels">
+                <div class="m-labels-top">
+                <a href="#" class="m-managerOptionLink m-active" data-index="0">SuperTrack</a>
+                <a href="#" class="m-managerOptionLink" data-index="1">SuperInvoice</a>
+            </div>
+            <div class="m-labels-bottom">
+                <a href="#" class="m-managerOptionLink" data-index="2">SuperResearch</a>
+                <a href="#" class="m-managerOptionLink" data-index="3">SuperManage</a>
+            </div>
+            </div>
+
+            <div class="m-image-container">
+                <img src="" alt="image" id="m-featureImageLeft">
+            </div>
+
+            <div class="m-propertySection" id="m-superTrack">
+                <h6 class="m-head">FOR PROPERTY MANAGERS</h6>
+                <h1 class="m-font">Filter properties based on commute duration</h1>
+                <p class="m-small">Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.</p>
+            </div>
+
+            <div class="m-propertySection m-hidden" id="m-superInvoice">
+            </div>
+            <div class="m-propertySection m-hidden" id="m-superResearch">
+            </div>
+            <div class="m-propertySection hidden" id="m-superManage">
+            </div>
+
+            <div class="m-request-access">
+                <button class="m-btn-custom-prop" type="submit">Request Early Access</button>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- Last section -->
+    <div class="m-section-other" id="m-sectionOther">
+        <div class="m-city-labels-new">
+            <div class="m-city-labels-new-top">
+            <div class="m-city-label-new m-active" data-index="0">Real Estate
+                <div class="m-progress-bar-container-new">
+                    <div class="m-progress-bar-new"></div>
+                </div>
+            </div>
+            <div class="m-city-label-new" data-index="1">Vastu Compatibility
+                <div class="m-progress-bar-container-new">
+                    <div class="m-progress-bar-new"></div>
+                </div>
+            </div>
+        </div>
+
+            <div class="m-city-label-new" data-index="2">AI Shortlisting
+                <div class="m-progress-bar-container-new">
+                    <div class="m-progress-bar-new"></div>
+                </div>
+            </div>
+        </div>
+        <div class="m-carousel-content-new">
+            <div class="m-title-new">
+                <div class="m-title-gradient-new21">Purchase properties upto</div>
+                <div class="m-title-gradient-new22">10x faster with <span>SuperNest</span></div>
+            </div>
+        </div>
+        <div class="m-locations-new">
+            Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.
+        </div>
+        <div class="m-scrolling-shapes-new" style="background-image: url('images/shapes.png');"></div>
+    </div>
+
+<div class="m-containertl">
+    <div class="m-tl-container">
+        <div class="m-step">
+            <div class="m-step-number1">01</div>
+            <div class="m-step-text">
+            <h3 class="m-mid1">Join the waitlist for early access</h3>
+            <p class="m-down1">Verify your phone number and request early access</p>
+        </div>
+        </div>
+        <div class="m-step">
+            <div class="m-step-number2">02</div>
+            <div class="m-step-text">
+            <h3 class="m-mid2">Help our team build SuperNest</h3>
+            <p class="m-down2">Participate in our research and testing of segment-first features</p>
+        </div>
+        </div>
+        <div class="m-step">
+            <div class="m-step-number3">03</div>
+            <div class="m-step-text">
+            <h3 class="m-mid3">Earn a free lifetime subscription</h3>
+            <p class="m-down3">Receive premium benefits on your account forever</p>
+        </div>
+        </div>
+        <div class="m-scrolling-shapes-steps" style="background-image: url('images/shapes.png');"></div>
+    </div>
+</div>
+
+    <!--FAQ-->
+    <div class="m-accordion-container" id="m-FAQ">
+        <div class="m-left-column">
+            <h1>Looking for<br>something?</h1>
+        </div>
+        <div class="m-accordion">
+            <div class="m-accordion-item">
+                <div class="m-accordion-header">
+                    <span class="m-accordion-text">How can I increase my chances of getting early access?</span>
+                    <span class="m-toggle-icon">+</span>
+                </div>
+                <div class="m-accordion-content">
+                    <div class="m-accordion-content-inner">
+                        To increase your chances of getting early access, make sure to register your interest early, provide detailed information about your property requirements, and engage with our platform regularly.
+                    </div>
+                </div>
+            </div>
+            <div class="m-accordion-item">
+                <div class="m-accordion-header">
+                    <span class="m-accordion-text">What types of properties are available?</span>
+                    <span class="m-toggle-icon">+</span>
+                </div>
+                <div class="m-accordion-content">
+                    <div class="m-accordion-content-inner">
+                        We offer a wide range of properties including apartments, houses, townhouses, and luxury villas. Our listings cater to various preferences and budgets.
+                    </div>
+                </div>
+            </div>
+            <div class="m-accordion-item">
+                <div class="m-accordion-header">
+                    <span class="m-accordion-text">How does the early access program work?</span>
+                    <span class="m-toggle-icon">+</span>
+                </div>
+                <div class="m-accordion-content">
+                    <div class="m-accordion-content-inner">
+                        The early access program allows you to view and purchase properties before they are publicly listed. This gives you a competitive advantage in the real estate market.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="m-footerbg-light">
+        <div class="m-container-footer">
+            <div class="m-logoandtitle">
+                <img src="/images/logo.svg" class="m-logofooter" alt="Logo">
+                    <h1 class="m-topf"><b>supernest</b><span style="color: grey;">.ai</span></h1>
+            </div>
+                
+                <p class="m-midf" style="opacity: 0.7;">Find your perfect thriving, lively place to call home. Browse hundreds of dorms, hostels, and rental properties ready to move in.</p>
+               <div class="m-symbols">
+                <svg xmlns="http://www.w3.org/2000/svg" class="m-insta-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <g opacity="0.4">
+                      <path d="M6.66667 2.5C4.36583 2.5 2.5 4.36583 2.5 6.66667V13.3333C2.5 15.6342 4.36583 17.5 6.66667 17.5H13.3333C15.6342 17.5 17.5 15.6342 17.5 13.3333V6.66667C17.5 4.36583 15.6342 2.5 13.3333 2.5H6.66667ZM15 4.16667C15.46 4.16667 15.8333 4.54 15.8333 5C15.8333 5.46 15.46 5.83333 15 5.83333C14.54 5.83333 14.1667 5.46 14.1667 5C14.1667 4.54 14.54 4.16667 15 4.16667ZM10 5.83333C12.3008 5.83333 14.1667 7.69917 14.1667 10C14.1667 12.3008 12.3008 14.1667 10 14.1667C7.69917 14.1667 5.83333 12.3008 5.83333 10C5.83333 7.69917 7.69917 5.83333 10 5.83333ZM10 7.5C9.33696 7.5 8.70107 7.76339 8.23223 8.23223C7.76339 8.70107 7.5 9.33696 7.5 10C7.5 10.663 7.76339 11.2989 8.23223 11.7678C8.70107 12.2366 9.33696 12.5 10 12.5C10.663 12.5 11.2989 12.2366 11.7678 11.7678C12.2366 11.2989 12.5 10.663 12.5 10C12.5 9.33696 12.2366 8.70107 11.7678 8.23223C11.2989 7.76339 10.663 7.5 10 7.5Z" fill="#1C1B1F"/>
+                    </g>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="m-whatsapp-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <g opacity="0.4">
+                      <path d="M15.8975 4.10663C14.3258 2.53413 12.2358 1.66746 10.0092 1.66663C5.42084 1.66663 1.68667 5.39912 1.68501 9.98746C1.68417 11.4541 2.06751 12.8858 2.79584 14.1475L1.66667 18.3333L6.0275 17.3025C7.24334 17.9658 8.61167 18.315 10.005 18.3158H10.0083C14.5958 18.3158 18.33 14.5825 18.3325 9.99496C18.3342 7.77079 17.4692 5.67996 15.8975 4.10663ZM14.0817 12.9616C13.9083 13.4475 13.0592 13.9158 12.6775 13.95C12.2958 13.985 11.9383 14.1225 10.1817 13.43C8.06751 12.5966 6.7325 10.4291 6.62917 10.2908C6.525 10.1516 5.78 9.16329 5.78 8.13996C5.78 7.11662 6.3175 6.61329 6.50834 6.40579C6.69917 6.19746 6.92417 6.14579 7.06334 6.14579C7.20167 6.14579 7.34084 6.14579 7.46167 6.15079C7.61001 6.15662 7.77417 6.16412 7.93 6.50996C8.115 6.92162 8.51917 7.94996 8.57084 8.05412C8.6225 8.15829 8.6575 8.27996 8.58834 8.41829C8.51917 8.55662 8.48417 8.64329 8.38084 8.76496C8.27667 8.88662 8.1625 9.03579 8.06917 9.12912C7.965 9.23246 7.85667 9.34579 7.9775 9.55329C8.09917 9.76162 8.51584 10.4425 9.13417 10.9933C9.92917 11.7016 10.5983 11.9208 10.8067 12.0258C11.015 12.13 11.1358 12.1125 11.2575 11.9733C11.3792 11.835 11.7775 11.3666 11.9158 11.1583C12.0542 10.95 12.1933 10.985 12.3842 11.0541C12.575 11.1233 13.5975 11.6266 13.805 11.7308C14.0133 11.835 14.1517 11.8866 14.2033 11.9733C14.255 12.0591 14.255 12.4758 14.0817 12.9616Z" fill="#1C1B1F"/>
+                    </g>
+                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="m-mail-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+  <g opacity="0.4" clip-path="url(#clip0_0_140)">
+    <mask id="m-mask0_0_140" style="mask-type:alpha" maskUnits="m-userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <rect width="24" height="24" fill="#D9D9D9"/>
+    </mask>
+    <g mask="url(#mask0_0_140)">
+      <path d="M3.33334 16.6667C2.875 16.6667 2.48264 16.5035 2.15626 16.1771C1.82987 15.8507 1.66667 15.4584 1.66667 15V5.00004C1.66667 4.54171 1.82987 4.14935 2.15626 3.82296C2.48264 3.49657 2.875 3.33337 3.33334 3.33337H16.6667C17.125 3.33337 17.5174 3.49657 17.8438 3.82296C18.1701 4.14935 18.3333 4.54171 18.3333 5.00004V15C18.3333 15.4584 18.1701 15.8507 17.8438 16.1771C17.5174 16.5035 17.125 16.6667 16.6667 16.6667H3.33334ZM10 10.8334L16.6667 6.66671V5.00004L10 9.16671L3.33334 5.00004V6.66671L10 10.8334Z" fill="#1C1B1F"/>
+    </g>
+  </g>
+  <defs>
+    <clipPath id="m-clip0_0_140">
+      <rect width="20" height="20" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
+               </div>
+               <div class="m-form-container">
+                <div class="m-phone-input-box11">
+                    <i class="fa fa-mobile-phone m-smartphone-icon"></i>
+                    <input type="text">
+                </div>
+                <div class="m-request-access1">
+                    <btn class="btn-custom-footer" type="submit"><b>Request Early Access</b></btn>
+                </div>
+            </div>
+            <div class="m-scrolling-shapes" style="background-image: url('/images/shapes.png');"></div>
+        </div>
+        
+    </footer>
+<p class="m-copyright">2024 &copy; Alra AI LLP </p>
+
+</div>
+
+<!-- mobile html code end -->
+
+    <!-- Bootstrap JS, Popper.js, and jQuery prev folder-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script src="m-script.js"></script>
 </body>
 </html>
