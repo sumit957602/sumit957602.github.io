@@ -533,7 +533,7 @@ h1 {
 
 .btn-custom-tenant{
     background-color: #C6ABF7;
-    color: white;
+    color: rgba(66, 36, 119, 1);
     border-radius: 3.125rem;
     padding: .5rem 1.25rem;
     font-weight: 600;
@@ -542,7 +542,7 @@ h1 {
 
 .btn-custom-prop{
     background-color: #C6ABF7;
-    color: white;
+    color: rgba(66, 36, 119, 1);
     border-radius: 3.125rem;
     padding: .5rem 1.25rem;
     font-weight: 600;
@@ -1050,7 +1050,7 @@ h1 {
 
 .request-access1 {
    
-    background: #e8e3f2;
+    background: rgba(244, 238, 253, 1);
    
     display: flex;
     flex-direction: row;
@@ -1088,6 +1088,11 @@ h1 {
 
     color: #422477;
     
+}
+
+.btn-custom-footer {
+    color: rgba(66, 36, 119, 1);
+
 }
 
 .symbols{

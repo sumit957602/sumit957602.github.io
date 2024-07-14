@@ -877,7 +877,8 @@ body {
 }
 
 .m-accordion {
-    width: 100%;
+    width: 22.5rem;
+    margin-left: 1.5rem;
 }
 
 .m-accordion-item {
@@ -897,12 +898,13 @@ body {
     width: 19.875rem !important;
     height: 3rem;
     flex: 1;
-    margin-left: 1.25rem;
     font-family: F37 Neuro Trial;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.51875rem;
     text-align: left;
+    position: relative;
+    left: -.25rem;
 }
 
 .m-accordion-content {
@@ -927,8 +929,7 @@ body {
 .m-toggle-icon {
     font-size: x-large;
     color: #696969;
-    margin-left: .5rem;
-    margin-right: .75rem;
+    margin-left: 1.5rem;
     margin-top: -.5rem;
     transition: transform 0.3s ease;
 }
@@ -1022,7 +1023,7 @@ body {
 .m-city-label-new {
     flex: 1;
     width: 20rem;
-    padding: .75rem 0;
+    padding: 1.25rem 0;
     padding-left: 0rem;
     color: white;
     font-size: .875rem;
@@ -1043,9 +1044,10 @@ body {
 }
 
 .m-progress-bar-container-new {
+    margin-top: -1.5rem;
     height: .125rem;
     background-color: rgba(255, 255, 255, 0.3);
-    width: 100%;
+    width: 9rem;
 }
 
 .m-city-label-new.active .m-progress-bar-new {
@@ -1101,7 +1103,7 @@ body {
 
 .m-btn-custom-tenant{
     background-color: #C6ABF7;
-    color: white;
+    color: rgba(66, 36, 119, 1);
     border-radius: 3.125rem;
     padding: .5rem 1.25rem;
     font-weight: 600;
@@ -1110,7 +1112,7 @@ body {
 
 .m-btn-custom-prop{
     background-color: #C6ABF7;
-    color: white;
+    color: rgba(66, 36, 119, 1);
     border-radius: 3.125rem;
     padding: .5rem 1.25rem;
     font-weight: 600;
@@ -1457,7 +1459,7 @@ body {
     padding-top: 4rem;
     margin-bottom: .75rem;
     flex-shrink: 0;
-    background: linear-gradient(to bottom, #ffffff, #c6abf7);
+    background: linear-gradient(to bottom, #ffffff, #9e6ff5);
     align-items: center;
     box-sizing: border-box;
     display: flex;
@@ -1601,6 +1603,7 @@ body {
     padding-left: 1.85rem;
     gap: .625rem;
     border-radius: 6.25rem;
+    margin-top: .5rem;
 
     font-family: 'F37 Neuro Trial';
     font-size: .75rem;
@@ -1608,6 +1611,11 @@ body {
     line-height: 1.25rem;
     text-align: left;
     z-index:3;
+}
+
+.btn-custom-footer {
+    margin-left: .25rem;
+    margin-top: .1rem;
 }
 
 .m-request-access1 .m-tab-name {
