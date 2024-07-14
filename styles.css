@@ -171,13 +171,14 @@ body {
 
 .btn-custom-main{
     background-color: #C6ABF7;
-    width: 13.125rem;
+    width: 13.25rem;
     height: 3rem;
     color: white;
     border-radius: 3.125rem;
     padding: .5rem 1.25rem;
     font-weight: 600;
     font-size: 1rem;
+    letter-spacing: -.04rem;
     border: none;
     color: rgba(66, 36, 119, 1);
 }
