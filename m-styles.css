@@ -1026,7 +1026,12 @@ body {
     gap: 4px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-   
+
+    font-family: F37 Neuro Trial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.9px;
+    text-align: left;
 }
 
 .m-labels a::after {
@@ -1042,7 +1047,7 @@ body {
     font-weight: bold;
 }
 
-.m-labels a.active::after {
+.m-labels a.m-active::after {
     background-color: #000; 
     animation: line-fill 5s forwards;
 }
