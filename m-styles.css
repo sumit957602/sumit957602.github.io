@@ -1625,27 +1625,15 @@ body {
 }
 
 .m-insta-icon:hover{
-    background-color: rgb(249, 242, 242);
-    opacity: 1;
-    width: 1.5625rem;
-    height: 1.5625rem;
-    border-radius: 30%;
+    opacity: .5;
 }
 
 .m-whatsapp-icon:hover{
-    background-color: rgb(249, 242, 242);
-    opacity: 1;
-    width: 1.5625rem;
-    height: 1.5625rem;
-    border-radius: 30%;
+    opacity: .5;
 }
 
 .m-mail-icon:hover{
-    background-color: rgb(249, 242, 242);
-    opacity: 1;
-    width: 1.5625rem;
-    height: 1.5625rem;
-    border-radius: 30%;
+    opacity: .5;
 }
 
 }
