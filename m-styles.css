@@ -1320,7 +1320,7 @@ body {
      font-size: 2rem;
      font-weight: 600;
      line-height: 1.92rem;
-     letter-spacing: -0.07rem;
+     letter-spacing: -0.08rem;
      text-align: center;
      z-index: 3;
 }
@@ -1336,7 +1336,7 @@ body {
      font-size: 2rem;
      font-weight: 600;
      line-height: 1.92rem;
-     letter-spacing: -0.07rem;
+     letter-spacing: -0.1rem;
      text-align: center;
      z-index: 3;
  }
@@ -1352,7 +1352,7 @@ body {
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.92rem;
-    letter-spacing: -0.07rem;
+    letter-spacing: -0.1rem;
     text-align: center;
     z-index: 3;
 }
