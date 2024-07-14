@@ -1371,7 +1371,8 @@ body {
     border-radius: .5rem;
     padding: .5rem .5rem .5rem .625rem;
     display: flex;
-    align-items: center;
+    align-items: left;
+    padding-right: 4.5rem;
     justify-content: space-between;
     background: #FFFFFF;
     box-shadow: .125rem .25rem 3rem .75rem rgba(5, 93, 236, 0.1);
