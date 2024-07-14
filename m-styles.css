@@ -1337,10 +1337,20 @@ body {
     height: 2.5rem;
     font-size: .875rem;
     padding-top: .5rem;
+    margin-left: 2rem;
+    margin-top: -3rem;
     color: #1c1a1a;
     background-color: #ddd;
     border: .125rem solid #ddd;
     border-radius: 1rem;
+}
+
+.m-step-number11 img {
+    height: 6rem;
+}
+
+.m-step-number21 img {
+    height: 6rem;
 }
 
 .m-mid1 {
@@ -1355,7 +1365,8 @@ body {
      font-weight: 600;
      line-height: 1.92rem;
      letter-spacing: -0.09rem;
-     text-align: center;
+     text-align: left;
+     margin-left: .5rem;
      z-index: 3;
 }
 
@@ -1371,7 +1382,8 @@ body {
      font-weight: 600;
      line-height: 1.92rem;
      letter-spacing: -0.11rem;
-     text-align: center;
+     text-align: left;
+     margin-left: .5rem;
      z-index: 3;
  }
 
@@ -1381,13 +1393,16 @@ body {
     width: 17.25rem;
     height: 3.875rem;
     gap: 0rem;
+    margin-top: -3rem;
+    margin-left: -.25rem;
 
     font-family: 'F37 Caslon Text Trial', serif;
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.92rem;
     letter-spacing: -0.15rem;
-    text-align: center;
+    text-align: left;
+    margin-left: .5rem;
     z-index: 3;
 }
 
@@ -1403,7 +1418,8 @@ body {
     font-weight: 400;
     line-height: 1.18125rem;
     letter-spacing: -0.02rem;
-    text-align: center;
+    text-align: left;
+    margin-left: .5rem;
     z-index: 3;
 }
 
@@ -1419,7 +1435,8 @@ body {
     font-weight: 400;
     line-height: 1.18125rem;
     letter-spacing: -0.02rem;
-    text-align: center;
+    text-align: left;
+    margin-left: .5rem;
     z-index: 3;
 }
 
@@ -1435,7 +1452,8 @@ body {
     font-weight: 400;
     line-height: 1.18125rem;
     letter-spacing: -0.02rem;
-    text-align: center;
+    text-align: left;
+    margin-left: .5rem;
     z-index: 3;
 }
 
