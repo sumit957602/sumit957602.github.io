@@ -482,7 +482,7 @@ body {
     padding: .5rem .75rem;
     font-weight: 600;
     position: relative;
-    left: 1.75rem;
+    left: .5rem;
     border: none;
 }
 
@@ -670,7 +670,7 @@ body {
     border-radius: 1rem;
     border: 1px 0px 0px 0px;
     opacity: 0.2px;
-    border: 1px solid rgba(255, 255, 255, 1)
+    border: .0625rem solid rgba(255, 255, 255, .5);
 }
 
 .m-btn-custom-main{
