@@ -315,10 +315,13 @@ body {
     margin-top: 2.5rem;
     padding: 1.25rem;
     border-radius: .625rem;
+    width: 60rem;
+    margin-left: -6.5rem;
 }
 
 .stat-item {
     text-align: center;
+    margin-left: 20rem;
 }
 
 .stat-number {
