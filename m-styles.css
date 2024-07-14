@@ -542,6 +542,7 @@ body {
 
 
 .m-carousel-content {
+    position: relative;
     text-align: center;
     color: white;
     width: 20.125rem;
@@ -604,6 +605,7 @@ body {
 
 
 .m-phone-input-box {
+    position: relative;
     padding-left: 2.125rem;
     display: flex;
     align-items: center;
@@ -695,6 +697,7 @@ body {
 
 
 .m-locations {
+    position: relative;
     margin-left: 1.5rem;
     margin-top: 8rem;
     width: 16.9375rem;
@@ -712,15 +715,17 @@ body {
 
 /* City labels styles */
 .m-city-labels {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0px;
     gap: 1rem;
-    z-index: 2;
+    z-index: 3;
 }
 
 .m-city-label {
+    position: relative;
     width: 7.5rem;
     padding-top: .75rem;
     color: white;
@@ -937,6 +942,7 @@ body {
 }
 
 .m-carousel-content-new {
+    position: relative;
     text-align: left;
     color: white;
     width: 100%;
@@ -945,6 +951,7 @@ body {
 }
 
 .m-locations-new {
+    position: relative;
     width: 16.9375rem;
     height: 3.5625rem;
     margin-left: 1.5rem;
@@ -981,6 +988,7 @@ body {
 }
 
 .m-city-labels-new {
+    position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
