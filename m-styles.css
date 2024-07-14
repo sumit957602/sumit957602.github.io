@@ -514,10 +514,11 @@ body {
 
 .m-ea-button {
     flex-grow: 1;
-    width: 11.3125rem;
+    width: 11rem;
     height: 2.25rem;
     margin-left: 2.8125rem;
-    padding: 0rem 1.25rem .125rem 1.25rem;
+    padding: 0rem 1rem .125rem 1rem;
+    font-size: .75rem;
 }
 
 .m-btn-custom {
