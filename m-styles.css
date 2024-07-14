@@ -8,133 +8,133 @@
     
     @media (min-width: 380px) and (max-width: 390px) {
         html {
-            font-size: 99.5%; 
-        }
-    }
-    
-    @media (min-width: 370px) and (max-width: 379px) {
-        html {
-            font-size: 99%; 
-        }
-    }
-    
-    @media (min-width: 360px) and (max-width: 369px) {
-        html {
             font-size: 98.5%; 
         }
     }
     
-    @media (min-width: 350px) and (max-width: 359px) {
-        html {
-            font-size: 98%; 
-        }
-    }
-    
-    @media (min-width: 340px) and (max-width: 349px) {
-        html {
-            font-size: 97.5%; 
-        }
-    }
-    
-    @media (min-width: 330px) and (max-width: 339px) {
-        html {
-            font-size: 97%; 
-        }
-    }
-    
-    @media (min-width: 320px) and (max-width: 329px) {
-        html {
-            font-size: 96.5%; 
-        }
-    }
-    
-    @media (min-width: 310px) and (max-width: 319px) {
+    @media (min-width: 370px) and (max-width: 380px) {
         html {
             font-size: 96%; 
         }
     }
     
-    @media (min-width: 300px) and (max-width: 309px) {
-        html {
-            font-size: 95.5%; 
-        }
-    }
-    
-    @media (min-width: 290px) and (max-width: 299px) {
-        html {
-            font-size: 95%; 
-        }
-    }
-    
-    @media (min-width: 280px) and (max-width: 289px) {
+    @media (min-width: 360px) and (max-width: 370px) {
         html {
             font-size: 94.5%; 
         }
     }
     
-    @media (min-width: 270px) and (max-width: 279px) {
-        html {
-            font-size: 94%; 
-        }
-    }
-    
-    @media (min-width: 260px) and (max-width: 269px) {
-        html {
-            font-size: 93.5%; 
-        }
-    }
-    
-    @media (min-width: 250px) and (max-width: 259px) {
-        html {
-            font-size: 93%; 
-        }
-    }
-    
-    @media (min-width: 240px) and (max-width: 249px) {
-        html {
-            font-size: 92.5%; 
-        }
-    }
-    
-    @media (min-width: 230px) and (max-width: 239px) {
+    @media (min-width: 350px) and (max-width: 360px) {
         html {
             font-size: 92%; 
         }
     }
     
-    @media (min-width: 220px) and (max-width: 229px) {
-        html {
-            font-size: 91.5%; 
-        }
-    }
-    
-    @media (min-width: 210px) and (max-width: 219px) {
-        html {
-            font-size: 91%; 
-        }
-    }
-    
-    @media (min-width: 200px) and (max-width: 209px) {
-        html {
-            font-size: 90.5%; 
-        }
-    }
-    
-    @media (min-width: 190px) and (max-width: 199px) {
-        html {
-            font-size: 90%; 
-        }
-    }
-    
-    @media (min-width: 180px) and (max-width: 189px) {
-        html {
-            font-size: 89.5%; 
-        }
-    }
-    
-    @media (min-width: 170px) and (max-width: 179px) {
+    @media (min-width: 340px) and (max-width: 350px) {
         html {
             font-size: 89%; 
+        }
+    }
+    
+    @media (min-width: 330px) and (max-width: 340px) {
+        html {
+            font-size: 87%; 
+        }
+    }
+    
+    @media (min-width: 320px) and (max-width: 330px) {
+        html {
+            font-size: 85%; 
+        }
+    }
+    
+    @media (min-width: 310px) and (max-width: 320px) {
+        html {
+            font-size: 82%; 
+        }
+    }
+    
+    @media (min-width: 300px) and (max-width: 310px) {
+        html {
+            font-size: 80%; 
+        }
+    }
+    
+    @media (min-width: 290px) and (max-width: 300px) {
+        html {
+            font-size: 77%; 
+        }
+    }
+    
+    @media (min-width: 280px) and (max-width: 290px) {
+        html {
+            font-size: 74%; 
+        }
+    }
+    
+    @media (min-width: 270px) and (max-width: 280px) {
+        html {
+            font-size: 72%; 
+        }
+    }
+    
+    @media (min-width: 260px) and (max-width: 270px) {
+        html {
+            font-size: 69%; 
+        }
+    }
+    
+    @media (min-width: 250px) and (max-width: 260px) {
+        html {
+            font-size: 66%; 
+        }
+    }
+    
+    @media (min-width: 240px) and (max-width: 250px) {
+        html {
+            font-size: 64%; 
+        }
+    }
+    
+    @media (min-width: 230px) and (max-width: 240px) {
+        html {
+            font-size: 61%; 
+        }
+    }
+    
+    @media (min-width: 220px) and (max-width: 230px) {
+        html {
+            font-size: 58%; 
+        }
+    }
+    
+    @media (min-width: 210px) and (max-width: 220px) {
+        html {
+            font-size: 55%; 
+        }
+    }
+    
+    @media (min-width: 200px) and (max-width: 210px) {
+        html {
+            font-size: 52%; 
+        }
+    }
+    
+    @media (min-width: 190px) and (max-width: 200px) {
+        html {
+            font-size: 50%; 
+        }
+    }
+    
+    @media (min-width: 180px) and (max-width: 190px) {
+        html {
+            font-size: 48%; 
+        }
+    }
+    
+    @media (min-width: 170px) and (max-width: 180px) {
+        html {
+            font-size: 46%; 
         }
     }
     
