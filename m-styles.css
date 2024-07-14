@@ -974,6 +974,12 @@ body {
     transition: background-image 1s ease-in-out;
 }
 
+.top-image img {
+    width: 22.875rem;
+    height: 40rem;
+    border-radius: 1rem;
+}
+
 .m-city-labels-new {
     width: 100%;
     display: flex;
@@ -1094,7 +1100,7 @@ body {
     font-size: 2.25rem;
     font-weight: 600;
     line-height: 2.16rem;
-    letter-spacing: -0.05rem;
+    letter-spacing: -0.07rem;
     text-align: left;    
 }
 
@@ -1266,6 +1272,7 @@ body {
     width: 3rem;
     height: 2.5rem;
     font-size: .875rem;
+    padding-top: .5rem;
     color: #1c1a1a;
     background-color: #ddd;
     border: .125rem solid #ddd;
@@ -1276,6 +1283,7 @@ body {
        width: 3rem;
        height: 2.5rem;
        font-size: .875rem;
+       padding-top: .5rem;
        color: #1c1a1a;
        background-color: #ddd;
        border: .125rem solid #ddd;
@@ -1286,6 +1294,7 @@ body {
     width: 3rem;
     height: 2.5rem;
     font-size: .875rem;
+    padding-top: .5rem;
     color: #1c1a1a;
     background-color: #ddd;
     border: .125rem solid #ddd;
@@ -1303,7 +1312,7 @@ body {
      font-size: 2rem;
      font-weight: 600;
      line-height: 1.92rem;
-     letter-spacing: -0.03rem;
+     letter-spacing: -0.07rem;
      text-align: center;
      z-index: 3;
 }
@@ -1319,7 +1328,7 @@ body {
      font-size: 2rem;
      font-weight: 600;
      line-height: 1.92rem;
-     letter-spacing: -0.03rem;
+     letter-spacing: -0.07rem;
      text-align: center;
      z-index: 3;
  }
@@ -1335,7 +1344,7 @@ body {
     font-size: 2rem;
     font-weight: 600;
     line-height: 1.92rem;
-    letter-spacing: -0.03rem;
+    letter-spacing: -0.07rem;
     text-align: center;
     z-index: 3;
 }
@@ -1519,6 +1528,11 @@ body {
     outline: none;
 }
 
+.m-phone-input-box11 img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 .m-desc11 {
     color: black;
     opacity: 1;
@@ -1550,7 +1564,9 @@ body {
     gap: .625rem;
     width: 10.8125rem;
     height: 2.5rem;
-    padding: 0px 1rem .125rem 1rem;
+    padding: 0px 1rem .15rem 1rem;
+    padding-top: .5rem;
+    padding-left: 1.35rem;
     gap: .625rem;
     border-radius: 6.25rem;
 
