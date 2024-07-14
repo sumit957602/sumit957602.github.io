@@ -656,12 +656,27 @@ body {
     justify-content: center;
 }
 
+.m-form-input-rec {
+    width: 21.375rem;
+    height: 4rem;
+    margin-top: .25rem;
+    gap: 0px;
+    margin-left: -.5rem;
+    padding-left: .75rem;
+    padding-top: .25rem;
+    border-radius: 1rem;
+    border: 1px 0px 0px 0px;
+    opacity: 0.2px;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+
 .m-btn-custom-main{
     width: 19.875rem;
     height: 2.5rem;
     padding: 0px 1rem .125rem 1rem;
     gap: .625rem;
     border-radius: 6.25rem;
+    margin-top: -.5rem;
 
     background: rgba(244, 238, 253, 1);
     color: rgba(66, 36, 119, 1);
