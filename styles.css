@@ -67,6 +67,10 @@ body {
     left: 75rem;
 }
 
+.ea-button a {
+    color: rgba(66, 36, 119, 1);
+}
+
 .section-1, .section-other {
     position: relative;
     width: 84rem;
@@ -730,7 +734,6 @@ h1 {
 
 .step-number2 {
     position: absolute;
-    top: -1.25rem;
     left: 1.5625rem;
     width: 3rem;
     height: 2.5rem;
@@ -750,7 +753,6 @@ h1 {
 
 .step-number3 {
     position: absolute;
-    top: -1.25rem;
     left: 1.5625rem;
     width: 3rem;
     height: 2.5rem;
