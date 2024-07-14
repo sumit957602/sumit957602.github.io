@@ -1513,9 +1513,14 @@ body {
     border-top-right-radius: 1rem;
 }
 
+.m-copyright-text p {
+    font-size: .875rem;
+}
+
 .m-copyright{
     display: flex;
     justify-content: center;
+    font-size: .875rem;
 }
 
 .m-scrolling-shapes{
