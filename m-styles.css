@@ -365,18 +365,18 @@ body {
 
 .supernest-text {
     font-family: F37 Neuro Trial;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 500;
-    line-height: 18.9px;
+    line-height: 1.18125rem;
     text-align: left;
     color: rgba(0, 0, 0, 1);
 }
 
 .ai-text {
     font-family: F37 Neuro Trial;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 400;
-    line-height: 18.9px;
+    line-height: 1.18125rem;
     text-align: left;
     color: rgba(0, 0, 0, 0.4); 
 }
@@ -396,9 +396,9 @@ body {
 
 .m-btn-custom {
     font-family: F37 Neuro Trial;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 1.25rem;
     text-align: left;
 }
 
@@ -492,13 +492,14 @@ body {
 }
 
 .m-desc {
-    width: 10.3125rem;
-    height: 1.25rem;
+    width: 17rem;
+    height: 1.75rem;
+    margin-right: .5rem;
     font-family: 'F37 Neuro Trial';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
     border: none;
     outline: none;
     color: #422477;
@@ -518,32 +519,40 @@ body {
 }
 
 .m-btn-custom-main{
-    background-color: #C6ABF7;
-    color: white;
-    border-radius: 50px;
-    padding: 8px 20px;
-    font-weight: 600;
+    width: 19.875rem;
+    height: 2.5rem;
+    padding: 0px 1rem .125rem 1rem;
+    gap: .625rem;
+    border-radius: 6.25rem;
+
+    background: rgba(244, 238, 253, 1);
+    color: rgba(66, 36, 119, 1);
+    font-family: F37 Neuro Trial;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-align: center;
     border: none;
 }
 
 .m-request-access .m-request-access1{
     overflow: hidden;
-    width: 194px;
-    height: 48px;
+    width: 12.125rem;
+    height: 3rem;
     background: #C6ABF7;
-    border-radius: 100px;
+    border-radius: 6.25rem;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 2px;
-    gap: 10px;
+    padding: 0px 0px .125rem;
+    gap: .625rem;
 }
 
 .m-request-access .m-tab-name .m-request-access1 .m-tab-name1 {
     font-family: 'F37 Neuro Trial';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
     display: flex;
     padding: 0;
     align-items: center;
@@ -554,13 +563,13 @@ body {
 .m-locations {
     margin-left: 1.5rem;
     margin-top: 8rem;
-    width: 271px;
-    height: 57px;
+    width: 16.9375rem;
+    height: 3.5625rem;
     font-family: 'F37 Neuro Trial';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 135%;
+    font-size: .875rem;
+    line-height: 130%;
     display: flex;
     align-items: center;
     color: #FFFFFF;
@@ -669,7 +678,7 @@ body {
 
 .m-stat-label {
     font-size: 14px;
-    color: #6c757d;
+    color: rgba(0, 0, 0, 1);
     text-transform: uppercase;
 }
 
