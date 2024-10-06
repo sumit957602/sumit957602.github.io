@@ -42,7 +42,7 @@
 }
 
 html {
-  /* overflow: hidden; */
+  overflow: hidden;
   width: 99%;
   height: 100%;
 }
@@ -72,7 +72,7 @@ body {
 }
 
 input {
-  width: 100%;
+  width: 250px;
   margin-bottom: 10px;
   background: rgba(0, 0, 0, 0.3);
   border: none;
@@ -94,7 +94,9 @@ input:focus {
 form {
   background-color: #000000;
   opacity: 0.87;
-  padding: 20px;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   width: 500px;
   border-radius: 10px;
 }
@@ -119,4 +121,14 @@ label {
 .result-div p {
   margin-left: 10px;
   margin-top: 18px;
+}
+
+.roww {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.dpf-class {
+  width: 150px;
 }
