@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diabetes Prediction</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="login">
+      <h2 style="margin-left: 30px">Diabetes Prediction Website</h2>
+      <form id="diabetesForm">
+        <div class="roww">
+          <label for="pregnancies">Pregnancies:</label>
+          <input
+            type="number"
+            id="pregnancies"
+            name="Pregnancies"
+            required
+            style="margin-left: 50px"
+          />
+        </div>
+
+        <div class="roww">
+          <label for="glucose">Glucose:</label>
+          <input
+            type="number"
+            id="glucose"
+            name="Glucose"
+            required
+            style="margin-left: 82px"
+          />
+        </div>
+
+        <div class="roww">
+          <label for="bloodPressure">Blood Pressure:</label>
+          <input
+            type="number"
+            id="bloodPressure"
+            name="BloodPressure"
+            required
+            style="margin-left: 26px"
+          />
+        </div>
+
+        <div class="roww">
+          <label for="skinThickness">Skin Thickness:</label>
+          <input
+            type="number"
+            id="skinThickness"
+            name="SkinThickness"
+            required
+            style="margin-left: 30px"
+          />
+        </div>
+
+        <div class="roww">
+          <label for="insulin">Insulin:</label>
+          <input
+            type="number"
+            id="insulin"
+            name="Insulin"
+            required
+            style="margin-left: 90px"
+          />
+        </div>
+
+        <div class="roww">
+          <label for="bmi">BMI:</label>
+          <input
+            type="number"
+            step="0.1"
+            id="bmi"
+            name="BMI"
+            required
+            style="margin-left: 113px"
+          />
+        </div>
+
+        <div class="roww">
+          <label for="dpf">Diabetes Pedigree Function:</label>
+          <input
+            type="number"
+            step="0.001"
+            id="dpf"
+            class="dpf-class"
+            name="DiabetesPedigreeFunction"
+            required
+            style="margin-left: 30px"
+          />
+        </div>
+
+        <div class="roww">
+          <label for="age">Age:</label>
+          <input
+            type="number"
+            id="age"
+            name="Age"
+            required
+            style="margin-left: 115px"
+          />
+        </div>
+        <br />
+
+        <button
+          class="btn btn-primary btn-block"
+          type="button"
+          onclick="predictDiabetes()"
+        >
+          Predict
+        </button>
+      </form>
+
+      <div class="result-div">
+        <h3>Prediction Result:</h3>
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

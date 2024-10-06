@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+.btn {
+  display: inline-block;
+  padding: 4px 10px 4px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  margin-left: 0.3em;
+}
+
+.btn:hover {
+  background-color: #e6e6e6;
+}
+
+.btn-primary {
+  background-color: #4a77d4;
+  background-image: linear-gradient(to bottom, #6eb6de, #4a77d4);
+  border: 1px solid #3762bc;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 1px 2px rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.btn-block {
+  width: 100%;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+  width: 99%;
+  height: 100%;
+}
+
+body {
+  background-color: #8b96d4e7;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35%;
+  width: 400px;
+  height: 100%;
+  margin-top: 30px;
+}
+
+input {
+  width: 250px;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 10px;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+  transition: box-shadow 0.5s ease;
+}
+
+input:focus {
+  box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4),
+    0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+form {
+  background-color: #000000;
+  opacity: 0.87;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+label {
+  color: white;
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.result-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.result-div h3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.result-div p {
+  margin-left: 10px;
+  margin-top: 18px;
+}
+
+.roww {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.dpf-class {
+  width: 150px;
+}
